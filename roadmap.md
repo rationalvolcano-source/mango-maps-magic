@@ -6,7 +6,8 @@
 - [x] Replace speculative screens; original entry picture and logo downloaded
 - [x] Apply global suppression/provenance edits and supported local variety/jurisdiction text edits
 - [x] Verify Mango journey, all 48 cohort screens and preserved selection at 375/768/1440
-- [ ] Validate pin corrections and remaining variety/cluster changes — geography/exact source dependencies pending
+- [x] Apply Pineapple/Pomegranate/Apple/Tomato state-pin corrections using original polygons; audit retained Gujarat/Maharashtra pins
+- [ ] Remaining Potato district pins, Jackfruit duplicate nodes, Litchi cultivar separation and Capsicum belt/membership edits — precise geography/source linkage pending
 - [x] Complete original entry overlay — logo and SH-001 binary transfer recovered
 - [x] Retrieve native source workbooks; bind official and Tamil Nadu district rows; cache exact crosswalk tabs
 - [x] Delivery mapping, applied corrections and precise blockers report
