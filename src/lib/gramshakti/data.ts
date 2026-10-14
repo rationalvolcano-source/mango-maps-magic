@@ -9,7 +9,7 @@ export const categories = [
   {name:'Commercial & Fibre', icon:'sprout', crops:['Cotton','Sugarcane','Jute','Tobacco']},
   {name:'Oilseeds', icon:'seed', crops:['Groundnut','Soybean','Mustard','Sesame','Sunflower','Safflower','Castor','Linseed']},
   {name:'Fruits', icon:'fruit', crops:['Mango','Banana','Citrus','Apple','Grapes','Guava','Pomegranate','Papaya']},
-  {name:'Vegetables & Tubers', icon:'carrot', crops:['Potato','Onion','Tomato','Brinjal','Cabbage','Cauliflower','Green Chillies','Tapioca']},
+  {name:'Vegetables & Tubers', icon:'carrot', crops:['Potato','Onion','Tomato','Brinjal','Cabbage','Cauliflower','Green Chillies','Tapioca','Okra','Sweet Potato']},
   {name:'Plantation & Nuts', icon:'tree', crops:['Coconut','Arecanut','Cashew','Tea','Coffee','Rubber']},
   {name:'Spices & Condiments', icon:'flower', crops:['Black Pepper','Cardamom','Turmeric','Ginger','Cumin','Coriander','Dry Chillies','Garlic']},
 ];
