@@ -5,4 +5,8 @@
 - [x] Processing and protection pages (provisional context explicitly labelled)
 - [x] Record-specific source drawer
 - [x] Verify 375, 768 and 1440 layouts and navigation
-- [ ] Exact references and verified records — awaiting supplied images, production/seasonality/district datasets and correction register
+- [ ] Download supplied logo, entry visuals, 16 matching SVG sets and source/correction records from Drive
+- [ ] Replace speculative screens with shared original-asset viewer and accessible navigation
+- [ ] Bind state, cluster and evidence details; apply approved local corrections only
+- [ ] Verify Mango path, cohort routes and preserved selection across screen widths
+- [ ] Report asset-to-route mapping, applied corrections and exact source blockers
