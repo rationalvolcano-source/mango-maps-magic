@@ -10,33 +10,160 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ChooseRouteImport } from './routes/choose'
+import { Route as ClimRouteImport } from './routes/clim'
+import { Route as OpportunityRouteImport } from './routes/opportunity'
+import { Route as ProcurementRouteImport } from './routes/procurement'
+import { Route as ProcurementIndexRouteImport } from './routes/procurement.index'
+import { Route as ProcurementMangoRouteImport } from './routes/procurement.mango'
+import { Route as ProcurementMangoIndexRouteImport } from './routes/procurement.mango.index'
+import { Route as ProcurementMangoCropProtectionRouteImport } from './routes/procurement.mango.crop-protection'
+import { Route as ProcurementMangoProcessingRouteImport } from './routes/procurement.mango.processing'
+import { Route as ProcurementMangoStateStateCodeRouteImport } from './routes/procurement.mango.state.$stateCode'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ChooseRoute = ChooseRouteImport.update({
+  id: '/choose',
+  path: '/choose',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ClimRoute = ClimRouteImport.update({
+  id: '/clim',
+  path: '/clim',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OpportunityRoute = OpportunityRouteImport.update({
+  id: '/opportunity',
+  path: '/opportunity',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProcurementRoute = ProcurementRouteImport.update({
+  id: '/procurement',
+  path: '/procurement',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProcurementIndexRoute = ProcurementIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => ProcurementRoute,
+} as any)
+const ProcurementMangoRoute = ProcurementMangoRouteImport.update({
+  id: '/mango',
+  path: '/mango',
+  getParentRoute: () => ProcurementRoute,
+} as any)
+const ProcurementMangoIndexRoute = ProcurementMangoIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => ProcurementMangoRoute,
+} as any)
+const ProcurementMangoCropProtectionRoute =
+  ProcurementMangoCropProtectionRouteImport.update({
+    id: '/crop-protection',
+    path: '/crop-protection',
+    getParentRoute: () => ProcurementMangoRoute,
+  } as any)
+const ProcurementMangoProcessingRoute =
+  ProcurementMangoProcessingRouteImport.update({
+    id: '/processing',
+    path: '/processing',
+    getParentRoute: () => ProcurementMangoRoute,
+  } as any)
+const ProcurementMangoStateStateCodeRoute =
+  ProcurementMangoStateStateCodeRouteImport.update({
+    id: '/state/$stateCode',
+    path: '/state/$stateCode',
+    getParentRoute: () => ProcurementMangoRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/choose': typeof ChooseRoute
+  '/clim': typeof ClimRoute
+  '/opportunity': typeof OpportunityRoute
+  '/procurement': typeof ProcurementRouteWithChildren
+  '/procurement/mango': typeof ProcurementMangoRouteWithChildren
+  '/procurement/': typeof ProcurementIndexRoute
+  '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
+  '/procurement/mango/processing': typeof ProcurementMangoProcessingRoute
+  '/procurement/mango/': typeof ProcurementMangoIndexRoute
+  '/procurement/mango/state/$stateCode': typeof ProcurementMangoStateStateCodeRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/choose': typeof ChooseRoute
+  '/clim': typeof ClimRoute
+  '/opportunity': typeof OpportunityRoute
+  '/procurement': typeof ProcurementIndexRoute
+  '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
+  '/procurement/mango/processing': typeof ProcurementMangoProcessingRoute
+  '/procurement/mango': typeof ProcurementMangoIndexRoute
+  '/procurement/mango/state/$stateCode': typeof ProcurementMangoStateStateCodeRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/choose': typeof ChooseRoute
+  '/clim': typeof ClimRoute
+  '/opportunity': typeof OpportunityRoute
+  '/procurement': typeof ProcurementRouteWithChildren
+  '/procurement/mango': typeof ProcurementMangoRouteWithChildren
+  '/procurement/': typeof ProcurementIndexRoute
+  '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
+  '/procurement/mango/processing': typeof ProcurementMangoProcessingRoute
+  '/procurement/mango/': typeof ProcurementMangoIndexRoute
+  '/procurement/mango/state/$stateCode': typeof ProcurementMangoStateStateCodeRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/choose'
+    | '/clim'
+    | '/opportunity'
+    | '/procurement'
+    | '/procurement/mango'
+    | '/procurement/'
+    | '/procurement/mango/crop-protection'
+    | '/procurement/mango/processing'
+    | '/procurement/mango/'
+    | '/procurement/mango/state/$stateCode'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/choose'
+    | '/clim'
+    | '/opportunity'
+    | '/procurement'
+    | '/procurement/mango/crop-protection'
+    | '/procurement/mango/processing'
+    | '/procurement/mango'
+    | '/procurement/mango/state/$stateCode'
+  id:
+    | '__root__'
+    | '/'
+    | '/choose'
+    | '/clim'
+    | '/opportunity'
+    | '/procurement'
+    | '/procurement/mango'
+    | '/procurement/'
+    | '/procurement/mango/crop-protection'
+    | '/procurement/mango/processing'
+    | '/procurement/mango/'
+    | '/procurement/mango/state/$stateCode'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ChooseRoute: typeof ChooseRoute
+  ClimRoute: typeof ClimRoute
+  OpportunityRoute: typeof OpportunityRoute
+  ProcurementRoute: typeof ProcurementRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +175,116 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/choose': {
+      id: '/choose'
+      path: '/choose'
+      fullPath: '/choose'
+      preLoaderRoute: typeof ChooseRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/clim': {
+      id: '/clim'
+      path: '/clim'
+      fullPath: '/clim'
+      preLoaderRoute: typeof ClimRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/opportunity': {
+      id: '/opportunity'
+      path: '/opportunity'
+      fullPath: '/opportunity'
+      preLoaderRoute: typeof OpportunityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/procurement': {
+      id: '/procurement'
+      path: '/procurement'
+      fullPath: '/procurement'
+      preLoaderRoute: typeof ProcurementRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/procurement/': {
+      id: '/procurement/'
+      path: '/'
+      fullPath: '/procurement/'
+      preLoaderRoute: typeof ProcurementIndexRouteImport
+      parentRoute: typeof ProcurementRoute
+    }
+    '/procurement/mango': {
+      id: '/procurement/mango'
+      path: '/mango'
+      fullPath: '/procurement/mango'
+      preLoaderRoute: typeof ProcurementMangoRouteImport
+      parentRoute: typeof ProcurementRoute
+    }
+    '/procurement/mango/': {
+      id: '/procurement/mango/'
+      path: '/'
+      fullPath: '/procurement/mango/'
+      preLoaderRoute: typeof ProcurementMangoIndexRouteImport
+      parentRoute: typeof ProcurementMangoRoute
+    }
+    '/procurement/mango/crop-protection': {
+      id: '/procurement/mango/crop-protection'
+      path: '/crop-protection'
+      fullPath: '/procurement/mango/crop-protection'
+      preLoaderRoute: typeof ProcurementMangoCropProtectionRouteImport
+      parentRoute: typeof ProcurementMangoRoute
+    }
+    '/procurement/mango/processing': {
+      id: '/procurement/mango/processing'
+      path: '/processing'
+      fullPath: '/procurement/mango/processing'
+      preLoaderRoute: typeof ProcurementMangoProcessingRouteImport
+      parentRoute: typeof ProcurementMangoRoute
+    }
+    '/procurement/mango/state/$stateCode': {
+      id: '/procurement/mango/state/$stateCode'
+      path: '/state/$stateCode'
+      fullPath: '/procurement/mango/state/$stateCode'
+      preLoaderRoute: typeof ProcurementMangoStateStateCodeRouteImport
+      parentRoute: typeof ProcurementMangoRoute
+    }
   }
 }
 
+interface ProcurementMangoRouteChildren {
+  ProcurementMangoCropProtectionRoute: typeof ProcurementMangoCropProtectionRoute
+  ProcurementMangoProcessingRoute: typeof ProcurementMangoProcessingRoute
+  ProcurementMangoIndexRoute: typeof ProcurementMangoIndexRoute
+  ProcurementMangoStateStateCodeRoute: typeof ProcurementMangoStateStateCodeRoute
+}
+
+const ProcurementMangoRouteChildren: ProcurementMangoRouteChildren = {
+  ProcurementMangoCropProtectionRoute: ProcurementMangoCropProtectionRoute,
+  ProcurementMangoProcessingRoute: ProcurementMangoProcessingRoute,
+  ProcurementMangoIndexRoute: ProcurementMangoIndexRoute,
+  ProcurementMangoStateStateCodeRoute: ProcurementMangoStateStateCodeRoute,
+}
+
+const ProcurementMangoRouteWithChildren =
+  ProcurementMangoRoute._addFileChildren(ProcurementMangoRouteChildren)
+
+interface ProcurementRouteChildren {
+  ProcurementMangoRoute: typeof ProcurementMangoRouteWithChildren
+  ProcurementIndexRoute: typeof ProcurementIndexRoute
+}
+
+const ProcurementRouteChildren: ProcurementRouteChildren = {
+  ProcurementMangoRoute: ProcurementMangoRouteWithChildren,
+  ProcurementIndexRoute: ProcurementIndexRoute,
+}
+
+const ProcurementRouteWithChildren = ProcurementRoute._addFileChildren(
+  ProcurementRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ChooseRoute: ChooseRoute,
+  ClimRoute: ClimRoute,
+  OpportunityRoute: OpportunityRoute,
+  ProcurementRoute: ProcurementRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
