@@ -19,6 +19,7 @@ import { Route as ProcurementIndexRouteImport } from './routes/procurement.index
 import { Route as ProcurementCropRouteImport } from './routes/procurement.$crop'
 import { Route as ProcurementMangoRouteImport } from './routes/procurement.mango'
 import { Route as ProcurementCropIndexRouteImport } from './routes/procurement.$crop.index'
+import { Route as ProcurementCropBriefRouteImport } from './routes/procurement.$crop.brief'
 import { Route as ProcurementCropCropProtectionRouteImport } from './routes/procurement.$crop.crop-protection'
 import { Route as ProcurementCropProcessingRouteImport } from './routes/procurement.$crop.processing'
 import { Route as ProcurementMangoIndexRouteImport } from './routes/procurement.mango.index'
@@ -77,6 +78,11 @@ const ProcurementCropIndexRoute = ProcurementCropIndexRouteImport.update({
   path: '/',
   getParentRoute: () => ProcurementCropRoute,
 } as any)
+const ProcurementCropBriefRoute = ProcurementCropBriefRouteImport.update({
+  id: '/brief',
+  path: '/brief',
+  getParentRoute: () => ProcurementCropRoute,
+} as any)
 const ProcurementCropCropProtectionRoute =
   ProcurementCropCropProtectionRouteImport.update({
     id: '/crop-protection',
@@ -129,6 +135,7 @@ export interface FileRoutesByFullPath {
   '/procurement/$crop': typeof ProcurementCropRouteWithChildren
   '/procurement/mango': typeof ProcurementMangoRouteWithChildren
   '/procurement/': typeof ProcurementIndexRoute
+  '/procurement/$crop/brief': typeof ProcurementCropBriefRoute
   '/procurement/$crop/crop-protection': typeof ProcurementCropCropProtectionRoute
   '/procurement/$crop/processing': typeof ProcurementCropProcessingRoute
   '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
@@ -145,6 +152,7 @@ export interface FileRoutesByTo {
   '/delivery': typeof DeliveryRoute
   '/opportunity': typeof OpportunityRoute
   '/procurement': typeof ProcurementIndexRoute
+  '/procurement/$crop/brief': typeof ProcurementCropBriefRoute
   '/procurement/$crop/crop-protection': typeof ProcurementCropCropProtectionRoute
   '/procurement/$crop/processing': typeof ProcurementCropProcessingRoute
   '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
@@ -165,6 +173,7 @@ export interface FileRoutesById {
   '/procurement/$crop': typeof ProcurementCropRouteWithChildren
   '/procurement/mango': typeof ProcurementMangoRouteWithChildren
   '/procurement/': typeof ProcurementIndexRoute
+  '/procurement/$crop/brief': typeof ProcurementCropBriefRoute
   '/procurement/$crop/crop-protection': typeof ProcurementCropCropProtectionRoute
   '/procurement/$crop/processing': typeof ProcurementCropProcessingRoute
   '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
@@ -186,6 +195,7 @@ export interface FileRouteTypes {
     | '/procurement/$crop'
     | '/procurement/mango'
     | '/procurement/'
+    | '/procurement/$crop/brief'
     | '/procurement/$crop/crop-protection'
     | '/procurement/$crop/processing'
     | '/procurement/mango/crop-protection'
@@ -202,6 +212,7 @@ export interface FileRouteTypes {
     | '/delivery'
     | '/opportunity'
     | '/procurement'
+    | '/procurement/$crop/brief'
     | '/procurement/$crop/crop-protection'
     | '/procurement/$crop/processing'
     | '/procurement/mango/crop-protection'
@@ -221,6 +232,7 @@ export interface FileRouteTypes {
     | '/procurement/$crop'
     | '/procurement/mango'
     | '/procurement/'
+    | '/procurement/$crop/brief'
     | '/procurement/$crop/crop-protection'
     | '/procurement/$crop/processing'
     | '/procurement/mango/crop-protection'
@@ -312,6 +324,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProcurementCropIndexRouteImport
       parentRoute: typeof ProcurementCropRoute
     }
+    '/procurement/$crop/brief': {
+      id: '/procurement/$crop/brief'
+      path: '/brief'
+      fullPath: '/procurement/$crop/brief'
+      preLoaderRoute: typeof ProcurementCropBriefRouteImport
+      parentRoute: typeof ProcurementCropRoute
+    }
     '/procurement/$crop/crop-protection': {
       id: '/procurement/$crop/crop-protection'
       path: '/crop-protection'
@@ -365,6 +384,7 @@ declare module '@tanstack/react-router' {
 }
 
 interface ProcurementCropRouteChildren {
+  ProcurementCropBriefRoute: typeof ProcurementCropBriefRoute
   ProcurementCropCropProtectionRoute: typeof ProcurementCropCropProtectionRoute
   ProcurementCropProcessingRoute: typeof ProcurementCropProcessingRoute
   ProcurementCropIndexRoute: typeof ProcurementCropIndexRoute
@@ -372,6 +392,7 @@ interface ProcurementCropRouteChildren {
 }
 
 const ProcurementCropRouteChildren: ProcurementCropRouteChildren = {
+  ProcurementCropBriefRoute: ProcurementCropBriefRoute,
   ProcurementCropCropProtectionRoute: ProcurementCropCropProtectionRoute,
   ProcurementCropProcessingRoute: ProcurementCropProcessingRoute,
   ProcurementCropIndexRoute: ProcurementCropIndexRoute,

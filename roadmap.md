@@ -1,13 +1,20 @@
-# GramShakti original-artwork replacement
-- [x] Read the uploaded v1.3 brief and approved plan
-- [x] Retrieve 48 matching crop SVGs, sixteen manifests, PR-001 SVG and consolidated source documents
-- [x] Verify original hashes and cache immutable originals separately from application copies
-- [x] Shared viewer, sixteen crop routes, original-element navigation and source/detail drawer
-- [x] Replace speculative screens; original entry picture and logo downloaded
-- [x] Apply global suppression/provenance edits and supported local variety/jurisdiction text edits
-- [x] Verify Mango journey, all 48 cohort screens and preserved selection at 375/768/1440
-- [x] Apply Pineapple/Pomegranate/Apple/Tomato state-pin corrections using original polygons; audit retained Gujarat/Maharashtra pins
-- [ ] Remaining Potato district pins, Jackfruit duplicate nodes, Litchi cultivar separation and Capsicum belt/membership edits — precise geography/source linkage pending
-- [x] Complete original entry overlay — logo and SH-001 binary transfer recovered
-- [x] Retrieve native source workbooks; bind official and Tamil Nadu district rows; cache exact crosswalk tabs
-- [x] Delivery mapping, applied corrections and precise blockers report
+# GramShakti procurement release
+
+- [x] Reuse the original SH-001 background, logo and canonical PR-001 directory.
+- [x] Verify all 48 Mango-to-Capsicum original SVG hashes and preserve map paths.
+- [x] Package application artwork with the code.
+- [x] Provide all 16 sourcing, processing, protection and state journeys.
+- [x] Recover Apple, Jackfruit and Potato availability tables.
+- [x] Bind exact source windows, belt statements, processing nodes and protection targets.
+- [x] Retain source variety scope and distinguish node jurisdiction/catchment.
+- [x] Add compact district APY with the recovered Oranges and historical Karnataka Onion records.
+- [x] Keep official records, historical gaps and Production Context estimates distinct.
+- [x] Preserve purpose/month/year, shortlist records and printable brief links.
+- [x] Apply approved membership/variety corrections and indicative state pin repairs.
+- [x] Add mobile entry/objective layouts and readable zoomable canvases.
+- [x] Add source, geometry, units and router-interaction checks.
+- [ ] Apply this checked release to the GitHub branch through a write-enabled connection.
+- [ ] Publish and verify the signed-out public version through Lovable.
+
+Source constraints: Potato Kashipur–Rudrapur remains withheld without an exact source. Source-backed Capsicum Hooghly/Birbhum is retained under the decision register. District geometry, live prices, weather and FPO transactions are separate dependencies.
+
