@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "08 OCT 2026T00:00:00.000Z",
+  "crop": "Mango",
+  "productionYear": "2024-25",
+  "dataHash": "e702caa0f00ff7d99de1f6871e84513291390808d52676bbfb091365ca2643cb",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\mango\\PR-002_Mango_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 629093,
+      "sha256": "31a48ac844c4196166d0a78d284e0975db179db7d7783e9aa40379f3de321351"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\mango\\PR-002_Mango_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 297252,
+      "sha256": "358dc844d5c2c3bbf7d9a12a77a745dc648cb0944cea5eed6fe2e7170635f467"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\mango\\PR-003_Mango_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 452871,
+      "sha256": "dfbe6ba0cbb60aa0c4f9d4ae01b9c662cab87852c2b0039ab59ad9c2db23d951"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\mango\\PR-003_Mango_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 310565,
+      "sha256": "909856ba14b56a15fc15a90d49c5e06da388af7b4544967783d79515114c86ae"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\mango\\PR-006_Mango_Processing_Geographies_FINAL.svg",
+      "bytes": 608190,
+      "sha256": "c7e7324e624fd83db8106bfea7a6b9bcf2586d6d58de5ecb6bfc6a64759f2ca2"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\mango\\PR-006_Mango_Processing_Geographies_FINAL.png",
+      "bytes": 301747,
+      "sha256": "dd4e27c070067530b6b381eeec8fbc25fd9cf544e07f6d692f0b47a0d6eb1a3a"
+    }
+  ]
+}

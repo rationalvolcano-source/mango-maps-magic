@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Onion",
+  "productionYear": "2024-25",
+  "dataHash": "9bcc11aeda06902f5a32054b881fab4f14263c1b737bdb5802b7d60bf89192dc",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\onion\\PR-002_Onion_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 622892,
+      "sha256": "9c2131e72d5ed62b5d790a31e35541bd43d37add1457f56dd173f81c0318c98e"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\onion\\PR-002_Onion_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 293553,
+      "sha256": "fd267ebd2975aa2809c5a0ff684a21c08736e6c3d7a876ed3470128846bf623b"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\onion\\PR-003_Onion_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 454505,
+      "sha256": "d1c16e3ab00f7e64e61fd0d87dda6b2c6f73507eb824076a92f449ff05cddbed"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\onion\\PR-003_Onion_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 324421,
+      "sha256": "7758e4cd31c9bea80103992ada6d94f1de39e62330843005c8ea1c1c44229711"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\onion\\PR-006_Onion_Processing_Geographies_FINAL.svg",
+      "bytes": 605410,
+      "sha256": "4095e7d11c2a536e825adc3d1e4e525e933018f19751ad4c63aa92054ced5bfc"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\onion\\PR-006_Onion_Processing_Geographies_FINAL.png",
+      "bytes": 299660,
+      "sha256": "17855fa10dc7f44085b431a91a71fe08552199511632fd1c0cb41765c6322622"
+    }
+  ]
+}

@@ -12,13 +12,19 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ChooseRouteImport } from './routes/choose'
 import { Route as ClimRouteImport } from './routes/clim'
+import { Route as DeliveryRouteImport } from './routes/delivery'
 import { Route as OpportunityRouteImport } from './routes/opportunity'
 import { Route as ProcurementRouteImport } from './routes/procurement'
 import { Route as ProcurementIndexRouteImport } from './routes/procurement.index'
+import { Route as ProcurementCropRouteImport } from './routes/procurement.$crop'
 import { Route as ProcurementMangoRouteImport } from './routes/procurement.mango'
+import { Route as ProcurementCropIndexRouteImport } from './routes/procurement.$crop.index'
+import { Route as ProcurementCropCropProtectionRouteImport } from './routes/procurement.$crop.crop-protection'
+import { Route as ProcurementCropProcessingRouteImport } from './routes/procurement.$crop.processing'
 import { Route as ProcurementMangoIndexRouteImport } from './routes/procurement.mango.index'
 import { Route as ProcurementMangoCropProtectionRouteImport } from './routes/procurement.mango.crop-protection'
 import { Route as ProcurementMangoProcessingRouteImport } from './routes/procurement.mango.processing'
+import { Route as ProcurementCropStateStateCodeRouteImport } from './routes/procurement.$crop.state.$stateCode'
 import { Route as ProcurementMangoStateStateCodeRouteImport } from './routes/procurement.mango.state.$stateCode'
 
 const IndexRoute = IndexRouteImport.update({
@@ -36,6 +42,11 @@ const ClimRoute = ClimRouteImport.update({
   path: '/clim',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DeliveryRoute = DeliveryRouteImport.update({
+  id: '/delivery',
+  path: '/delivery',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const OpportunityRoute = OpportunityRouteImport.update({
   id: '/opportunity',
   path: '/opportunity',
@@ -51,11 +62,33 @@ const ProcurementIndexRoute = ProcurementIndexRouteImport.update({
   path: '/',
   getParentRoute: () => ProcurementRoute,
 } as any)
+const ProcurementCropRoute = ProcurementCropRouteImport.update({
+  id: '/$crop',
+  path: '/$crop',
+  getParentRoute: () => ProcurementRoute,
+} as any)
 const ProcurementMangoRoute = ProcurementMangoRouteImport.update({
   id: '/mango',
   path: '/mango',
   getParentRoute: () => ProcurementRoute,
 } as any)
+const ProcurementCropIndexRoute = ProcurementCropIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => ProcurementCropRoute,
+} as any)
+const ProcurementCropCropProtectionRoute =
+  ProcurementCropCropProtectionRouteImport.update({
+    id: '/crop-protection',
+    path: '/crop-protection',
+    getParentRoute: () => ProcurementCropRoute,
+  } as any)
+const ProcurementCropProcessingRoute =
+  ProcurementCropProcessingRouteImport.update({
+    id: '/processing',
+    path: '/processing',
+    getParentRoute: () => ProcurementCropRoute,
+  } as any)
 const ProcurementMangoIndexRoute = ProcurementMangoIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -73,6 +106,12 @@ const ProcurementMangoProcessingRoute =
     path: '/processing',
     getParentRoute: () => ProcurementMangoRoute,
   } as any)
+const ProcurementCropStateStateCodeRoute =
+  ProcurementCropStateStateCodeRouteImport.update({
+    id: '/state/$stateCode',
+    path: '/state/$stateCode',
+    getParentRoute: () => ProcurementCropRoute,
+  } as any)
 const ProcurementMangoStateStateCodeRoute =
   ProcurementMangoStateStateCodeRouteImport.update({
     id: '/state/$stateCode',
@@ -84,24 +123,35 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/choose': typeof ChooseRoute
   '/clim': typeof ClimRoute
+  '/delivery': typeof DeliveryRoute
   '/opportunity': typeof OpportunityRoute
   '/procurement': typeof ProcurementRouteWithChildren
+  '/procurement/$crop': typeof ProcurementCropRouteWithChildren
   '/procurement/mango': typeof ProcurementMangoRouteWithChildren
   '/procurement/': typeof ProcurementIndexRoute
+  '/procurement/$crop/crop-protection': typeof ProcurementCropCropProtectionRoute
+  '/procurement/$crop/processing': typeof ProcurementCropProcessingRoute
   '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
   '/procurement/mango/processing': typeof ProcurementMangoProcessingRoute
+  '/procurement/$crop/': typeof ProcurementCropIndexRoute
   '/procurement/mango/': typeof ProcurementMangoIndexRoute
+  '/procurement/$crop/state/$stateCode': typeof ProcurementCropStateStateCodeRoute
   '/procurement/mango/state/$stateCode': typeof ProcurementMangoStateStateCodeRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/choose': typeof ChooseRoute
   '/clim': typeof ClimRoute
+  '/delivery': typeof DeliveryRoute
   '/opportunity': typeof OpportunityRoute
   '/procurement': typeof ProcurementIndexRoute
+  '/procurement/$crop/crop-protection': typeof ProcurementCropCropProtectionRoute
+  '/procurement/$crop/processing': typeof ProcurementCropProcessingRoute
   '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
   '/procurement/mango/processing': typeof ProcurementMangoProcessingRoute
+  '/procurement/$crop': typeof ProcurementCropIndexRoute
   '/procurement/mango': typeof ProcurementMangoIndexRoute
+  '/procurement/$crop/state/$stateCode': typeof ProcurementCropStateStateCodeRoute
   '/procurement/mango/state/$stateCode': typeof ProcurementMangoStateStateCodeRoute
 }
 export interface FileRoutesById {
@@ -109,13 +159,19 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/choose': typeof ChooseRoute
   '/clim': typeof ClimRoute
+  '/delivery': typeof DeliveryRoute
   '/opportunity': typeof OpportunityRoute
   '/procurement': typeof ProcurementRouteWithChildren
+  '/procurement/$crop': typeof ProcurementCropRouteWithChildren
   '/procurement/mango': typeof ProcurementMangoRouteWithChildren
   '/procurement/': typeof ProcurementIndexRoute
+  '/procurement/$crop/crop-protection': typeof ProcurementCropCropProtectionRoute
+  '/procurement/$crop/processing': typeof ProcurementCropProcessingRoute
   '/procurement/mango/crop-protection': typeof ProcurementMangoCropProtectionRoute
   '/procurement/mango/processing': typeof ProcurementMangoProcessingRoute
+  '/procurement/$crop/': typeof ProcurementCropIndexRoute
   '/procurement/mango/': typeof ProcurementMangoIndexRoute
+  '/procurement/$crop/state/$stateCode': typeof ProcurementCropStateStateCodeRoute
   '/procurement/mango/state/$stateCode': typeof ProcurementMangoStateStateCodeRoute
 }
 export interface FileRouteTypes {
@@ -124,37 +180,54 @@ export interface FileRouteTypes {
     | '/'
     | '/choose'
     | '/clim'
+    | '/delivery'
     | '/opportunity'
     | '/procurement'
+    | '/procurement/$crop'
     | '/procurement/mango'
     | '/procurement/'
+    | '/procurement/$crop/crop-protection'
+    | '/procurement/$crop/processing'
     | '/procurement/mango/crop-protection'
     | '/procurement/mango/processing'
+    | '/procurement/$crop/'
     | '/procurement/mango/'
+    | '/procurement/$crop/state/$stateCode'
     | '/procurement/mango/state/$stateCode'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/choose'
     | '/clim'
+    | '/delivery'
     | '/opportunity'
     | '/procurement'
+    | '/procurement/$crop/crop-protection'
+    | '/procurement/$crop/processing'
     | '/procurement/mango/crop-protection'
     | '/procurement/mango/processing'
+    | '/procurement/$crop'
     | '/procurement/mango'
+    | '/procurement/$crop/state/$stateCode'
     | '/procurement/mango/state/$stateCode'
   id:
     | '__root__'
     | '/'
     | '/choose'
     | '/clim'
+    | '/delivery'
     | '/opportunity'
     | '/procurement'
+    | '/procurement/$crop'
     | '/procurement/mango'
     | '/procurement/'
+    | '/procurement/$crop/crop-protection'
+    | '/procurement/$crop/processing'
     | '/procurement/mango/crop-protection'
     | '/procurement/mango/processing'
+    | '/procurement/$crop/'
     | '/procurement/mango/'
+    | '/procurement/$crop/state/$stateCode'
     | '/procurement/mango/state/$stateCode'
   fileRoutesById: FileRoutesById
 }
@@ -162,6 +235,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ChooseRoute: typeof ChooseRoute
   ClimRoute: typeof ClimRoute
+  DeliveryRoute: typeof DeliveryRoute
   OpportunityRoute: typeof OpportunityRoute
   ProcurementRoute: typeof ProcurementRouteWithChildren
 }
@@ -189,6 +263,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ClimRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/delivery': {
+      id: '/delivery'
+      path: '/delivery'
+      fullPath: '/delivery'
+      preLoaderRoute: typeof DeliveryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/opportunity': {
       id: '/opportunity'
       path: '/opportunity'
@@ -210,12 +291,40 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProcurementIndexRouteImport
       parentRoute: typeof ProcurementRoute
     }
+    '/procurement/$crop': {
+      id: '/procurement/$crop'
+      path: '/$crop'
+      fullPath: '/procurement/$crop'
+      preLoaderRoute: typeof ProcurementCropRouteImport
+      parentRoute: typeof ProcurementRoute
+    }
     '/procurement/mango': {
       id: '/procurement/mango'
       path: '/mango'
       fullPath: '/procurement/mango'
       preLoaderRoute: typeof ProcurementMangoRouteImport
       parentRoute: typeof ProcurementRoute
+    }
+    '/procurement/$crop/': {
+      id: '/procurement/$crop/'
+      path: '/'
+      fullPath: '/procurement/$crop/'
+      preLoaderRoute: typeof ProcurementCropIndexRouteImport
+      parentRoute: typeof ProcurementCropRoute
+    }
+    '/procurement/$crop/crop-protection': {
+      id: '/procurement/$crop/crop-protection'
+      path: '/crop-protection'
+      fullPath: '/procurement/$crop/crop-protection'
+      preLoaderRoute: typeof ProcurementCropCropProtectionRouteImport
+      parentRoute: typeof ProcurementCropRoute
+    }
+    '/procurement/$crop/processing': {
+      id: '/procurement/$crop/processing'
+      path: '/processing'
+      fullPath: '/procurement/$crop/processing'
+      preLoaderRoute: typeof ProcurementCropProcessingRouteImport
+      parentRoute: typeof ProcurementCropRoute
     }
     '/procurement/mango/': {
       id: '/procurement/mango/'
@@ -238,6 +347,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProcurementMangoProcessingRouteImport
       parentRoute: typeof ProcurementMangoRoute
     }
+    '/procurement/$crop/state/$stateCode': {
+      id: '/procurement/$crop/state/$stateCode'
+      path: '/state/$stateCode'
+      fullPath: '/procurement/$crop/state/$stateCode'
+      preLoaderRoute: typeof ProcurementCropStateStateCodeRouteImport
+      parentRoute: typeof ProcurementCropRoute
+    }
     '/procurement/mango/state/$stateCode': {
       id: '/procurement/mango/state/$stateCode'
       path: '/state/$stateCode'
@@ -247,6 +363,24 @@ declare module '@tanstack/react-router' {
     }
   }
 }
+
+interface ProcurementCropRouteChildren {
+  ProcurementCropCropProtectionRoute: typeof ProcurementCropCropProtectionRoute
+  ProcurementCropProcessingRoute: typeof ProcurementCropProcessingRoute
+  ProcurementCropIndexRoute: typeof ProcurementCropIndexRoute
+  ProcurementCropStateStateCodeRoute: typeof ProcurementCropStateStateCodeRoute
+}
+
+const ProcurementCropRouteChildren: ProcurementCropRouteChildren = {
+  ProcurementCropCropProtectionRoute: ProcurementCropCropProtectionRoute,
+  ProcurementCropProcessingRoute: ProcurementCropProcessingRoute,
+  ProcurementCropIndexRoute: ProcurementCropIndexRoute,
+  ProcurementCropStateStateCodeRoute: ProcurementCropStateStateCodeRoute,
+}
+
+const ProcurementCropRouteWithChildren = ProcurementCropRoute._addFileChildren(
+  ProcurementCropRouteChildren,
+)
 
 interface ProcurementMangoRouteChildren {
   ProcurementMangoCropProtectionRoute: typeof ProcurementMangoCropProtectionRoute
@@ -266,11 +400,13 @@ const ProcurementMangoRouteWithChildren =
   ProcurementMangoRoute._addFileChildren(ProcurementMangoRouteChildren)
 
 interface ProcurementRouteChildren {
+  ProcurementCropRoute: typeof ProcurementCropRouteWithChildren
   ProcurementMangoRoute: typeof ProcurementMangoRouteWithChildren
   ProcurementIndexRoute: typeof ProcurementIndexRoute
 }
 
 const ProcurementRouteChildren: ProcurementRouteChildren = {
+  ProcurementCropRoute: ProcurementCropRouteWithChildren,
   ProcurementMangoRoute: ProcurementMangoRouteWithChildren,
   ProcurementIndexRoute: ProcurementIndexRoute,
 }
@@ -283,6 +419,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ChooseRoute: ChooseRoute,
   ClimRoute: ClimRoute,
+  DeliveryRoute: DeliveryRoute,
   OpportunityRoute: OpportunityRoute,
   ProcurementRoute: ProcurementRouteWithChildren,
 }

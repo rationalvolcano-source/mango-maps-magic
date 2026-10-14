@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Pineapple",
+  "productionYear": "2024-25",
+  "dataHash": "543b2508e65c523bba00d24c0b9eb3b166fcb1d853c6f0963c316b5ad1f1d83b",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pineapple\\PR-002_Pineapple_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621065,
+      "sha256": "738c388bada024394d194e0d2e0930bfbcccabc90a58d987f0ea69c4d66fa64e"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pineapple\\PR-002_Pineapple_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 282914,
+      "sha256": "b9b0e38e7603997612491b1c9d04add0ad0b993df8b3d8ce9796c6d13c96ba0e"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pineapple\\PR-003_Pineapple_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 451658,
+      "sha256": "be698a9c37a9305685dbcd83b112cb7842f15785012f8ea62fd11a8c42aae0d6"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pineapple\\PR-003_Pineapple_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 320647,
+      "sha256": "955bfd90586ec66c17cdbf8b14881d1d305589039bc00049bf16dea4d02cb1cb"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pineapple\\PR-006_Pineapple_Processing_Geographies_FINAL.svg",
+      "bytes": 605425,
+      "sha256": "78e6e3756fa50dc99c3dc5d1d84390eb4726735070fc75f1bd2d8728ddad8cbb"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pineapple\\PR-006_Pineapple_Processing_Geographies_FINAL.png",
+      "bytes": 295998,
+      "sha256": "a15d36afe72b73c26486125e336e58a28cdb9566dec151a01e28f6b4affc9652"
+    }
+  ]
+}

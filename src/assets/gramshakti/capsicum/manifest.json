@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Capsicum",
+  "productionYear": "2024-25",
+  "dataHash": "c3a8ffabc397462a2474602b25c2fbbe1eca4fb776e3ab20f45076933f09ded9",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\capsicum\\PR-002_Capsicum_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 623956,
+      "sha256": "5689b213c3502fab2a728458c11b0c086ddf1aa42034b39c389176536f0e2415"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\capsicum\\PR-002_Capsicum_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 298638,
+      "sha256": "ed47668f26fecb8d8958fea4956b48d66102bb2a95c1bd6a4512158451e1fb1f"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\capsicum\\PR-003_Capsicum_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 453866,
+      "sha256": "d5d9034c353e7ee481f26a2ff26e796a01bec57c4d1f70f664254596f110771c"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\capsicum\\PR-003_Capsicum_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 321781,
+      "sha256": "152616d8e2467659f0a643ec677ff4cca6af83095d3deabb39701134a1621a1d"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\capsicum\\PR-006_Capsicum_Processing_Geographies_FINAL.svg",
+      "bytes": 607639,
+      "sha256": "90f492f4e5eacb536eab8a2f264cea178d02eec2209ef5a96a556f2620ca558f"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\capsicum\\PR-006_Capsicum_Processing_Geographies_FINAL.png",
+      "bytes": 321404,
+      "sha256": "49f6d58c7e0ed95fe303269eff734747d148dd6e66040c781d4b5c6d07852006"
+    }
+  ]
+}

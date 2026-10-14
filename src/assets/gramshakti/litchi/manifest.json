@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Litchi",
+  "productionYear": "2024-25",
+  "dataHash": "4478ea6beb0b381db2d7d69047525d658b3e5d3d2801c3229189015f0ea7d0fe",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\litchi\\PR-002_Litchi_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621899,
+      "sha256": "9c8db3b4f57ece8833bc1969d5fed4f5a2136300b668c1ce62914add07c53835"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\litchi\\PR-002_Litchi_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 282283,
+      "sha256": "1af5dcc1f335f191f55e25b9829e19a56a0b5218f7e549a60fb65bca6c823e1e"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\litchi\\PR-003_Litchi_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 453292,
+      "sha256": "38b5a8d1a12e2a06b0590aa389d6139d1cef48ce47a5392e56e2f45c4e55704d"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\litchi\\PR-003_Litchi_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 319363,
+      "sha256": "c4aae9926c20964ae9c397b0a067af37b9163b759b17f8160bc3fc6098b89d35"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\litchi\\PR-006_Litchi_Processing_Geographies_FINAL.svg",
+      "bytes": 604862,
+      "sha256": "ac4602c5a68aec172a3198b927e18eb450a672573ec59a15a166afb1901c8c57"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\litchi\\PR-006_Litchi_Processing_Geographies_FINAL.png",
+      "bytes": 288148,
+      "sha256": "e9abcc7535686d6033dc702177f90c26fcf59924e108f1b563755fea958d30be"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Jackfruit",
+  "productionYear": "2024-25",
+  "dataHash": "40aacee644a82671788b117ef0f9152867c6c7693063e5e7434323bf63b308e0",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jackfruit\\PR-002_Jackfruit_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 622840,
+      "sha256": "3fefbe6a78e9d7bf991e074890157c687e48091e1be3185eafd967b72e45226f"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jackfruit\\PR-002_Jackfruit_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 290142,
+      "sha256": "953e127abd19fa35118c488da0e280f352fdd8bfe871270845d74fcb2c6ab9a8"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jackfruit\\PR-003_Jackfruit_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 452438,
+      "sha256": "3f7617cdce4c8b84b14f0f38f14cc9958a37daf1bfdd3e410d14c9d2e61003ce"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jackfruit\\PR-003_Jackfruit_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 326885,
+      "sha256": "ae3918bbe679fd3371a52b428a298355fe07d6b85bb25f27b1fb8ac6b53a73ab"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jackfruit\\PR-006_Jackfruit_Processing_Geographies_FINAL.svg",
+      "bytes": 607042,
+      "sha256": "a3697a837e7c7d08b055c606fe41e487f38d4fc0ca32d12705e921a72a9a112e"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jackfruit\\PR-006_Jackfruit_Processing_Geographies_FINAL.png",
+      "bytes": 311458,
+      "sha256": "c0fdcb85ed8449f4ec2ffb5b982d9353965436357037b9beee676193f6659b6f"
+    }
+  ]
+}

@@ -10,7 +10,10 @@
 <!-- LOVABLE:END -->
 
 ## GramShakti architecture
-- Procurement and Mango parent routes render Outlet; content belongs to index leaves so nested sourcing journeys render independently.
+- Procurement, legacy Mango and dynamic crop parent routes render Outlet; content belongs to index leaves so nested sourcing journeys render independently.
 - Procurement purpose and optional target month are validated URL search parameters and preserved by internal links so back-navigation retains intent.
 - Evidence is opened through a shared record-specific drawer; missing source datasets must remain explicitly missing, never converted into fabricated numbers, seasonality or verified claims.
 - Shared GramShakti page components live under src/components/gramshakti and browser-safe evidence definitions under src/lib/gramshakti so routes stay thin and presentation is consistent.
+
+- Original artwork uses one cached crop manifest and a sanitized inline SVG viewer; original state paths and card/pin elements carry accessible data-action bindings so visual geometry is never recreated.
+- Keep immutable and edited asset pointers separately, with per-crop source manifests and matching SHA checks, so source preservation can be audited.

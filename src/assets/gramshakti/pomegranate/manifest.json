@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Pomegranate",
+  "productionYear": "2024-25",
+  "dataHash": "4fbd4fdc0e08ee31ea35e561fead6163f917179b3523f8fd741174b1b3744e00",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pomegranate\\PR-002_Pomegranate_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 619255,
+      "sha256": "084677a659d41d46de5774edc198edc7b60355e664694934017d698f3e397738"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pomegranate\\PR-002_Pomegranate_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 289402,
+      "sha256": "35f3592896d09fb2ca9bfe7098b2dcbfa131bc7151f8a84c0525abdd9616cb20"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pomegranate\\PR-003_Pomegranate_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 453238,
+      "sha256": "ee28e6ea3a8ebeb838a5dcf98c3e92af4420df53ec6fc392c8abe06d6217aae5"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pomegranate\\PR-003_Pomegranate_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 329110,
+      "sha256": "fc4017798a2906fae75f099b8571060302002df27bfe1616b8002f10d01db27b"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pomegranate\\PR-006_Pomegranate_Processing_Geographies_FINAL.svg",
+      "bytes": 604934,
+      "sha256": "1b5e8b559873c4f4143e2e5ad3ac177c24f76839805a2b49dd1d1f06493a8762"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pomegranate\\PR-006_Pomegranate_Processing_Geographies_FINAL.png",
+      "bytes": 294584,
+      "sha256": "297de6e1f1424a817ef2e08c30896c87be574050cc6a1448275e9d6f0916d9a3"
+    }
+  ]
+}
