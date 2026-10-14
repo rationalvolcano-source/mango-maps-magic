@@ -1,6 +1,7 @@
 export const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 export function selectionSearch(search: Record<string, unknown>) {
-  return { purpose: search.purpose === 'processed' ? 'processed' as const : 'fresh' as const, month: typeof search.month === 'string' && months.includes(search.month) ? search.month : undefined };
+  const month = search['month'];
+  return { purpose: search['purpose'] === 'processed' ? 'processed' as const : 'fresh' as const, month: typeof month === 'string' && months.includes(month) ? month : undefined };
 }
 export const categories = [
   {name:'Cereals & Millets', icon:'grain', crops:['Rice','Wheat','Maize','Barley','Sorghum','Pearl Millet','Finger Millet','Small Millets']},
