@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "08 OCT 2026T00:00:00.000Z",
+  "crop": "Banana",
+  "productionYear": "2024-25",
+  "dataHash": "2c368c8281364dacb7540fab0401d1e79f112be74809b0e79d89c92a6bc75274",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\banana\\PR-002_Banana_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 626388,
+      "sha256": "cee4a5b1c4e18a6be000d57bad0b85c5298ffb5e40f4cf7d2acf7e9656c416d9"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\banana\\PR-002_Banana_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 293345,
+      "sha256": "9438929b7ed7f4d39af3f913658725a623b7d03b18771b737b1ed92aec1db74e"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\banana\\PR-003_Banana_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 454364,
+      "sha256": "d92570d29c4440818f6d4301c9378d318e4831e5c6d0af1f221f55335522cace"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\banana\\PR-003_Banana_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 320930,
+      "sha256": "5213e5e408630608e008a502f39f361220a99b8563a37a002121d69414846f7f"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\banana\\PR-006_Banana_Processing_Geographies_FINAL.svg",
+      "bytes": 609171,
+      "sha256": "6ea81d09f69bfd47b409fbe995c76336446ca66d550232f16eb0e711d5c7fa97"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\banana\\PR-006_Banana_Processing_Geographies_FINAL.png",
+      "bytes": 313954,
+      "sha256": "29e098b6719ee205de1a374c0c12a3e9305b87c1df79e728f34a1e2ac745c941"
+    }
+  ]
+}

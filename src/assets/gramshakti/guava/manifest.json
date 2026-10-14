@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Guava",
+  "productionYear": "2024-25",
+  "dataHash": "f1bdd996d5c513bbe07090ebacc3037887bb41f7be4e45b4320016946ad56021",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guava\\PR-002_Guava_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 622333,
+      "sha256": "85e3c44c37dc86767c9399b6b3fa03db6562327a4c01b92c890a3868cb37aaa8"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guava\\PR-002_Guava_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 290931,
+      "sha256": "5dd7ba79c354cc996fea438fb458af7c6b6a7d2998b1ee948a37b3c8c8182063"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guava\\PR-003_Guava_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 453192,
+      "sha256": "00e0019a35e71d88ff16dd2083474f76100d9d139383d5e1a1872742e1cb4857"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guava\\PR-003_Guava_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 324526,
+      "sha256": "594f3cf3c916a53c5c8f40a5144c397effd0e816c9027cfbb3dbb0cb232a1fb6"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guava\\PR-006_Guava_Processing_Geographies_FINAL.svg",
+      "bytes": 605293,
+      "sha256": "def0b4e07760adffb9d6a04d217c52054d687190eadebd8b3b28bb9ca683bb24"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guava\\PR-006_Guava_Processing_Geographies_FINAL.png",
+      "bytes": 300973,
+      "sha256": "cba69d1e742f182a0a170307155d2572c7ccad49ba4a70975e44c5fef103c809"
+    }
+  ]
+}

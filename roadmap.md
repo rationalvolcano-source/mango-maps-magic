@@ -1,12 +1,13 @@
-# GramShakti
-- [x] Welcome and three objectives
-- [x] Crop directory and preserved selection
-- [x] Mango landscape and state detail (honest missing-evidence states)
-- [x] Processing and protection pages (provisional context explicitly labelled)
-- [x] Record-specific source drawer
-- [x] Verify 375, 768 and 1440 layouts and navigation
-- [ ] Download supplied logo, entry visuals, 16 matching SVG sets and source/correction records from Drive
-- [ ] Replace speculative screens with shared original-asset viewer and accessible navigation
-- [ ] Bind state, cluster and evidence details; apply approved local corrections only
-- [ ] Verify Mango path, cohort routes and preserved selection across screen widths
-- [ ] Report asset-to-route mapping, applied corrections and exact source blockers
+# GramShakti original-artwork replacement
+- [x] Read the uploaded v1.3 brief and approved plan
+- [x] Retrieve 48 matching crop SVGs, sixteen manifests, PR-001 SVG and consolidated source documents
+- [x] Verify original hashes and cache immutable originals separately from application copies
+- [x] Shared viewer, sixteen crop routes, original-element navigation and source/detail drawer
+- [x] Replace speculative screens; original entry picture and logo downloaded
+- [x] Apply global suppression/provenance edits and supported local variety/jurisdiction text edits
+- [x] Verify Mango journey, all 48 cohort screens and preserved selection at 375/768/1440
+- [x] Apply Pineapple/Pomegranate/Apple/Tomato state-pin corrections using original polygons; audit retained Gujarat/Maharashtra pins
+- [ ] Remaining Potato district pins, Jackfruit duplicate nodes, Litchi cultivar separation and Capsicum belt/membership edits — precise geography/source linkage pending
+- [x] Complete original entry overlay — logo and SH-001 binary transfer recovered
+- [x] Retrieve native source workbooks; bind official and Tamil Nadu district rows; cache exact crosswalk tabs
+- [x] Delivery mapping, applied corrections and precise blockers report

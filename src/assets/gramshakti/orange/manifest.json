@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Orange",
+  "productionYear": "2024-25",
+  "dataHash": "97692f94584829c4073f59e61fddc927916e088fd916e5f40739093dec32d291",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\orange\\PR-002_Orange_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 623720,
+      "sha256": "ac9ab23d32a2f08a93f1ed0de01fbadcd3642abced8875b0b5b2b8a035ac3832"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\orange\\PR-002_Orange_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 295695,
+      "sha256": "b419f18375520155a1334317928aaad579afa4afd115f9af320e4f320a8fdf16"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\orange\\PR-003_Orange_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 451555,
+      "sha256": "d49be0c559646bf8e98de6485c7b59f5e34b5d1781ef88e06561a4ed4d00e413"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\orange\\PR-003_Orange_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 312335,
+      "sha256": "fcebcfecb35423e9b4b06a0e09ee40b7d59549fbd9601ec89a34a0312c598a96"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\orange\\PR-006_Orange_Processing_Geographies_FINAL.svg",
+      "bytes": 606010,
+      "sha256": "b2a37380bdd7b82d633b806f19b8a8d98ad0e00157a66d2333c3de21a3d1630d"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\orange\\PR-006_Orange_Processing_Geographies_FINAL.png",
+      "bytes": 302659,
+      "sha256": "44dffcd7555135cdcb8a8c2db0791e450c178d7ed19f4b748e5568f5366a9d3c"
+    }
+  ]
+}

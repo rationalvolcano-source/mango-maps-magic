@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "crop": "Apple",
+  "productionYear": "2024-25",
+  "dataHash": "ec75aa554484212d71d26f7ae5a2a01ce9499bd44b72204703fe0bd5dac5f24d",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\apple\\PR-002_Apple_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 618587,
+      "sha256": "5902dffa68fa67028d63044892554b13a973168e8d529fe0fb8daa5bd971a6e5"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\apple\\PR-002_Apple_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 281478,
+      "sha256": "e8ea5ba2733e1271752975c4964e035e70094c2c40d44dda403b8f6ddb8dc69b"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\apple\\PR-003_Apple_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 453356,
+      "sha256": "c9aa400cafcaa07b9475d6e253f7e77942b21d76fff0a3c989b83ccd720fb517"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\apple\\PR-003_Apple_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 312519,
+      "sha256": "cdb88d986bb386fb701c8e98e9326957c44c44a7a93eaba6517f688973132c85"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\apple\\PR-006_Apple_Processing_Geographies_FINAL.svg",
+      "bytes": 604915,
+      "sha256": "e2227ff91900fc262a0b863db594d1a8592f10005399bb63d5396982c133bc79"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\apple\\PR-006_Apple_Processing_Geographies_FINAL.png",
+      "bytes": 289424,
+      "sha256": "fcd9d6b5b10a68b0181719f3e26e1cb5f242649117af04760e099d1428574f9d"
+    }
+  ]
+}
