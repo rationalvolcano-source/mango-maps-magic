@@ -1,5 +1,5 @@
 export const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-export function selectionSearch(search: Record<string, unknown>): {purpose?: 'fresh' | 'processed'; month?: string} {
+export function selectionSearch(search: Record<string, unknown>): {purpose?: 'fresh' | 'processed' | undefined; month?: string | undefined} {
   const month = search['month'];
   return { purpose: search['purpose'] === 'processed' ? 'processed' as const : 'fresh' as const, month: typeof month === 'string' && months.includes(month) ? month : undefined };
 }
