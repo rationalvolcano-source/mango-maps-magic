@@ -1,53 +1,539 @@
-import { useEffect, useRef, useState } from 'react';
-import { Link, useNavigate, useSearch } from '@tanstack/react-router';
-import { ZoomIn, ZoomOut, Maximize, BookOpen, ArrowLeft } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
-import { useSource, SelectionControls } from './shared';
-import { cropAssets, isCropSlug, canonicalCrops, cropSlug, sourceRecords, sourceRecord, stateNames, blockerReasons, type Screen, type CropSlug } from '@/lib/gramshakti/assets';
-import directory from '@/assets/gramshakti/directory.svg.asset.json';
-import official from '@/lib/gramshakti/official-records.json';
+import { useEffect, useRef, useState, type ReactNode } from "react";
+import { Link, useNavigate, useSearch } from "@tanstack/react-router";
+import { ZoomIn, ZoomOut, Maximize, BookOpen, ArrowLeft, RotateCcw } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetDescription,
+} from "@/components/ui/sheet";
+import { useSource, SelectionControls, AppHeader } from "./shared";
+import {
+  CropJourneyNavigation,
+  DetailedProcurement,
+  StateProcurementPage,
+} from "./procurement-details";
+import {
+  cropAssets,
+  isCropSlug,
+  canonicalCrops,
+  cropSlug,
+  blockerReasons,
+  type Screen,
+  type CropSlug,
+} from "@/lib/gramshakti/assets";
+import {
+  availabilityEvidence,
+  beltEvidence,
+  cropRecords,
+  locatorText,
+  processingEvidence,
+  protectionEvidence,
+  sourceEvidence,
+} from "@/lib/gramshakti/procurement";
+import { months } from "@/lib/gramshakti/data";
+import directory from "@/assets/gramshakti/directory.svg.asset.json";
 
-
-export function OriginalCanvas({url,onAction,label,children}:{url:string;onAction:(action:string,target:Element)=>void;label:string;children?:React.ReactNode}) {
- const host=useRef<HTMLDivElement>(null);const [markup,setMarkup]=useState('');const [error,setError]=useState('');const [zoom,setZoom]=useState(1);
- useEffect(()=>{let active=true;setMarkup('');setError('');fetch(url).then(r=>{if(!r.ok)throw new Error(`Artwork unavailable (${r.status})`);return r.text()}).then(async text=>{const {default:purify}=await import('dompurify');const safe=purify.sanitize(text,{USE_PROFILES:{svg:true,svgFilters:true},ADD_ATTR:['data-action','data-cluster','data-pin','data-state-name','tabindex','role','aria-label','data-evidence-cell']});if(active)setMarkup(safe)}).catch(e=>{if(active)setError(String(e))});return()=>{active=false}},[url]);
- function activate(target:EventTarget|null){if(!(target instanceof Element))return;const el=target.closest('[data-action]');const action=el?.getAttribute('data-action');if(el&&action)onAction(action,el)}
- return <><div className="canvas-tools"><span>{label}</span><div className="flex gap-1"><Button size="icon" variant="ghost" aria-label="Zoom out" title="Zoom out" onClick={()=>setZoom(z=>Math.max(1,z-.5))}><ZoomOut/></Button><Button size="icon" variant="ghost" aria-label="Fit artwork" title="Fit artwork" onClick={()=>setZoom(1)}><Maximize/></Button><Button size="icon" variant="ghost" aria-label="Zoom in" title="Zoom in" onClick={()=>setZoom(z=>Math.min(6,z+.5))}><ZoomIn/></Button></div></div><div className="canvas-scroll"><div className={`original-canvas zoom-${zoom*10}`}><div ref={host} role="group" aria-label={label} onClick={e=>activate(e.target)} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate(e.target)}}} dangerouslySetInnerHTML={{__html:markup}}/>{markup&&children}</div></div>{!markup&&<p className="p-8 text-muted-foreground" role="status">{error||'Loading original artwork…'}</p>}</>;
+const artworkCache = new Map<string, Promise<string>>();
+function loadArtwork(url: string): Promise<string> {
+  const cached = artworkCache.get(url);
+  if (cached) return cached;
+  const pending = fetch(url)
+    .then(async (response) => {
+      if (!response.ok) throw new Error("Artwork unavailable (" + response.status + ")");
+      const text = await response.text();
+      if (!text.includes("<svg")) throw new Error("The artwork response is not an SVG.");
+      const { default: purify } = await import("dompurify");
+      return purify.sanitize(text, {
+        USE_PROFILES: { svg: true, svgFilters: true },
+        ADD_ATTR: [
+          "data-action",
+          "data-cluster",
+          "data-pin",
+          "data-state-name",
+          "data-pin-state",
+          "data-belt-name",
+          "tabindex",
+          "role",
+          "aria-label",
+          "data-evidence-cell",
+        ],
+      });
+    })
+    .catch((error) => {
+      artworkCache.delete(url);
+      throw error;
+    });
+  artworkCache.set(url, pending);
+  return pending;
 }
 
-export function CropArtworkPage({crop,screen='002'}:{crop:string;screen?:Screen}) {
- const navigate=useNavigate();const source=useSource();const [type,setType]=useState('All');const [geography,setGeography]=useState('All');const [selected,setSelected]=useState<number>();const container=useRef<HTMLDivElement>(null);
- if(!isCropSlug(crop))return <UnavailableCrop name={crop}/>;
- const asset=cropAssets[crop];const data=sourceRecords[crop];
- function action(key:string,el:Element){
-  if(key==='directory'){navigate({to:'/procurement',search:p=>p});return}
-  if(key==='landscape'){navigate({to:'/procurement/$crop',params:{crop},search:p=>p});return}
-  if(key==='processing'){navigate({to:'/procurement/$crop/processing',params:{crop},search:p=>p});return}
-  if(key==='protection'){navigate({to:'/procurement/$crop/crop-protection',params:{crop},search:p=>p});return}
-  if(key.startsWith('state:')){navigate({to:'/procurement/$crop/state/$stateCode',params:{crop,stateCode:key.slice(6)},search:p=>p});return}
-  if(key.startsWith('cluster:')){const idx=Number(key.slice(8));setSelected(idx);container.current?.querySelectorAll('[data-cluster],[data-pin]').forEach(e=>e.classList.toggle('selected-asset',e.getAttribute('data-cluster')===String(idx)||e.getAttribute('data-pin')===String(idx)));return}
-  if(key.startsWith('target:')){const target=data.protection[Number(key.slice(7))];if(target)source(sourceRecord(target.name,`${target.passage}\n\nGeography: ${target.geography}\n\nImpact: ${target.impact}\n\nManagement context: ${target.modes.join(' · ')}`));return}
-  if(key.startsWith('source:availability')){source(sourceRecord(`${asset.name} — availability cell`,data.seasonality.map(z=>z.passage).join('\n\n'),undefined,{caveat:'Original month-cell composition retained. Exact native workbook tabs retrieved; original static month composition retained without interpolation.'}));return}
-  if(key==='source:belt'){source(sourceRecord(`${asset.name} — commercial belt`,data.belts.map(z=>z.passage).join('\n\n')));return}
-  source(sourceRecord(`${asset.name} — ${el.textContent||'source'}`,asset.screens[screen].footer.join('\n'),asset.screens[screen].sourceUrl,{evidenceClass:'Original static artwork provenance',caveat:'The displayed source visual is static. Official-workbook rows are available in state details; the visual remains static. Production is already tonnes and is never multiplied by 1,000.'}));
- }
- const cluster=selected===undefined?undefined:asset.clusters[selected];
- return <main ref={container} className="asset-page"><div className="asset-navigation"><Button asChild variant="ghost" size="sm"><Link to="/procurement" search={p=>p}>Change crop</Link></Button>{screen!=='002'&&<Button asChild variant="ghost" size="sm"><Link to="/procurement/$crop" params={{crop}} search={p=>p}><ArrowLeft/>Back to sourcing landscape</Link></Button>}<SelectionControls/><Button variant="ghost" size="sm" onClick={()=>source(sourceRecord(`${asset.name} — source register`,asset.screens[screen].footer.join('\n')||asset.screens[screen].filename,asset.screens[screen].sourceUrl,{evidenceClass:'Original static artwork',nativeUnit:'Tonnes for production; descriptive context otherwise',displayUnit:'Original visual units',caveat:'Original values are preserved, not presented as live data. Official and district workbooks are cached; exact rows are available in state details.'}))}><BookOpen/>Sources</Button><Button asChild variant="ghost" size="sm"><Link to="/choose" search={p=>p}>Change objective</Link></Button></div>{screen==='003'&&<div className="asset-filter"><div className="segmented">{['All','Pests','Diseases'].map(t=><Button key={t} variant={type===t?'default':'ghost'} size="sm" onClick={()=>{setType(t);filterCanvas(container.current,data.protection,t,geography)}}>{t}</Button>)}</div><label>Source geography <select aria-label="Source geography" value={geography} onChange={e=>{setGeography(e.target.value);filterCanvas(container.current,data.protection,type,e.target.value)}}><option>All</option>{data.protection.map((t,i)=><option key={i}>{t.geography}</option>)}</select></label></div>}<OriginalCanvas url={asset.screens[screen].application} label={`${asset.name} · ${screen==='002'?'Sourcing landscape':screen==='003'?'Crop protection':'Processing geographies'}`} onAction={action}/><Sheet open={selected!==undefined} onOpenChange={o=>{if(!o)setSelected(undefined)}}><SheetContent className="overflow-y-auto sm:max-w-xl"><SheetHeader><SheetTitle>{cluster?.name}</SheetTitle><SheetDescription>{asset.name} · Processing node and catchment context</SheetDescription></SheetHeader>{cluster&&<div className="mt-6 space-y-5"><h3 className="font-semibold">Original cluster record</h3>{cluster.texts.map((t,i)=><p key={i}>{t}</p>)}<h3 className="font-semibold">Full crop source context</h3><p className="whitespace-pre-wrap text-sm leading-relaxed">{cluster.sourceContext}</p><Button onClick={()=>{setSelected(undefined);source(sourceRecord(`${asset.name} — ${cluster.name}`,cluster.sourceContext))}}>Open source record <BookOpen/></Button></div>}</SheetContent></Sheet></main>;
+export function OriginalCanvas({
+  url,
+  onAction,
+  label,
+  children,
+}: {
+  url: string;
+  onAction: (action: string, target: Element) => void;
+  label: string;
+  children?: ReactNode;
+}) {
+  const [markup, setMarkup] = useState("");
+  const [error, setError] = useState("");
+  const [zoom, setZoom] = useState(1);
+  const [fit, setFit] = useState(false);
+  const [attempt, setAttempt] = useState(0);
+  useEffect(() => {
+    let active = true;
+    setMarkup("");
+    setError("");
+    loadArtwork(url)
+      .then((text) => {
+        if (active) setMarkup(text);
+      })
+      .catch((reason: unknown) => {
+        if (active) setError(reason instanceof Error ? reason.message : String(reason));
+      });
+    return () => {
+      active = false;
+    };
+  }, [url, attempt]);
+  function activate(target: EventTarget | null) {
+    if (!(target instanceof Element)) return false;
+    const element = target.closest("[data-action]");
+    const action = element?.getAttribute("data-action");
+    if (element && action) {
+      onAction(action, element);
+      return true;
+    }
+    return false;
+  }
+  return (
+    <>
+      <div className="canvas-tools">
+        <span>{label}</span>
+        <div className="flex gap-1">
+          <Button
+            size="icon"
+            variant="ghost"
+            aria-label="Zoom out"
+            onClick={() => setZoom((z) => Math.max(1, z - 0.5))}
+          >
+            <ZoomOut />
+          </Button>
+          <Button
+            size="icon"
+            variant="ghost"
+            aria-label="Fit artwork"
+            onClick={() => {
+              setZoom(1);
+              setFit(true);
+            }}
+          >
+            <Maximize />
+          </Button>
+          <Button
+            size="icon"
+            variant="ghost"
+            aria-label="Zoom in"
+            onClick={() => {
+              setFit(false);
+              setZoom((z) => Math.min(6, z + 0.5));
+            }}
+          >
+            <ZoomIn />
+          </Button>
+        </div>
+      </div>
+      <div className="canvas-scroll">
+        <div className={`original-canvas zoom-${zoom * 10}${fit ? " artwork-fit" : ""}`}>
+          <div
+            role="group"
+            aria-label={label}
+            onClick={(e) => activate(e.target)}
+            onKeyDown={(e) => {
+              if ((e.key === "Enter" || e.key === " ") && activate(e.target)) e.preventDefault();
+            }}
+            dangerouslySetInnerHTML={{ __html: markup }}
+          />
+          {markup && children}
+        </div>
+      </div>
+      {!markup && (
+        <div className="artwork-loading" role="status">
+          <p>{error || "Loading original artwork…"}</p>
+          {error && (
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => {
+                artworkCache.delete(url);
+                setAttempt((x) => x + 1);
+              }}
+            >
+              <RotateCcw />
+              Retry artwork
+            </Button>
+          )}
+        </div>
+      )}
+    </>
+  );
 }
-function filterCanvas(container:HTMLElement|null,targets:{type:string;geography:string}[],type:string,geography:string){container?.querySelectorAll('[data-action^="target:"]').forEach(e=>{const i=Number(e.getAttribute('data-action')?.split(':')[1]);const t=targets[i];e.classList.toggle('dimmed-target',!!t&&((type!=='All'&&t.type!==type)||(geography!=='All'&&t.geography!==geography)))})}
 
-export function AssetDirectoryPage(){const navigate=useNavigate();const source=useSource();const [query,setQuery]=useState('');const [unavailable,setUnavailable]=useState<string>();const selection=useSearch({strict:false});const shown=canonicalCrops.filter(c=>c.toLowerCase().includes(query.toLowerCase()));
- function choose(name:string){const crop=cropSlug(name);if(crop)navigate({to:'/procurement/$crop',params:{crop},search:p=>p});else setUnavailable(name)}
- function action(key:string){if(key.startsWith('crop:'))choose(key.slice(5));else if(key==='objectives')navigate({to:'/choose',search:p=>p});else if(key==='fresh'||key==='processed')navigate({to:'.',search:p=>({...p,purpose:key})});else source(sourceRecord('Canonical crop directory','58 frozen canonical crop labels preserved from PR-001. Sixteen crop journeys are available in this pass.','https://drive.google.com/file/d/1y9x68mcXrpeZvialSUjloVbJ9G_wWHdC/view'))}
- return <main className="asset-page"><div className="asset-navigation"><SelectionControls/><Button asChild size="sm" variant="ghost"><Link to="/choose" search={p=>p}>Change objective</Link></Button><Button asChild size="sm" variant="ghost"><Link to="/delivery">Delivery report</Link></Button></div><OriginalCanvas url={directory.url} label="Procurement · 58 canonical crops" onAction={action}><div className="directory-search-overlay"><input aria-label="Search the crop universe" placeholder="Search the crop universe" value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<div className="crop-search-results">{shown.length?shown.map(c=><Button key={c} variant="ghost" onClick={()=>choose(c)}>{c}</Button>):<p>No matching crops</p>}</div>}</div><div className="directory-month-overlay"><select aria-label="Directory target month" value={selection.month??''} onChange={e=>navigate({to:'.',search:p=>({...p,month:e.target.value||undefined})})}><option value="">Optional target month</option>{['January','February','March','April','May','June','July','August','September','October','November','December'].map(m=><option key={m}>{m}</option>)}</select></div></OriginalCanvas><Sheet open={!!unavailable} onOpenChange={o=>{if(!o)setUnavailable(undefined)}}><SheetContent><SheetHeader><SheetTitle>{unavailable&&blockerReasons[unavailable]?'Source repair required':'Not yet implemented'}</SheetTitle><SheetDescription>{unavailable}</SheetDescription></SheetHeader><p className="mt-6">{unavailable&&blockerReasons[unavailable]||'This crop is outside the sixteen-crop artwork cohort in this pass. No replacement crop or unverified data is shown.'}</p></SheetContent></Sheet></main>
+export function CropArtworkPage({ crop, screen = "002" }: { crop: string; screen?: Screen }) {
+  return isCropSlug(crop) ? (
+    <ArtworkJourney crop={crop} screen={screen} />
+  ) : (
+    <UnavailableCrop name={crop} />
+  );
 }
-export function UnavailableCrop({name}:{name:string}){return <main className="page-container"><h1>Crop unavailable</h1><p>{name}</p><Button asChild className="mt-6"><Link to="/procurement" search={p=>p}>Back to crop directory</Link></Button></main>}
-export function StateAssetPage({crop,stateCode}:{crop:string;stateCode:string}){
- const source=useSource();if(!isCropSlug(crop))return <UnavailableCrop name={crop}/>;
- const asset=cropAssets[crop];const state=Object.entries(stateNames).find(([,c])=>c===stateCode)?.[0]??stateCode;
- const norm=(s:string)=>s.toLowerCase().replace(/[^a-z]/g,'');const records=official[crop];const production=records.production.find(r=>norm(r.state)===norm(state)&&r.year==='2024-25');const districts=records.district.filter(r=>norm(r.state)===norm(state));
- const availability=sourceRecords[crop].seasonality.filter(s=>norm(s.state)===norm(state));
- const showProduction=()=>source(sourceRecord(`${asset.name} · ${state} — official production`,production?`Mandatory Crops Statewise Production, row ${production.row}\n${production.authority}\n${production.publication}\n${production.status}\n${production.tonnes} tonnes\nUpstream conversion note: ${production.originalConversion}`:'No exact 2024–25 crop/state row in the official table.','https://docs.google.com/spreadsheets/d/1JkNGc4fvKO9_dXegJKpTuj5TZSxNWt4CaAnSJsn5oa8/edit',{period:'2024–25',nativeUnit:'Tonnes — already normalized in this table',displayUnit:'Tonnes',transformation:'No rescaling. State area and yield are not supplied.',evidenceClass:production?.status??'Missing record',caveat:'Read from row-4 headers. Missing is not zero; no historical interpolation.'}));
- return <main className="page-container"><Button asChild variant="ghost"><Link to="/procurement/$crop" params={{crop}} search={p=>p}><ArrowLeft/>Back to sourcing landscape</Link></Button><h1 className="mt-5">{asset.name} • {state}</h1><SelectionControls/><section className="mt-8"><h2>Official state production · 2024–25</h2><p className="production-headline my-3">{production?.tonnes?.toLocaleString('en-IN')??'—'} <span>tonnes</span></p>{!production&&<p className="my-3">No exact 2024–25 record supplied. Missing is not zero.</p>}<Button variant="outline" onClick={showProduction}>Production source</Button></section><section className="mt-8"><h2>Availability and varieties</h2>{availability.length?availability.map((s,i)=><p key={i} className="my-3">{s.cells.filter(Boolean).join(' · ')}</p>):<p className="mt-3">No state-linked availability record supplied.</p>}</section><section className="mt-8"><h2>District evidence · read-only</h2><div className="table-scroll"><table><thead><tr>{['District','Year / season','Area & unit','Production & unit','Yield & unit','Evidence status','Source'].map(h=><th key={h}>{h}</th>)}</tr></thead><tbody>{districts.length?districts.map((r,i)=><tr key={i}><td>{r.district}</td><td>{r.year}</td><td>{r.area??'—'} {r.areaUnit}</td><td>{r.production??'—'} {r.productionUnit}</td><td>{r.yield??'—'} {r.yieldUnit}</td><td>{r.status} · {r.missingFlag}</td><td><Button variant="ghost" size="sm" onClick={()=>source(sourceRecord(`${r.district} — district record`,`District APY Master, row ${r.row}\n${r.sourceId}\nArea page ${r.areaPage}; production page ${r.productionPage}; yield page ${r.yieldPage}\n${r.status}`,'https://docs.google.com/spreadsheets/d/1YQLRV8QGIk9lO1MygZA9heofVSnxtZpDHSkm2yzTYLg/edit',{period:r.year,nativeUnit:`${r.areaUnit}; ${r.productionUnit}; ${r.yieldUnit}`,displayUnit:'Original district units',transformation:'Native fields retained; no district aggregation or inferred figures',caveat:'Partial coverage. Official district evidence here is limited to supplied Tamil Nadu rows.'}))}><BookOpen/>Source</Button></td></tr>):<tr><td colSpan={7}>No official district rows supplied for this crop/state. Coverage is partial; estimates are not substituted.</td></tr>}</tbody></table></div></section></main>
+function ArtworkJourney({ crop, screen }: { crop: CropSlug; screen: Screen }) {
+  const navigate = useNavigate();
+  const source = useSource();
+  const [selected, setSelected] = useState<number>();
+  const container = useRef<HTMLDivElement>(null);
+  const asset = cropAssets[crop];
+  const records = cropRecords(crop);
+  useEffect(() => {
+    setSelected(undefined);
+  }, [crop, screen]);
+  function selectCluster(index: number) {
+    if (!records.processing[index]) return;
+    setSelected(index);
+    container.current
+      ?.querySelectorAll("[data-cluster],[data-pin]")
+      .forEach((e) =>
+        e.classList.toggle(
+          "selected-asset",
+          e.getAttribute("data-cluster") === String(index) ||
+            e.getAttribute("data-pin") === String(index),
+        ),
+      );
+  }
+  function action(key: string, el: Element) {
+    if (key === "directory") {
+      navigate({ to: "/procurement", search: (p) => p });
+      return;
+    }
+    if (key === "objectives") {
+      navigate({ to: "/choose", search: (p) => p });
+      return;
+    }
+    if (key === "landscape") {
+      navigate({ to: "/procurement/$crop", params: { crop }, search: (p) => p });
+      return;
+    }
+    if (key === "processing") {
+      navigate({ to: "/procurement/$crop/processing", params: { crop }, search: (p) => p });
+      return;
+    }
+    if (key === "protection") {
+      navigate({ to: "/procurement/$crop/crop-protection", params: { crop }, search: (p) => p });
+      return;
+    }
+    if (key.startsWith("state:")) {
+      navigate({
+        to: "/procurement/$crop/state/$stateCode",
+        params: { crop, stateCode: key.slice(6) },
+        search: (p) => p,
+      });
+      return;
+    }
+    if (key.startsWith("month:")) {
+      const month = months[Number(key.slice(6))];
+      if (month) navigate({ to: ".", search: (p) => ({ ...p, month }) });
+      return;
+    }
+    if (key.startsWith("cluster:")) {
+      selectCluster(Number(key.slice(8)));
+      return;
+    }
+    if (key.startsWith("target:")) {
+      const record = protectionEvidence(crop, Number(key.slice(7)));
+      if (record) source(record);
+      return;
+    }
+    if (key.startsWith("source:availability:")) {
+      const [, , code, index] = key.split(":");
+      const month = months[Number(index)];
+      if (code && month) source(availabilityEvidence(crop, code, month));
+      return;
+    }
+    if (key.startsWith("source:belt:")) {
+      const ids = key.slice(12).split(",");
+      const rows = records.belts.filter((row) => ids.includes(row.id));
+      if (rows.length === 1) source(beltEvidence(crop, rows[0]!));
+      else
+        source(
+          sourceEvidence(
+            `${asset.name} · ${el.getAttribute("data-belt-name") ?? el.getAttribute("aria-label") ?? "commercial belt"}`,
+            rows.length
+              ? rows
+                  .map(
+                    (row) =>
+                      `${locatorText(row.locator)}\n${row.headers.map((h, i) => h + ": " + (row.cells[i] || "—")).join("\n")}`,
+                  )
+                  .join("\n\n")
+              : "The exact source link for this visual object is not supplied.",
+            records.belts[0]?.locator.url ?? asset.screens[screen].sourceUrl,
+            {
+              caveat:
+                "This visual composition can refer to multiple exact cultivar/belt statements. Their distinct geographic scopes are retained.",
+            },
+          ),
+        );
+      return;
+    }
+    if (key.startsWith("source:belt-geography:")) {
+      const codes = key.slice("source:belt-geography:".length).split(",");
+      const rows = records.belts.filter((row) =>
+        row.stateCodes.some((code) => codes.includes(code)),
+      );
+      source(
+        sourceEvidence(
+          asset.name + " · named commercial geography",
+          rows.length
+            ? rows
+                .map((row) => `${locatorText(row.locator)}\n${row.origin}\n${row.variety}`)
+                .join("\n\n")
+            : "The geography is represented in the processing source; an exact table-variety belt relationship is not supplied.",
+          asset.screens[screen].sourceUrl,
+          {
+            caveat:
+              "Related regional source statements are separate from the named belt and do not establish a processor or available volume.",
+          },
+        ),
+      );
+      return;
+    }
+    source(
+      sourceEvidence(
+        asset.name + " · source register",
+        `Original visual: ${asset.screens[screen].filename}\n\n${asset.screens[screen].footer.join("\n")}\n\nExact source tables are available through the record controls below. Production records retain their own reporting years and classification.`,
+        asset.screens[screen].sourceUrl,
+        {
+          evidenceClass: "Original artwork provenance",
+          transformation:
+            "Original map geometry retained. Approved text, jurisdiction and interaction edits applied to a separate application copy.",
+          caveat:
+            "The visual is a fixed source snapshot. Interactive records below use the selected year/month. Pin placement is indicative at state level; it is not verified district geometry.",
+        },
+      ),
+    );
+  }
+  const cluster = selected === undefined ? undefined : records.processing[selected];
+  return (
+    <>
+      <AppHeader />
+      <main ref={container} className="asset-page">
+        <div className="asset-navigation">
+          <Button asChild variant="ghost" size="sm">
+            <Link to="/procurement" search={(p) => p}>
+              Change crop
+            </Link>
+          </Button>
+          <SelectionControls />
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => action("source:register", container.current!)}
+          >
+            <BookOpen />
+            Sources
+          </Button>
+        </div>
+        <CropJourneyNavigation crop={crop} screen={screen} />
+        <OriginalCanvas
+          url={asset.screens[screen].application}
+          label={
+            asset.name +
+            " · " +
+            (screen === "002"
+              ? "Sourcing landscape"
+              : screen === "003"
+                ? "Regional crop protection"
+                : "Processing geographies")
+          }
+          onAction={action}
+        />
+        <DetailedProcurement crop={crop} screen={screen} onOpenCluster={selectCluster} />
+        <Sheet
+          open={selected !== undefined}
+          onOpenChange={(open) => {
+            if (!open) {
+              setSelected(undefined);
+              container.current
+                ?.querySelectorAll(".selected-asset")
+                .forEach((e) => e.classList.remove("selected-asset"));
+            }
+          }}
+        >
+          <SheetContent className="overflow-y-auto sm:max-w-xl">
+            <SheetHeader>
+              <SheetTitle>{cluster?.name}</SheetTitle>
+              <SheetDescription>
+                Processing-node source context · jurisdiction and catchment remain distinct
+              </SheetDescription>
+            </SheetHeader>
+            {cluster && (
+              <div className="node-source-detail">
+                <h3 className="font-semibold">Source regional varieties</h3>
+                {cluster.relatedVarieties.map((value, i) => (
+                  <div key={i}>
+                    <p>
+                      <strong>{value.variety}</strong> · {value.geography}
+                    </p>
+                    <p className="table-note">{value.scope}</p>
+                  </div>
+                ))}
+                {cluster.paragraphs.map((paragraph) => (
+                  <p key={paragraph.locator.block}>{paragraph.text}</p>
+                ))}
+                <p className="context-note">
+                  This source describes processing roles and catchments. Current operation, capacity
+                  and exact district placement require verification.
+                </p>
+                <Button
+                  onClick={() => {
+                    setSelected(undefined);
+                    source(processingEvidence(crop, cluster));
+                  }}
+                >
+                  <BookOpen />
+                  Open exact node evidence
+                </Button>
+              </div>
+            )}
+          </SheetContent>
+        </Sheet>
+      </main>
+    </>
+  );
 }
+
+export function AssetDirectoryPage() {
+  const navigate = useNavigate();
+  const source = useSource();
+  const input = useRef<HTMLInputElement>(null);
+  const [query, setQuery] = useState("");
+  const [unavailable, setUnavailable] = useState<string>();
+  const selection = useSearch({ strict: false });
+  const shown = canonicalCrops.filter((c) => c.toLowerCase().includes(query.toLowerCase()));
+  function choose(name: string) {
+    const crop = cropSlug(name);
+    if (crop)
+      navigate({
+        to: "/procurement/$crop",
+        params: { crop },
+        search: (p) => ({ ...p, items: undefined }),
+      });
+    else setUnavailable(name);
+  }
+  function action(key: string) {
+    if (key.startsWith("crop:")) choose(key.slice(5));
+    else if (key === "objectives") navigate({ to: "/choose", search: (p) => p });
+    else if (key === "fresh" || key === "processed")
+      navigate({ to: ".", search: (p) => ({ ...p, purpose: key }) });
+    else if (key === "search") input.current?.focus();
+    else
+      source(
+        sourceEvidence(
+          "Canonical crop directory",
+          "58 exact canonical crop labels. The detailed procurement cohort contains Mango, Banana, Oranges, Guava, Grapes, Papaya, Pineapple, Pomegranate, Apple, Litchi, Sapota, Jackfruit, Potato, Onion, Tomato and Capsicum.",
+          "https://drive.google.com/file/d/1y9x68mcXrpeZvialSUjloVbJ9G_wWHdC/view",
+        ),
+      );
+  }
+  return (
+    <>
+      <AppHeader />
+      <main className="asset-page">
+        <div className="asset-navigation">
+          <SelectionControls />
+          <Button asChild size="sm" variant="ghost">
+            <Link to="/choose" search={(p) => p}>
+              Change objective
+            </Link>
+          </Button>
+        </div>
+        <div className="directory-live-search">
+          <label>
+            Search the crop universe
+            <input
+              ref={input}
+              aria-label="Search the crop universe"
+              placeholder="Crop name"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+          </label>
+          {query && (
+            <div className="crop-search-live-results">
+              {shown.length ? (
+                shown.map((c) => (
+                  <Button key={c} variant="ghost" onClick={() => choose(c)}>
+                    {c}
+                  </Button>
+                ))
+              ) : (
+                <p>No matching crops.</p>
+              )}
+            </div>
+          )}
+          <div className="cohort-shortcuts" aria-label="Detailed procurement crops">
+            {Object.entries(cropAssets).map(([crop, asset]) => (
+              <Button key={crop} variant="ghost" size="sm" onClick={() => choose(asset.name)}>
+                {asset.name}
+              </Button>
+            ))}
+          </div>
+          <p className="table-note">16 detailed procurement journeys · 58 canonical crop choices</p>
+        </div>
+        <OriginalCanvas
+          url={directory.url}
+          label="Procurement · original 58-crop directory"
+          onAction={action}
+        />
+        <Sheet
+          open={!!unavailable}
+          onOpenChange={(open) => {
+            if (!open) setUnavailable(undefined);
+          }}
+        >
+          <SheetContent>
+            <SheetHeader>
+              <SheetTitle>
+                {unavailable && blockerReasons[unavailable]
+                  ? "Source repair required"
+                  : "Outside this procurement release"}
+              </SheetTitle>
+              <SheetDescription>{unavailable}</SheetDescription>
+            </SheetHeader>
+            <p className="mt-6">
+              {(unavailable && blockerReasons[unavailable]) ||
+                "The current detailed procurement release covers Mango through Capsicum. This canonical crop is retained for a later source-backed module."}
+            </p>
+          </SheetContent>
+        </Sheet>
+      </main>
+    </>
+  );
+}
+export function UnavailableCrop({ name }: { name: string }) {
+  return (
+    <main className="page-container">
+      <h1>Crop unavailable</h1>
+      <p>{name}</p>
+      <Button asChild className="mt-6">
+        <Link to="/procurement" search={(p) => p}>
+          Back to crop directory
+        </Link>
+      </Button>
+    </main>
+  );
+}
+export const StateAssetPage = StateProcurementPage;

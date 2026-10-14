@@ -1,155 +1,77 @@
-# Mango Maps Magic
+# GramShakti
 
-Create a NEW project named GramShakti.
-Implement the welcome experience and complete Mango Procurement journey in one bounded build pass.
-Use the existing visual compositions to build functional pages with the interactions below.
+Source-backed crop procurement research using the original GramShakti artwork. The current release provides detailed procurement journeys for Mango, Banana, Oranges, Guava, Grapes, Papaya, Pineapple, Pomegranate, Apple, Litchi, Sapota, Jackfruit, Potato, Onion, Tomato and Capsicum.
 
-1. Visual assets and their exact roles
-Reference | Exact asset | Use
-V0 | GramShakti_Logo_Concept_01.png | Actual logo on welcome, objective selection and every application header. Preserve proportions and transparency.
-V1 | SH-001_Objective_Selection_v1.png | Welcome atmosphere and objective-selection composition. The reference has TWO cards; implement THREE matching cards by adding CLIM.
-V2 | PR-001_Crop_Intent_58_Crop_Universe_v1.png | Procurement crop directory: eight category panels, search, Fresh/Processed toggle and optional target-month control.
-V3 | PR-002_Mango_National_Sourcing_Landscape_FINAL.png | Mango national page: availability ribbon; ranked states / India map / commercial belts; lower protection preview and statewise seasonality table.
-V4 | PR-003_Mango_Pesticide_Pressure_Detail_FINAL.png | Card grid, regional accents and typography for the redesigned protection page. Replace the pressure content as specified below.
-V5 | PR-006_Mango_Processing_Geographies_FINAL.png | Processing page: upper summary band, map on the left, processing-cluster cards on the right. Apply the quantitative and geography corrections below.
+## Procurement workflow
 
-PR-005 State Detail has no dedicated reference identified in this asset list. Design it as a continuation of V3, reusing its header, cards, colours, map legend and table styling.
-Render headings, values, tables, cards, controls and narrative as responsive components. V0 is an actual image asset; the other full-screen compositions guide the functional layouts.
+Welcome → three objectives → original 58-crop directory → crop sourcing → state detail, processing geography or regional crop protection → shareable, printable sourcing brief.
 
-Preserve the shared visual language:
-Warm cream/pale green backgrounds.
-Deep green headings and primary actions.
-Leaf-green active states.
-Saffron/orange emphasis.
-Rounded white cards, fine borders and restrained shadows.
-V1’s frosted panel treatment for entry screens.
-V2–V5’s cleaner cards inside Procurement.
-Extract colours from the references into shared design tokens.
+Fresh/Processed, month and production year stay in the URL. Availability filters use named source windows, including storage and protected-production qualifiers. The original visual is a fixed snapshot; the records below it follow the selection.
 
-2. Build and navigation sequence
-Implement in this order:
-Welcome → Objective selection → Crop directory → Mango national page → State Detail → Processing page → Protection page → shared source drawer and responsive verification.
+Clicking a state opens exact official production, a history with visible missing years, compact district APY and separately labelled Production Context estimates. District records retain their own years and native units. Missing fields are never zero-filled, and district sums never replace official state production.
 
-User action -> Result:
-- Welcome: Enter GramShakti -> Open /choose.
-- Objective selection: Procurement -> Open /procurement.
-- Objective selection: Opportunity / FPO Discovery -> Open /opportunity, an explanatory future-module shell.
-- Objective selection: CLIM — Climate Analysis -> Open /clim, an explanatory future-module shell.
-- Directory: click Mango -> Open /procurement/mango, preserving purpose and optional month.
-- Directory: Change objective -> Return to /choose.
-- National map: click a state -> Open /procurement/mango/state/:stateCode.
-- Ranked-state list or seasonality table: click a state name -> Open the same State Detail route.
-- Commercial belt: expand -> Reveal its full varieties, geography and source context on the current page.
-- National page: Processing Geographies -> Open /procurement/mango/processing.
-- National page: View crop protection detail -> Open /procurement/mango/crop-protection.
-- Processing map: click a cluster marker -> Select and focus its matching cluster card.
-- Processing card: View details -> Expand its product, catchment, variety and source information; highlight its marker.
-- Any evidence label or source icon -> Open the record-specific source drawer.
-- Any Mango subpage: Back to sourcing landscape -> Return to /procurement/mango with selection state preserved.
+The browser shortlist is scoped to crop, purpose, month and year. A brief URL contains the selected public source-record IDs, so another reader can open the same brief without an account. Print/Save PDF uses the browser.
 
-3. Welcome page — /
-Use V0 for the logo and V1 for the illustrated agricultural India atmosphere.
-Place the logo at the upper left with generous clear space. In the main frosted panel show:
-Eyebrow: GramShakti Intelligence
-Heading: Explore India’s agricultural landscape.
-Supporting line: Evidence-led sourcing, opportunity and climate intelligence.
-One prominent deep-green button: Enter GramShakti, using V1’s saffron accent treatment.
-Clicking the button opens /choose.
+Opportunity/FPO Discovery and CLIM remain development shells. The remaining canonical crops display their actual release/source-repair status.
 
-4. Objective selection — /choose
-Recreate V1’s large frosted central panel, green heading, saffron divider, white rounded cards, icon circles and circular arrow controls.
-Heading: What would you like to do?
-Supporting line: Choose how you want to explore India’s agricultural landscape.
-Modify TWO cards -> THREE equally sized cards:
-Card 1 — Procurement: crate/leaf icon style. Copy: "Explore sourcing geographies, seasonal availability, varieties and processing contexts." CTA: "Explore procurement". Clicking either opens /procurement.
-Card 2 — Opportunity / FPO Discovery: map/pin/growth icon style. Copy: "Explore future crop-cluster and FPO intelligence." Status chip: "In development". Click opens /opportunity.
-Card 3 — CLIM — Climate Analysis: matching sun/cloud/thermometer icon using the SAME green/saffron palette, circular icon background, card corner radius, text hierarchy, padding and spacing, circular arrow button. Copy: "Explore future crop-stage climate and soil intelligence." Status chip: "In development". Click opens /clim.
-Widen the central panel for a three-column desktop row; stack cards on narrow screens. Opportunity and CLIM clicks open styled explanatory pages with a Back to objectives button.
+## Evidence and original artwork
 
-5. Crop directory — /procurement
-Retain the heading: "What do you want to procure?"
-Recreate V2’s eight category panels:
-- Cereals & Millets
-- Pulses
-- Commercial & Fibre
-- Oilseeds
-- Fruits
-- Vegetables & Tubers
-- Plantation & Nuts
-- Spices & Condiments
-Canonical 58 crops:
-Search filters the visible crop buttons.
-Fresh/Processed toggle and target month controls: Default purpose: Fresh. Target month: optional. Preserve both across navigation.
-Clicking Mango opens its national page for either purpose.
-Other crops show "Not yet implemented" modal/state.
-The five documented blocked crops—Maize, Sugarcane, Green Chillies, Tapioca and Arecanut—open an in-directory "Source repair required" modal with the specific reason from the correction register.
+- 3,201 cached official state-production records.
+- 198 exact availability rows, 83 commercial-belt rows and 53 processing-node contexts.
+- 410 district records: 380 Tamil Nadu records across ten crops for 2024–25, plus 30 Karnataka Onion records for 2021–22.
+- 48 original crop SVG hashes checked against the existing crop manifests. Original map path geometry is preserved in every application copy.
+- Original SH-001 background, logo and PR-001 directory are packaged with the app.
+- Exact document block/table/row and workbook row/page provenance are available in evidence drawers.
 
-6. Mango national landscape — /procurement/mango
-Header and availability ribbon:
-Logo, breadcrumb, title "Mango • India supply landscape", purpose, target month, reporting period (2024–25 default), Sources action.
-Horizontal January–December ribbon populated from Mango seasonality records (peak, secondary/lean, not evidenced).
-Left column — Ranked state production:
-Ranked horizontal bars from verified government state-production table. Rows show state name, production (tonnes), unit, reporting period. Clicking state name/bar opens State Detail.
-Centre column — India production map:
-Choropleth, production legend, white map card. Clicking a state opens State Detail. Fallback to interactive state grid/table navigation if polygon geometry is unavailable. Missing production is neutral grey and distinct from verified zero.
-Right column — Commercial mango belts:
-Load Mango belts: belt name, geography, explicitly linked varieties. Expanding reveals commercial traits, destination context, exact source. Bottom action: Processing Geographies -> opens /procurement/mango/processing.
-Lower left — Crop protection context:
-Preview of 3–5 sourced pests/diseases: name, regional relevance, timing, supported management mode chips (Cultural, Mechanical, Biological, Chemical, Regulatory). CTA: "View crop protection detail" opens /procurement/mango/crop-protection.
-Lower right — Statewise mango availability:
-State x January–December table from seasonality records. Month-cell click reveals underlying records in drawer. State-name click opens State Detail. Target month highlights column.
+Mango has 29 state/UT production records for 2024–25. Capsicum has three, classified as second advance estimates; missing states remain missing. Other crops have varying current/historical coverage. Litchi's newest cached official year is 2015–16. The year selector makes older records explicit.
 
-7. State Detail — /procurement/mango/state/:stateCode
-Header: logo, breadcrumb, selected state and reporting-period chip.
-Official state production headline. State availability and varieties.
-Read-only district evidence table (District, Year/season, Area and unit, Production and unit, Yield and unit, Evidence status, Source).
-Tamil Nadu has 38 official district records; other states show honest missing-data states or separately attributed Production Context estimates.
-Expandable commercial-belt and related processing/protection context.
-Processing and protection buttons open respective Mango pages.
+Production Context estimates retain their literal reporting basis and never borrow production quantities from the crosswalk. Regional calendar varieties attached to a processing node are labelled as regional context; processor acceptance remains unverified.
 
-8. Processing geographies — /procurement/mango/processing
-Upper summary band with crosswalk coverage counts and documented product/process summaries.
-Map on left, 4 cluster cards on right: Chittoor (AP), Krishnagiri–Dharmapuri (TN), Konkan Coast (MH), Saurashtra & South Gujarat (GJ).
-Node jurisdiction and catchments in separate labelled sections.
-Cluster name, node jurisdiction, products/processes, catchment geographies, source-linked infrastructure context, key varieties, source action.
-Clicking marker selects/focuses card; clicking card highlights marker and expands details.
+State identity includes the supplied numeric LGD codes. This release does not fabricate district LGD reconciliation or historical boundary allocations. Node jurisdiction, catchment and commercial belt are distinct.
 
-9. Crop protection — /procurement/mango/crop-protection
-Title: "Mango • regional pest and management context".
-State/zone filters and All / Pests / Diseases selector.
-One card per target (hopper, fruit fly, anthracnose, powdery mildew, malformation, bacterial canker): common name, scientific name, geography, commercial impact, supported timing, management categories (Cultural/prevention, Mechanical/monitoring, Biological, Chemical context, Regulatory context).
-Suppress raw pesticide doses, spray schedules, PHIs and unvalidated regulatory claims.
-Bottom disclaimer: "Source-based crop protection context; not an outbreak forecast or pesticide prescription."
+## Approved visual corrections
 
-10. Shared source drawer:
-Every evidence action opens the record-specific source drawer showing title, tab/row or exact passage, source link, reporting period, native/display unit, evidence class, transformation, caveat.
+Original compositions, maps and palette are reused. Application copies remove compiler/footer copy and unsupported pesticide-pressure tiers. Regional pest/management cards retain actual source modes and omit dose/schedule/PHI prescriptions.
 
-11. Important interpretation:
-- State production is already normalized to tonnes. Do not multiply it by 1,000 again.
-- State area/yield are not supplied by the primary production table.
-- District evidence covers Tamil Nadu only; other states retain honest missing-data states or separately attributed Production Context.
-- Historical state data lacks 2018–19. Do not interpolate it.
-- Responsive verification across 375, 768 and 1440 pixels.
+The supplied decision register governs belt membership, mapped varieties, the Panruti/Cuddalore consolidation and pin/state repairs. Pins are explicitly indicative state positions, not verified district centroids.
 
-This project was built with [Lovable](https://lovable.dev).
+Two source constraints are preserved: the unsupported Potato Kashipur–Rudrapur processing corridor is not invented; Hooghly/Birbhum remains source-backed Capsicum context pending an explicit editorial override.
 
-**Live app**: https://mango-maps-magic.lovable.app
+## Run and verify
 
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e999a8a8-6944-4e6b-9f7f-c96fc57c1d3e).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Use the existing Node/npm or Bun environment:
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
+npm run build
+npm test
+npm run lint
+npx tsc --noEmit
 ```
+
+The production frontend makes no Drive, AI, price, weather or lending API requests. It loads its prepared source snapshots and local artwork. Google Fonts is the existing optional external font resource.
+
+## Data and application structure
+
+- `src/components/gramshakti/asset-viewer.tsx`: cached, sanitized original SVG interaction.
+- `procurement-details.tsx`: all-crop detail records, state history, district APY and briefs.
+- `src/lib/gramshakti/procurement.ts`: source/identity, native-unit and month-window logic.
+- `procurement-records.json`: extracted exact source statements and district records.
+- `official-records.json`: existing official state-production snapshot.
+- `asset-manifest.json` and `artwork-audit.json`: original/application provenance and checks.
+- `public/gramshakti`: the actual artwork bytes; no runtime dependency on Lovable's private asset pointers.
+
+Optional source regeneration requires Python and openpyxl plus the original Drive snapshots. The source directory must contain `crosswalks.docx`, `production-context.docx`, `district-apy.xlsx` and `originals/{crop}-{002,003,006}.svg`, with `originals/directory.svg`. Preserve the approved LGD source pack alongside that directory.
+
+```sh
+python scripts/build_procurement_data.py SOURCE_DIRECTORY
+python scripts/prepare_procurement_artwork.py SOURCE_DIRECTORY
+```
+
+These scripts reject missing source sections and mismatched original SVG hashes. They do not synthesize official APY or generate replacement imagery.
+
+## Publish
+
+Keep this existing repository linked to the existing Lovable project. After the code is applied to the synced branch, open its preview, then publish the current changes using Lovable. Git synchronization by itself does not update the published frontend. Verify the signed-out public welcome, Mango, Capsicum and their state/source/brief deep links after publishing.
+

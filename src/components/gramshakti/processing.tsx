@@ -1,6 +1,128 @@
-import { useState } from 'react';
-import { Factory, MapPinned, ArrowDown, ChevronDown } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { clusters, evidence } from '@/lib/gramshakti/data';
-import { PageShell, SourceButton, SectionTitle } from './shared';
-export function ProcessingPage(){const [selected,setSelected]=useState<string>();const [expanded,setExpanded]=useState<string>();function select(id:string){setSelected(id);setExpanded(id);document.getElementById(`cluster-${id}`)?.scrollIntoView({behavior:'smooth',block:'nearest'});}return <PageShell title="Mango • processing geographies" subtitle="Processing nodes, catchment geography and product context."><div className="processing-summary"><div><span className="eyebrow">CROSSWALK COVERAGE</span><strong>4 <small>identified clusters</small></strong></div><div><strong>0 <small>verified source records supplied</small></strong><p>Quantitative coverage cannot yet be established.</p></div><div><h3>Pulp · Purée · Concentrates · Preserves</h3><p>Product and process labels are provisional, not verified capacity claims.</p></div></div><div className="processing-layout"><section className="content-card processing-map"><SectionTitle icon={MapPinned} title="Processing node geography" subtitle="Schematic · not a jurisdiction boundary map"/><div className="india-schematic"><svg viewBox="0 0 320 420" aria-hidden="true"><path d="M117 20 149 37 153 63 183 76 170 101 190 119 231 124 241 106 265 106 287 88 307 97 282 134 250 144 241 176 215 187 205 218 192 250 182 279 168 308 157 343 141 379 129 393 113 372 107 338 97 310 89 276 72 253 67 218 43 202 28 178 9 164 20 143 45 145 60 125 77 121 86 93 80 70 93 53 102 26Z"/></svg>{clusters.map((c,i)=><Button key={c.id} size="icon" variant={selected===c.id?'default':'secondary'} className={`cluster-marker marker-${c.id}`} title={c.name} aria-label={`Select ${c.name} cluster`} onClick={()=>select(c.id)}>{i+1}</Button>)}</div><div className="map-legend"><span className="status-dot"/> Processing node <span className="ml-auto">Indicative location</span></div><p className="footnote">Catchment geography is distinct from node jurisdiction.</p></section><div className="cluster-cards">{clusters.map((c,i)=><section id={`cluster-${c.id}`} className={`content-card cluster-card ${selected===c.id?'selected-cluster':''}`} key={c.id}><div className="flex items-start gap-3"><span className="cluster-number">0{i+1}</span><div className="min-w-0 flex-1"><h2>{c.name}</h2><p className="mt-1 text-sm text-muted-foreground">{c.state}</p></div><SourceButton iconOnly record={evidence(`${c.name} processing cluster`,c.state)}/></div><div className="mt-4 flex flex-wrap gap-2"><span className="management-chip">{c.product}</span><span className="development-chip">Evidence pending</span></div><div className="cluster-jurisdiction"><span>NODE JURISDICTION</span><p>{c.state} · {c.name}</p></div><Button variant="link" className="h-auto p-0" onClick={()=>{setSelected(c.id);setExpanded(expanded===c.id?undefined:c.id)}}>{expanded===c.id?'Hide details':'View details'}<ChevronDown/></Button>{expanded===c.id&&<div className="cluster-expanded"><h3>Products & processes</h3><p>{c.product} · {c.process}. These illustrative summaries require source confirmation.</p><h3>Catchment geographies</h3><p>{c.catchment}</p><h3>Key varieties</h3><p>{c.varieties}</p><h3>Infrastructure context</h3><p>No verified infrastructure, capacity or coverage figures supplied.</p><SourceButton record={evidence(`${c.name} — product and catchment crosswalk`)}/></div>}</section>)}</div></div></PageShell>}
+import { useState } from "react";
+import { Factory, MapPinned, ArrowDown, ChevronDown } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { clusters, evidence } from "@/lib/gramshakti/data";
+import { PageShell, SourceButton, SectionTitle } from "./shared";
+export function ProcessingPage() {
+  const [selected, setSelected] = useState<string>();
+  const [expanded, setExpanded] = useState<string>();
+  function select(id: string) {
+    setSelected(id);
+    setExpanded(id);
+    document
+      .getElementById(`cluster-${id}`)
+      ?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+  return (
+    <PageShell
+      title="Mango • processing geographies"
+      subtitle="Processing nodes, catchment geography and product context."
+    >
+      <div className="processing-summary">
+        <div>
+          <span className="eyebrow">CROSSWALK COVERAGE</span>
+          <strong>
+            4 <small>identified clusters</small>
+          </strong>
+        </div>
+        <div>
+          <strong>
+            0 <small>verified source records supplied</small>
+          </strong>
+          <p>Quantitative coverage cannot yet be established.</p>
+        </div>
+        <div>
+          <h3>Pulp · Purée · Concentrates · Preserves</h3>
+          <p>Product and process labels are provisional, not verified capacity claims.</p>
+        </div>
+      </div>
+      <div className="processing-layout">
+        <section className="content-card processing-map">
+          <SectionTitle
+            icon={MapPinned}
+            title="Processing node geography"
+            subtitle="Schematic · not a jurisdiction boundary map"
+          />
+          <div className="india-schematic">
+            <svg viewBox="0 0 320 420" aria-hidden="true">
+              <path d="M117 20 149 37 153 63 183 76 170 101 190 119 231 124 241 106 265 106 287 88 307 97 282 134 250 144 241 176 215 187 205 218 192 250 182 279 168 308 157 343 141 379 129 393 113 372 107 338 97 310 89 276 72 253 67 218 43 202 28 178 9 164 20 143 45 145 60 125 77 121 86 93 80 70 93 53 102 26Z" />
+            </svg>
+            {clusters.map((c, i) => (
+              <Button
+                key={c.id}
+                size="icon"
+                variant={selected === c.id ? "default" : "secondary"}
+                className={`cluster-marker marker-${c.id}`}
+                title={c.name}
+                aria-label={`Select ${c.name} cluster`}
+                onClick={() => select(c.id)}
+              >
+                {i + 1}
+              </Button>
+            ))}
+          </div>
+          <div className="map-legend">
+            <span className="status-dot" /> Processing node{" "}
+            <span className="ml-auto">Indicative location</span>
+          </div>
+          <p className="footnote">Catchment geography is distinct from node jurisdiction.</p>
+        </section>
+        <div className="cluster-cards">
+          {clusters.map((c, i) => (
+            <section
+              id={`cluster-${c.id}`}
+              className={`content-card cluster-card ${selected === c.id ? "selected-cluster" : ""}`}
+              key={c.id}
+            >
+              <div className="flex items-start gap-3">
+                <span className="cluster-number">0{i + 1}</span>
+                <div className="min-w-0 flex-1">
+                  <h2>{c.name}</h2>
+                  <p className="mt-1 text-sm text-muted-foreground">{c.state}</p>
+                </div>
+                <SourceButton iconOnly record={evidence(`${c.name} processing cluster`, c.state)} />
+              </div>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="management-chip">{c.product}</span>
+                <span className="development-chip">Evidence pending</span>
+              </div>
+              <div className="cluster-jurisdiction">
+                <span>NODE JURISDICTION</span>
+                <p>
+                  {c.state} · {c.name}
+                </p>
+              </div>
+              <Button
+                variant="link"
+                className="h-auto p-0"
+                onClick={() => {
+                  setSelected(c.id);
+                  setExpanded(expanded === c.id ? undefined : c.id);
+                }}
+              >
+                {expanded === c.id ? "Hide details" : "View details"}
+                <ChevronDown />
+              </Button>
+              {expanded === c.id && (
+                <div className="cluster-expanded">
+                  <h3>Products & processes</h3>
+                  <p>
+                    {c.product} · {c.process}. These illustrative summaries require source
+                    confirmation.
+                  </p>
+                  <h3>Catchment geographies</h3>
+                  <p>{c.catchment}</p>
+                  <h3>Key varieties</h3>
+                  <p>{c.varieties}</p>
+                  <h3>Infrastructure context</h3>
+                  <p>No verified infrastructure, capacity or coverage figures supplied.</p>
+                  <SourceButton record={evidence(`${c.name} — product and catchment crosswalk`)} />
+                </div>
+              )}
+            </section>
+          ))}
+        </div>
+      </div>
+    </PageShell>
+  );
+}

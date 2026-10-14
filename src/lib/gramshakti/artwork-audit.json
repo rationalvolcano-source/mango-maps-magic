@@ -1,0 +1,415 @@
+{
+  "sources_verified": 48,
+  "geometry_preserved": 48,
+  "assets": [
+    {
+      "crop": "mango",
+      "screen": "002",
+      "source_sha256": "31a48ac844c4196166d0a78d284e0975db179db7d7783e9aa40379f3de321351",
+      "application_sha256": "f7c6f20b8f6c358120fea804776d9f698eaa3fa6adbcabef2e94339b1dac39fe",
+      "map_geometry_preserved": true,
+      "actions": 203
+    },
+    {
+      "crop": "mango",
+      "screen": "003",
+      "source_sha256": "dfbe6ba0cbb60aa0c4f9d4ae01b9c662cab87852c2b0039ab59ad9c2db23d951",
+      "application_sha256": "fdb4f9dc2eebfbfa8cefc9de0ce802a59ae4d771928405c3c942556107c9b167",
+      "map_geometry_preserved": true,
+      "actions": 51
+    },
+    {
+      "crop": "mango",
+      "screen": "006",
+      "source_sha256": "c7e7324e624fd83db8106bfea7a6b9bcf2586d6d58de5ecb6bfc6a64759f2ca2",
+      "application_sha256": "d09b5188528220b6c533e671c183489a59fd30fc8f0455eb7613c54d863b1094",
+      "map_geometry_preserved": true,
+      "actions": 118
+    },
+    {
+      "crop": "banana",
+      "screen": "002",
+      "source_sha256": "cee4a5b1c4e18a6be000d57bad0b85c5298ffb5e40f4cf7d2acf7e9656c416d9",
+      "application_sha256": "9ab0e2b6e296a10621698010a2b9e3e7f01d15f18e41b6d20883deaa2d6ba71a",
+      "map_geometry_preserved": true,
+      "actions": 173
+    },
+    {
+      "crop": "banana",
+      "screen": "003",
+      "source_sha256": "d92570d29c4440818f6d4301c9378d318e4831e5c6d0af1f221f55335522cace",
+      "application_sha256": "b78b68f42bdb2fdeb868127dbd2b4d199d4707d7873e08ead4a8ba3975757cee",
+      "map_geometry_preserved": true,
+      "actions": 51
+    },
+    {
+      "crop": "banana",
+      "screen": "006",
+      "source_sha256": "6ea81d09f69bfd47b409fbe995c76336446ca66d550232f16eb0e711d5c7fa97",
+      "application_sha256": "661213afb673dfc0f03b0593ef75b65e0a4cd608de98b02806701fc007bc92f1",
+      "map_geometry_preserved": true,
+      "actions": 120
+    },
+    {
+      "crop": "orange",
+      "screen": "002",
+      "source_sha256": "ac9ab23d32a2f08a93f1ed0de01fbadcd3642abced8875b0b5b2b8a035ac3832",
+      "application_sha256": "f37daca58c6620061e43e1ced8961ec01d9bafb73628db51418782cea0c52233",
+      "map_geometry_preserved": true,
+      "actions": 173
+    },
+    {
+      "crop": "orange",
+      "screen": "003",
+      "source_sha256": "d49be0c559646bf8e98de6485c7b59f5e34b5d1781ef88e06561a4ed4d00e413",
+      "application_sha256": "51c2d7f8ec80667516304a185cd0280d6184bcad46bfb4f54c3f84ce5b8e8562",
+      "map_geometry_preserved": true,
+      "actions": 55
+    },
+    {
+      "crop": "orange",
+      "screen": "006",
+      "source_sha256": "b2a37380bdd7b82d633b806f19b8a8d98ad0e00157a66d2333c3de21a3d1630d",
+      "application_sha256": "66dbb01e08d2141b24bb2cb7d9205e26f1cf71f7ebb594f59666cac4c6271593",
+      "map_geometry_preserved": true,
+      "actions": 73
+    },
+    {
+      "crop": "guava",
+      "screen": "002",
+      "source_sha256": "85e3c44c37dc86767c9399b6b3fa03db6562327a4c01b92c890a3868cb37aaa8",
+      "application_sha256": "329ec635d8d2d2be153dadeaba4f81a607e3cba5a7610e6e5784f1145e2cb89e",
+      "map_geometry_preserved": true,
+      "actions": 160
+    },
+    {
+      "crop": "guava",
+      "screen": "003",
+      "source_sha256": "00e0019a35e71d88ff16dd2083474f76100d9d139383d5e1a1872742e1cb4857",
+      "application_sha256": "ca6ef61f250651b0525db51530172777f48467468b1fb5b75bf715d007af27ce",
+      "map_geometry_preserved": true,
+      "actions": 51
+    },
+    {
+      "crop": "guava",
+      "screen": "006",
+      "source_sha256": "def0b4e07760adffb9d6a04d217c52054d687190eadebd8b3b28bb9ca683bb24",
+      "application_sha256": "b713bf7722e2c095991fb0f8f2eb7d75e822170f312da40ac4f6aba35b6bd81b",
+      "map_geometry_preserved": true,
+      "actions": 72
+    },
+    {
+      "crop": "grapes",
+      "screen": "002",
+      "source_sha256": "eef8f1ce23862dbcbe02e4921ab702968dde1bc008c8f8499d812dc3af9b23fb",
+      "application_sha256": "2e5eb5d076f08c85ed37045b450a3659b8753edd2b0da6fad7e74cf893795596",
+      "map_geometry_preserved": true,
+      "actions": 134
+    },
+    {
+      "crop": "grapes",
+      "screen": "003",
+      "source_sha256": "739635ffd06b2a7460015bf102ee5c170c58d28e79af2e5656631634b8a22549",
+      "application_sha256": "3a0dcbd1818d8e13db524d67f6c0ee3dea3a9098eb58ae00ecc35b9be830384e",
+      "map_geometry_preserved": true,
+      "actions": 56
+    },
+    {
+      "crop": "grapes",
+      "screen": "006",
+      "source_sha256": "e7b63315bf21cad6556dfb55a2859743ca3fe8ece4fa8a3dcae04300048d8bc9",
+      "application_sha256": "dc21f7651a0e49053f4d2038e1805e606c0013aa6d6e5f1e9c18bf7ed3b6a7b8",
+      "map_geometry_preserved": true,
+      "actions": 71
+    },
+    {
+      "crop": "papaya",
+      "screen": "002",
+      "source_sha256": "7a41f5d2f9e960aa5d43f1e2f157524b5afb78d6346724f53ce814ef5ed68db2",
+      "application_sha256": "eed6d867dcbb1f51f4dd9855592dbcafc8403535e87b9278411a6057a01d2652",
+      "map_geometry_preserved": true,
+      "actions": 186
+    },
+    {
+      "crop": "papaya",
+      "screen": "003",
+      "source_sha256": "77d5ae48179e48c27e7b57b9bdb616ebe4ca7d2c8ec33d7421dd031d1392defb",
+      "application_sha256": "87f60fc4ab8741328a4c34f0a867f6dc623cee2f5b6e0c317cf34c0ac7e8ef88",
+      "map_geometry_preserved": true,
+      "actions": 56
+    },
+    {
+      "crop": "papaya",
+      "screen": "006",
+      "source_sha256": "e99764f8131477d26492967b5d517ec29aef5f841705057bf75ab983a5501025",
+      "application_sha256": "572ab70262de5c1fce2ec179ecdb37baa6ecd34d5aa53effab15f0149beebd65",
+      "map_geometry_preserved": true,
+      "actions": 107
+    },
+    {
+      "crop": "pineapple",
+      "screen": "002",
+      "source_sha256": "738c388bada024394d194e0d2e0930bfbcccabc90a58d987f0ea69c4d66fa64e",
+      "application_sha256": "77b096ae0e34bf24a5175cae397c6478ee105667b47aa4a9453b776fd8b64192",
+      "map_geometry_preserved": true,
+      "actions": 156
+    },
+    {
+      "crop": "pineapple",
+      "screen": "003",
+      "source_sha256": "be698a9c37a9305685dbcd83b112cb7842f15785012f8ea62fd11a8c42aae0d6",
+      "application_sha256": "e4887382d761eca29dbe4c0537bded9f9e83f6e3b8cbeaf1d4ebee192cbe7100",
+      "map_geometry_preserved": true,
+      "actions": 55
+    },
+    {
+      "crop": "pineapple",
+      "screen": "006",
+      "source_sha256": "78e6e3756fa50dc99c3dc5d1d84390eb4726735070fc75f1bd2d8728ddad8cbb",
+      "application_sha256": "0d88b2bc6d6385038b17953ab4d37731ddc6d0e084f76918b44fbd615239a094",
+      "map_geometry_preserved": true,
+      "actions": 72
+    },
+    {
+      "crop": "pomegranate",
+      "screen": "002",
+      "source_sha256": "084677a659d41d46de5774edc198edc7b60355e664694934017d698f3e397738",
+      "application_sha256": "af319e6eecb9955cfcb6294cca1ec3ea03b061e877dd40a2b205caf9c7ff7179",
+      "map_geometry_preserved": true,
+      "actions": 160
+    },
+    {
+      "crop": "pomegranate",
+      "screen": "003",
+      "source_sha256": "ee28e6ea3a8ebeb838a5dcf98c3e92af4420df53ec6fc392c8abe06d6217aae5",
+      "application_sha256": "d95fe6129b6fa4224b95eb5abb27d136147d9b1b4c77d9e1ac7e53e3f3aa55f8",
+      "map_geometry_preserved": true,
+      "actions": 55
+    },
+    {
+      "crop": "pomegranate",
+      "screen": "006",
+      "source_sha256": "1b5e8b559873c4f4143e2e5ad3ac177c24f76839805a2b49dd1d1f06493a8762",
+      "application_sha256": "b02b2cb9161b51ea389e2fed0352095b12a023964df6e5be2206e6d1e314cdba",
+      "map_geometry_preserved": true,
+      "actions": 71
+    },
+    {
+      "crop": "apple",
+      "screen": "002",
+      "source_sha256": "5902dffa68fa67028d63044892554b13a973168e8d529fe0fb8daa5bd971a6e5",
+      "application_sha256": "02368f1b5a6463fc1c6ab9d41cc44fa85e88ad73cd7f0c56cb9272f857fefe40",
+      "map_geometry_preserved": true,
+      "actions": 147
+    },
+    {
+      "crop": "apple",
+      "screen": "003",
+      "source_sha256": "c9aa400cafcaa07b9475d6e253f7e77942b21d76fff0a3c989b83ccd720fb517",
+      "application_sha256": "95df5a0ed9a85ec9c018b316cf4e4d45e7e2f5bea27dfa4c9efdef08d932302f",
+      "map_geometry_preserved": true,
+      "actions": 53
+    },
+    {
+      "crop": "apple",
+      "screen": "006",
+      "source_sha256": "e2227ff91900fc262a0b863db594d1a8592f10005399bb63d5396982c133bc79",
+      "application_sha256": "6a394498745e1f21fcf3b7ca4456037e51abeabbd7170cfcd64ac86cfbed814c",
+      "map_geometry_preserved": true,
+      "actions": 71
+    },
+    {
+      "crop": "litchi",
+      "screen": "002",
+      "source_sha256": "9c8db3b4f57ece8833bc1969d5fed4f5a2136300b668c1ce62914add07c53835",
+      "application_sha256": "ffcce9192c6e01dd3f3c622f4431cb421c854d40b8d9346f17004ee35f4ae4a4",
+      "map_geometry_preserved": true,
+      "actions": 173
+    },
+    {
+      "crop": "litchi",
+      "screen": "003",
+      "source_sha256": "38b5a8d1a12e2a06b0590aa389d6139d1cef48ce47a5392e56e2f45c4e55704d",
+      "application_sha256": "fb3a6e9d2112cd57d6de813078f6615fbc9bf2857641ffec49564af632a52b91",
+      "map_geometry_preserved": true,
+      "actions": 57
+    },
+    {
+      "crop": "litchi",
+      "screen": "006",
+      "source_sha256": "ac4602c5a68aec172a3198b927e18eb450a672573ec59a15a166afb1901c8c57",
+      "application_sha256": "45ea89bbdb80524d518f6ecdf55638220df666e23934154ed51b143c1cc2955e",
+      "map_geometry_preserved": true,
+      "actions": 71
+    },
+    {
+      "crop": "sapota",
+      "screen": "002",
+      "source_sha256": "dc9dd12fa99cd2ee5d8d63411d6e8531768cde88aa2a1746cf4a8bda929c423f",
+      "application_sha256": "fc527074ce26ba1c172e7dff0052bcb6c0b0a57223d6c7991dc2f56b69d7a880",
+      "map_geometry_preserved": true,
+      "actions": 173
+    },
+    {
+      "crop": "sapota",
+      "screen": "003",
+      "source_sha256": "78b4857f7a181310e17c330a96aa07152c9ee2be0a4dfe73efb223cb2ef8f563",
+      "application_sha256": "e620696414831dd5c48113f5dbe29199bd3d3a15440b680e9d3a3648a7fd2311",
+      "map_geometry_preserved": true,
+      "actions": 57
+    },
+    {
+      "crop": "sapota",
+      "screen": "006",
+      "source_sha256": "9b4b9ae8264fbce0a66916005254ea04aa75f2fa4295a425c232ba1f9c9604fb",
+      "application_sha256": "63251e262273f93b769918a25b03324c02d0c45425b31b4f433bdc2ee92e36d7",
+      "map_geometry_preserved": true,
+      "actions": 72
+    },
+    {
+      "crop": "jackfruit",
+      "screen": "002",
+      "source_sha256": "3fefbe6a78e9d7bf991e074890157c687e48091e1be3185eafd967b72e45226f",
+      "application_sha256": "b480f63dcf14e1db1c393a6da6c231f294e86ddc3272d32811a2f0d629f72061",
+      "map_geometry_preserved": true,
+      "actions": 182
+    },
+    {
+      "crop": "jackfruit",
+      "screen": "003",
+      "source_sha256": "3f7617cdce4c8b84b14f0f38f14cc9958a37daf1bfdd3e410d14c9d2e61003ce",
+      "application_sha256": "2908ba5e7823ffff5c9ab357008c75a028c2d8f5ffae16c77d31768319660272",
+      "map_geometry_preserved": true,
+      "actions": 57
+    },
+    {
+      "crop": "jackfruit",
+      "screen": "006",
+      "source_sha256": "a3697a837e7c7d08b055c606fe41e487f38d4fc0ca32d12705e921a72a9a112e",
+      "application_sha256": "a7f2b55071f3ce7ec1c317d0ac66b0710ffcabe46f1abdb84dfb5c9ecc33a93f",
+      "map_geometry_preserved": true,
+      "actions": 103
+    },
+    {
+      "crop": "potato",
+      "screen": "002",
+      "source_sha256": "8aa4d6776a92d1d8b79c318f8579afd068c83a695810c693f3f99ff56ba83096",
+      "application_sha256": "33731658ebb30bdb5d741d67f6d5ee6893b3f311e9d7aa9de0e75cd790e3dce2",
+      "map_geometry_preserved": true,
+      "actions": 181
+    },
+    {
+      "crop": "potato",
+      "screen": "003",
+      "source_sha256": "a5d2aca9b94de70a2114238b7b874306bed55457e09453ec5c14b100a002635d",
+      "application_sha256": "805915e708b193ecaf2910eb45c50073de50035de0b5475b15237772df29af82",
+      "map_geometry_preserved": true,
+      "actions": 56
+    },
+    {
+      "crop": "potato",
+      "screen": "006",
+      "source_sha256": "53a5e51c8ec9b22dcd0495029c04934ae0b84acdfcd1d2ecaff343462c4e8584",
+      "application_sha256": "3c9342c9edb26cc20de24b22b03255a56a9b3e535184ab15a41ad248641d5265",
+      "map_geometry_preserved": true,
+      "actions": 71
+    },
+    {
+      "crop": "onion",
+      "screen": "002",
+      "source_sha256": "9c2131e72d5ed62b5d790a31e35541bd43d37add1457f56dd173f81c0318c98e",
+      "application_sha256": "ffff6affdf2420c995d0b245cd652861890f9fcc8789639bf09c8a2d2702a9e6",
+      "map_geometry_preserved": true,
+      "actions": 199
+    },
+    {
+      "crop": "onion",
+      "screen": "003",
+      "source_sha256": "d1c16e3ab00f7e64e61fd0d87dda6b2c6f73507eb824076a92f449ff05cddbed",
+      "application_sha256": "792ce17d5dd828423cd49dffc4447098f98f30f28a7cf9d33f94e8594952a68b",
+      "map_geometry_preserved": true,
+      "actions": 57
+    },
+    {
+      "crop": "onion",
+      "screen": "006",
+      "source_sha256": "4095e7d11c2a536e825adc3d1e4e525e933018f19751ad4c63aa92054ced5bfc",
+      "application_sha256": "c32715a0d57d31f0cac2884f4dcbfeb0e3ebbd1330efd454ea56931edaa3a06a",
+      "map_geometry_preserved": true,
+      "actions": 71
+    },
+    {
+      "crop": "tomato",
+      "screen": "002",
+      "source_sha256": "4843fa7c7467896308216f9f81e733585aede64530c9bf930abd1a17e9a912cc",
+      "application_sha256": "f71f6979aae441d62514c67a694875571b0250da133da631b3739e66e40ae6e1",
+      "map_geometry_preserved": true,
+      "actions": 199
+    },
+    {
+      "crop": "tomato",
+      "screen": "003",
+      "source_sha256": "eb3389e8a87c948b607d20ac021f05b11e379978f3918a769d25fb3a4814e61f",
+      "application_sha256": "d119758c75185355ae8b2370b0a18c7decfe7ff172b5cc58c0bf9cc022c9c649",
+      "map_geometry_preserved": true,
+      "actions": 56
+    },
+    {
+      "crop": "tomato",
+      "screen": "006",
+      "source_sha256": "ae91eac1d2e9571f0943bc3a7756c07014b4ab71ab44643c301b811be6d07203",
+      "application_sha256": "55517bfbea97fed0ec1330a047d066d760c855cf8b56fa57639e13c7d87989aa",
+      "map_geometry_preserved": true,
+      "actions": 73
+    },
+    {
+      "crop": "capsicum",
+      "screen": "002",
+      "source_sha256": "5689b213c3502fab2a728458c11b0c086ddf1aa42034b39c389176536f0e2415",
+      "application_sha256": "48df483b8e9f31258e798faf11da4c57b167f7a200d0b12c15620a6dedceb288",
+      "map_geometry_preserved": true,
+      "actions": 207
+    },
+    {
+      "crop": "capsicum",
+      "screen": "003",
+      "source_sha256": "d5d9034c353e7ee481f26a2ff26e796a01bec57c4d1f70f664254596f110771c",
+      "application_sha256": "7a385446630b0719ce6ac6d56f1d744f7e884dae686fe2cb45fd6f52346b1dff",
+      "map_geometry_preserved": true,
+      "actions": 57
+    },
+    {
+      "crop": "capsicum",
+      "screen": "006",
+      "source_sha256": "90f492f4e5eacb536eab8a2f264cea178d02eec2209ef5a96a556f2620ca558f",
+      "application_sha256": "c1b423dfd1f57518909278ddfd03e19604ca9af52f8ca53c3dd1756ac46c791d",
+      "map_geometry_preserved": true,
+      "actions": 104
+    }
+  ],
+  "pin_corrections": [
+    "orange: North-West Kinnow Agro-Industrial Corridor (Punjab & Rajasthan) marker constrained to source node jurisdiction; indicative state placement",
+    "guava: Krishnagiri–Dharmapuri Corridor (Tamil Nadu) marker constrained to source node jurisdiction; indicative state placement",
+    "pineapple: North Bengal Terai–Dooars Cannery Corridor (West Bengal) marker constrained to source node jurisdiction; indicative state placement",
+    "pineapple: Northeast Processing Clusters (Assam, Tripura & Meghalaya) marker constrained to source node jurisdiction; indicative state placement",
+    "pomegranate: named belt 1 marker corrected to MH; indicative state placement",
+    "pomegranate: Solapur Industrial Processing Cluster (Maharashtra) marker constrained to source node jurisdiction; indicative state placement",
+    "apple: The Kashipur–Rudrapur–Pantnagar Foothill Corridor (Uttarakhand) marker constrained to source node jurisdiction; indicative state placement",
+    "apple: Himachal Pradesh Belt (Parwanoo, Jarol & Parala-Theog) marker constrained to source node jurisdiction; indicative state placement",
+    "litchi: named belt 3 marker corrected to BR; indicative state placement",
+    "litchi: Kashipur–Pantnagar Foothill Corridor (Uttarakhand) marker constrained to source node jurisdiction; indicative state placement",
+    "Jackfruit: Panruti/Cuddalore–Villupuram visual belt consolidated; cultivar source rows retained separately",
+    "Potato: UP/WB belt membership fixed; Malwa and North Gujarat commercial/processing contexts added; unsupported Kashipur corridor withheld",
+    "potato: named belt 1 marker corrected to UP; indicative state placement",
+    "potato: named belt 2 marker corrected to WB; indicative state placement",
+    "potato: named belt 3 marker corrected to UP; indicative state placement",
+    "tomato: named belt 1 marker corrected to AP; indicative state placement",
+    "tomato: Charotar & Central Gujarat Processing Corridor (Kheda & Anand) marker constrained to source node jurisdiction; indicative state placement",
+    "Capsicum: four named belt memberships corrected; Maharashtra and Karnataka contexts added; source-backed Hooghly/Birbhum retained per decision register",
+    "capsicum: named belt 1 marker corrected to WB; indicative state placement",
+    "capsicum: named belt 2 marker corrected to HR; indicative state placement",
+    "capsicum: named belt 3 marker corrected to HP; indicative state placement",
+    "capsicum: named belt 4 marker corrected to JH; indicative state placement",
+    "capsicum: Northern Haryana & NCR Agro-Industrial Hub (Karnal, Sonipat & Kundli) marker constrained to source node jurisdiction; indicative state placement"
+  ]
+}

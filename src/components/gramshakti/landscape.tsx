@@ -1,7 +1,374 @@
-import { Link, useSearch } from '@tanstack/react-router';
-import { ArrowRight, BookOpen, ChevronDown, Factory, Leaf, MapPinned, Shield, BarChart3, CalendarDays } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { states, months, belts, targets, evidence } from '@/lib/gramshakti/data';
-import { PageShell, SectionTitle, SelectionControls, SourceButton, useSource, MissingEvidence } from './shared';
-export function LandscapePage(){const selection=useSearch({strict:false});const source=useSource();return <PageShell title="Mango • India supply landscape" subtitle="A geography-led view of sourcing, seasonality and commercial context." back={false}><SelectionControls/><div className="notice slim"><BookOpen className="size-4 shrink-0"/><span>Evidence files awaiting upload. Production, seasonality and rankings are intentionally not inferred.</span></div><section className="availability-band"><div className="availability-label"><CalendarDays/><div><strong>National availability</strong><small>January–December</small></div></div><div className="month-ribbon">{months.map(m=><Button key={m} variant="ghost" className={`month-tile ${selection.month===m?'selected-month':''}`} onClick={()=>source(evidence(`Mango national availability — ${m}`))}><span>{m.slice(0,3)}</span><span className="month-status">—</span></Button>)}</div><span className="text-xs text-muted-foreground">Not evidenced</span></section><div className="landscape-top"><section className="content-card"><SectionTitle icon={BarChart3} title="State production" subtitle="Official production · tonnes"><SourceButton iconOnly record={evidence('Government state production table',undefined,{nativeUnit:'Tonnes (already normalized)',displayUnit:'Tonnes',transformation:'No rescaling; no state area or yield inferred'})}/></SectionTitle><div className="small-notice">Ranking pending verified government table</div><div className="state-list">{states.slice(0,8).map(s=><Link to="/procurement/mango/state/$stateCode" params={{stateCode:s.code}} search={p=>p} key={s.code} className="state-row"><span>{s.name}</span><span className="state-value">— t <ArrowRight/></span></Link>)}</div><p className="footnote">2024–25 · Missing is not zero.</p></section><section className="content-card"><SectionTitle icon={MapPinned} title="India sourcing geographies" subtitle="Explore a state"><SourceButton iconOnly record={evidence('India production geographies')}/></SectionTitle><div className="state-map-grid">{states.map(s=><Link to="/procurement/mango/state/$stateCode" params={{stateCode:s.code}} search={p=>p} key={s.code} title={s.name} className="state-map-cell"><strong>{s.code}</strong><span>{s.name}</span></Link>)}</div><div className="map-legend"><span className="legend-square"/> Missing production <span className="ml-auto">State navigation</span></div></section><section className="content-card"><SectionTitle icon={Leaf} title="Commercial mango belts" subtitle="Varieties, geography & destinations"/>{belts.map(b=><details className="belt-item" key={b.name}><summary><div><h3>{b.name}</h3><p>{b.geography}</p></div><ChevronDown/></summary><div className="belt-detail"><p><strong>Varieties</strong><br/>{b.varieties}</p><p><strong>Commercial traits & destinations</strong><br/>Awaiting belt-level source records.</p><SourceButton record={evidence(`Commercial belt — ${b.name}`,b.geography)}/></div></details>)}<Button asChild className="mt-5 w-full" variant="secondary"><Link to="/procurement/mango/processing" search={p=>p}><Factory/>Processing Geographies<ArrowRight/></Link></Button></section></div><div className="landscape-bottom"><section className="content-card"><SectionTitle icon={Shield} title="Crop protection context" subtitle="Regional relevance, not a pesticide prescription"/>{targets.slice(0,4).map(t=><div key={t.id} className="protection-preview"><div className="flex items-center justify-between"><h3>{t.name}</h3><SourceButton iconOnly record={evidence(`${t.name} — regional evidence`)}/></div><p>{t.timing}</p><div className="flex flex-wrap gap-1.5">{t.categories.map(c=><span className="management-chip" key={c}>{c.split(' / ')[0]}</span>)}</div></div>)}<Button asChild variant="link" className="mt-3 p-0"><Link to="/procurement/mango/crop-protection" search={p=>p}>View crop protection detail<ArrowRight/></Link></Button></section><section className="content-card min-w-0"><SectionTitle icon={CalendarDays} title="Statewise mango availability" subtitle="Select a month cell to inspect its evidence"/><div className="table-scroll"><table className="season-table"><thead><tr><th>State</th>{months.map(m=><th key={m} className={selection.month===m?'target-column':''}>{m.slice(0,3)}</th>)}</tr></thead><tbody>{states.slice(0,8).map(s=><tr key={s.code}><th><Link to="/procurement/mango/state/$stateCode" params={{stateCode:s.code}} search={p=>p}>{s.name}</Link></th>{months.map(m=><td key={m} className={selection.month===m?'target-column':''}><Button variant="ghost" size="icon" aria-label={`${s.name} ${m} availability evidence`} onClick={()=>source(evidence(`${s.name} — ${m} mango availability`))}>—</Button></td>)}</tr>)}</tbody></table></div><div className="map-legend"><span className="legend-square"/> Not evidenced <span className="ml-auto">No seasonality interpolated</span></div></section></div></PageShell>}
-export function StatePage({stateCode}:{stateCode:string}){const state=states.find(s=>s.code===stateCode);if(!state)return <PageShell title="State not found"><MissingEvidence>This state code is not available.</MissingEvidence></PageShell>;return <PageShell title={`Mango • ${state.name}`} subtitle={`${state.zone} India · State sourcing context`}><div className="state-summary"><div><span className="eyebrow">OFFICIAL STATE PRODUCTION</span><p className="production-headline">— <span>tonnes</span></p><p className="text-sm text-muted-foreground">2024–25 · Official production table not supplied</p><SourceButton record={evidence(`${state.name} — official production`,undefined,{nativeUnit:'Tonnes',displayUnit:'Tonnes',transformation:'Already normalized; no multiplication by 1,000'})}/></div><div><h2>Availability & varieties</h2><MissingEvidence>State availability and explicitly linked varieties await source records.</MissingEvidence><p className="footnote">State area and yield are not supplied by the primary production table.</p></div></div><section className="content-card mt-6"><SectionTitle icon={BarChart3} title="District evidence" subtitle="Read-only · District-level official records"><SourceButton record={evidence(`${state.name} district evidence`)}/></SectionTitle><div className="table-scroll"><table><thead><tr>{['District','Year / season','Area & unit','Production & unit','Yield & unit','Evidence status','Source'].map(c=><th key={c}>{c}</th>)}</tr></thead><tbody><tr><td colSpan={7} className="py-10 text-center">{state.code==='TN'?'38 official Tamil Nadu district records expected; the underlying dataset has not been supplied.':'Official district evidence is not supplied for this state. No district estimates are presented as official data.'}</td></tr></tbody></table></div></section><div className="state-context"><section className="content-card"><SectionTitle icon={Leaf} title="Commercial belts"/>{belts.filter(b=>b.geography.includes(state.name)).map(b=><details key={b.name} className="belt-item"><summary><h3>{b.name}</h3><ChevronDown/></summary><p className="py-3 text-sm">{b.geography}<br/>{b.varieties}</p><SourceButton record={evidence(`${state.name} — ${b.name}`)}/></details>)}{!belts.some(b=>b.geography.includes(state.name))&&<MissingEvidence>No verified belt linkage available.</MissingEvidence>}</section><section className="content-card"><SectionTitle icon={Factory} title="Related sourcing context"/><p className="mb-5 text-sm text-muted-foreground">Explore processing nodes and regional crop protection context.</p><div className="flex flex-wrap gap-3"><Button asChild variant="secondary"><Link to="/procurement/mango/processing" search={p=>p}><Factory/>Processing</Link></Button><Button asChild variant="outline"><Link to="/procurement/mango/crop-protection" search={p=>p}><Shield/>Crop protection</Link></Button></div></section></div></PageShell>}
+import { Link, useSearch } from "@tanstack/react-router";
+import {
+  ArrowRight,
+  BookOpen,
+  ChevronDown,
+  Factory,
+  Leaf,
+  MapPinned,
+  Shield,
+  BarChart3,
+  CalendarDays,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { states, months, belts, targets, evidence } from "@/lib/gramshakti/data";
+import {
+  PageShell,
+  SectionTitle,
+  SelectionControls,
+  SourceButton,
+  useSource,
+  MissingEvidence,
+} from "./shared";
+export function LandscapePage() {
+  const selection = useSearch({ strict: false });
+  const source = useSource();
+  return (
+    <PageShell
+      title="Mango • India supply landscape"
+      subtitle="A geography-led view of sourcing, seasonality and commercial context."
+      back={false}
+    >
+      <SelectionControls />
+      <div className="notice slim">
+        <BookOpen className="size-4 shrink-0" />
+        <span>
+          Evidence files awaiting upload. Production, seasonality and rankings are intentionally not
+          inferred.
+        </span>
+      </div>
+      <section className="availability-band">
+        <div className="availability-label">
+          <CalendarDays />
+          <div>
+            <strong>National availability</strong>
+            <small>January–December</small>
+          </div>
+        </div>
+        <div className="month-ribbon">
+          {months.map((m) => (
+            <Button
+              key={m}
+              variant="ghost"
+              className={`month-tile ${selection.month === m ? "selected-month" : ""}`}
+              onClick={() => source(evidence(`Mango national availability — ${m}`))}
+            >
+              <span>{m.slice(0, 3)}</span>
+              <span className="month-status">—</span>
+            </Button>
+          ))}
+        </div>
+        <span className="text-xs text-muted-foreground">Not evidenced</span>
+      </section>
+      <div className="landscape-top">
+        <section className="content-card">
+          <SectionTitle
+            icon={BarChart3}
+            title="State production"
+            subtitle="Official production · tonnes"
+          >
+            <SourceButton
+              iconOnly
+              record={evidence("Government state production table", undefined, {
+                nativeUnit: "Tonnes (already normalized)",
+                displayUnit: "Tonnes",
+                transformation: "No rescaling; no state area or yield inferred",
+              })}
+            />
+          </SectionTitle>
+          <div className="small-notice">Ranking pending verified government table</div>
+          <div className="state-list">
+            {states.slice(0, 8).map((s) => (
+              <Link
+                to="/procurement/mango/state/$stateCode"
+                params={{ stateCode: s.code }}
+                search={(p) => p}
+                key={s.code}
+                className="state-row"
+              >
+                <span>{s.name}</span>
+                <span className="state-value">
+                  — t <ArrowRight />
+                </span>
+              </Link>
+            ))}
+          </div>
+          <p className="footnote">2024–25 · Missing is not zero.</p>
+        </section>
+        <section className="content-card">
+          <SectionTitle
+            icon={MapPinned}
+            title="India sourcing geographies"
+            subtitle="Explore a state"
+          >
+            <SourceButton iconOnly record={evidence("India production geographies")} />
+          </SectionTitle>
+          <div className="state-map-grid">
+            {states.map((s) => (
+              <Link
+                to="/procurement/mango/state/$stateCode"
+                params={{ stateCode: s.code }}
+                search={(p) => p}
+                key={s.code}
+                title={s.name}
+                className="state-map-cell"
+              >
+                <strong>{s.code}</strong>
+                <span>{s.name}</span>
+              </Link>
+            ))}
+          </div>
+          <div className="map-legend">
+            <span className="legend-square" /> Missing production{" "}
+            <span className="ml-auto">State navigation</span>
+          </div>
+        </section>
+        <section className="content-card">
+          <SectionTitle
+            icon={Leaf}
+            title="Commercial mango belts"
+            subtitle="Varieties, geography & destinations"
+          />
+          {belts.map((b) => (
+            <details className="belt-item" key={b.name}>
+              <summary>
+                <div>
+                  <h3>{b.name}</h3>
+                  <p>{b.geography}</p>
+                </div>
+                <ChevronDown />
+              </summary>
+              <div className="belt-detail">
+                <p>
+                  <strong>Varieties</strong>
+                  <br />
+                  {b.varieties}
+                </p>
+                <p>
+                  <strong>Commercial traits & destinations</strong>
+                  <br />
+                  Awaiting belt-level source records.
+                </p>
+                <SourceButton record={evidence(`Commercial belt — ${b.name}`, b.geography)} />
+              </div>
+            </details>
+          ))}
+          <Button asChild className="mt-5 w-full" variant="secondary">
+            <Link to="/procurement/mango/processing" search={(p) => p}>
+              <Factory />
+              Processing Geographies
+              <ArrowRight />
+            </Link>
+          </Button>
+        </section>
+      </div>
+      <div className="landscape-bottom">
+        <section className="content-card">
+          <SectionTitle
+            icon={Shield}
+            title="Crop protection context"
+            subtitle="Regional relevance, not a pesticide prescription"
+          />
+          {targets.slice(0, 4).map((t) => (
+            <div key={t.id} className="protection-preview">
+              <div className="flex items-center justify-between">
+                <h3>{t.name}</h3>
+                <SourceButton iconOnly record={evidence(`${t.name} — regional evidence`)} />
+              </div>
+              <p>{t.timing}</p>
+              <div className="flex flex-wrap gap-1.5">
+                {t.categories.map((c) => (
+                  <span className="management-chip" key={c}>
+                    {c.split(" / ")[0]}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+          <Button asChild variant="link" className="mt-3 p-0">
+            <Link to="/procurement/mango/crop-protection" search={(p) => p}>
+              View crop protection detail
+              <ArrowRight />
+            </Link>
+          </Button>
+        </section>
+        <section className="content-card min-w-0">
+          <SectionTitle
+            icon={CalendarDays}
+            title="Statewise mango availability"
+            subtitle="Select a month cell to inspect its evidence"
+          />
+          <div className="table-scroll">
+            <table className="season-table">
+              <thead>
+                <tr>
+                  <th>State</th>
+                  {months.map((m) => (
+                    <th key={m} className={selection.month === m ? "target-column" : ""}>
+                      {m.slice(0, 3)}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {states.slice(0, 8).map((s) => (
+                  <tr key={s.code}>
+                    <th>
+                      <Link
+                        to="/procurement/mango/state/$stateCode"
+                        params={{ stateCode: s.code }}
+                        search={(p) => p}
+                      >
+                        {s.name}
+                      </Link>
+                    </th>
+                    {months.map((m) => (
+                      <td key={m} className={selection.month === m ? "target-column" : ""}>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          aria-label={`${s.name} ${m} availability evidence`}
+                          onClick={() => source(evidence(`${s.name} — ${m} mango availability`))}
+                        >
+                          —
+                        </Button>
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="map-legend">
+            <span className="legend-square" /> Not evidenced{" "}
+            <span className="ml-auto">No seasonality interpolated</span>
+          </div>
+        </section>
+      </div>
+    </PageShell>
+  );
+}
+export function StatePage({ stateCode }: { stateCode: string }) {
+  const state = states.find((s) => s.code === stateCode);
+  if (!state)
+    return (
+      <PageShell title="State not found">
+        <MissingEvidence>This state code is not available.</MissingEvidence>
+      </PageShell>
+    );
+  return (
+    <PageShell
+      title={`Mango • ${state.name}`}
+      subtitle={`${state.zone} India · State sourcing context`}
+    >
+      <div className="state-summary">
+        <div>
+          <span className="eyebrow">OFFICIAL STATE PRODUCTION</span>
+          <p className="production-headline">
+            — <span>tonnes</span>
+          </p>
+          <p className="text-sm text-muted-foreground">
+            2024–25 · Official production table not supplied
+          </p>
+          <SourceButton
+            record={evidence(`${state.name} — official production`, undefined, {
+              nativeUnit: "Tonnes",
+              displayUnit: "Tonnes",
+              transformation: "Already normalized; no multiplication by 1,000",
+            })}
+          />
+        </div>
+        <div>
+          <h2>Availability & varieties</h2>
+          <MissingEvidence>
+            State availability and explicitly linked varieties await source records.
+          </MissingEvidence>
+          <p className="footnote">
+            State area and yield are not supplied by the primary production table.
+          </p>
+        </div>
+      </div>
+      <section className="content-card mt-6">
+        <SectionTitle
+          icon={BarChart3}
+          title="District evidence"
+          subtitle="Read-only · District-level official records"
+        >
+          <SourceButton record={evidence(`${state.name} district evidence`)} />
+        </SectionTitle>
+        <div className="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                {[
+                  "District",
+                  "Year / season",
+                  "Area & unit",
+                  "Production & unit",
+                  "Yield & unit",
+                  "Evidence status",
+                  "Source",
+                ].map((c) => (
+                  <th key={c}>{c}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colSpan={7} className="py-10 text-center">
+                  {state.code === "TN"
+                    ? "38 official Tamil Nadu district records expected; the underlying dataset has not been supplied."
+                    : "Official district evidence is not supplied for this state. No district estimates are presented as official data."}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <div className="state-context">
+        <section className="content-card">
+          <SectionTitle icon={Leaf} title="Commercial belts" />
+          {belts
+            .filter((b) => b.geography.includes(state.name))
+            .map((b) => (
+              <details key={b.name} className="belt-item">
+                <summary>
+                  <h3>{b.name}</h3>
+                  <ChevronDown />
+                </summary>
+                <p className="py-3 text-sm">
+                  {b.geography}
+                  <br />
+                  {b.varieties}
+                </p>
+                <SourceButton record={evidence(`${state.name} — ${b.name}`)} />
+              </details>
+            ))}
+          {!belts.some((b) => b.geography.includes(state.name)) && (
+            <MissingEvidence>No verified belt linkage available.</MissingEvidence>
+          )}
+        </section>
+        <section className="content-card">
+          <SectionTitle icon={Factory} title="Related sourcing context" />
+          <p className="mb-5 text-sm text-muted-foreground">
+            Explore processing nodes and regional crop protection context.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Button asChild variant="secondary">
+              <Link to="/procurement/mango/processing" search={(p) => p}>
+                <Factory />
+                Processing
+              </Link>
+            </Button>
+            <Button asChild variant="outline">
+              <Link to="/procurement/mango/crop-protection" search={(p) => p}>
+                <Shield />
+                Crop protection
+              </Link>
+            </Button>
+          </div>
+        </section>
+      </div>
+    </PageShell>
+  );
+}

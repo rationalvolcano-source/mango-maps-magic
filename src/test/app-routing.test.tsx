@@ -9,12 +9,29 @@ import { routeTree } from "@/routeTree.gen";
 describe("App routing", () => {
   it("matches all sixteen crop artwork journeys and state details", () => {
     const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
-    const crops = ['mango','banana','orange','guava','grapes','papaya','pineapple','pomegranate','apple','litchi','sapota','jackfruit','potato','onion','tomato','capsicum'];
+    const crops = [
+      "mango",
+      "banana",
+      "orange",
+      "guava",
+      "grapes",
+      "papaya",
+      "pineapple",
+      "pomegranate",
+      "apple",
+      "litchi",
+      "sapota",
+      "jackfruit",
+      "potato",
+      "onion",
+      "tomato",
+      "capsicum",
+    ];
     for (const crop of crops) {
-      for (const suffix of ['', '/processing', '/crop-protection', '/state/UP']) {
+      for (const suffix of ["", "/processing", "/crop-protection", "/state/UP"]) {
         const matches = router.matchRoutes(`/procurement/${crop}${suffix}`);
         expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
-        expect(matches.at(-1)?.routeId).toContain('procurement');
+        expect(matches.at(-1)?.routeId).toContain("procurement");
       }
     }
   });
