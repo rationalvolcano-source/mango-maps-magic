@@ -17,3 +17,5 @@
 
 - Original artwork uses one cached crop manifest and a sanitized inline SVG viewer; original state paths and card/pin elements carry accessible data-action bindings so visual geometry is never recreated.
 - Keep immutable and edited asset pointers separately, with per-crop source manifests and matching SHA checks, so source preservation can be audited.
+
+- Source workbook exports are pre-extracted into browser-safe exact-row records with row/page provenance; detail pages use original normalized units and never aggregate district values into state figures.

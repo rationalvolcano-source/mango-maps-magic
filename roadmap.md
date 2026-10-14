@@ -3,10 +3,10 @@
 - [x] Retrieve 48 matching crop SVGs, sixteen manifests, PR-001 SVG and consolidated source documents
 - [x] Verify original hashes and cache immutable originals separately from application copies
 - [x] Shared viewer, sixteen crop routes, original-element navigation and source/detail drawer
-- [x] Remove speculative active screens; exact entry shows transfer blocker
+- [x] Replace speculative screens; original entry picture and logo downloaded
 - [x] Apply global suppression/provenance edits and supported local variety/jurisdiction text edits
-- [ ] Verify Mango journey, cohort routes and preserved selection at 375/768/1440
+- [x] Verify Mango journey, all 48 cohort screens and preserved selection at 375/768/1440
 - [ ] Validate pin corrections and remaining variety/cluster changes — geography/exact source dependencies pending
-- [ ] Complete exact entry — original logo and SH-001 binary transfer rejected
-- [ ] Independently bind official/district/exact crosswalk tabs — XLSX transfer rejected; no Sheets connection
-- [ ] Delivery mapping, applied corrections and precise blockers report
+- [x] Complete original entry overlay — logo and SH-001 binary transfer recovered
+- [x] Retrieve native source workbooks; bind official and Tamil Nadu district rows; cache exact crosswalk tabs
+- [x] Delivery mapping, applied corrections and precise blockers report
