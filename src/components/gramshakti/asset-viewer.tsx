@@ -18,7 +18,6 @@ import {
 import {
   cropAssets,
   isCropSlug,
-  canonicalCrops,
   cropSlug,
   blockerReasons,
   type Screen,
@@ -435,7 +434,6 @@ export function AssetDirectoryPage() {
     else if (key === "objectives") navigate({ to: "/choose", search: (p) => p });
     else if (key === "fresh" || key === "processed")
       navigate({ to: ".", search: (p) => ({ ...p, purpose: key }) });
-    else if (key === "search") input.current?.focus();
     else
       source(
         sourceEvidence(
