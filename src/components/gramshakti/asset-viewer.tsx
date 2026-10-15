@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { Link, useNavigate, useSearch } from "@tanstack/react-router";
+import { Link, useNavigate } from "@tanstack/react-router";
 import { ZoomIn, ZoomOut, Maximize, BookOpen, ArrowLeft, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -18,7 +18,6 @@ import {
 import {
   cropAssets,
   isCropSlug,
-  canonicalCrops,
   cropSlug,
   blockerReasons,
   type Screen,
@@ -418,11 +417,7 @@ function ArtworkJourney({ crop, screen }: { crop: CropSlug; screen: Screen }) {
 export function AssetDirectoryPage() {
   const navigate = useNavigate();
   const source = useSource();
-  const input = useRef<HTMLInputElement>(null);
-  const [query, setQuery] = useState("");
   const [unavailable, setUnavailable] = useState<string>();
-  const selection = useSearch({ strict: false });
-  const shown = canonicalCrops.filter((c) => c.toLowerCase().includes(query.toLowerCase()));
   function choose(name: string) {
     const crop = cropSlug(name);
     if (crop)
@@ -438,7 +433,6 @@ export function AssetDirectoryPage() {
     else if (key === "objectives") navigate({ to: "/choose", search: (p) => p });
     else if (key === "fresh" || key === "processed")
       navigate({ to: ".", search: (p) => ({ ...p, purpose: key }) });
-    else if (key === "search") input.current?.focus();
     else
       source(
         sourceEvidence(
@@ -459,39 +453,6 @@ export function AssetDirectoryPage() {
               Change objective
             </Link>
           </Button>
-        </div>
-        <div className="directory-live-search">
-          <label>
-            Search the crop universe
-            <input
-              ref={input}
-              aria-label="Search the crop universe"
-              placeholder="Crop name"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-            />
-          </label>
-          {query && (
-            <div className="crop-search-live-results">
-              {shown.length ? (
-                shown.map((c) => (
-                  <Button key={c} variant="ghost" onClick={() => choose(c)}>
-                    {c}
-                  </Button>
-                ))
-              ) : (
-                <p>No matching crops.</p>
-              )}
-            </div>
-          )}
-          <div className="cohort-shortcuts" aria-label="Detailed procurement crops">
-            {Object.entries(cropAssets).map(([crop, asset]) => (
-              <Button key={crop} variant="ghost" size="sm" onClick={() => choose(asset.name)}>
-                {asset.name}
-              </Button>
-            ))}
-          </div>
-          <p className="table-note">16 detailed procurement journeys · 58 canonical crop choices</p>
         </div>
         <OriginalCanvas
           url={directory.url}
