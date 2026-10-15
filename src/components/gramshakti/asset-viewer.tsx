@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { Link, useNavigate, useSearch } from "@tanstack/react-router";
+import { Link, useNavigate } from "@tanstack/react-router";
 import { ZoomIn, ZoomOut, Maximize, BookOpen, ArrowLeft, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -418,7 +418,6 @@ export function AssetDirectoryPage() {
   const navigate = useNavigate();
   const source = useSource();
   const [unavailable, setUnavailable] = useState<string>();
-  const selection = useSearch({ strict: false });
   function choose(name: string) {
     const crop = cropSlug(name);
     if (crop)
