@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Jowar",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "3a2e94519c49ed630fd4e3be70a9bc1c52f88c80a893ee17830f08192978e8ff",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jowar\\PR-002_Jowar_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621242,
+      "sha256": "2792266533a31e16f41781fe2e0c9ddad3954e6295b06bfe2f387e80182a726f"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jowar\\PR-002_Jowar_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 314292,
+      "sha256": "ada0d57104631a29328784f9a723962c6465f1cc73f91eb6aefa1174ed3ce9a1"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jowar\\PR-003_Jowar_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449557,
+      "sha256": "14bbf7fac143b3511a3c080be3739b1371d5a72464323f25268cb0de46388762"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jowar\\PR-003_Jowar_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 285765,
+      "sha256": "02c08a3ce0ecc594b921d06a86386699978d59ff67a11b52bb3490a7a17caac3"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jowar\\PR-006_Jowar_Processing_Geographies_FINAL.svg",
+      "bytes": 604876,
+      "sha256": "f318af0aeee8b42e0b409cb8c61d4cadc5b87c269bc3a665c84a46f0a31ee4b5"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\jowar\\PR-006_Jowar_Processing_Geographies_FINAL.png",
+      "bytes": 294832,
+      "sha256": "233b93f9eb6fc55332e62fc04aa3cef2033716c96cb4da1ac50ae1ad0c95cadd"
+    }
+  ]
+}

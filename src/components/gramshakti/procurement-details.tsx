@@ -16,6 +16,9 @@ import {
   cropAssets,
   isCropSlug,
   sourceRecords,
+  canonicalCrops,
+  cropSlug,
+  primaryPurposeLabel,
   type CropSlug,
   type Screen,
 } from "@/lib/gramshakti/assets";
@@ -43,6 +46,7 @@ import {
   stateProduction,
   statusLabel,
   yearsForCrop,
+  defaultYearForCrop,
   procurement,
   type CalendarRow,
   type ProcessingRow,
@@ -57,7 +61,7 @@ export function ProductionYearControl({ crop }: { crop: CropSlug }) {
       Production year{" "}
       <select
         aria-label="Production year"
-        value={search.year ?? "2024-25"}
+        value={search.year ?? defaultYearForCrop(crop)}
         onChange={(e) =>
           navigate({ to: ".", search: (p) => ({ ...p, year: e.target.value, items: undefined }) })
         }
@@ -88,11 +92,14 @@ export function CropJourneyNavigation({ crop, screen }: { crop: CropSlug; screen
             })
           }
         >
-          {Object.entries(cropAssets).map(([key, value]) => (
-            <option value={key} key={key}>
-              {value.name}
-            </option>
-          ))}
+          {canonicalCrops
+            .map((name) => ({ name, slug: cropSlug(name) }))
+            .filter((row) => row.slug)
+            .map((row) => (
+              <option value={row.slug} key={row.slug}>
+                {row.name}
+              </option>
+            ))}
         </select>
       </label>
       <Button asChild variant={screen === "002" ? "default" : "ghost"} size="sm">
@@ -117,7 +124,7 @@ export function CropJourneyNavigation({ crop, screen }: { crop: CropSlug; screen
 
 function useShortlist(crop: CropSlug) {
   const search = useSearch({ strict: false });
-  const key = `gramshakti-brief-v1:${crop}:${search.purpose ?? "fresh"}:${search.month ?? "any"}:${search.year ?? "2024-25"}`;
+  const key = `gramshakti-brief-v1:${crop}:${search.purpose ?? "fresh"}:${search.month ?? "any"}:${search.year ?? defaultYearForCrop(crop)}`;
   const [stored, setStored] = useState<{ key: string; ids: string[] }>({ key: "", ids: [] });
   const ids = stored.key === key ? stored.ids : [];
   useEffect(() => {
@@ -388,7 +395,7 @@ export function DetailedProcurement({
   const source = useSource();
   const { ids, toggle, search } = useShortlist(crop);
   const records = cropRecords(crop);
-  const year = search.year ?? "2024-25";
+  const year = search.year ?? defaultYearForCrop(crop);
   const month = search.month;
   const [state, setState] = useState("");
   const [query, setQuery] = useState("");
@@ -412,7 +419,9 @@ export function DetailedProcurement({
           <span className="eyebrow">YOUR PROCUREMENT WORKSPACE</span>
           <h2>
             {cropAssets[crop].name} ·{" "}
-            {search.purpose === "processed" ? "Processing inputs" : "Fresh sourcing"}
+            {search.purpose === "processed"
+              ? "Processing inputs"
+              : `${primaryPurposeLabel(crop)} sourcing`}
             {month ? ` · ${month}` : ""}
           </h2>
           <p>
@@ -903,7 +912,10 @@ function DistrictAPY({ crop, code }: { crop: CropSlug; code: string }) {
           <tbody>
             {shown.map((row: DistrictRow) => (
               <tr key={row.id}>
-                <td>{row.district}</td>
+                <td>
+                  {row.district}
+                  {row.cropLabel && <div className="table-note">{row.cropLabel}</div>}
+                </td>
                 <td>{row.year}</td>
                 <td>
                   {formatNumber(row.area)} <small>{row.areaUnit}</small>
@@ -980,7 +992,7 @@ export function StateProcurementPage({
 function StateDetail({ crop, code }: { crop: CropSlug; code: string }) {
   const source = useSource();
   const { ids, toggle, search } = useShortlist(crop);
-  const year = search.year ?? "2024-25";
+  const year = search.year ?? defaultYearForCrop(crop);
   const record = stateProduction(crop, code, year);
   const records = cropRecords(crop);
   const geography = lgdState(code);
@@ -1017,7 +1029,7 @@ function StateDetail({ crop, code }: { crop: CropSlug; code: string }) {
           <BriefLink crop={crop} ids={ids} />
         </div>
         <div className="state-controls">
-          <SelectionControls />
+          <SelectionControls primaryLabel={primaryPurposeLabel(crop)} />
           <ProductionYearControl crop={crop} />
         </div>
         <section className="state-production-card">
@@ -1158,7 +1170,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
   const search = useSearch({ strict: false });
   const navigate = useNavigate();
   const records = cropRecords(crop);
-  const year = search.year ?? "2024-25";
+  const year = search.year ?? defaultYearForCrop(crop);
   const ids = (search.items ?? "").split(",").filter(Boolean).slice(0, 5);
   const calendars = records.calendar.filter((row) => ids.includes(row.id));
   const nodes = records.processing.filter((row) => ids.includes(row.id));
@@ -1184,7 +1196,9 @@ function BriefPage({ crop }: { crop: CropSlug }) {
         </div>
         <h1>
           {cropAssets[crop].name} ·{" "}
-          {search.purpose === "processed" ? "Processing inputs" : "Fresh sourcing"}
+          {search.purpose === "processed"
+            ? "Processing inputs"
+            : `${primaryPurposeLabel(crop)} sourcing`}
         </h1>
         <p className="brief-meta">
           Target month: {search.month ?? "Any month"} · Official production year: {year} · Evidence

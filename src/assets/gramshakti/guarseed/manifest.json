@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Guarseed",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "395df25798094bb49330d784102106f3e350d2b1b03af39b7a557e4104d0db79",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guarseed\\PR-002_Guarseed_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 617824,
+      "sha256": "54c3bc69c2ede6a1ee402d51f07d87b4797dd7effb02273a7ecde2ff07ea829f"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guarseed\\PR-002_Guarseed_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 296522,
+      "sha256": "eb0a8902e48b00175381ee5e5accb57e9038865b8a446703ab32735c27347bf1"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guarseed\\PR-003_Guarseed_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449582,
+      "sha256": "2171d2c19056e77b6f8a1dc8e655259ed99710c858c4b6254aa5a23d4ea38600"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guarseed\\PR-003_Guarseed_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 287956,
+      "sha256": "ccd289f98ae70a781b2a8da23a074d7372e136ef90921ad1a86b33be982d69b9"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guarseed\\PR-006_Guarseed_Processing_Geographies_FINAL.svg",
+      "bytes": 604389,
+      "sha256": "a4d86cb8ca1bcb90ff3cbfbe342ca38467b1b0cdaf057bd166a30c3b93f12efd"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\guarseed\\PR-006_Guarseed_Processing_Geographies_FINAL.png",
+      "bytes": 289749,
+      "sha256": "cd8a290ef44d48a6c6f4be1cb049eedb2564b7fdfdd04957ffe8f7f6aaacca2f"
+    }
+  ]
+}

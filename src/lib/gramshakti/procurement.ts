@@ -2,7 +2,7 @@ import snapshot from "./procurement-records.json";
 import official from "./official-records.json";
 import stateCodes from "./state-codes.json";
 import lgd from "./lgd-states.json";
-import { cropAssets, sourceRecords, type CropSlug } from "./assets";
+import { cropAssets, sourceRecords, isFieldCrop, type CropSlug } from "./assets";
 import { months, type Evidence } from "./data";
 
 export type Locator = {
@@ -55,6 +55,7 @@ export type EstimateRow = {
 };
 export type EstimatePassage = { id: string; stateCodes: string[]; text: string; locator: Locator };
 export type CropRecords = {
+  crosswalkUrl?: string;
   calendar: CalendarRow[];
   belts: BeltRow[];
   processing: ProcessingRow[];
@@ -79,6 +80,7 @@ export type ProductionRow = {
   status: string;
 };
 export type DistrictRow = {
+  cropLabel?: string;
   id: string;
   row: number;
   year: string;
@@ -114,6 +116,23 @@ export const procurement = snapshot as unknown as Snapshot;
 export const cropRecords = (crop: CropSlug): CropRecords => procurement.crops[crop];
 export const productionRecords = (crop: CropSlug): ProductionRow[] => official[crop].production;
 export const districtRecords = (crop: CropSlug): DistrictRow[] => procurement.district[crop];
+export const crosswalkForCrop = (crop: CropSlug) =>
+  cropRecords(crop).crosswalkUrl ?? procurement.crosswalkUrl;
+export function defaultYearForCrop(crop: CropSlug): string {
+  if (!isFieldCrop(crop)) return "2024-25";
+  const officialYears = productionRecords(crop)
+    .map((row) => row.year)
+    .sort()
+    .reverse();
+  return (
+    officialYears[0] ??
+    districtRecords(crop)
+      .map((row) => row.year)
+      .sort()
+      .reverse()[0] ??
+    "2024-25"
+  );
+}
 export const normalizeName = (value: string) =>
   value
     .normalize("NFKC")
@@ -215,7 +234,7 @@ export function monthsInWindow(text: string): number[] {
   const result = new Set<number>();
   // Only literal month names/ranges are expanded. Crop seasons, durations and vague prose remain unknown.
   const range = new RegExp(
-    `\\b(${monthRegex})\\b\\s*(?:\\([^)]*\\)\\s*)?(?:[–—-]|to|through|until)\\s*(?:(?:early|mid|late)[ -]*)?\\b(${monthRegex})\\b`,
+    `\\b(${monthRegex})\\b\\s*(?:\\d{1,2}(?:st|nd|rd|th)?\\s*)?(?:\\([^)]*\\)\\s*)?(?:[–—-]|to|through|until)\\s*(?:(?:early|mid|late)[ -]*)?\\b(${monthRegex})\\b`,
     "gi",
   );
   for (const match of text.matchAll(range)) {
@@ -261,7 +280,7 @@ export function availabilityEvidence(crop: CropSlug, code: string, month: string
           )
           .join("\n\n")
       : "No exact source window for this state/month. Missing evidence does not establish that supply is absent.",
-    procurement.crosswalkUrl,
+    crosswalkForCrop(crop),
     {
       transformation:
         "Month overlap derived from literal source calendar ranges; early/mid/late qualifiers remain in the original passage.",
@@ -309,7 +328,13 @@ export function beltEvidence(crop: CropSlug, row: BeltRow): Evidence {
 export function processingEvidence(crop: CropSlug, row: ProcessingRow): Evidence {
   return sourceEvidence(
     `${cropAssets[crop].name} · ${row.name}`,
-    row.paragraphs.map((p) => `${locatorText(p.locator)}\n${p.text}`).join("\n\n"),
+    row.paragraphs.map((p) => `${locatorText(p.locator)}\n${p.text}`).join("\n\n") +
+      (row.relatedVarieties.length
+        ? "\n\nRegional calendar varieties (processor acceptance unverified):\n" +
+          row.relatedVarieties
+            .map((v) => `${locatorText(v.locator)}\n${v.geography}: ${v.variety}`)
+            .join("\n\n")
+        : ""),
     row.locator.url,
     {
       caveat:
@@ -383,7 +408,7 @@ export function protectionEvidence(crop: CropSlug, index: number): Evidence | un
   return sourceEvidence(
     `${cropAssets[crop].name} · ${row.name}`,
     `${loc ? locatorText(loc.locator) : row.passage}\nGeography: ${row.geography}\nCommercial impact: ${row.impact}\nManagement modes: ${row.modes.join(" · ")}`,
-    procurement.crosswalkUrl,
+    crosswalkForCrop(crop),
     {
       caveat:
         "Regional pest/management context only. No input-pressure score, outbreak forecast, validated chemical label, dose, schedule or PHI is implied.",

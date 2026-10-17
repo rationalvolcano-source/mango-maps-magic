@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Cotton",
+  "productionYear": "2021-22 to 2023-24 combined (as stated in production context)",
+  "dataHash": "2f1f544de3e982e7ecf391499cf8aa2bc26e3141c9f63a670e73b76603459a39",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\cotton\\PR-002_Cotton_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621483,
+      "sha256": "e5ca10d9c39e21a3018cb97eb804c67f95b73ec3b71e90f63b3c94c1a95e87fe"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\cotton\\PR-002_Cotton_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 318277,
+      "sha256": "aba3a1c6bf9b8376108467e4029d45381e4bb30bb48c0f651104ed88cbf53297"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\cotton\\PR-003_Cotton_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449616,
+      "sha256": "5c1d9ff1d3b56048d37c1e3e88fc2bbe3833c8b4b2f590f9b75e59c580206db7"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\cotton\\PR-003_Cotton_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 288814,
+      "sha256": "f18f5a4af6d317080cf758ea7680cde8189d73434e975e52da6c7f6a19fc9ef2"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\cotton\\PR-006_Cotton_Processing_Geographies_FINAL.svg",
+      "bytes": 604919,
+      "sha256": "e486f860b5424dcf9f0dd2592df81a5bcb9411c34d5d03dc8c5f7dbab0994c2f"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\cotton\\PR-006_Cotton_Processing_Geographies_FINAL.png",
+      "bytes": 298222,
+      "sha256": "c19e282668746baee9f3d9dc6731c2e72b39f1dd5cddd8f64f5c13fbf13d68b1"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Moong",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "36cc7165463aaa33c47051b421d413251f7ccd69a6f959158413f574643e0775",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\moong\\PR-002_Moong_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621292,
+      "sha256": "09bbbe8f4080b58bbd860573735094527c2ff5b6b763ae3ab44b2bdd4c0f7e8c"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\moong\\PR-002_Moong_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 314829,
+      "sha256": "d73f42b05fd572cd553e3bd2a91611a8f239ddf5518869798dc66f6a970d1233"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\moong\\PR-003_Moong_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449579,
+      "sha256": "bded7fc577a85581568818a9cecf11eff456d14f5056f1b73f3a29c409981545"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\moong\\PR-003_Moong_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 287932,
+      "sha256": "d5456885865f8e74bf8493ff3eb09d1b1d1dde8816389df4a81d2c8974979a18"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\moong\\PR-006_Moong_Processing_Geographies_FINAL.svg",
+      "bytes": 604419,
+      "sha256": "90e0cba947333f9a2ef3e00732fa1bcc6fcdf5513abb51099fc0358de80c4b9c"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\moong\\PR-006_Moong_Processing_Geographies_FINAL.png",
+      "bytes": 296552,
+      "sha256": "dd5bc7611c64187bbaf57379fd9b9681fd9b9b390d38eb46f73eeb2f0f9638e9"
+    }
+  ]
+}

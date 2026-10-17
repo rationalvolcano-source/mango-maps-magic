@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Lentil",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "1b5ccd08f7188a519fe5736b2aa065afd698c72e42e07d1d1bf64e50ea0b54ba",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\lentil\\PR-002_Lentil_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621201,
+      "sha256": "f3a9b4ef7ff2fbc19e03a930d8c9f019f4454a742cd340dec9fadbff554d05d2"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\lentil\\PR-002_Lentil_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 308259,
+      "sha256": "0e531f6ad6a26280627291d46e31d294539ac26b801427f81ff9a8612a851eb8"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\lentil\\PR-003_Lentil_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449502,
+      "sha256": "c26d7f30a12b1105f080eae33e78ff6cf65a47cb79e564571314e11fbe1f1884"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\lentil\\PR-003_Lentil_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 281187,
+      "sha256": "06a15d5e2fb57547aa16fbee69e41c8b1fedcb0e9e4c44925d9eb211d69cb2ad"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\lentil\\PR-006_Lentil_Processing_Geographies_FINAL.svg",
+      "bytes": 604742,
+      "sha256": "d4c16fd9d7b81b69221103b70d91eb4d08542061923f4a50987015f06ddfdbdb"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\lentil\\PR-006_Lentil_Processing_Geographies_FINAL.png",
+      "bytes": 296076,
+      "sha256": "7d914c93bc106d5233a2d7ea61685bbb202ab68f6a34cd8573292a780043b2a0"
+    }
+  ]
+}

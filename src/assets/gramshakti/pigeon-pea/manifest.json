@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Pigeon Pea",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "da229600a25ea56318de4958933c1c4ae1d7df0178c3f870dea8f3e90548eb4b",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pigeon-pea\\PR-002_Pigeon_Pea_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621340,
+      "sha256": "5bab0ab1bedd1c5649a3c0fdbde6b008e04c7e7bc507c913434b9252d4cfa776"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pigeon-pea\\PR-002_Pigeon_Pea_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 317041,
+      "sha256": "2a5f8ddb3d48c943e83d17acf81b6f766acb6b7031aef6a272add7b3ed7e975e"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pigeon-pea\\PR-003_Pigeon_Pea_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449587,
+      "sha256": "d1c809ad806a6a3ad2924e8271e167b8f1a2c78b4a1b2951e598b07b534f0f5f"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pigeon-pea\\PR-003_Pigeon_Pea_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 287188,
+      "sha256": "be67ec597698af3b4fd6e03318bb7cb213f57e79128da6f3db9bf35ef003ef55"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pigeon-pea\\PR-006_Pigeon_Pea_Processing_Geographies_FINAL.svg",
+      "bytes": 604641,
+      "sha256": "85f01c65c45b1d05e03bc7c90556142d249a43c485a09d2910a9051b7e6ce594"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\pigeon-pea\\PR-006_Pigeon_Pea_Processing_Geographies_FINAL.png",
+      "bytes": 296334,
+      "sha256": "062420b082e514aee1004e4a940be3add46a0c147de239b79f0d3176bdf2ea80"
+    }
+  ]
+}

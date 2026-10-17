@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Tobacco",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "07731c16f65e16bf4fe80bca6d1b39ed37ef66a64c2ecc1c8b546052ab0e8fe2",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\tobacco\\PR-002_Tobacco_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621178,
+      "sha256": "1416df32de49a821e4c52ad7779f9c7966bf8ee199a0a4d21c6ef41025148031"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\tobacco\\PR-002_Tobacco_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 311673,
+      "sha256": "a5c4f53645e13457faa75c73a41bcd6ba6b864700a5bae6b9d3bdd595116bdca"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\tobacco\\PR-003_Tobacco_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449681,
+      "sha256": "ffd031d77c58bdbd26b0e014e9d40ff7c6232ff95c3ca16c33970db8f82b4482"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\tobacco\\PR-003_Tobacco_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 290915,
+      "sha256": "b111c9ddb705b7a884854367136fc9c0e816f6199638d46e634d60cc34548a47"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\tobacco\\PR-006_Tobacco_Processing_Geographies_FINAL.svg",
+      "bytes": 604576,
+      "sha256": "45f61d416379a28a75817abb20db0fedb0191f3573fdc5bc4c1b737d45f95d1d"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\tobacco\\PR-006_Tobacco_Processing_Geographies_FINAL.png",
+      "bytes": 295880,
+      "sha256": "e711e2811d7782a6cc4d728a61ce07dce9bb04c23774294b86e513d2e58a75e3"
+    }
+  ]
+}

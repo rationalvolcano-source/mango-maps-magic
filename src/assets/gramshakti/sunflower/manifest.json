@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Sunflower",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "21c4fb4ee14368ac5dd5ec6024f4ac940a99db94191d3a30a417c593f774c38a",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sunflower\\PR-002_Sunflower_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621216,
+      "sha256": "d785f3bd3ef958773daf152f52fc08d1350518bc9db7827c30b357d001338593"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sunflower\\PR-002_Sunflower_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 312236,
+      "sha256": "37ade3663608cfa318888acd2926120ce228ea6f857c8b5e9e8e21d684f1b138"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sunflower\\PR-003_Sunflower_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449604,
+      "sha256": "061517de488961f866f0d8ab4f873203e57b86a21cdf1920005b49b7fb2201e9"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sunflower\\PR-003_Sunflower_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 287718,
+      "sha256": "f5acd0c12486d04a25c04d65c93513dd1cceaedc0d1c40ccf9e8fe2ab9e64ced"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sunflower\\PR-006_Sunflower_Processing_Geographies_FINAL.svg",
+      "bytes": 604709,
+      "sha256": "5b3c41aec90d2b57ca8cf9c0331dadad614a039b97670c91b5f38799e00d6068"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sunflower\\PR-006_Sunflower_Processing_Geographies_FINAL.png",
+      "bytes": 296744,
+      "sha256": "39693f6900d0ddc7cbfb995f5cc2cfd2c557d22c05a9a348ae81cf589cfe7718"
+    }
+  ]
+}

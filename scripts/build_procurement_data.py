@@ -21,6 +21,8 @@ CROSSWALK = "https://drive.google.com/file/d/1_OP2pkz8uEIJ0ptXEiSfv_l8OezL-l3-/v
 CONTEXT = "https://drive.google.com/file/d/1e9EXVD5b2MfbSr7UyhieBx8YooXf-wP1/view"
 DISTRICT = "https://docs.google.com/spreadsheets/d/1YQLRV8QGIk9lO1MygZA9heofVSnxtZpDHSkm2yzTYLg/edit"
 assets = json.loads((LIB / "asset-manifest.json").read_text())
+field_slugs = set(json.loads((LIB / "field-crops.json").read_text())) if (LIB / "field-crops.json").exists() else set()
+assets = {slug: asset for slug, asset in assets.items() if slug not in field_slugs}
 codes = json.loads((LIB / "state-codes.json").read_text())
 canonical = json.loads((LIB / "canonical-crops.json").read_text())
 
@@ -231,7 +233,8 @@ for number, row in enumerate(master.values, 1):
     source = source_registry.get(str(row[18]), {})
     districts[slug].append({"id": f"{slug}-district-{number}", "row": number, "year": row[0], "district": row[2], "state": row[3], "area": row[4], "production": row[5], "yield": row[6], "yieldKind":"Derived yield" if row[18]=="SRC-08" and row[9]=="tonnes/ha" else "Published/native yield", "areaUnit": row[7], "productionUnit": row[8], "yieldUnit": row[9], "missingFlag": row[10] or "NOT_SUPPLIED", "normalizedProduction": row[11] if isinstance(row[11], (int, float)) else None, "derivedYield": row[12] if isinstance(row[12], (int, float)) else None, "sourceId": row[18], "areaPage": row[19], "productionPage": row[20], "yieldPage": row[21], "status": row[22], "sourceTitle": source.get("title", "District APY Master"), "sourceUrl": source.get("url") if str(source.get("url", "")).startswith("https://") else DISTRICT})
 
-output = {"snapshot": "2026-10-15", "crosswalkUrl": CROSSWALK, "productionContextUrl": CONTEXT, "districtUrl": DISTRICT, "crops": result, "district": districts}
+previous = json.loads((LIB / "procurement-records.json").read_text()) if (LIB / "procurement-records.json").exists() else {}
+output = {"snapshot": previous.get("snapshot", "2026-10-15"), "crosswalkUrl": CROSSWALK, "productionContextUrl": CONTEXT, "districtUrl": DISTRICT, "crops": {**previous.get("crops", {}), **result}, "district": {**previous.get("district", {}), **districts}}
 (LIB / "procurement-records.json").write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n")
 source_pack = json.loads((SOURCE.parent / "mango_build_pack_v1/GramShakti_Mango_Build_Data_v1.json").read_text())
 (LIB / "lgd-states.json").write_text(json.dumps(source_pack["lgd_states"], ensure_ascii=False, indent=2) + "\n")

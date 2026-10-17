@@ -136,7 +136,7 @@ export function AppHeader() {
     </header>
   );
 }
-export function SelectionControls() {
+export function SelectionControls({ primaryLabel = "Fresh" }: { primaryLabel?: string }) {
   const selection = useSearch({ strict: false });
   const navigate = useNavigate();
   return (
@@ -154,7 +154,7 @@ export function SelectionControls() {
               })
             }
           >
-            {p === "fresh" ? "Fresh" : "Processed"}
+            {p === "fresh" ? primaryLabel : "Processed"}
           </Button>
         ))}
       </div>

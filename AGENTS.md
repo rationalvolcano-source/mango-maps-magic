@@ -19,3 +19,6 @@
 - Keep immutable and edited asset pointers separately, with per-crop source manifests and matching SHA checks, so source preservation can be audited.
 
 - Source workbook exports are pre-extracted into browser-safe exact-row records with row/page provenance; detail pages use original normalized units and never aggregate district values into state figures.
+
+- Rice-to-Niger source updates use scripts/build_field_crops.py and scripts/prepare_field_artwork.py. Keep the original sixteen-crop generator and the field generator scoped so neither erases the other cohort. Maize and Sugarcane remain source-repair cases until their dedicated source identity and assets are repaired.
+- Field-crop purpose labels use Primary for the existing fresh URL value. Source-window ranges may include day qualifiers; expand literal ranges, retain native window labels, and never infer pressure or volume from window counts.

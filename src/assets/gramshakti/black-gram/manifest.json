@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Black Gram",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "12ef3d04cb526f85c9107b899551154d44c22a793bbbf5265e89aaf4785473e4",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\black-gram\\PR-002_Black_Gram_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621385,
+      "sha256": "8351327c98600d22a4ff5c47f45316c246105dea60686c8ae82466dc132ba92f"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\black-gram\\PR-002_Black_Gram_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 318643,
+      "sha256": "450640984695762a32ec50da28f9c100ef43c438c4187de0ffc9a0789b433d74"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\black-gram\\PR-003_Black_Gram_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449566,
+      "sha256": "966328a873d295d63b9b1e89615eec4f3fb1087192af8f0f5fe80e010ef4a61f"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\black-gram\\PR-003_Black_Gram_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 287734,
+      "sha256": "1f93987b510681f93c04057429250444ddaedbfe4e9106ef9aad2b25101566a2"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\black-gram\\PR-006_Black_Gram_Processing_Geographies_FINAL.svg",
+      "bytes": 604619,
+      "sha256": "1e157317dfe0c8c2210653b5e16fd6a951b1a3519806b57e499cf8b6b3b6dc9b"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\black-gram\\PR-006_Black_Gram_Processing_Geographies_FINAL.png",
+      "bytes": 297171,
+      "sha256": "ea6cef3e7ebc2e1ee659196a961dec7bc3d052692a20085be3d28084eeea799d"
+    }
+  ]
+}

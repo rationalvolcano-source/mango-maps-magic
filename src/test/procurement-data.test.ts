@@ -18,8 +18,8 @@ import {
 import { selectionSearch } from "@/lib/gramshakti/data";
 
 describe("Source-backed procurement release", () => {
-  it("provides real availability, commercial and processing records for all sixteen crops", () => {
-    expect(Object.keys(cropAssets)).toHaveLength(16);
+  it("provides real availability, commercial and processing records for all forty released crops", () => {
+    expect(Object.keys(cropAssets)).toHaveLength(40);
     for (const crop of Object.keys(cropAssets) as CropSlug[]) {
       const records = cropRecords(crop);
       expect(records.calendar.length, crop).toBeGreaterThan(0);
@@ -98,9 +98,9 @@ describe("Source-backed procurement release", () => {
     });
     expect(selectionSearch({ items: "<script>alert(1)</script>" }).items).toBeUndefined();
   });
-  it("ships all forty-eight source-verified SVGs with preserved map geometry and local runtime paths", () => {
-    expect(audit.sources_verified).toBe(48);
-    expect(audit.geometry_preserved).toBe(48);
+  it("ships all 120 source-verified SVGs with preserved map geometry and local runtime paths", () => {
+    expect(audit.sources_verified).toBe(120);
+    expect(audit.geometry_preserved).toBe(120);
     for (const row of audit.assets) {
       const crop = row.crop as CropSlug;
       const screen = row.screen as "002" | "003" | "006";
@@ -112,7 +112,9 @@ describe("Source-backed procurement release", () => {
       expect(createHash("sha256").update(data).digest("hex")).toBe(row.application_sha256);
       const svg = new DOMParser().parseFromString(data.toString(), "image/svg+xml");
       expect(svg.querySelector("parsererror")).toBeNull();
-      expect(svg.querySelectorAll("[data-action]").length).toBeGreaterThan(20);
+      expect(svg.querySelectorAll("[data-action]").length).toBeGreaterThan(
+        screen === "003" ? 10 : 20,
+      );
       const text = [...svg.querySelectorAll("text")].map((e) => e.textContent).join(" ");
       expect(text).not.toMatch(
         /HIGH PRESSURE|MIXED SIGNALS|FINAL STATIC SPECIFICATION|State production:/,

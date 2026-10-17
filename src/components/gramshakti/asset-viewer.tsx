@@ -20,6 +20,8 @@ import {
   isCropSlug,
   cropSlug,
   blockerReasons,
+  canonicalCrops,
+  primaryPurposeLabel,
   type Screen,
   type CropSlug,
 } from "@/lib/gramshakti/assets";
@@ -335,7 +337,7 @@ function ArtworkJourney({ crop, screen }: { crop: CropSlug; screen: Screen }) {
               Change crop
             </Link>
           </Button>
-          <SelectionControls />
+          <SelectionControls primaryLabel={primaryPurposeLabel(crop)} />
           <Button
             variant="ghost"
             size="sm"
@@ -437,7 +439,7 @@ export function AssetDirectoryPage() {
       source(
         sourceEvidence(
           "Canonical crop directory",
-          "58 exact canonical crop labels. The detailed procurement cohort contains Mango, Banana, Oranges, Guava, Grapes, Papaya, Pineapple, Pomegranate, Apple, Litchi, Sapota, Jackfruit, Potato, Onion, Tomato and Capsicum.",
+          "58 exact canonical crop labels. Detailed procurement includes 24 source-verified field crops from Rice through Niger Seeds and the 16 Mango-through-Capsicum crops. Maize and Sugarcane remain source-repair cases; no other crop's data is substituted.",
           "https://drive.google.com/file/d/1y9x68mcXrpeZvialSUjloVbJ9G_wWHdC/view",
         ),
       );
@@ -476,7 +478,7 @@ export function AssetDirectoryPage() {
             </SheetHeader>
             <p className="mt-6">
               {(unavailable && blockerReasons[unavailable]) ||
-                "The current detailed procurement release covers Mango through Capsicum. This canonical crop is retained for a later source-backed module."}
+                "This canonical crop remains in the directory for a later source-backed module. The current release contains 40 detailed crop journeys: 24 field crops and Mango through Capsicum."}
             </p>
           </SheetContent>
         </Sheet>
@@ -485,10 +487,19 @@ export function AssetDirectoryPage() {
   );
 }
 export function UnavailableCrop({ name }: { name: string }) {
+  const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const canonicalName = canonicalCrops.find((crop) => normalize(crop) === normalize(name)) ?? name;
+  const reason = blockerReasons[canonicalName];
   return (
     <main className="page-container">
-      <h1>Crop unavailable</h1>
-      <p>{name}</p>
+      <h1>{reason ? "Source repair required" : "Crop unavailable"}</h1>
+      <p>{canonicalName}</p>
+      {reason && (
+        <p className="context-note">
+          {reason} This crop stays in the canonical directory; another crop’s artwork or records are
+          not substituted.
+        </p>
+      )}
       <Button asChild className="mt-6">
         <Link to="/procurement" search={(p) => p}>
           Back to crop directory

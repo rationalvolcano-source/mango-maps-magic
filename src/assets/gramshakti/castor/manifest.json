@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Castor",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "796edf94e4f55280c43ce0fc8bd02ce9a23927b5ccc1cfb30b41357374015e90",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\castor\\PR-002_Castor_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 618997,
+      "sha256": "e0553e24e253ca295ad1c1ae8fdebb23e89eca81bd7e1889194c8f28a3cf26f2"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\castor\\PR-002_Castor_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 299981,
+      "sha256": "da4f69dd83cd7a8f00ce505d176340f85cc614ba3f03bc63f8fe33f265611734"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\castor\\PR-003_Castor_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449558,
+      "sha256": "8bc0b5a39c1349997b677900575814b7952f4c56891617555c6540c6b58f1b01"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\castor\\PR-003_Castor_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 285597,
+      "sha256": "4bdb34024b260eb9b4bd17eae9da642edbf3383419b8565d4553f3df20f48d4f"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\castor\\PR-006_Castor_Processing_Geographies_FINAL.svg",
+      "bytes": 604453,
+      "sha256": "20ce5ed5d391d0f7b8e52d051fe56c0171b982905e165d0ce8529c9f7f13e26f"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\castor\\PR-006_Castor_Processing_Geographies_FINAL.png",
+      "bytes": 289624,
+      "sha256": "6e106b38bd985e0d6b5d4204d729f410f23d6ee870b722a89227f3e60e35248c"
+    }
+  ]
+}

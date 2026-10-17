@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Ragi",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "e9800a4fe48c985e4dfc64b9a198db82ec63cdcdde04cd1810b06089956c9373",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\ragi\\PR-002_Ragi_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621234,
+      "sha256": "dc23a1fb715e0fc372f7fd0d257eec323d32b256584b3bc290e94783c7d7ee11"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\ragi\\PR-002_Ragi_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 309708,
+      "sha256": "317f96689b7532d017035c9bfc1ab9f425cbc418b793a555a35814189976be35"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\ragi\\PR-003_Ragi_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 447732,
+      "sha256": "fca9397748ff02d8180c5d85d80dba136624a2778e9f444c90c26b9258d35e0d"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\ragi\\PR-003_Ragi_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 278483,
+      "sha256": "f1a6a861b5e5a61e3ffe8dde52063388171de641d8d20aa41f1e17e1f104326e"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\ragi\\PR-006_Ragi_Processing_Geographies_FINAL.svg",
+      "bytes": 604638,
+      "sha256": "beb6009f7bf54b0b8087d40696cc751a8d157b18bedb25e02084e23341f8dab5"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\ragi\\PR-006_Ragi_Processing_Geographies_FINAL.png",
+      "bytes": 291630,
+      "sha256": "061e9dbc3507aa3666eed92dad29aa0e4a0e145346a227d7c60f8d6e65883f57"
+    }
+  ]
+}

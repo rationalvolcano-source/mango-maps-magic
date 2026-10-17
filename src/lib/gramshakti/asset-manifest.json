@@ -1621,5 +1621,1541 @@
         "varietyScope": "Regional source context; processor acceptance requires verification"
       }
     ]
+  },
+  "rice": {
+    "name": "Rice",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Rice_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1c1tkIKeDx8hcjdlIQQmmwGzqjuqq7Qno/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1c1tkIKeDx8hcjdlIQQmmwGzqjuqq7Qno/view?usp=drivesdk",
+        "application": "/gramshakti/crops/rice/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Rice_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1XHDEG156Vz2uRnsar2KSejoDaMRz0Tr7/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1XHDEG156Vz2uRnsar2KSejoDaMRz0Tr7/view?usp=drivesdk",
+        "application": "/gramshakti/crops/rice/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Rice_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1TSyehExbeYchemvpvmVHBKYmqKQ6a9Xt/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1TSyehExbeYchemvpvmVHBKYmqKQ6a9Xt/view?usp=drivesdk",
+        "application": "/gramshakti/crops/rice/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Northern Basmati Export Milling Corridor (Haryana & Punjab)",
+        "texts": [
+          "1",
+          "Northern Basmati Export Milling Corridor (Haryana & Punjab)",
+          "HR / PB",
+          "REGIONAL SOURCE VARIETIES",
+          "Pusa Basmati 1121, 1509, 1718, PB-1 · PB-1121, PB-1509, PB-1401, CSR-30"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Northern Basmati Export Milling Corridor (Haryana & Punjab)\nStrategic Role: Global processing and export packaging corridor for Geographical Indication (GI) Basmati rice.\nKey Facilities: Large multinational corporate mills (KRBL/India Gate, LT Foods/Daawat, Kohinoor, GRM Overseas, Best Foods) located across Karnal, Taraori, Panipat, Kurukshetra (Haryana) and Amritsar, Ludhiana, Kapurthala (Punjab).\nInfrastructure Profile: Multi-tier optical bichromatic and trichromatic color sorters, pneumatic rubber-roll shellers, mist-polishers, and multi-year climate-controlled storage godowns (essential for aging basmati grain to reduce cooking stickiness and boost length elongation).\nCatchment Areas: The entire Indo-Gangetic Plains certified Basmati GI tract: Majha and Doaba tracts (Punjab); GT Road belt (Haryana); and Western Uttar Pradesh (Bareilly, Rampur, Shahjahanpur, Aligarh)."
+      },
+      {
+        "name": "Eastern Parboiled Rice Milling Hub (Purba Bardhaman, West Bengal)",
+        "texts": [
+          "2",
+          "Eastern Parboiled Rice Milling Hub (Purba Bardhaman, West Bengal)",
+          "WB",
+          "REGIONAL SOURCE VARIETIES",
+          "Swarna (MTU 7029), Minikit (IET-4786) · Shatabdi, MTU 1010, Hybrid lines · Gobindobhog (GI), Tulaipanji (GI)"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Eastern Parboiled Rice Milling Hub (Purba Bardhaman, West Bengal)\nStrategic Role: India's largest single regional concentration of commercial parboiling and rice milling facilities. Purba Bardhaman alone operates over 500 modern rice mills.\nKey Centers: Memari, Burdwan Sadar, Kalna, Galsi, and Katwa along the Damodar river basin.\nInfrastructure Profile: Closed-circuit boiler soaking tanks, continuous mechanized mechanical dryers (LSU driers), and solvent extraction plants processing fresh rice bran.\nCatchment Areas: Purba and Paschim Bardhaman, Hooghly, Bankura, Birbhum, and Nadia; supplies parboiled rice across West Bengal, Jharkhand, Bihar, Assam, and the Northeastern states."
+      },
+      {
+        "name": "Southern Parboiled & Deepwater Export Corridor (Telangana & Andhra Pradesh)",
+        "texts": [
+          "3",
+          "Southern Parboiled & Deepwater Export Corridor (Telangana & Andhra Pradesh)",
+          "AP / TS",
+          "REGIONAL SOURCE VARIETIES",
+          "Telangana Sona (RNR 15048), BPT 5204 · MTU 1010, KN-118, PR lines · BPT 5204 (Samba Mahsuri), MTU 1061 · MTU 1010, NLR 34449 (Nellore Sona)"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Southern Parboiled & Deepwater Export Corridor (Telangana & Andhra Pradesh)\nStrategic Role: The fastest-growing industrial rice cluster, home to Miryalaguda (Nalgonda district, TS)—one of the densest modern rice-milling clusters in Asia—integrated with the deepwater breakbulk export gateway at Kakinada Port (AP).\nKey Centers: Miryalaguda, Suryapet, Nizamabad (Telangana); Vijayawada, Gudivada, Bhimavaram, Kakinada, and Nellore (Andhra Pradesh).\nCatchment Areas: Nagarjuna Sagar command area, Kaleshwaram lift irrigation basins, Sriram Sagar project (SRSP), and Krishna-Godavari deltas. Feeds regular breakbulk and containerized non-basmati rice charters to West Africa and Southeast Asia."
+      }
+    ]
+  },
+  "wheat": {
+    "name": "Wheat",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Wheat_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1wkVx2qwF5jUwBX2LqZ_IMgc1t0Hdq2h3/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1wkVx2qwF5jUwBX2LqZ_IMgc1t0Hdq2h3/view?usp=drivesdk",
+        "application": "/gramshakti/crops/wheat/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Wheat_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1PU8Dd8TJKeka7aJs2G7jaxTuMuPpz2RX/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1PU8Dd8TJKeka7aJs2G7jaxTuMuPpz2RX/view?usp=drivesdk",
+        "application": "/gramshakti/crops/wheat/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Wheat_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1pDV89cXuOKQko0bCiV3u4L8_oMrBbsha/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1pDV89cXuOKQko0bCiV3u4L8_oMrBbsha/view?usp=drivesdk",
+        "application": "/gramshakti/crops/wheat/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Northern Grain Buffer & Bulk Storage Corridor (Punjab, Haryana & Western UP)",
+        "texts": [
+          "1",
+          "Northern Grain Buffer & Bulk Storage Corridor (Punjab, Haryana & Western UP)",
+          "HR / PB / UP / DL",
+          "REGIONAL SOURCE VARIETIES",
+          "HD-2967, HD-3086, DBW-187 · K-1006, Sabour Nirbhay, Halna · PBW-826, DBW-187, DBW-222, HD-3086 · WH-1105, DBW-303, HD-3226"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Northern Grain Buffer & Bulk Storage Corridor (Punjab, Haryana & Western UP)\nStrategic Role: India's primary food-security clearinghouse, procurement engine, and bulk storage corridor.\nKey Facilities: Large automated steel silo complexes (Adani Agri Logistics at Moga, Kaithal; private concessionaires in Ludhiana, Barnala), automated roller flour mills in Delhi-NCR and Ludhiana, and FCI railhead terminals dispatching grain rakes to food-deficit states.\nCatchment Areas: Sangrur, Ludhiana, Patiala, Bathinda (Punjab); Karnal, Kaithal, Kurukshetra, Sirsa (Haryana); Meerut, Aligarh, Bulandshahr, Mathura (Western UP)."
+      },
+      {
+        "name": "Malwa–Central Value-Addition & Durum Processing Hub (Madhya Pradesh)",
+        "texts": [
+          "2",
+          "Malwa–Central Value-Addition & Durum Processing Hub (Madhya Pradesh)",
+          "MP",
+          "REGIONAL SOURCE VARIETIES",
+          "Sharbati (C-306, HI-1544), GW-322 · Poshan (HI-8663), Malavshree"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Malwa–Central Value-Addition & Durum Processing Hub (Madhya Pradesh)\nStrategic Role: The quality, durum, and premium branded atta capital of India.\nKey Facilities: Automated color-sorting plants, branded consumer atta mills (ITC Choupals, Adani Wilmar, Patanjali), and modern durum pasta/semolina extrusion plants centered around Indore, Dewas, Pithampur, Ujjain, and Bhopal.\nCatchment Areas: Sehore, Vidisha, Raisen, Hoshangabad (Narmada basin); Ujjain, Dewas, Dhar, Khargone (Malwa plateau); border arrivals from the Hadoti belt in Rajasthan (Kota, Jhalawar)."
+      },
+      {
+        "name": "Peninsular Consumption & Port Milling Centers (Maharashtra, TN, Karnataka)",
+        "texts": [
+          "3",
+          "Peninsular Consumption & Port Milling Centers (Maharashtra, TN, Karnataka)",
+          "KA / MH / TN",
+          "REGIONAL SOURCE VARIETIES",
+          "MACS-6222, Phule Samadhan"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Peninsular Consumption & Port Milling Centers (Maharashtra, TN, Karnataka)\nStrategic Role: Grain-deficit coastal and metropolitan zones that process northern wheat into industrial flour for baking, noodles, and confectionery.\nKey Centers: Navi Mumbai / Vashi (JNPT port corridor), Chennai (Royapuram/Ambattur mill clusters), and Bengaluru industrial outskirts.\nCatchment Areas: Raw material is supplied via long-haul freight trains (goods rakes) sourced through FCI's Open Market Sale Scheme (OMSS) or direct private trade purchases from Madhya Pradesh, Rajasthan, and Punjab mandis."
+      }
+    ]
+  },
+  "jowar": {
+    "name": "Jowar",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Jowar_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1Qy6IAbSNNVfQ79oNiRc3r3epCBrSW8IB/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1Qy6IAbSNNVfQ79oNiRc3r3epCBrSW8IB/view?usp=drivesdk",
+        "application": "/gramshakti/crops/jowar/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Jowar_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1X6FEVwryWrkhnEHW5LAyXP-2rn38b3Zo/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1X6FEVwryWrkhnEHW5LAyXP-2rn38b3Zo/view?usp=drivesdk",
+        "application": "/gramshakti/crops/jowar/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Jowar_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/14MpEKQIDAKKoZQFQJO2zVrZXvombm75H/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/14MpEKQIDAKKoZQFQJO2zVrZXvombm75H/view?usp=drivesdk",
+        "application": "/gramshakti/crops/jowar/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Deccan Rabi Food-Grain Basin (Southern Maharashtra & Northern Karnataka)",
+        "texts": [
+          "1",
+          "Deccan Rabi Food-Grain Basin (Southern Maharashtra & Northern Karnataka)",
+          "KA / MH",
+          "REGIONAL SOURCE VARIETIES",
+          "M 35-1 (Maldandi), Phule Revati, Suchitra · CSH-14, CSH-16, CSH-25 · Maldandi, BJV-44, DSV-4, CSV-29R · CSH-14, CSH-16"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Deccan Rabi Food-Grain Basin (Southern Maharashtra & Northern Karnataka)\nStrategic Role: The culinary, grading, and marketing center of high-value edible white sorghum.\nKey Facilities:\nSolapur & Barshi APMCs (Maharashtra): The largest commercial trading yards for Maldandi grain in India; equipped with high-speed pneumatic cleaners, destoners, and flour-milling units.\nVijayapura & Bagalkote Mandis (Karnataka): Central aggregation point for Bili Jola.\nInfrastructure Profile: Mechanized de-hulling plants, grain polishers, and stover densification/baling plants that compress bulky dry sorghum stalks (kadbi) into high-density blocks for transport to drought-hit dairy tracts.\nCatchment Areas: Solapur, Ahilyanagar, Dharashiv, Beed, Sangli (Maharashtra); Vijayapura, Bagalkote, Kalaburagi, Belagavi (Karnataka)."
+      },
+      {
+        "name": "Hyderabad Nutri-Cereal Innovation Corridor (Telangana)",
+        "texts": [
+          "2",
+          "Hyderabad Nutri-Cereal Innovation Corridor (Telangana)",
+          "TS",
+          "REGIONAL SOURCE VARIETIES",
+          "CSV-20, CSV-31, CSH-25"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Hyderabad Nutri-Cereal Innovation Corridor (Telangana)\nStrategic Role: The national research, processing incubation, and corporate value-addition engine for millets.\nKey Facilities: Headquarters of the ICAR-Indian Institute of Millets Research (IIMR) at Rajendranagar, housing the Nutrihub Incubation Centre; pilot processing lines for puffing, flaking, cold-extrusion, and bakery blending; major modern grain distilleries operating in Medak and Nalgonda.\nCatchment Areas: Semi-arid plateau production from Mahabubnagar, Sangareddy, Vikarabad (Telangana); inflows of irrigated zero-till grain from Guntur and Palnadu (Andhra Pradesh)."
+      },
+      {
+        "name": "Northern Rainfed Grain & Fodder Axis (Rajasthan & UP Bundelkhand)",
+        "texts": [
+          "3",
+          "Northern Rainfed Grain & Fodder Axis (Rajasthan & UP Bundelkhand)",
+          "RJ / UP",
+          "REGIONAL SOURCE VARIETIES",
+          "Pratap Jowar-1430, CSV-15, Raj Chari-2 · Bundela, CSV-15, Mauranipur Local"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Northern Rainfed Grain & Fodder Axis (Rajasthan & UP Bundelkhand)\nStrategic Role: Volume center for Kharif dual-purpose sorghum, animal feed ingredients, and rural food security.\nKey Facilities: Grain aggregation yards in Kekri (Ajmer) and Merta City (Nagaur); feed-compounding plants in Jaipur and Alwar; artisanal papad and dehydration units in Hamirpur and Banda.\nCatchment Areas: Ajmer, Tonk, Nagaur, Pali (Rajasthan); Banda, Hamirpur, Mahoba, Jalaun (Bundelkhand, UP)."
+      }
+    ]
+  },
+  "bajra": {
+    "name": "Bajra",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Bajra_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1UbNvb4FlAbKshX2DNR6P3CEh2TZLloXO/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1UbNvb4FlAbKshX2DNR6P3CEh2TZLloXO/view?usp=drivesdk",
+        "application": "/gramshakti/crops/bajra/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Bajra_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1v-vIgsaxqVWYsmbuj8A0eiAfUNkPRP_X/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1v-vIgsaxqVWYsmbuj8A0eiAfUNkPRP_X/view?usp=drivesdk",
+        "application": "/gramshakti/crops/bajra/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Bajra_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1z0ZtSqDsNB2atAZrjaJr9xgNAla5CGVa/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1z0ZtSqDsNB2atAZrjaJr9xgNAla5CGVa/view?usp=drivesdk",
+        "application": "/gramshakti/crops/bajra/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Northwestern Commercial Food & Milling Corridor (Rajasthan, UP & Haryana)",
+        "texts": [
+          "1",
+          "Northwestern Commercial Food & Milling Corridor (Rajasthan, UP & Haryana)",
+          "HR / RJ / UP",
+          "REGIONAL SOURCE VARIETIES",
+          "HHB-67 Imp., RHB-177, MPMH-17 · Pioneer 86M84, Proagro 9444 · Kaveri Super Boss, Pioneer 86M88 · Nandi-65, Proagro 9444 · HHB-67 Imp., HHB-197, HHB-299"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Northwestern Commercial Food & Milling Corridor (Rajasthan, UP & Haryana)\nStrategic Role: India's primary aggregation and processing belt for food-grade Kharif pearl millet, supplying the urban consumption markets of Delhi-NCR, Northern India, and Central India.\nKey Facilities: Large automated grain cleaning and optical Sortex grading units in Alwar, Chomu (Jaipur), Agra, and Aligarh; stabilization and flour-milling units supplying consumer brands (Aashirvaad, Tata Soulfull).\nCatchment Areas: Alwar, Bharatpur, Dausa, Jaipur, Nagaur (Rajasthan); Agra, Mathura, Hathras, Budaun (Uttar Pradesh); Mahendragarh, Rewari, Bhiwani (Haryana)."
+      },
+      {
+        "name": "Gujarat Summer Processing & Export Hub (Central Gujarat & North Gujarat)",
+        "texts": [
+          "2",
+          "Gujarat Summer Processing & Export Hub (Central Gujarat & North Gujarat)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "GHB-538, GHB-558, GHB-744 · GHB-905, Pioneer 86M89"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Gujarat Summer Processing & Export Hub (Central Gujarat & North Gujarat)\nStrategic Role: Center for premium, mold-free Summer Bajra processing, grading, and maritime export.\nKey Facilities: Grain aggregation yards across Anand, Nadiad, Deesa, and Palanpur; automated gravity separators and color sorters supplying the Gulf export trade through Mundra and Kandla ports.\nCatchment Areas: Anand and Kheda (the Charotar tract); Banaskantha (Deesa, Tharad), Patan, and Bhavnagar."
+      },
+      {
+        "name": "Southern Poultry Feed & Industrial Hub (Tamil Nadu & Karnataka)",
+        "texts": [
+          "3",
+          "Southern Poultry Feed & Industrial Hub (Tamil Nadu & Karnataka)",
+          "KA / TN",
+          "REGIONAL SOURCE VARIETIES",
+          "HHB-67 Imp., ICTP-8203, GHB-558 · CO-9, CO-10, TNAU Cumbu CO-9"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Southern Poultry Feed & Industrial Hub (Tamil Nadu & Karnataka)\nStrategic Role: India's poultry feed manufacturing heartland, using pearl millet as an energy and protein input.\nKey Facilities: High-capacity animal feed processing plants across Namakkal, Erode, and Coimbatore; rural ready-to-drink porridge bottling and pouching facilities.\nCatchment Areas: Salem, Namakkal, Tiruppur, Dindigul (Tamil Nadu); northern Karnataka dry belts (Vijayapura, Bagalkote); grain arrivals from Andhra Pradesh."
+      }
+    ]
+  },
+  "barley": {
+    "name": "Barley",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Barley_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1om4o3OUFRZIuhgHgS0bt4q3Nkt5ui6mM/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1om4o3OUFRZIuhgHgS0bt4q3Nkt5ui6mM/view?usp=drivesdk",
+        "application": "/gramshakti/crops/barley/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Barley_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1JNPrvn30ITl9rEZNI_v7xXTNxD3kX6-K/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1JNPrvn30ITl9rEZNI_v7xXTNxD3kX6-K/view?usp=drivesdk",
+        "application": "/gramshakti/crops/barley/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Barley_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1EHfbgPWhhrZDviX-hHAMlRJdOdYCnl30/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1EHfbgPWhhrZDviX-hHAMlRJdOdYCnl30/view?usp=drivesdk",
+        "application": "/gramshakti/crops/barley/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Rajasthan Commercial Malting & Brewing Axis (Jaipur, Alwar & Kotputli)",
+        "texts": [
+          "1",
+          "Rajasthan Commercial Malting & Brewing Axis (Jaipur, Alwar & Kotputli)",
+          "RJ / DL",
+          "REGIONAL SOURCE VARIETIES",
+          "DWRB 92, DWRB 137, RD 2899 · RD 2035, RD 2552, RD 2715"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Rajasthan Commercial Malting & Brewing Axis (Jaipur, Alwar & Kotputli)\nStrategic Role: India's corporate malting capital, handling over 65% of the country's industrial malt production.\nKey Facilities: Large automated pneumatic drum and Saladin-box malting operations (Barmalt Malting, Imperial Malts, PMV Maltings) along the NH-48 Jaipur–Delhi industrial corridor; regional breweries belonging to United Breweries and Carlsberg.\nInfrastructure Profile: Climate-controlled steeping tanks, automated germinating-kilning vessels (GKVs), high-capacity grain elevators, and certified testing laboratories measuring grain diastatic power, nitrogen, and friability.\nCatchment Areas: Jaipur, Dausa, Sikar, Alwar, Tonk, and canal-irrigated grain receipts from Ganganagar and Hanumangarh."
+      },
+      {
+        "name": "Haryana–NCR Processing & Research Hub (Gurugram, Karnal & Rewari)",
+        "texts": [
+          "2",
+          "Haryana–NCR Processing & Research Hub (Gurugram, Karnal & Rewari)",
+          "HR",
+          "REGIONAL SOURCE VARIETIES",
+          "BH 902, BH 946, DWRUB 52"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Haryana–NCR Processing & Research Hub (Gurugram, Karnal & Rewari)\nStrategic Role: The technical breeding, corporate aggregation, and high-efficiency brewing corridor of northern India.\nKey Facilities: Malt conversion factories across Gurugram, Dharuhera, and Rewari; breeding coordination and quality evaluation laboratories at the ICAR-Indian Institute of Wheat and Barley Research (IIWBR) in Karnal.\nCatchment Areas: Sirsa, Fatehabad, Hisar, Bhiwani, Mahendragarh (Haryana); cross-border contract lots from southwestern Punjab (Bathinda, Mansa, Fazilka)."
+      },
+      {
+        "name": "Eastern Doab Sattu & Food Processing Cluster (Uttar Pradesh & Bihar)",
+        "texts": [
+          "3",
+          "Eastern Doab Sattu & Food Processing Cluster (Uttar Pradesh & Bihar)",
+          "BR / UP",
+          "REGIONAL SOURCE VARIETIES",
+          "K 560, K 603, Jyoti, Azad · Harit DWRB 101, Narendra series · Sabour Jau 1, BR 31, BR 32"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Eastern Doab Sattu & Food Processing Cluster (Uttar Pradesh & Bihar)\nStrategic Role: Hub for traditional roasted functional foods, roasted flour blending, and livestock feed milling.\nKey Centers: Kanpur (central processing and spot exchange), Varanasi, Jaunpur, and Patna.\nCatchment Areas: Kanpur Dehat, Fatehpur, Hardoi, Aligarh, Agra (UP); Sabour, Begusarai, and Patna districts (Bihar)."
+      }
+    ]
+  },
+  "ragi": {
+    "name": "Ragi",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Ragi_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1r26YJgwkiVYUamNHK0x4jHnZICsTr1QX/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1r26YJgwkiVYUamNHK0x4jHnZICsTr1QX/view?usp=drivesdk",
+        "application": "/gramshakti/crops/ragi/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Ragi_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1pkRjTH5sMGTjKojD4PrYLuB8bLgRbG0w/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1pkRjTH5sMGTjKojD4PrYLuB8bLgRbG0w/view?usp=drivesdk",
+        "application": "/gramshakti/crops/ragi/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Ragi_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1akDfB0wNiLOxb-opok4w4TYV1Z4e6tZA/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1akDfB0wNiLOxb-opok4w4TYV1Z4e6tZA/view?usp=drivesdk",
+        "application": "/gramshakti/crops/ragi/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Old Mysore Commercial & Malting Corridor (Southern Karnataka)",
+        "texts": [
+          "1",
+          "Old Mysore Commercial & Malting Corridor (Southern Karnataka)",
+          "KA",
+          "REGIONAL SOURCE VARIETIES",
+          "ML-365, GPU-28, KMR-301, Indaf-8 · GPU-48, KMR-316, MR-1"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Old Mysore Commercial & Malting Corridor (Southern Karnataka)\nStrategic Role: The undisputed production, consumption, and processing engine of finger millet in India.\nKey Facilities: Large automated grain sorting, destoning, and milling facilities in Tumakuru, Doddaballapura, and Mandya; industrial malting and weaning food production centers around Bengaluru; research infrastructure at UAS Bangalore.\nCatchment Areas: Tumakuru, Hassan, Mandya, Ramanagara, Bengaluru Rural, Kolar, and Chikkaballapura districts."
+      },
+      {
+        "name": "Northwest Tamil Nadu Industrial & Extrusion Hub (Krishnagiri & Dharmapuri)",
+        "texts": [
+          "2",
+          "Northwest Tamil Nadu Industrial & Extrusion Hub (Krishnagiri & Dharmapuri)",
+          "TN",
+          "REGIONAL SOURCE VARIETIES",
+          "CO-13, CO-14, CO-15, Paiyur-2 · ATL-1, CO-15"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Northwest Tamil Nadu Industrial & Extrusion Hub (Krishnagiri & Dharmapuri)\nStrategic Role: High-yield industrial processing axis specializing in vermicelli extrusion, ready-to-eat breakfast foods, and commercial flour packaging.\nKey Facilities: Automated continuous vermicelli and noodle processing lines in Hosur, Dharmapuri, and Salem; commercial grain clearing yards supplying Chennai and southern Tamil Nadu wholesale markets.\nCatchment Areas: Krishnagiri, Dharmapuri, Salem, Vellore, and cross-border grain inflows from southern Karnataka."
+      },
+      {
+        "name": "Koraput Eastern Ghats Millet Network (Odisha Millets Mission)",
+        "texts": [
+          "3",
+          "Koraput Eastern Ghats Millet Network (Odisha Millets Mission)",
+          "OR",
+          "REGIONAL SOURCE VARIETIES",
+          "Bhairabi, Chilika, Arjun, GPU-45"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Koraput Eastern Ghats Millet Network (Odisha Millets Mission)\nStrategic Role: India's benchmark decentralized procurement and tribal value-addition network.\nKey Infrastructure: Over 100 Women Self-Help Group (WSHG)-operated primary processing units equipped with destoners, aspirators, and pulverizers; block-level aggregation warehouses; distribution centers feeding Anganwadi nutrition programs.\nCatchment Areas: Koraput, Rayagada, Malkangiri, Nabarangpur, and Kalahandi districts."
+      }
+    ]
+  },
+  "small-millets": {
+    "name": "Small Millets",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Small_Millets_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1d8Zdn4XrkmsZa3G_FA9g-jN-Q-S__xRs/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1d8Zdn4XrkmsZa3G_FA9g-jN-Q-S__xRs/view?usp=drivesdk",
+        "application": "/gramshakti/crops/small-millets/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Small_Millets_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1Fic3sicPzaY-bpFIviUdexZTN0MwO3ID/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1Fic3sicPzaY-bpFIviUdexZTN0MwO3ID/view?usp=drivesdk",
+        "application": "/gramshakti/crops/small-millets/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Small_Millets_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1mow8400l4QxDNh-Wp7Krw2-Z3w2vEvd8/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1mow8400l4QxDNh-Wp7Krw2-Z3w2vEvd8/view?usp=drivesdk",
+        "application": "/gramshakti/crops/small-millets/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Nashik Industrial Bhagar & Fasting-Food Super-Cluster (Maharashtra)",
+        "texts": [
+          "1",
+          "Nashik Industrial Bhagar & Fasting-Food Super-Cluster (Maharashtra)",
+          "MH",
+          "REGIONAL SOURCE VARIETIES",
+          "Phule Ekadashi, SIA-3088, Phule Amruta"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Nashik Industrial Bhagar & Fasting-Food Super-Cluster (Maharashtra)\nStrategic Role: India's undisputed corporate capital for the processing, polishing, and packaging of Barnyard Millet (Vari/Bhagar). Handles over 70% of the country's commercial festival fasting grain trade.\nKey Facilities: Automated milling plants across Igatpuri, Trimbakeshwar, Ghoti, and Nashik MIDC; high-capacity trichromatic optical color sorters, pneumatic destoners, and modified atmosphere packaging lines supplying major brands (e.g., Bhagar King, Ghoti Brand).\nCatchment Areas: Nashik, Palghar, Thane, and Pune crestlines (Maharashtra); interstate rail receipts of raw un-hulled Jhangora from the Himalayan foothills of Uttarakhand (Rishikesh, Kotdwar railheads); border inflows from Dangs (Gujarat)."
+      },
+      {
+        "name": "Southern Minor Millet Processing Corridor (Tamil Nadu & Karnataka)",
+        "texts": [
+          "2",
+          "Southern Minor Millet Processing Corridor (Tamil Nadu & Karnataka)",
+          "KA / TN",
+          "REGIONAL SOURCE VARIETIES",
+          "HMT-100-1, DHFt-109-3, Local Korale · CO-4 (Samai), CO-7 (Tenai), ATL-1"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Southern Minor Millet Processing Corridor (Tamil Nadu & Karnataka)\nStrategic Role: Advanced industrial value-addition, extrusion, and branded consumer packaging axis for Foxtail, Little, and Browntop millets.\nKey Facilities: Automated dehulling and color-sorting lines in Dharmapuri and Hosur (Tamil Nadu); cold extrusion, flaking, and retail packaging facilities around Bengaluru and Mysuru; research and processing incubation at CFTRI Mysuru and UAS Bangalore.\nCatchment Areas: Dharmapuri, Krishnagiri, Salem (TN); Tumakuru, Chitradurga, Ballari (KA); Kurnool and Anantapur (AP)."
+      },
+      {
+        "name": "Central Tribal Decentralized Processing Basin (Madhya Pradesh & Odisha)",
+        "texts": [
+          "3",
+          "Central Tribal Decentralized Processing Basin (Madhya Pradesh & Odisha)",
+          "MP / OR",
+          "REGIONAL SOURCE VARIETIES",
+          "JK-48, JK-137, Birsa Kodo-1, JK-8 · OLM-203, Tarini, Kolab, TNAU-86"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Central Tribal Decentralized Processing Basin (Madhya Pradesh & Odisha)\nStrategic Role: India's primary production heartland for Kodo and Little Millet, focused on rural value retention and food security under GI tags and state missions.\nKey Centers: Dindori, Mandla, and Bichhiya (MP); Semiliguda, Kundra, and Gunupur (Odisha).\nInfrastructure Profile: Community-managed Custom Hiring and Processing Centers (CHPCs) operated by Women Self-Help Groups (WSHGs); rubber-roller dehullers and destoners established under the Odisha Millets Mission and MP state tribal development federations.\nCatchment Areas: Dindori, Mandla, Shahdol, Anuppur, Chhindwara (MP); Koraput, Rayagada, Malkangiri, Nabarangpur (Odisha); Bastar and Kondagaon plateaus (Chhattisgarh)."
+      }
+    ]
+  },
+  "gram": {
+    "name": "Gram",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Gram_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1I1EACfBhO1N1v6akXi1x9YfrdjdpeKIC/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1I1EACfBhO1N1v6akXi1x9YfrdjdpeKIC/view?usp=drivesdk",
+        "application": "/gramshakti/crops/gram/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Gram_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1nchhgaC3eLeMBrcaWnCU7_HlCZqa6hzy/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1nchhgaC3eLeMBrcaWnCU7_HlCZqa6hzy/view?usp=drivesdk",
+        "application": "/gramshakti/crops/gram/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Gram_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1y1OQfnrAPiq2wyTeZMc-FPsF76X3CgPt/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1y1OQfnrAPiq2wyTeZMc-FPsF76X3CgPt/view?usp=drivesdk",
+        "application": "/gramshakti/crops/gram/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Latur–Marathwada Pulse Super-Cluster (Maharashtra)",
+        "texts": [
+          "1",
+          "Latur–Marathwada Pulse Super-Cluster (Maharashtra)",
+          "MH",
+          "REGIONAL SOURCE VARIETIES",
+          "Phule Vikram, Vijay, Vishal, Digvijay · Rajas, PKV Kabuli-2"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Latur–Marathwada Pulse Super-Cluster (Maharashtra)\nStrategic Role: India's primary price-discovery and physical trading terminal for Desi Chana and pulse milling. Latur APMC sets spot pricing for all peninsular pulse markets.\nKey Facilities: Over 120 automated dal mills, mechanical cleaning and de-hulling lines, electronic clearing exchanges, and multi-commodity rail freight aggregation yards.\nCatchment Areas: Latur, Dharashiv, Beed, Chhatrapati Sambhajinagar, Jalna, Parbhani (Marathwada); Akola, Amravati, Buldhana (Vidarbha); interstate truck arrivals from northern Karnataka (Bidar, Kalaburagi)."
+      },
+      {
+        "name": "Indore–Malwa Processing & Kabuli Export Hub (Madhya Pradesh)",
+        "texts": [
+          "2",
+          "Indore–Malwa Processing & Kabuli Export Hub (Madhya Pradesh)",
+          "MP",
+          "REGIONAL SOURCE VARIETIES",
+          "JG-11, JG-16, JG-315, Radhey · Dollar Chana (KAK-2, JGK-1, Vihar)"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Indore–Malwa Processing & Kabuli Export Hub (Madhya Pradesh)\nStrategic Role: Center for Extra-Bold Kabuli (Dollar Chana) optical sortex cleaning and corporate branded Besan manufacturing.\nKey Facilities: Multi-camera optical color sorting towers (Bühler, Satake), high-capacity continuous besan milling plants, and inland container depots (ICD Pithampur and Dhannad) linked by rail to JNPT and Mundra ports.\nCatchment Areas: Indore, Ujjain, Dewas, Dhar, Ratlam (Malwa plateau); Vidisha, Sehore, Raisen, Hoshangabad (Narmada basin); interstate arrivals from Dahod (Gujarat) and Kota (Rajasthan)."
+      },
+      {
+        "name": "Bikaner–Jaipur Snack Processing Axis (Rajasthan)",
+        "texts": [
+          "3",
+          "Bikaner–Jaipur Snack Processing Axis (Rajasthan)",
+          "RJ",
+          "REGIONAL SOURCE VARIETIES",
+          "GNG-1581 (Gangaur), GNG-1958, GNG-2144"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Bikaner–Jaipur Snack Processing Axis (Rajasthan)\nStrategic Role: Global center for Bikaneri Bhujia, moth-chana papad, and industrial besan-based savory snack manufacturing.\nKey Facilities: Industrial namkeen production corridors (Haldiram, Bikaji, Bhikharam Chandmal) across Bikaner Industrial Area; state warehousing cold storages holding NCDEX-certified physical stocks.\nCatchment Areas: Bikaner, Churu, Hanumangarh, Ganganagar, Nagaur, and Sikar."
+      }
+    ]
+  },
+  "pigeon-pea": {
+    "name": "Pigeon Pea",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Pigeon_Pea_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1LZZVuP7jFNG_FNYgqcZxQ6Nky4c08_LL/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1LZZVuP7jFNG_FNYgqcZxQ6Nky4c08_LL/view?usp=drivesdk",
+        "application": "/gramshakti/crops/pigeon-pea/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Pigeon_Pea_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1rPqIqf4qTX97nGLfLX8icTFARY2sDwuf/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1rPqIqf4qTX97nGLfLX8icTFARY2sDwuf/view?usp=drivesdk",
+        "application": "/gramshakti/crops/pigeon-pea/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Pigeon_Pea_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1vs6Pq9BCi8jkgv6o_9G1N4TJvXyKWcmv/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1vs6Pq9BCi8jkgv6o_9G1N4TJvXyKWcmv/view?usp=drivesdk",
+        "application": "/gramshakti/crops/pigeon-pea/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Latur–Akola Dal Milling Super-Cluster (Maharashtra)",
+        "texts": [
+          "1",
+          "Latur–Akola Dal Milling Super-Cluster (Maharashtra)",
+          "MH",
+          "REGIONAL SOURCE VARIETIES",
+          "BDN-711, BDN-716, BSMR-736, BSMR-853"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Latur–Akola Dal Milling Super-Cluster (Maharashtra)\nStrategic Role: India's primary price-discovery and volume processing center for pigeonpea. Latur APMC sets daily benchmark spot rates for domestic raw tur.\nKey Facilities: Over 250 automated dal mills across Latur, Udgir, Akola, and Khamgaon; continuous mechanical dryers, trichromatic optical sorters, and container-loading rail yards.\nCatchment Areas: Marathwada (Latur, Dharashiv, Nanded, Jalna); Vidarbha (Akola, Amravati, Yavatmal, Buldhana); cross-border arrivals from northern Telangana (Adilabad, Nizamabad)."
+      },
+      {
+        "name": "Kalaburagi Industrial Togari Basin (Northern Karnataka)",
+        "texts": [
+          "2",
+          "Kalaburagi Industrial Togari Basin (Northern Karnataka)",
+          "KA",
+          "REGIONAL SOURCE VARIETIES",
+          "GRG-811, TS-3R, Maruti (ICP-8863)"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Kalaburagi Industrial Togari Basin (Northern Karnataka)\nStrategic Role: Capital of southern India's red gram economy, processing the GI-tagged Kalaburagi Red Gram.\nKey Facilities: Over 180 dal mills situated along the Kapnoor industrial area and Humnabad road; modern drying yards and automated packaging lines supplying southern regional retail.\nCatchment Areas: Kalaburagi, Yadgir, Bidar, Vijayapura, Raichur; cross-border inflows from the Tandur and Vikarabad belts in Telangana."
+      },
+      {
+        "name": "Vasad Processing & Oily Dal Export Cluster (Anand District, Gujarat)",
+        "texts": [
+          "3",
+          "Vasad Processing & Oily Dal Export Cluster (Anand District, Gujarat)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "GJT-104, Vaishali, BDN-2"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Vasad Processing & Oily Dal Export Cluster (Anand District, Gujarat)\nStrategic Role: The national center for specialized oil-treated Telia Toor Dal.\nKey Facilities: Specialized tumbling and oil-coating processing plants located around Vasad, Anand, and Vadodara; temperature-controlled warehouses and container stuffing docks servicing exports via Mundra and Kandla ports.\nCatchment Areas: Bharuch, Vadodara, Dahod, Chhota Udepur; substantial processing of raw grain imported from East Africa and Myanmar."
+      }
+    ]
+  },
+  "black-gram": {
+    "name": "Black Gram",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Black_Gram_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1Tw4gYdQ1tysuIH8v4mSU_HOpo4uPLE5j/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1Tw4gYdQ1tysuIH8v4mSU_HOpo4uPLE5j/view?usp=drivesdk",
+        "application": "/gramshakti/crops/black-gram/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Black_Gram_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1-fK4XuicNkWbVZug7NxxaGXrHKdg1Rxn/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1-fK4XuicNkWbVZug7NxxaGXrHKdg1Rxn/view?usp=drivesdk",
+        "application": "/gramshakti/crops/black-gram/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Black_Gram_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1ky5blePbHfA9NFAnhwZVJW9HSj8i5bW0/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1ky5blePbHfA9NFAnhwZVJW9HSj8i5bW0/view?usp=drivesdk",
+        "application": "/gramshakti/crops/black-gram/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Tenali–Guntur Processing Super-Cluster (Andhra Pradesh)",
+        "texts": [
+          "1",
+          "Tenali–Guntur Processing Super-Cluster (Andhra Pradesh)",
+          "AP",
+          "REGIONAL SOURCE VARIETIES",
+          "LBG-752, TBG-104, LBG-17 (Pratibha)"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Tenali–Guntur Processing Super-Cluster (Andhra Pradesh)\nStrategic Role: India's corporate center for processing raw black gram into unbroken, de-husked Urad Gota. Sets national quality benchmarks for wet-grinding and batter performance.\nKey Facilities: Over 100 specialized dal mills located in and around Tenali, Guntur, and Vijayawada; advanced trichromatic optical color sorters, water-polishing drums, and packaging lines supplying South Indian markets.\nCatchment Areas: Krishna-Godavari delta rice-fallow belts (Guntur, Bapatla, NTR, Krishna, West Godavari); containerized import receipts of Myanmar Black Matpe via Chennai and Visakhapatnam ports."
+      },
+      {
+        "name": "Damoh–Kanpur Pulse Milling Corridor (Madhya Pradesh & Uttar Pradesh)",
+        "texts": [
+          "2",
+          "Damoh–Kanpur Pulse Milling Corridor (Madhya Pradesh & Uttar Pradesh)",
+          "MP / UP",
+          "REGIONAL SOURCE VARIETIES",
+          "JU-3, JU-86, Indira Urd-1, PU-19 · Pant U-30, Azad Urd-1, Shekhar-3 · Pant U-31, IPU 02-43"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Damoh–Kanpur Pulse Milling Corridor (Madhya Pradesh & Uttar Pradesh)\nStrategic Role: Central India's processing and volume aggregation engine, supplying split Urad Chilka and Dhuli dal across the northern states.\nKey Facilities: Primary aggregation yards in Damoh, Tikamgarh, and Lalitpur; large-scale commercial pulse processing and roller flour mills in Kanpur City.\nCatchment Areas: Damoh, Tikamgarh, Panna, Chhatarpur, Sagar (MP); Lalitpur, Jhansi, Jalaun (Bundelkhand, UP); summer-season harvests from Western UP (Bareilly, Moradabad)."
+      },
+      {
+        "name": "Bikaner–Latur Industrial Papad & Dal Axis (Rajasthan & Maharashtra)",
+        "texts": [
+          "3",
+          "Bikaner–Latur Industrial Papad & Dal Axis (Rajasthan & Maharashtra)",
+          "MH / RJ",
+          "REGIONAL SOURCE VARIETIES",
+          "TAU-1, TPU-4, AKU-15 · RBU-38, Barkha (T-9)"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Bikaner–Latur Industrial Papad & Dal Axis (Rajasthan & Maharashtra)\nStrategic Role: Hub for processing black gram into fine papad flour and commercial split dal.\nKey Centers: Bikaner (industrial papad milling), Latur (wholesale APMC price discovery), and Akola (Vidarbha dal milling).\nCatchment Areas: Marathwada and Vidarbha rainfed Kharif tracts; Bhilwara, Chittorgarh, and Kota (Rajasthan)."
+      }
+    ]
+  },
+  "moong": {
+    "name": "Moong",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Moong_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/12VVxwyRJIl4v6PPdjeckQ1LDqk5YVGgK/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/12VVxwyRJIl4v6PPdjeckQ1LDqk5YVGgK/view?usp=drivesdk",
+        "application": "/gramshakti/crops/moong/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Moong_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1BSjv3eZpVTF6PEPi2dgvaRZJ_OITYjzX/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1BSjv3eZpVTF6PEPi2dgvaRZJ_OITYjzX/view?usp=drivesdk",
+        "application": "/gramshakti/crops/moong/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Moong_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1NwKJ5CrRqQlqT-_NhVas7ejZ2sfvO8U_/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1NwKJ5CrRqQlqT-_NhVas7ejZ2sfvO8U_/view?usp=drivesdk",
+        "application": "/gramshakti/crops/moong/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Merta–Jaipur Commercial Aggregation & Sizing Axis (Rajasthan)",
+        "texts": [
+          "1",
+          "Merta–Jaipur Commercial Aggregation & Sizing Axis (Rajasthan)",
+          "RJ",
+          "REGIONAL SOURCE VARIETIES",
+          "SML-668, GM-4, RMG-492, IPM 02-3"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Merta–Jaipur Commercial Aggregation & Sizing Axis (Rajasthan)\nStrategic Role: India's largest physical trading and spot price-discovery center for Kharif green gram.\nKey Facilities: Merta City APMC, Nagaur Mandi, and industrial grading and Sortex processing units situated around Jaipur; automated cleaning, destoning, and gravity separation plants supplying sprouting processors and export staging.\nCatchment Areas: Nagaur, Jodhpur, Pali, Jalore, Barmer, Bikaner, and Churu."
+      },
+      {
+        "name": "Narmada Summer Valley Processing Mega-Cluster (Madhya Pradesh)",
+        "texts": [
+          "2",
+          "Narmada Summer Valley Processing Mega-Cluster (Madhya Pradesh)",
+          "MP",
+          "REGIONAL SOURCE VARIETIES",
+          "Virat (IPM 205-7), Shikha, MH-421"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Narmada Summer Valley Processing Mega-Cluster (Madhya Pradesh)\nStrategic Role: Capital of the \"Summer Moong Revolution,\" supplying raw material to the national namkeen and packaged dal industries.\nKey Facilities: Large automated dal mills and cleaning yards situated across Hoshangabad (Narmadapuram), Pipariya, Itarsi, Harda, and Timarni; supplies large corporate snack plants across Central and Western India (Indore, Nagpur).\nCatchment Areas: Hoshangabad, Harda, Sehore, Raisen, Jabalpur, and Narsinghpur."
+      },
+      {
+        "name": "Gadag–Latur Early Processing Corridor (Karnataka & Maharashtra)",
+        "texts": [
+          "3",
+          "Gadag–Latur Early Processing Corridor (Karnataka & Maharashtra)",
+          "KA / MH",
+          "REGIONAL SOURCE VARIETIES",
+          "DGGV-2, BGS-9, Selection-4 · BM-2002-1, Phule Chetan, AKM-8802"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Gadag–Latur Early Processing Corridor (Karnataka & Maharashtra)\nStrategic Role: Primary southern and western processing axis, capturing the country's first new-crop arrivals in August.\nKey Facilities: Over 80 modern dal mills across Gadag and Dharwad (Karnataka); wholesale trading floors and milling complexes in Latur and Jalna (Maharashtra).\nCatchment Areas: Gadag, Dharwad, Belagavi, Kalaburagi, Bagalkote (Karnataka); Latur, Jalna, Nanded, and Akola (Maharashtra)."
+      }
+    ]
+  },
+  "lentil": {
+    "name": "Lentil",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Lentil_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/14yGFhEH7JcU3l8ftxLmUzYcQ9bUjXDoB/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/14yGFhEH7JcU3l8ftxLmUzYcQ9bUjXDoB/view?usp=drivesdk",
+        "application": "/gramshakti/crops/lentil/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Lentil_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1i8uIqTFbq1s5aZbLsgheZOBTJa9opb4S/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1i8uIqTFbq1s5aZbLsgheZOBTJa9opb4S/view?usp=drivesdk",
+        "application": "/gramshakti/crops/lentil/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Lentil_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/14qJpQDMCrQMMGnzDFu5g2VqlmmZkitDW/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/14qJpQDMCrQMMGnzDFu5g2VqlmmZkitDW/view?usp=drivesdk",
+        "application": "/gramshakti/crops/lentil/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Bundelkhand–Kanpur Processing Corridor (Uttar Pradesh)",
+        "texts": [
+          "1",
+          "Bundelkhand–Kanpur Processing Corridor (Uttar Pradesh)",
+          "UP",
+          "REGIONAL SOURCE VARIETIES",
+          "Narendra Masoor-1, Pant L-406, DPL-62 · K-75 (Mallika), Pant L-5"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Bundelkhand–Kanpur Processing Corridor (Uttar Pradesh)\nStrategic Role: Northern India's historic pulse processing and wholesale redistribution clearinghouse.\nKey Facilities: Large commercial dal mills and modern optical Sortex processing towers across Kanpur City, Orai, and Mauranipur; regional mandi aggregation centers in Lalitpur and Rath.\nCatchment Areas: Lalitpur, Jhansi, Jalaun, Hamirpur, Mahoba (UP Bundelkhand); cross-border arrivals from northern Madhya Pradesh (Tikamgarh, Chhatarpur, Datia)."
+      },
+      {
+        "name": "Katni–Sagar Central Madhya Pradesh Hub",
+        "texts": [
+          "2",
+          "Katni–Sagar Central Madhya Pradesh Hub",
+          "MP",
+          "REGIONAL SOURCE VARIETIES",
+          "JL-3, IPL-81 (Noor), IPL-316, RVL-31 · HUL-57, KLS-218"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Katni–Sagar Central Madhya Pradesh Hub\nStrategic Role: National supply capital for domestic whole red lentil procurement and dal milling.\nKey Facilities: Katni (one of Central India's densest dal milling clusters with over 90 processing plants), Sagar, Damoh, and Bina; automated emery-roller lines, optical sorting plants, and container rail sidings connecting to consumption centers across Maharashtra and the southern states.\nCatchment Areas: Sagar, Damoh, Vidisha, Raisen, Sehore, Narsinghpur, and Jabalpur."
+      },
+      {
+        "name": "Lower Gangetic & Port Processing Corridor (West Bengal & Bihar)",
+        "texts": [
+          "3",
+          "Lower Gangetic & Port Processing Corridor (West Bengal & Bihar)",
+          "BR / WB",
+          "REGIONAL SOURCE VARIETIES",
+          "Moitree (WBL-108), Subrata, Asha · Arun (PL-77-12), Pant L-406, HUL-57"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Lower Gangetic & Port Processing Corridor (West Bengal & Bihar)\nStrategic Role: Epicenter for local high-yield rice-fallow lentil processing and international import finishing.\nKey Facilities: Dal mills around Kolkata, Howrah, Ranaghat (Nadia), and Berhampore (Murshidabad); riverine assembly markets in Mokama and Barh (Bihar); Kolkata and Haldia port facilities handling Australian bulk container discharges.\nCatchment Areas: Nadia, Murshidabad, North 24 Parganas, Hooghly (WB); Mokama Tal, Begusarai, Samastipur (Bihar); imported red lentil shipments from Australia and Canada."
+      }
+    ]
+  },
+  "cotton": {
+    "name": "Cotton",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Cotton_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1lOM8RbevMKX_gptKUQKRi5W7CNe9AT8N/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1lOM8RbevMKX_gptKUQKRi5W7CNe9AT8N/view?usp=drivesdk",
+        "application": "/gramshakti/crops/cotton/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Cotton_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1_XcnZrf4dNl5YcEtCTGqKZPNQtOj8GPa/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1_XcnZrf4dNl5YcEtCTGqKZPNQtOj8GPa/view?usp=drivesdk",
+        "application": "/gramshakti/crops/cotton/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Cotton_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1BKstSFQ8JXFpu0PyI3bRo83nWU45Y4Pj/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1BKstSFQ8JXFpu0PyI3bRo83nWU45Y4Pj/view?usp=drivesdk",
+        "application": "/gramshakti/crops/cotton/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Saurashtra–Kadi Ginning & Export Mega-Cluster (Gujarat)",
+        "texts": [
+          "1",
+          "Saurashtra–Kadi Ginning & Export Mega-Cluster (Gujarat)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "Shankar-6 (S-6), RCH-2, Jaadoo"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Saurashtra–Kadi Ginning & Export Mega-Cluster (Gujarat)\nStrategic Role: India's corporate processing and maritime export gateway for raw cotton. Saurashtra handles raw trading, while Kadi (Mehsana district) houses one of the highest concentrations of modern automated double-roller ginning and cottonseed oil expelling units globally.\nKey Facilities: High-throughput double-roller (DR) ginning lines, pneumatic lint cleaners, automated moisture restoration towers, and direct container stuffing yards connected to Mundra and Pipavav ports.\nCatchment Areas: Rajkot, Amreli, Bhavnagar, Surendranagar, Morbi, Botad, Mehsana, Patan, and interstate inflows from southern Rajasthan and northern Maharashtra."
+      },
+      {
+        "name": "Vidarbha–Marathwada Black-Soil Aggregation Corridor (Maharashtra)",
+        "texts": [
+          "2",
+          "Vidarbha–Marathwada Black-Soil Aggregation Corridor (Maharashtra)",
+          "MH",
+          "REGIONAL SOURCE VARIETIES",
+          "Ajit-155, RCH-659, Mallika, PKV Hy-2"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Vidarbha–Marathwada Black-Soil Aggregation Corridor (Maharashtra)\nStrategic Role: Primary production, ginning, and warehousing corridor for rainfed upland cotton.\nKey Centers: Yavatmal, Akola, Hinganghat (Wardha), Khamgaon, Jalna, and Manwath.\nInfrastructure Profile: Heavy concentration of historical and modernized cooperative/private ginning mills, solvent extraction plants processing cottonseed, and state warehousing complexes holding Cotton Corporation of India (CCI) Minimum Support Price buffer stocks.\nCatchment Areas: Yavatmal, Amravati, Akola, Wardha, Nagpur (Vidarbha); Jalna, Chhatrapati Sambhajinagar, Nanded, Parbhani (Marathwada); Tapi basin (Jalgaon, Dhule)."
+      },
+      {
+        "name": "Coimbatore–Tiruppur Spindle & Textile Basin (Tamil Nadu)",
+        "texts": [
+          "3",
+          "Coimbatore–Tiruppur Spindle & Textile Basin (Tamil Nadu)",
+          "TN",
+          "REGIONAL SOURCE VARIETIES",
+          "MCU-5, Surabhi, Suvin"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Coimbatore–Tiruppur Spindle & Textile Basin (Tamil Nadu)\nStrategic Role: Known as the \"Manchester of South India.\" While Tamil Nadu produces only ~1.2% to 1.5% of India's raw cotton lint, it houses over 45% of the country's total spinning mill capacity.\nKey Facilities: Advanced ring-spinning, compact spinning, and open-end rotor facilities in Coimbatore, Erode, Salem, and Dindigul, feeding the knitwear manufacturing cluster in Tiruppur.\nCatchment Areas: Consumes continuous freight flows of ginned cotton bales transported by rail and road from Gujarat (S-6), Maharashtra (Ajit/Mallika), and Telangana (Jadoo/Bunny)."
+      }
+    ]
+  },
+  "jute-mesta": {
+    "name": "Jute & Mesta",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Jute_Mesta_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1zqwZeu2ODIAdBJ_YQWliMXTv4Rw8WUIY/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1zqwZeu2ODIAdBJ_YQWliMXTv4Rw8WUIY/view?usp=drivesdk",
+        "application": "/gramshakti/crops/jute-mesta/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Jute_Mesta_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1D7BqNT0_1OXn2jv9ul-h65F0IFzOKzVG/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1D7BqNT0_1OXn2jv9ul-h65F0IFzOKzVG/view?usp=drivesdk",
+        "application": "/gramshakti/crops/jute-mesta/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Jute_Mesta_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1cx8qktuGFA6NF4XxhtiGosbh8wXq5RVr/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1cx8qktuGFA6NF4XxhtiGosbh8wXq5RVr/view?usp=drivesdk",
+        "application": "/gramshakti/crops/jute-mesta/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Hooghly River Industrial Corridor (West Bengal)",
+        "texts": [
+          "1",
+          "Hooghly River Industrial Corridor (West Bengal)",
+          "WB",
+          "REGIONAL SOURCE VARIETIES",
+          "Tossa Jute (JRO-524, JRO-204, JRO-8432) · White Jute (JRC-321, JRC-212)"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Hooghly River Industrial Corridor (West Bengal)\nStrategic Role: The global manufacturing center for woven jute products. Runs along both banks of the Hooghly river through Howrah, Hooghly, North 24 Parganas, and Nadia districts, housing roughly 70 of India's 95 operating composite jute mills.\nKey Centers: Titagarh, Jagaddal, Naihati, Barrackpore, Bhadreswar, Serampore, Bally, Rishra, and Uluberia.\nInfrastructure Profile: Full-scale composite mills containing softener machines (emulsion batching), breaker and finisher cards, drawing frames, flyer spinning frames, and high-speed automatic looms; connected directly to Kolkata and Haldia ports for container and breakbulk dispatch.\nCatchment Areas: Nadia, Murshidabad, North 24 Parganas, and Hooghly; rail receipts of un-baled and kutcha-baled fiber from North Bengal, Bihar, and Assam."
+      },
+      {
+        "name": "Seemanchal & North Bengal Primary Processing Corridor (Bihar & WB)",
+        "texts": [
+          "2",
+          "Seemanchal & North Bengal Primary Processing Corridor (Bihar & WB)",
+          "BR / WB",
+          "REGIONAL SOURCE VARIETIES",
+          "Tossa Jute (JRO-524, JRO-204, JRO-8432) · White Jute (JRC-321, JRC-212) · Tossa & White (JRO-524, Sonali)"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Seemanchal & North Bengal Primary Processing Corridor (Bihar & WB)\nStrategic Role: India's largest inland raw-jute aggregation, grading, and pressing network.\nKey Facilities: Gulabbagh Mandi (Purnia), Katihar assembling yards, Kishanganj, and Siliguri transshipment yards; over 150 semi-mechanized Kutcha (lightly pressed) and Pucca (180-kg hydraulic) baling presses.\nCatchment Areas: Purnia, Katihar, Kishanganj, Araria, Saharsa (Bihar); Uttar Dinajpur, Dakshin Dinajpur, and Malda (West Bengal)."
+      },
+      {
+        "name": "North Coastal Andhra Mesta Processing Belt (Andhra Pradesh)",
+        "texts": [
+          "3",
+          "North Coastal Andhra Mesta Processing Belt (Andhra Pradesh)",
+          "AP",
+          "REGIONAL SOURCE VARIETIES",
+          "Mesta (H. sabdariffa - AMV-5)"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. North Coastal Andhra Mesta Processing Belt (Andhra Pradesh)\nStrategic Role: Center for commercial mesta processing, twin-ply rope cordage, and southern agricultural sacking supply.\nKey Facilities: Specialized twine, yarn, and gunny mills around Vizianagaram, Srikakulam, and Visakhapatnam.\nCatchment Areas: Semi-arid dryland farms of Srikakulam and Vizianagaram; interstate inflows from southern Odisha (Koraput, Rayagada)."
+      }
+    ]
+  },
+  "tobacco": {
+    "name": "Tobacco",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Tobacco_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1ymTeMt0MHMLgyUDfoJpO5YOrUbyP4-5R/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1ymTeMt0MHMLgyUDfoJpO5YOrUbyP4-5R/view?usp=drivesdk",
+        "application": "/gramshakti/crops/tobacco/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Tobacco_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1zij2UYZuXo3QriEpXIq4jNMvz_8wOTGb/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1zij2UYZuXo3QriEpXIq4jNMvz_8wOTGb/view?usp=drivesdk",
+        "application": "/gramshakti/crops/tobacco/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Tobacco_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1YfulvkKTN9ik67W0Oz9uf2pXj2FOw7-C/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1YfulvkKTN9ik67W0Oz9uf2pXj2FOw7-C/view?usp=drivesdk",
+        "application": "/gramshakti/crops/tobacco/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Guntur–Chilakaluripet Leaf Processing Corridor (Andhra Pradesh)",
+        "texts": [
+          "1",
+          "Guntur–Chilakaluripet Leaf Processing Corridor (Andhra Pradesh)",
+          "AP",
+          "REGIONAL SOURCE VARIETIES",
+          "FCV Tobacco: Siri, VT-1158, Kanchan · Natu & Burley Tobacco"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Guntur–Chilakaluripet Leaf Processing Corridor (Andhra Pradesh)\nStrategic Role: The global capital of Indian leaf tobacco trading, processing, and shipping. Guntur and its surrounding industrial bypasses host the world's highest density of green leaf threshing lines outside North America and China.\nKey Facilities: Multinational and corporate processing facilities (ITC-ILTD, Godfrey Phillips India, Polisetty Somasundaram, Alliance One, Universal Leaf); automated Green Leaf Threshing (GLT) lines, computerized conditioning chambers, C-48 carton compression packaging, and ISO/IEC 17025 accredited analytical laboratories testing for pesticide residues, TSNAs, and heavy metals.\nCatchment Areas: The entire Andhra Pradesh FCV belt: Northern Light Soils (West Godavari), Southern Light Soils (Prakasam, Nellore), Southern Black Soils, and traditional Guntur/Krishna Natu and Burley crops."
+      },
+      {
+        "name": "Anand–Petlad Bidi Industrial Cluster (Gujarat)",
+        "texts": [
+          "2",
+          "Anand–Petlad Bidi Industrial Cluster (Gujarat)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "Bidi Tobacco: Anand-119, ABT-10, GT-7"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Anand–Petlad Bidi Industrial Cluster (Gujarat)\nStrategic Role: Center for non-FCV bidi tobacco assembly, dry processing, flake screening, and commercial blending.\nKey Facilities: Large covered drying yards, mechanized de-veining lines, rotary sieving trommels, and wholesale assembly godowns across Anand, Petlad, Nadiad, and Borsad.\nCatchment Areas: Anand, Kheda, Vadodara, Mahisagar, Panchmahal, and inbound trucks from southwestern Rajasthan."
+      },
+      {
+        "name": "Hunsur–Mysuru Processing Axis (Karnataka)",
+        "texts": [
+          "3",
+          "Hunsur–Mysuru Processing Axis (Karnataka)",
+          "KA",
+          "REGIONAL SOURCE VARIETIES",
+          "FCV Tobacco: Kanchan, Sahyadri, Rathna"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Hunsur–Mysuru Processing Axis (Karnataka)\nStrategic Role: Dedicated corporate aggregation and processing center for monsoon-grown Karnataka Light Soil (KLS) FCV tobacco.\nKey Facilities: Centralized Tobacco Board e-auction yards in Hunsur and Periyapatna; modern re-drying plants and export carton warehouses operated by corporate exporters.\nCatchment Areas: Mysuru, Hassan, and Chikkamagaluru districts."
+      }
+    ]
+  },
+  "guarseed": {
+    "name": "Guarseed",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Guarseed_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1vjAdoKroDBu3HL6-axjc29HA6GzWpiYS/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1vjAdoKroDBu3HL6-axjc29HA6GzWpiYS/view?usp=drivesdk",
+        "application": "/gramshakti/crops/guarseed/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Guarseed_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1eK4ks46NTziatLh0dsMC4nzKV8pMhNUy/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1eK4ks46NTziatLh0dsMC4nzKV8pMhNUy/view?usp=drivesdk",
+        "application": "/gramshakti/crops/guarseed/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Guarseed_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1m_MLL_sKdBBO6DyCApuTedfJbK6VWtbM/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1m_MLL_sKdBBO6DyCApuTedfJbK6VWtbM/view?usp=drivesdk",
+        "application": "/gramshakti/crops/guarseed/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Jodhpur–Bikaner Industrial Super-Cluster (Rajasthan)",
+        "texts": [
+          "1",
+          "Jodhpur–Bikaner Industrial Super-Cluster (Rajasthan)",
+          "RJ",
+          "REGIONAL SOURCE VARIETIES",
+          "RGC-936, RGC-1002, RGC-1003 · RGC-1066, RGC-1017"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Jodhpur–Bikaner Industrial Super-Cluster (Rajasthan)\nStrategic Role: Globally recognized as the manufacturing, processing, and financial price-discovery capital of guar gum. Handles over 70% of India's refined splits and finished gum powders.\nKey Facilities: Over 120 automated splitting and high-capacity powder manufacturing facilities in the Basni, Boranada, and Mandore Industrial Areas (Jodhpur) and the Bichhwal and Karni Industrial Areas (Bikaner) (e.g., Vikas WSP, Sunita Hydrocolloids, Hindustan Gum & Chemicals, Neelkanth Polymers); specialized chemical derivatization plants and advanced R&D laboratories measuring rotational viscosity via Fann and Brookfield viscometers.\nCatchment Areas: The entire Thar Desert production basin: Bikaner, Barmer, Jodhpur, Jaisalmer, Nagaur, Churu, and interstate receipts from western Haryana."
+      },
+      {
+        "name": "Haryana Split & Processing Corridor (Siwani, Bhiwani & Hisar)",
+        "texts": [
+          "2",
+          "Haryana Split & Processing Corridor (Siwani, Bhiwani & Hisar)",
+          "HR",
+          "REGIONAL SOURCE VARIETIES",
+          "HG-365, HG-563, HG-2-20"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Haryana Split & Processing Corridor (Siwani, Bhiwani & Hisar)\nStrategic Role: Northern commercial split manufacturing and cattle feed hub, known for high split recovery rates.\nKey Facilities: Specialized mechanical splitting lines and feed extraction plants situated in and around Siwani, Bhiwani, and Hisar.\nCatchment Areas: Bhiwani, Sirsa, Hisar, Mahendragarh, and border truck deliveries from northern Rajasthan (Churu, Hanumangarh)."
+      },
+      {
+        "name": "Gujarat Port-Linked Export Axis (Ahmedabad, Kadi & Mundra)",
+        "texts": [
+          "3",
+          "Gujarat Port-Linked Export Axis (Ahmedabad, Kadi & Mundra)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "GG-1, GG-2, GG-4, RGC-936"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Gujarat Port-Linked Export Axis (Ahmedabad, Kadi & Mundra)\nStrategic Role: Export staging, custom formulation, and high-efficiency maritime container dispatch center.\nKey Facilities: Advanced refining plants in Ahmedabad (Naroda, Vatva), Kadi, and Sanand; packaging and stuffing yards at the Mundra and Kandla ports.\nCatchment Areas: Kutch, Banaskantha, Patan, and refined split inflows arriving by rail from Jodhpur and Bikaner."
+      }
+    ]
+  },
+  "groundnut": {
+    "name": "Groundnut",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Groundnut_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1fQY1OuIs6DWX9w36LKdFMsfxGHoRdD_b/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1fQY1OuIs6DWX9w36LKdFMsfxGHoRdD_b/view?usp=drivesdk",
+        "application": "/gramshakti/crops/groundnut/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Groundnut_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1GHbUeplC5dpIEvTltXL54EG0En2f_xn-/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1GHbUeplC5dpIEvTltXL54EG0En2f_xn-/view?usp=drivesdk",
+        "application": "/gramshakti/crops/groundnut/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Groundnut_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1lNnrcrJCGsCtNfo7NazfTcPs20pah_PG/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1lNnrcrJCGsCtNfo7NazfTcPs20pah_PG/view?usp=drivesdk",
+        "application": "/gramshakti/crops/groundnut/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Saurashtra Processing & Decortication Super-Cluster (Gujarat)",
+        "texts": [
+          "1",
+          "Saurashtra Processing & Decortication Super-Cluster (Gujarat)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "Spanish Bunch: GG-20, GJG-22, GJG-31 · TG-37A, GG-2, GJG-9"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Saurashtra Processing & Decortication Super-Cluster (Gujarat)\nStrategic Role: The undisputed commercial capital of the Indian groundnut economy, dictating domestic oil prices and setting national export volumes.\nKey Facilities: Over 500 mechanical expeller oil mills, solvent extraction plants, decorticating units, and peanut butter factories concentrated across Gondal, Rajkot, Junagadh, Keshod, Jamnagar, and Dhoraji; electronic trading registries under the Saurashtra Oil Mills Association (SOMA).\nCatchment Areas: Rajkot, Junagadh, Amreli, Bhavnagar, Jamnagar, Devbhumi Dwarka, Porbandar, and Gir Somnath."
+      },
+      {
+        "name": "Bikaner–Mundra HPS Export Corridor (Rajasthan & Gujarat)",
+        "texts": [
+          "2",
+          "Bikaner–Mundra HPS Export Corridor (Rajasthan & Gujarat)",
+          "GJ / RJ",
+          "REGIONAL SOURCE VARIETIES",
+          "Spanish Bunch: GG-20, GJG-22, GJG-31 · TG-37A, GG-2, GJG-9 · Virginia Runner/Bunch: HNG-10, HNG-123"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Bikaner–Mundra HPS Export Corridor (Rajasthan & Gujarat)\nStrategic Role: India's high-tech shelling, laser sorting, and maritime container export pipeline for extra-bold HPS kernels and peanut butter.\nKey Facilities: IOPEPC-approved automated shelling and grading units in Bikaner (Bichhwal Industrial Area), Deesa (Banaskantha), and the Mundra Special Economic Zone (SEZ); equipped with bichromatic Sortex optical sorters, aflatoxin testing labs, and climate-controlled warehousing ().\nCatchment Areas: Bikaner, Lunkaransar, Jodhpur, Nagaur, Churu (Rajasthan); Banaskantha and Kutch (Gujarat)."
+      },
+      {
+        "name": "Tindivanam–Kovilpatti Confectionery & Oil Axis (Tamil Nadu)",
+        "texts": [
+          "3",
+          "Tindivanam–Kovilpatti Confectionery & Oil Axis (Tamil Nadu)",
+          "TN",
+          "REGIONAL SOURCE VARIETIES",
+          "Spanish Bunch: VRI-8, VRI-10, TMV-7 · VRI-2, BSR-2"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Tindivanam–Kovilpatti Confectionery & Oil Axis (Tamil Nadu)\nStrategic Role: Specialized center for high-yield food-grade decortication, cold-pressed gingelly/groundnut expelling, and traditional brittle confectionery.\nKey Facilities: Decorticating and processing units in Tindivanam and Polur; export-grade confectionery manufacturing lines in Kovilpatti (GI Kadalai Mittai).\nCatchment Areas: Tiruvannamalai, Villupuram, Cuddalore, Vellore, and cross-border arrivals from Chittoor and Kadapa (Andhra Pradesh)."
+      }
+    ]
+  },
+  "rapeseed-mustard": {
+    "name": "Rapeseed & Mustard",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Rapeseed_Mustard_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1inNK0iUll4JP1wirG1pef7ZKoLCbEZl_/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1inNK0iUll4JP1wirG1pef7ZKoLCbEZl_/view?usp=drivesdk",
+        "application": "/gramshakti/crops/rapeseed-mustard/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Rapeseed_Mustard_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1-vSgX18ysnRDo1bQ-OXUd74zVZiK3lr6/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1-vSgX18ysnRDo1bQ-OXUd74zVZiK3lr6/view?usp=drivesdk",
+        "application": "/gramshakti/crops/rapeseed-mustard/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Rapeseed_Mustard_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1zgtB006UjZWwEyefRymc1eHdHKAvZP1X/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1zgtB006UjZWwEyefRymc1eHdHKAvZP1X/view?usp=drivesdk",
+        "application": "/gramshakti/crops/rapeseed-mustard/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Alwar–Bharatpur Industrial Processing Heartland (Rajasthan)",
+        "texts": [
+          "1",
+          "Alwar–Bharatpur Industrial Processing Heartland (Rajasthan)",
+          "RJ",
+          "REGIONAL SOURCE VARIETIES",
+          "B. juncea: Giriraj, Pioneer 45S46, RH-749 · Eruca sativa: RTM-314 (Taramira)"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Alwar–Bharatpur Industrial Processing Heartland (Rajasthan)\nStrategic Role: Globally recognized as the primary price-discovery, crushing, and physical assembly center for Indian mustard. Sets daily spot pricing for domestic seed and expeller cakes.\nKey Facilities: Over 350 mechanized expeller units, solvent extraction plants, and automated tin-filling operations in Alwar (Matsya Industrial Area), Khairthal, Bharatpur, and Jaipur (Vishwakarma & Sitapura Industrial Areas); high-throughput cleaning, destoning, and gravity separation lines.\nCatchment Areas: Alwar, Bharatpur, Dausa, Jaipur, Sawai Madhopur, Karauli (Rajasthan); southern Haryana districts (Bhiwani, Mahendragarh, Rewari)."
+      },
+      {
+        "name": "Agra–Kanpur Industrial Processing Corridor (Uttar Pradesh)",
+        "texts": [
+          "2",
+          "Agra–Kanpur Industrial Processing Corridor (Uttar Pradesh)",
+          "UP",
+          "REGIONAL SOURCE VARIETIES",
+          "B. juncea: Varuna, Rohini, Urvashi · Yellow Sarson: Pitambari"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Agra–Kanpur Industrial Processing Corridor (Uttar Pradesh)\nStrategic Role: Center for commercial edible oil expelling, brand packaging, and inter-state logistics linking central production to northern consumption.\nKey Facilities: Historic industrial crushing clusters in Agra (Belanganj & Foundry Nagar) and Kanpur (Fazalganj & Panki Industrial Areas); large modern corporate bottling plants (e.g., B.L. Agro, Adani Wilmar, Patanjali) packaging oil into retail poly-pouches, PET bottles, and 15-kg tin containers.\nCatchment Areas: Agra, Mathura, Aligarh, Hathras, Firozabad, Kanpur, Fatehpur (UP); heavy inbound raw seed truck arrivals from the Chambal valley (Morena, Bhind, Sheopur)."
+      },
+      {
+        "name": "Kolkata–Howrah Consumption & Refining Basin (West Bengal)",
+        "texts": [
+          "3",
+          "Kolkata–Howrah Consumption & Refining Basin (West Bengal)",
+          "WB",
+          "REGIONAL SOURCE VARIETIES",
+          "Yellow Sarson & Toria: Subinoy (B-9), Binoy"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Kolkata–Howrah Consumption & Refining Basin (West Bengal)\nStrategic Role: India's largest consumer and trading market for high-pungency Kachi Ghani mustard oil.\nKey Facilities: Specialized expeller mills and oil packaging facilities in Howrah, Hooghly, and Kolkata Port Area; river terminal transit facilities.\nCatchment Areas: Consumes local production from Nadia, Murshidabad, and the 24 Parganas, supported by continuous rail tank-wagon inflows of raw crude mustard oil dispatched from Rajasthan and Madhya Pradesh."
+      }
+    ]
+  },
+  "soybean": {
+    "name": "Soybean",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Soybean_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1xZjZBeY4qzyK61VKAIN0P7_rRaOVXKb7/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1xZjZBeY4qzyK61VKAIN0P7_rRaOVXKb7/view?usp=drivesdk",
+        "application": "/gramshakti/crops/soybean/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Soybean_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1I6CMJcBUx5Zr-gXI22DWTGnFMCuVR_R0/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1I6CMJcBUx5Zr-gXI22DWTGnFMCuVR_R0/view?usp=drivesdk",
+        "application": "/gramshakti/crops/soybean/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Soybean_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/13SJTu-J_XapBkDDo9IKQ4zEDiaJ44z_N/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/13SJTu-J_XapBkDDo9IKQ4zEDiaJ44z_N/view?usp=drivesdk",
+        "application": "/gramshakti/crops/soybean/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Indore–Dewas Solvent Extraction Super-Cluster (Madhya Pradesh)",
+        "texts": [
+          "1",
+          "Indore–Dewas Solvent Extraction Super-Cluster (Madhya Pradesh)",
+          "MP",
+          "REGIONAL SOURCE VARIETIES",
+          "JS-20-34, JS-95-60, JS-20-29 · JS-20-69, JS-20-98, NRC-142"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Indore–Dewas Solvent Extraction Super-Cluster (Madhya Pradesh)\nStrategic Role: Globally recognized as the processing, financial price-discovery, and trade headquarters of the Indian soybean economy.\nKey Facilities: Over 80 continuous-extraction solvent plants, vegetable oil refineries, texturized soy extrusion units, and lecithin drying operations located in Indore, Dewas, Pithampur Industrial Area, Ujjain, and Mandideep (Bhopal); host to the SOPA physical trading registry and advanced NABL-certified analytical laboratories testing for Non-GMO compliance, protein solubility, and chemical residues.\nCatchment Areas: The entire Malwa plateau and Narmada basin: Ujjain, Dewas, Dhar, Indore, Ratlam, Shajapur, Sehore, Hoshangabad, Harda, and cross-border rail receipts from Kota and Baran (Rajasthan)."
+      },
+      {
+        "name": "Latur–Nagpur Industrial Processing Corridor (Maharashtra)",
+        "texts": [
+          "2",
+          "Latur–Nagpur Industrial Processing Corridor (Maharashtra)",
+          "MH",
+          "REGIONAL SOURCE VARIETIES",
+          "Phule Sangam (KDS-726), KDS-753 · JS-335, MAUS-71, DS-228"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Latur–Nagpur Industrial Processing Corridor (Maharashtra)\nStrategic Role: Center for rapid physical assembly, commercial spot price discovery, and modern high-recovery crushing.\nKey Facilities: Automated solvent plants, edible oil packing lines, and rail loading terminals concentrated around Latur, Akola, Nagpur (Butibori MIDC), Wardha, Washim, and Khamgaon.\nCatchment Areas: Latur, Dharashiv, Nanded, Jalna, Parbhani (Marathwada); Akola, Buldhana, Amravati, Yavatmal, Wardha (Vidarbha); cross-border arrivals from northern Telangana (Adilabad) and northern Karnataka (Bidar)."
+      },
+      {
+        "name": "Kandla–Mundra Port Logistics Gateway (Gujarat)",
+        "texts": [
+          "3",
+          "Kandla–Mundra Port Logistics Gateway (Gujarat)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "GS-1, GS-2, NRC-37"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Kandla–Mundra Port Logistics Gateway (Gujarat)\nStrategic Role: India's primary maritime hub for exporting Non-GMO soybean meal and importing crude degummed soybean oil.\nKey Facilities: Port-based solvent extraction plants and mega-refineries (Adani Wilmar, Cargill, Ruchi Soya/Patanjali); specialized multi-thousand-tonne bulk flat-storage warehouses and automated pneumatic ship loaders at Kandla and Mundra ports.\nCatchment Areas: Consumes unit-train container rakes of soybean meal dispatched continuously from extraction plants in Madhya Pradesh, Maharashtra, and Rajasthan for direct vessel loading."
+      }
+    ]
+  },
+  "sunflower": {
+    "name": "Sunflower",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Sunflower_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/15Y64eorMDTsT9gMx22hUq5IIDL0BNGMa/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/15Y64eorMDTsT9gMx22hUq5IIDL0BNGMa/view?usp=drivesdk",
+        "application": "/gramshakti/crops/sunflower/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Sunflower_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1qaDIBNGxHXR02wunOQTUwvRaqrU62Ga7/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1qaDIBNGxHXR02wunOQTUwvRaqrU62Ga7/view?usp=drivesdk",
+        "application": "/gramshakti/crops/sunflower/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Sunflower_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1KLAkApMeWR9AkXmGBSLpNG1UEgk-ri4Y/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1KLAkApMeWR9AkXmGBSLpNG1UEgk-ri4Y/view?usp=drivesdk",
+        "application": "/gramshakti/crops/sunflower/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Hubballi–Vijayapura Processing Corridor (Karnataka)",
+        "texts": [
+          "1",
+          "Hubballi–Vijayapura Processing Corridor (Karnataka)",
+          "KA",
+          "REGIONAL SOURCE VARIETIES",
+          "KBSH-41, RSFH-1887, RSFH-130"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Hubballi–Vijayapura Processing Corridor (Karnataka)\nStrategic Role: Historical domestic production and regional crushing heartland for peninsular black-soil sunflower.\nKey Facilities: Traditional expeller mills, medium solvent extraction units, and seed cleaning warehouses across Hubballi, Vijayapura, Gadag, and Raichur; coordinates seed certification with UAS Dharwad.\nCatchment Areas: Vijayapura, Bagalkote, Gadag, Dharwad, Koppal, Raichur, and cross-border arrivals from southern Maharashtra (Solapur, Latur)."
+      },
+      {
+        "name": "Kakinada–Chennai Port-Based Refining Mega-Hub (Andhra Pradesh & Tamil Nadu)",
+        "texts": [
+          "2",
+          "Kakinada–Chennai Port-Based Refining Mega-Hub (Andhra Pradesh & Tamil Nadu)",
+          "AP / TN",
+          "REGIONAL SOURCE VARIETIES",
+          "NDSH-1012, DRSH-1, KBSH-44"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Kakinada–Chennai Port-Based Refining Mega-Hub (Andhra Pradesh & Tamil Nadu)\nStrategic Role: Center of the Indian sunflower oil market; handles massive volumes of ocean-borne crude oil imports for refining and packaging.\nKey Facilities: Continuous physical/chemical edible oil refineries (Adani Wilmar, Gemini Edibles, Ruchi Soya/Patanjali, Kaleesuwari) located along the Kakinada, Krishnapatnam, and Chennai port belts; deepwater liquid cargo docks connected via heated pipelines directly into shore-tank farms.\nCatchment Areas: Refines imported crude oil to meet consumer demand across Andhra Pradesh, Telangana, Tamil Nadu, and Kerala, while processing secondary regional domestic seed arrivals from the Krishna-Godavari and coastal Odisha basins."
+      },
+      {
+        "name": "Ambala–Kurukshetra Processing Axis (Haryana)",
+        "texts": [
+          "3",
+          "Ambala–Kurukshetra Processing Axis (Haryana)",
+          "HR",
+          "REGIONAL SOURCE VARIETIES",
+          "Pioneer 64A57, PSH-1962, Sunbred"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Ambala–Kurukshetra Processing Axis (Haryana)\nStrategic Role: High-speed handling node for the northern spring/summer catch crop.\nKey Facilities: High-capacity expeller crushing units, mechanical tray dryers (essential for drying high-moisture pre-monsoon spring harvests), and automated bagging godowns in Ambala Cantt, Shahbad Markanda, and Kurukshetra.\nCatchment Areas: Ambala, Kurukshetra, Yamunanagar (Haryana); Patiala, Fatehgarh Sahib (Punjab)."
+      }
+    ]
+  },
+  "sesamum": {
+    "name": "Sesamum",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Sesamum_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/12T7xLJMTmGpyDF4JC-S2gwGj7ecAvobK/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/12T7xLJMTmGpyDF4JC-S2gwGj7ecAvobK/view?usp=drivesdk",
+        "application": "/gramshakti/crops/sesamum/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Sesamum_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1T7SYFnVGCCwXdtoEIjMv4Ivgnq7VcxuO/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1T7SYFnVGCCwXdtoEIjMv4Ivgnq7VcxuO/view?usp=drivesdk",
+        "application": "/gramshakti/crops/sesamum/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Sesamum_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1sUaxY_rJxgfwT-gt0pty8Pj8sul4TCx1/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1sUaxY_rJxgfwT-gt0pty8Pj8sul4TCx1/view?usp=drivesdk",
+        "application": "/gramshakti/crops/sesamum/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Gujarat Auto-Hulling & Export Processing Super-Cluster",
+        "texts": [
+          "1",
+          "Gujarat Auto-Hulling & Export Processing Super-Cluster",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "Natural White & Black: GT-2, GT-3, GT-10 · GT-4, GT-5 (High-yielding white)"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Gujarat Auto-Hulling & Export Processing Super-Cluster\nStrategic Role: Globally recognized as the manufacturing, mechanical hulling, and export clearing center for Indian sesame seed, handling over 75% of national export volumes.\nKey Facilities: Over 80 mechanized wet-hulling and optical laser-sorting processing plants located across Ahmedabad (Naroda, Sanand), Rajkot, Kadi, Gandhidham, and the Mundra SEZ; equipped with computerized continuous fluid-bed dryers, multi-stage trichromatic Sortex sorters, dry steam sterilizers (ETO replacement), and vacuum packaging lines.\nCatchment Areas: Saurashtra and Kutch (Gujarat); vast interstate inflows arriving by road and rail from West Bengal (summer white crop) and Madhya Pradesh (Kharif white crop)."
+      },
+      {
+        "name": "Unjha–Sumerpur Physical Commodity Trading Corridor (Gujarat & Rajasthan)",
+        "texts": [
+          "2",
+          "Unjha–Sumerpur Physical Commodity Trading Corridor (Gujarat & Rajasthan)",
+          "GJ / RJ",
+          "REGIONAL SOURCE VARIETIES",
+          "Natural White & Black: GT-2, GT-3, GT-10 · GT-4, GT-5 (High-yielding white) · White & Brown: RT-46, RT-351"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Unjha–Sumerpur Physical Commodity Trading Corridor (Gujarat & Rajasthan)\nStrategic Role: Primary price-discovery and physical spot trading terminal for unhulled natural white, brown, and black sesame seeds in western India.\nKey Facilities: Unjha APMC (Mehsana) and Sumerpur APMC (Pali); large commercial cleaning warehouses, gravity separators, and merchant export offices.\nCatchment Areas: Pali, Jodhpur, Nagaur, Jalore (Rajasthan); Banaskantha, Patan, Mehsana, Sabarkantha (Gujarat)."
+      },
+      {
+        "name": "Tamil Nadu Industrial Gingelly Oil Hub (Virudhunagar & Erode)",
+        "texts": [
+          "3",
+          "Tamil Nadu Industrial Gingelly Oil Hub (Virudhunagar & Erode)",
+          "TN",
+          "REGIONAL SOURCE VARIETIES",
+          "Black & Brown: TMV-3, TMV-7, VRI-3"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Tamil Nadu Industrial Gingelly Oil Hub (Virudhunagar & Erode)\nStrategic Role: Historical capital of cold-pressed gingelly oil expelling and branded retail packaging in southern India.\nKey Facilities: Specialized expeller mills and oil bottling operations across Virudhunagar, Erode, Vellore, and Chennai (housing major heritage brands such as Idhayam, VVD, and Lion).\nCatchment Areas: Villupuram, Cuddalore, Thanjavur, Erode, and cross-border seed truck arrivals from Andhra Pradesh, Telangana, and Karnataka."
+      }
+    ]
+  },
+  "safflower": {
+    "name": "Safflower",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Safflower_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1uV3sRb_2gB9cc-LBJroW3PwNkYBon2aZ/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1uV3sRb_2gB9cc-LBJroW3PwNkYBon2aZ/view?usp=drivesdk",
+        "application": "/gramshakti/crops/safflower/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Safflower_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1H05IHUPjbGBRNt2afsrQbqVuZLFoKYbo/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1H05IHUPjbGBRNt2afsrQbqVuZLFoKYbo/view?usp=drivesdk",
+        "application": "/gramshakti/crops/safflower/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Safflower_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1TlxADMpwPgbQgy9C1FXDdbPab7Zvvtpm/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1TlxADMpwPgbQgy9C1FXDdbPab7Zvvtpm/view?usp=drivesdk",
+        "application": "/gramshakti/crops/safflower/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Solapur–Barshi Processing Super-Cluster (Maharashtra)",
+        "texts": [
+          "1",
+          "Solapur–Barshi Processing Super-Cluster (Maharashtra)",
+          "MH",
+          "REGIONAL SOURCE VARIETIES",
+          "Spiny: Bhima, PBNS-12, Phule Kusuma · Non-spiny: NARI-6, NARI-NH-1"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Solapur–Barshi Processing Super-Cluster (Maharashtra)\nStrategic Role: Globally recognized as the commercial, price-discovery, and processing center of Indian kardi oil. Barshi and Solapur host the highest concentration of specialized safflower expellers in the country.\nKey Facilities: Over 40 expeller mills, filter-press units, and branded consumer bottling lines located in Barshi, Solapur MIDC, and Karmala; host to the primary spot trading auctions setting daily benchmark prices for kardi seed across India.\nCatchment Areas: Solapur, Dharashiv, Beed, Ahmednagar, Pune, and interstate seed truck receipts from northern Karnataka (Vijayapura, Indi)."
+      },
+      {
+        "name": "Vijayapura–Hubballi Industrial Corridor (Karnataka)",
+        "texts": [
+          "2",
+          "Vijayapura–Hubballi Industrial Corridor (Karnataka)",
+          "KA",
+          "REGIONAL SOURCE VARIETIES",
+          "Spiny: Annigeri-1 (A-1), A-2, PBNS-40"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Vijayapura–Hubballi Industrial Corridor (Karnataka)\nStrategic Role: Primary production, mechanical decortication, and feed-manufacturing hub for northern Karnataka Vertisol production.\nKey Facilities: Decortication units, expeller mills, and dairy feed compounding plants in Vijayapura, Bagalkote, and Hubballi-Dharwad.\nCatchment Areas: Vijayapura, Bagalkote, Gadag, Dharwad, Kalaburagi, and Raichur."
+      },
+      {
+        "name": "Marathwada Regional Processing Network (Latur & Parbhani)",
+        "texts": [
+          "3",
+          "Marathwada Regional Processing Network (Latur & Parbhani)",
+          "MH",
+          "REGIONAL SOURCE VARIETIES",
+          "Spiny: Bhima, PBNS-12, Phule Kusuma · Non-spiny: NARI-6, NARI-NH-1"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Marathwada Regional Processing Network (Latur & Parbhani)\nStrategic Role: Physical aggregation, contract crushing, and floret dye handling.\nKey Facilities: Multi-oilseed expeller mills and custom crushing centers in Latur, Ambejogai, and Parli Vaijnath.\nCatchment Areas: Latur, Parbhani, Hingoli, Nanded, and Jalna districts."
+      }
+    ]
+  },
+  "castor": {
+    "name": "Castor",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Castor_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1OujSKNt8h7aQtIUeC0aTT9CNRnGuR2yv/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1OujSKNt8h7aQtIUeC0aTT9CNRnGuR2yv/view?usp=drivesdk",
+        "application": "/gramshakti/crops/castor/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Castor_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/151ePIJmAw4IoN5DHXVFWbjAMUSLcihSk/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/151ePIJmAw4IoN5DHXVFWbjAMUSLcihSk/view?usp=drivesdk",
+        "application": "/gramshakti/crops/castor/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Castor_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/141c_WGpGPgl_R-1H0ZbMRYIQNnBchV2E/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/141c_WGpGPgl_R-1H0ZbMRYIQNnBchV2E/view?usp=drivesdk",
+        "application": "/gramshakti/crops/castor/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Kandla–Mundra Port Refining & Maritime Hub (Kutch, Gujarat)",
+        "texts": [
+          "1",
+          "Kandla–Mundra Port Refining & Maritime Hub (Kutch, Gujarat)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "GCH-7, GCH-8, GCH-9, DCH-177 · GCH-4, GCH-7"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Kandla–Mundra Port Refining & Maritime Hub (Kutch, Gujarat)\nStrategic Role: Globally recognized as the logistics, bulk storage, and maritime export gateway for Indian castor oil. Handles over 70% of total national liquid castor oil and derivative shipments.\nKey Facilities: Large automated solvent extraction plants, continuous bleaching refineries, multi-thousand-tonne temperature-controlled liquid shore-tank farms (Adani Wilmar, Jayant Agro, Gokul Agro, Castor Products Company), and dedicated pipeline manifolds connected directly to deepwater liquid cargo jetties at Kandla, Mundra, and Pipavav ports.\nCatchment Areas: Receives processed crude oil tankers from expeller plants in Kutch, Surendranagar, Banaskantha, and Rajasthan."
+      },
+      {
+        "name": "North Gujarat Expeller & Assembly Grid (Kadi, Mehsana & Palanpur)",
+        "texts": [
+          "2",
+          "North Gujarat Expeller & Assembly Grid (Kadi, Mehsana & Palanpur)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "GCH-7, GCH-8, GCH-9, DCH-177 · GCH-4, GCH-7"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. North Gujarat Expeller & Assembly Grid (Kadi, Mehsana & Palanpur)\nStrategic Role: Center for primary raw seed assembly, commercial spot price discovery, and mechanical first-pressing.\nKey Facilities: Dense network of mechanical expeller mills, automated seed cleaning trommels, and de-stoners concentrated across Kadi, Mehsana, Palanpur, Siddhpur, and Deesa; host to the physical delivery points certified by the NCDEX futures exchange.\nCatchment Areas: Banaskantha, Patan, Mehsana, Sabarkantha, and cross-border seed arrivals from southern Rajasthan (Jalore, Sirohi, Barmer)."
+      },
+      {
+        "name": "Dahej–Ankleshwar Specialty Chemical Corridor (South Gujarat)",
+        "texts": [
+          "3",
+          "Dahej–Ankleshwar Specialty Chemical Corridor (South Gujarat)",
+          "GJ",
+          "REGIONAL SOURCE VARIETIES",
+          "GCH-7, GCH-8, GCH-9, DCH-177 · GCH-4, GCH-7"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Dahej–Ankleshwar Specialty Chemical Corridor (South Gujarat)\nStrategic Role: India's corporate manufacturing base for secondary and tertiary oleochemical derivatives.\nKey Facilities: Advanced chemical synthesis facilities (e.g., Jayant Agro-Organics, Sebacic India) situated in the Dahej SEZ, Panoli, and Ankleshwar; industrial autoclaves for alkaline cleavage (sebacic acid production), catalytic hydrogenation lines (12-HSA and HCO), and distillation columns for heptaldehyde and undecylenic acid.\nCatchment Areas: Consumes refined First Special Grade (FSG) castor oil sourced from North Gujarat expellers."
+      }
+    ]
+  },
+  "niger-seeds": {
+    "name": "Niger Seeds",
+    "screens": {
+      "002": {
+        "footer": [],
+        "filename": "PR-002_Niger_Seeds_National_Sourcing_Landscape_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1zEvGCQcehySzAeL2q_lL4q0t5DcAfy_Z/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1zEvGCQcehySzAeL2q_lL4q0t5DcAfy_Z/view?usp=drivesdk",
+        "application": "/gramshakti/crops/niger-seeds/002.svg"
+      },
+      "003": {
+        "footer": [],
+        "filename": "PR-003_Niger_Seeds_Pesticide_Pressure_Detail_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1RNUBF8Krutnqkate3mW3ZLJeCcxShee_/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1RNUBF8Krutnqkate3mW3ZLJeCcxShee_/view?usp=drivesdk",
+        "application": "/gramshakti/crops/niger-seeds/003.svg"
+      },
+      "006": {
+        "footer": [],
+        "filename": "PR-006_Niger_Seeds_Processing_Geographies_FINAL.svg",
+        "sourceUrl": "https://drive.google.com/file/d/1Je26W9ADnjs8zkFfXrRfsfK8XMRGB5Xz/view?usp=drivesdk",
+        "original": "https://drive.google.com/file/d/1Je26W9ADnjs8zkFfXrRfsfK8XMRGB5Xz/view?usp=drivesdk",
+        "application": "/gramshakti/crops/niger-seeds/006.svg"
+      }
+    },
+    "clusters": [
+      {
+        "name": "Navsari–Mumbai Export Processing Corridor (Gujarat & Maharashtra)",
+        "texts": [
+          "1",
+          "Navsari–Mumbai Export Processing Corridor (Gujarat & Maharashtra)",
+          "GJ / MH",
+          "REGIONAL SOURCE VARIETIES",
+          "Sahyadri, Phule Karale-1 · GN-1, GN-2, GN-3"
+        ],
+        "color": "#EFA33A",
+        "sourceContext": "1. Navsari–Mumbai Export Processing Corridor (Gujarat & Maharashtra)\nStrategic Role: India's corporate gateway for processing, USDA thermal sterilization, and maritime container export of bird-feed niger seed.\nKey Facilities: Advanced processing facilities equipped with continuous hot-air heat-treatment sterilizers, aspirators, destoners, and multi-camera optical sorters in Navsari, Surat, Vapi, and the Navi Mumbai/JNPT port logistics zone.\nCatchment Areas: Draws raw, machine-cleaned seed lots arriving via rail and truck from assembly hubs in Odisha (Koraput), Madhya Pradesh (Jabalpur), and the Dangs."
+      },
+      {
+        "name": "Jabalpur–Mandla Tribal Aggregation Grid (Madhya Pradesh)",
+        "texts": [
+          "2",
+          "Jabalpur–Mandla Tribal Aggregation Grid (Madhya Pradesh)",
+          "MP",
+          "REGIONAL SOURCE VARIETIES",
+          "JNC-6, JNC-9, JNS-28"
+        ],
+        "color": "#2E8B70",
+        "sourceContext": "2. Jabalpur–Mandla Tribal Aggregation Grid (Madhya Pradesh)\nStrategic Role: Central India's primary physical trading, sorting, and wholesale aggregation center.\nKey Facilities: Primary wholesale mandis and storage warehouses in Jabalpur, Mandla, and Dindori; small-scale expeller mills and cooperative seed collection depots.\nCatchment Areas: Mandla, Dindori, Balaghat, Chhindwara, Seoni (MP); cross-border arrivals from Bastar and Kawardha (Chhattisgarh)."
+      },
+      {
+        "name": "Nashik–Pune Food Condiment Cluster (Maharashtra)",
+        "texts": [
+          "3",
+          "Nashik–Pune Food Condiment Cluster (Maharashtra)",
+          "MH",
+          "REGIONAL SOURCE VARIETIES",
+          "Sahyadri, Phule Karale-1"
+        ],
+        "color": "#8C6BB1",
+        "sourceContext": "3. Nashik–Pune Food Condiment Cluster (Maharashtra)\nStrategic Role: Center for commercial roasting, blending, and retail packaging of Maharashtrian Karale Chutney.\nKey Facilities: Automated continuous roasters, pin mills, and high-speed packaging plants in Nashik, Ghoti, Sangamner, and Pune.\nCatchment Areas: Nashik, Palghar, Ahmednagar, and inbound truck arrivals from Belagavi (Karnataka)."
+      }
+    ]
   }
 }

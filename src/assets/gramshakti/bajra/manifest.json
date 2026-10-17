@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Bajra",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "1d729328b375ff32b0041c79d9a53d0e094fbfbba34298652671951163ec3677",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\bajra\\PR-002_Bajra_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621258,
+      "sha256": "bce7e415c1299258755031a218bfbd4fe1f115a13f883ba64c265a41b5dbc9f2"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\bajra\\PR-002_Bajra_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 313769,
+      "sha256": "41e3e4c5255195efb4f66c61784d13549c1ca63b26c5dfd0074b73380361f8ed"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\bajra\\PR-003_Bajra_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449530,
+      "sha256": "2ca3c8ace28c2448193e808a6158bf56610cdf3133d6e5316355502a42fa1587"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\bajra\\PR-003_Bajra_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 282556,
+      "sha256": "d219f88359dc349678fd29a599562ac9c41586307f1e6167ee4247a974199681"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\bajra\\PR-006_Bajra_Processing_Geographies_FINAL.svg",
+      "bytes": 604896,
+      "sha256": "1a71277decf5c3765774bf80446e232cfcbcb932ca0de93efa7c64a11e19b42c"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\bajra\\PR-006_Bajra_Processing_Geographies_FINAL.png",
+      "bytes": 300140,
+      "sha256": "8ee723469c1e98e81a6cb1e06ff3b068679bc3c14eaae01bcce4b67d8a52c7bb"
+    }
+  ]
+}

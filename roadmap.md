@@ -18,3 +18,15 @@
 
 Source constraints: Potato Kashipur–Rudrapur remains withheld without an exact source. Source-backed Capsicum Hooghly/Birbhum is retained under the decision register. District geometry, live prices, weather and FPO transactions are separate dependencies.
 
+
+## Rice-to-Niger procurement extension
+
+- [x] Read current canonical editor notes and the Rice-to-Capsicum decision register.
+- [x] Reuse and hash-check 72 original field-crop SVGs; preserve original map paths.
+- [x] Apply compiler-text, regional protection and source-variety edits.
+- [x] Add 24 field crops to shared sourcing, processing, protection, state and brief routes.
+- [x] Add exact official/district source rows and separate Production Context estimates.
+- [x] Preserve all prior 16-crop records and application canvases.
+- [x] Keep Maize/Sugarcane source-repair states explicit.
+- [ ] Apply this release through a write-enabled GitHub connection or the supplied single archive.
+- [ ] Verify the updated Lovable preview and user-publish the public site.

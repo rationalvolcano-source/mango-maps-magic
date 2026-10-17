@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Wheat",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "e5b6f9cb2810cf1abd02e85ce403776553e3fe9b7e0887e5db53db980aae55de",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\wheat\\PR-002_Wheat_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621367,
+      "sha256": "7ee9742fdc0a51453bbe0d82ad925dc22fe3dad6a9adbc6331b01c1063d655e8"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\wheat\\PR-002_Wheat_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 315317,
+      "sha256": "e3e36e9759b28429321365ddfdd695e7304c4d167658f7647f99796f403d2f02"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\wheat\\PR-003_Wheat_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449533,
+      "sha256": "d6c44813c783a5aad68affa4ccc4d5504e72283a96460c420356f7b96767eee6"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\wheat\\PR-003_Wheat_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 281073,
+      "sha256": "3b4ac43d7cf9211973680b7df4f125e9938e7bd8fdbf0ffa3aa582e9a103e6ac"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\wheat\\PR-006_Wheat_Processing_Geographies_FINAL.svg",
+      "bytes": 605234,
+      "sha256": "eb4f4ff1fee6255079e275e145550a57f025b7c64bb33d529be28b24540661c7"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\wheat\\PR-006_Wheat_Processing_Geographies_FINAL.png",
+      "bytes": 297011,
+      "sha256": "18eba9e2d711016da2f9fcc611c1a2709d168258847ca70f91c61610675f5287"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Niger Seeds",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "97144b550abfd56bf253e2208a46cfcc4b476fa105dd9468c99db894ccdc3678",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\niger-seeds\\PR-002_Niger_Seeds_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621075,
+      "sha256": "d5db688fa12e1e7c6a6c1a43abb56a903fcf9a3b6355609584d0a12871748f27"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\niger-seeds\\PR-002_Niger_Seeds_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 311616,
+      "sha256": "d7a893880432a2ee44e3afd31de247d39f59ce50b771dff2f6031a9eb1333fe6"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\niger-seeds\\PR-003_Niger_Seeds_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449562,
+      "sha256": "437705ebcac4e2b3ad420101ebbbcb2f697569403375b3c32e2b0f905174e4f8"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\niger-seeds\\PR-003_Niger_Seeds_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 288668,
+      "sha256": "3326f5587be962d3ef1aaa5b95e4b9798185c0555b6ac184ad06a46d927486ed"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\niger-seeds\\PR-006_Niger_Seeds_Processing_Geographies_FINAL.svg",
+      "bytes": 604652,
+      "sha256": "ef5b99536492eb1f10cbbf5e5145f5ae6d19e8a8715e539dd3f84f42e8ce09d1"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\niger-seeds\\PR-006_Niger_Seeds_Processing_Geographies_FINAL.png",
+      "bytes": 296771,
+      "sha256": "7b932cc79e009b97630290c771a84c25e7046b784a4de7eb28271bafa689cdfc"
+    }
+  ]
+}
