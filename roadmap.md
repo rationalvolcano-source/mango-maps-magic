@@ -14,7 +14,7 @@
 - [x] Add mobile entry/objective layouts and readable zoomable canvases.
 - [x] Add source, geometry, units and router-interaction checks.
 - [ ] Apply this checked release to the GitHub branch through a write-enabled connection.
-- [ ] Publish and verify the signed-out public version through Lovable.
+- Public publishing is reserved for the user; no publish action is part of this release application.
 
 Source constraints: Potato Kashipur–Rudrapur remains withheld without an exact source. Source-backed Capsicum Hooghly/Birbhum is retained under the decision register. District geometry, live prices, weather and FPO transactions are separate dependencies.
 
@@ -28,5 +28,7 @@ Source constraints: Potato Kashipur–Rudrapur remains withheld without an exact
 - [x] Add exact official/district source rows and separate Production Context estimates.
 - [x] Preserve all prior 16-crop records and application canvases.
 - [x] Keep Maize/Sugarcane source-repair states explicit.
-- [ ] Apply this release through a write-enabled GitHub connection or the supplied single archive.
-- [ ] Verify the updated Lovable preview and user-publish the public site.
+- [x] Apply the supplied single archive exactly and preserve all unlisted repository files.
+- [x] Verify Rice, Niger Seeds, Mango and Capsicum state/source/processing/protection/brief journeys in the live preview.
+- [x] Run all 28 supplied tests and quiet lint; confirm automatic preview build reports build OK.
+- [ ] Confirm the applied changes reach GitHub; the latest observable repository commit still precedes extraction.
