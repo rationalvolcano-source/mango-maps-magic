@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Small Millets",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "da219f84aa00d441bd98bee911fd72f1fce5c03df769f6e9f0bfc226c95f266d",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\small-millets\\PR-002_Small_Millets_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621307,
+      "sha256": "d1028119c1e87a62850f031c7601312c3996383f968dfd30dd51e115d94ddaa5"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\small-millets\\PR-002_Small_Millets_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 316446,
+      "sha256": "53651bd0774906cc27b31bdeb7be0725b8ecd18247b74d2999e69faccff5eba9"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\small-millets\\PR-003_Small_Millets_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449648,
+      "sha256": "58d64d82da7a636c05fd3085df514832157003e4de151c22a305d4e23984eee4"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\small-millets\\PR-003_Small_Millets_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 289502,
+      "sha256": "899611f4be5c5d51324d79733aaa9898d50dca73f695505a8b0260a8c8d38cc2"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\small-millets\\PR-006_Small_Millets_Processing_Geographies_FINAL.svg",
+      "bytes": 605192,
+      "sha256": "3216cff0bff7fe700f22776624eb236e88cb51e635800e22ca9a9e4a530767af"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\small-millets\\PR-006_Small_Millets_Processing_Geographies_FINAL.png",
+      "bytes": 301905,
+      "sha256": "07f422202c3819187613e320b407d865104099ac90ad5553bed6b79b8ec143e4"
+    }
+  ]
+}

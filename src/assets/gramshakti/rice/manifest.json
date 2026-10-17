@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Rice",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "9c1aca12a3bdeb4452b2d101499d059ab5767dafcb1ad74f8ceec20e09f2fe8f",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rice\\PR-002_Rice_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621466,
+      "sha256": "4d7bc24bedb1bcedaf8493d401253c0c407249af3b45fa2858a708f25d5d248a"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rice\\PR-002_Rice_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 314740,
+      "sha256": "7069af6d200d3739880383a76e4f1c1a3c860d9580216a0d8456972d14f0f9a6"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rice\\PR-003_Rice_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449628,
+      "sha256": "cbfb44a6c2660b73025ad919761556c0ea08a5334d41c3f82fc0dad1c265560f"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rice\\PR-003_Rice_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 286530,
+      "sha256": "c8693083025f6a82d20420aaf3e1b6b8588df7cc43e7518bcf80dfd6ffc96e38"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rice\\PR-006_Rice_Processing_Geographies_FINAL.svg",
+      "bytes": 605316,
+      "sha256": "46163734fa93388e09954c8157233ca93831e8bd28250ee506114177986828a5"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rice\\PR-006_Rice_Processing_Geographies_FINAL.png",
+      "bytes": 300351,
+      "sha256": "ee7cef04d66409e59dcb9aed08fca1a025ed8c3eaaf3728817071afa144f5376"
+    }
+  ]
+}

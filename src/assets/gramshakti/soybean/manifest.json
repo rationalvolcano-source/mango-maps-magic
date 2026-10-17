@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Soybean",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "ad8a201f61195f3d1713f1a759795e32c09edbba39b86dbae76f50e6e34a8894",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\soybean\\PR-002_Soybean_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621223,
+      "sha256": "04c3b12e2b9344c038ba9ba0e5b42690368065e527c2f2d55d6c9f07aef9568a"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\soybean\\PR-002_Soybean_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 312954,
+      "sha256": "9e4a6bc44b4cabc8d1f06b2dfad3bbe1a4b17c16caf6d9626d01becd9c66c8fb"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\soybean\\PR-003_Soybean_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449549,
+      "sha256": "fd5258221ad46586a1a2d2d91011e537b89ff81129a77b1d7fa3cb527ac877f4"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\soybean\\PR-003_Soybean_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 285979,
+      "sha256": "b98108a957b26ff56ab4fd3970988e287be84974ec4effaa73b30272bb5fd3e6"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\soybean\\PR-006_Soybean_Processing_Geographies_FINAL.svg",
+      "bytes": 604814,
+      "sha256": "b1e9297595969331559f33a1c1972798687a63e9263c8ba9fcdf0fb34be486ca"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\soybean\\PR-006_Soybean_Processing_Geographies_FINAL.png",
+      "bytes": 298217,
+      "sha256": "a89cc0e5c0a89e1a807826cbda11b6a0fc0fad3fa0c72bbf52bbb4b27a64dd5f"
+    }
+  ]
+}

@@ -15,6 +15,7 @@ import {
 } from "@/components/gramshakti/procurement-details";
 import { EvidenceProvider, SelectionControls } from "@/components/gramshakti/shared";
 import { isCropSlug } from "@/lib/gramshakti/assets";
+import { UnavailableCrop } from "@/components/gramshakti/asset-viewer";
 import { selectionSearch } from "@/lib/gramshakti/data";
 
 afterEach(() => {
@@ -41,7 +42,7 @@ async function open(url: string) {
       return isCropSlug(crop) ? (
         <DetailedProcurement crop={crop} screen="002" />
       ) : (
-        <p>Crop unavailable</p>
+        <UnavailableCrop name={crop} />
       );
     },
   });
@@ -85,6 +86,43 @@ async function open(url: string) {
 }
 
 describe("Procurement buyer interactions", () => {
+  it("opens the correct Rice Boro calendar source for June", async () => {
+    await open("/procurement/rice?purpose=fresh&month=June&year=2024-25");
+    const row = await screen.findByRole("row", { name: /West Bengal Shatabdi/ });
+    expect(within(row).getByText("Boro (Summer)")).toBeVisible();
+    fireEvent.click(within(row).getByRole("button", { name: "Source" }));
+    const dialog = await screen.findByRole("dialog");
+    expect(within(dialog).getByText(/Cross Walks-2.0.docx · body block 2901/)).toBeVisible();
+    expect(within(dialog).getByRole("link", { name: "Open source" })).toHaveAttribute(
+      "href",
+      expect.stringContaining("1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav"),
+    );
+  });
+  it("shows a compact Rice district table and expands the actual supplied tranche", async () => {
+    await open("/procurement/rice/state/TN?purpose=fresh&year=2024-25");
+    expect(await screen.findByRole("heading", { name: "Rice · Tamil Nadu" })).toBeVisible();
+    expect(screen.getByText("38 supplied records")).toBeVisible();
+    const button = screen.getByRole("button", { name: "Show all 38 district records" });
+    const section = button.closest("section")!;
+    expect(within(section).getAllByRole("row")).toHaveLength(7);
+    fireEvent.click(button);
+    expect(within(section).getAllByRole("row")).toHaveLength(39);
+    fireEvent.click(within(section).getByRole("button", { name: "Show compact view" }));
+    expect(within(section).getAllByRole("row")).toHaveLength(7);
+  });
+  it("defaults Barley to its supplied official year and labels the primary purpose", async () => {
+    await open("/procurement/barley/state/KA");
+    expect(await screen.findByRole("heading", { name: "Barley · Karnataka" })).toBeVisible();
+    expect(screen.getByLabelText("Production year")).toHaveValue("2021-22");
+    expect(screen.getByRole("button", { name: "Primary" })).toBeVisible();
+    expect(screen.getByText("No exact record supplied")).toBeVisible();
+  });
+  it("keeps Maize as an explicit source-repair case", async () => {
+    await open("/procurement/maize");
+    expect(await screen.findByRole("heading", { name: "Source repair required" })).toBeVisible();
+    expect(screen.getByText(/BLOCKED_CONTENT_MISMATCH/)).toBeVisible();
+    expect(screen.queryByText("Your procurement workspace")).toBeNull();
+  });
   it("changes candidate availability when the target month changes and preserves intent", async () => {
     const router = await open("/procurement/capsicum?purpose=fresh&month=January&year=2024-25");
     expect(await screen.findByRole("row", { name: /West Bengal Indra/ })).toBeVisible();

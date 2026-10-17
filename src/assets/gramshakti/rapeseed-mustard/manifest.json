@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Rapeseed & Mustard",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "5db4970c6556649dbea1f3defb446bbd6087c6df50741af15402c44bef71b9fd",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rapeseed-mustard\\PR-002_Rapeseed_Mustard_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621436,
+      "sha256": "3d95d2ade346c7c2babbaa4017e741321f4a939866323338f845f1d373e2f07d"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rapeseed-mustard\\PR-002_Rapeseed_Mustard_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 319608,
+      "sha256": "dc278878d5c2d33053b41b5040946c127013e26c31af4ef2f8c305bf5f419e4c"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rapeseed-mustard\\PR-003_Rapeseed_Mustard_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449609,
+      "sha256": "b164fe340b013fc747039fa5e424b8c34ae7e30a71c84d74aafacbfb80865954"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rapeseed-mustard\\PR-003_Rapeseed_Mustard_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 290201,
+      "sha256": "00624250ccb32a0fbb466f4494b355a6f41007db2edfc594c2919476db9907ae"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rapeseed-mustard\\PR-006_Rapeseed_Mustard_Processing_Geographies_FINAL.svg",
+      "bytes": 604772,
+      "sha256": "cbcfa952114fff540ed2794ca43448aaa4bc8a52aebe0cb1d4a1cfe9ca072be3"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\rapeseed-mustard\\PR-006_Rapeseed_Mustard_Processing_Geographies_FINAL.png",
+      "bytes": 302491,
+      "sha256": "eecbbaaa33f29239086547c8595e8dbb7d0313155f970d4501854a4d6facd622"
+    }
+  ]
+}

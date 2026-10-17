@@ -20,6 +20,9 @@ E.register_namespace("", SVG)
 E.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 N = {"s": SVG}
 assets = json.loads((LIB / "asset-manifest.json").read_text())
+all_assets = assets.copy()
+field_slugs = set(json.loads((LIB / "field-crops.json").read_text())) if (LIB / "field-crops.json").exists() else set()
+assets = {slug: asset for slug, asset in assets.items() if slug not in field_slugs}
 records = json.loads((LIB / "procurement-records.json").read_text())["crops"]
 protection = json.loads((LIB / "source-records.json").read_text())
 states = json.loads((LIB / "state-codes.json").read_text())
@@ -381,6 +384,9 @@ for el in root.findall('.//s:text',N):
     elif value.startswith('Search'):bind(el,'search','Search crop universe')
 (ROOT/'public/gramshakti/directory.svg').write_bytes(E.tostring(root,encoding='utf-8'))
 pointer=ROOT/'src/assets/gramshakti/directory.svg.asset.json';d=json.loads(pointer.read_text());d['url']='/gramshakti/directory.svg';pointer.write_text(json.dumps(d,indent=2)+'\n')
-(LIB/'asset-manifest.json').write_text(json.dumps(assets,ensure_ascii=False,indent=2)+'\n')
-(LIB/'artwork-audit.json').write_text(json.dumps({'sources_verified':48,'geometry_preserved':48,'assets':audit,'pin_corrections':list(dict.fromkeys(changes))},ensure_ascii=False,indent=2)+'\n')
+all_assets.update(assets)
+previous_audit=json.loads((LIB/'artwork-audit.json').read_text()) if (LIB/'artwork-audit.json').exists() else {}
+audit=[row for row in previous_audit.get('assets',[]) if row['crop'] in field_slugs]+audit
+(LIB/'asset-manifest.json').write_text(json.dumps(all_assets,ensure_ascii=False,indent=2)+'\n')
+(LIB/'artwork-audit.json').write_text(json.dumps({'sources_verified':len(audit),'geometry_preserved':len(audit),'assets':audit,'pin_corrections':list(dict.fromkeys(changes))},ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'svg_assets':len(audit),'all_source_hashes_match':True,'all_map_geometry_preserved':True,'approved_changes':list(dict.fromkeys(changes))},indent=2))

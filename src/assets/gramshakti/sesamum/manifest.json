@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Sesamum",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "0e6c3d090a41ea62bfb1d7003ae42363db6a9de0ed7af93d08abba51b77948cc",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sesamum\\PR-002_Sesamum_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621348,
+      "sha256": "320133bbb3e3e27393ba9ae3b5eaedfd3080246480968c70345ca393ea9e6733"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sesamum\\PR-002_Sesamum_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 315735,
+      "sha256": "f5a959f1fd166fe9ea963f4b6b6397ab90a6b6a7c763fde85dcf9e06cccb2baa"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sesamum\\PR-003_Sesamum_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449628,
+      "sha256": "4019146e0fedd4974a267079633ea853065b677e98e8336f289df91203f0019f"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sesamum\\PR-003_Sesamum_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 289044,
+      "sha256": "1bfe45ce548168008bf10308a75259a8fe4e4ed5f923f6f2ab2669245f24dc5f"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sesamum\\PR-006_Sesamum_Processing_Geographies_FINAL.svg",
+      "bytes": 604835,
+      "sha256": "16c6e5319027e140ba6d3269fa2a2445957c45c8de2b0baada6221c882a6e62d"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\sesamum\\PR-006_Sesamum_Processing_Geographies_FINAL.png",
+      "bytes": 301151,
+      "sha256": "b3a4670231b1f9df8c42d55d0cfa6d11ebe83174dd6dcbfedbc4efdcdf057d86"
+    }
+  ]
+}

@@ -1,0 +1,975 @@
+{
+  "schema_version": 1,
+  "repository": "rationalvolcano-source/mango-maps-magic",
+  "base_branch": "main",
+  "base_commit": "ca22c3c98e1db3722695e7a67345b8da858d6c78",
+  "prepared_date": "2026-10-17",
+  "archive_root": "files/",
+  "deletions": [],
+  "preserved_remote_only_files": [
+    "payload.tar.xz",
+    "src/assets/agriculture-atmosphere.jpg"
+  ],
+  "manifest_scope": "Every archive file except this manifest itself. Git blob hashes allow comparisons with the rechecked baseline.",
+  "checks": {
+    "tests_passed": 28,
+    "test_files": 4,
+    "eslint": "passed",
+    "typescript": "passed",
+    "production_build": "passed"
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "status": "modified",
+      "base_git_blob_sha1": "810cc29d2db3cbc3e89047653882d953c1e9b132",
+      "git_blob_sha1": "2e40c73ef1b3b6ae3aa252c72747855340fd9025",
+      "sha256": "acc0bc63ea70d1cbb647f8e9de6880ca0cf3ef2cc2ee06a35d3db573a9c02f62",
+      "bytes": 2306
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "base_git_blob_sha1": "7cec13a0dd48d46a6c1c8244468a04079a7f6d3d",
+      "git_blob_sha1": "3753cd2721d78084cfab8bd264194ee3b098f692",
+      "sha256": "8d8a84bd18dec6511ff2f5cfb64990bcf2714a6d2dbe2a2b9737cfcf110ce5bf",
+      "bytes": 9339
+    },
+    {
+      "path": "docs/rice-niger-release.md",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "d48c23ac9492e5698cb201697121ccea54df9040",
+      "sha256": "c9240cdb469366b67e4a127243f5ae2d00cc098c7f2f53dc111eeae78a92a4c3",
+      "bytes": 3794
+    },
+    {
+      "path": "public/gramshakti/crops/bajra/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "71b2db11e931abb451687aa8fe754161c300e6a6",
+      "sha256": "c88063b00e294bcbb98622c6d6efd6d03fc83430bd3a7269399cce809bddb14f",
+      "bytes": 641778
+    },
+    {
+      "path": "public/gramshakti/crops/bajra/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "40e2746f558ac55a15667286a46e01d9d6e79da4",
+      "sha256": "269cecd0d53fa2e4e2d88831380c606d966019959ebdb990ee7ccafbe7252340",
+      "bytes": 445364
+    },
+    {
+      "path": "public/gramshakti/crops/bajra/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "b442fe200c2cc993d4bc490dc1d543f78a696e45",
+      "sha256": "115958355b2cb7f58e2200ced76395cb17a419ba9db9f882c185d8363d72d705",
+      "bytes": 612904
+    },
+    {
+      "path": "public/gramshakti/crops/barley/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "eaee29c23e8c5c6cbb5781402f9cb2d5a43b40a3",
+      "sha256": "d0bd0c6575e46abfe8fd86236f7d969894b216b46bc978c79d65a3d133a407f1",
+      "bytes": 641747
+    },
+    {
+      "path": "public/gramshakti/crops/barley/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "3a6a12955f69f87e3f286b11b8252b8417a8cff7",
+      "sha256": "72482942e90c7b7c3b03c278f5bb63a31570c29aea90781a7caed04115b97430",
+      "bytes": 445417
+    },
+    {
+      "path": "public/gramshakti/crops/barley/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "33e9dab728c9ce93fa8c48aeb0853160cfbb4758",
+      "sha256": "3add21ba7f7af0534476eebba6609c392b994237bbb655371044e83e9d0c1aec",
+      "bytes": 612380
+    },
+    {
+      "path": "public/gramshakti/crops/black-gram/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "5e9b4fe56d20c7d38cb4beef696c02f8c1ada24e",
+      "sha256": "0a19a91d33a718eb8dc75809e45c4519e57536ea61c4a373bc5efc51d777e039",
+      "bytes": 642023
+    },
+    {
+      "path": "public/gramshakti/crops/black-gram/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "4995b53cb80ec656b40a2423d6e3da9d7498a008",
+      "sha256": "5fc794651c5253c4693073bc3462c8cfa0a9fb52c6970b17e6ab8bab4a1501f9",
+      "bytes": 445353
+    },
+    {
+      "path": "public/gramshakti/crops/black-gram/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "1b9cdd605f64b3206ae412cb0330d267dda867f1",
+      "sha256": "02c701cb83a606d76dfa67b2a6218d5f58e8dc5baa5fea2f1f009d82049c7026",
+      "bytes": 612673
+    },
+    {
+      "path": "public/gramshakti/crops/castor/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "7044a9f820f509411775e4829c9729c792de4ee2",
+      "sha256": "a131eac2faa56dd218659ddc0ab31ba426554d6586c547a200e298f8847c8655",
+      "bytes": 638442
+    },
+    {
+      "path": "public/gramshakti/crops/castor/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "4e9c2aeea2d2e9b3d8377d6ed6e5c332b85ae13a",
+      "sha256": "3b52fc36096cb4c7dbdaaf82c54c14dd8ba5aeee2cb445658b20a8d50c6e3330",
+      "bytes": 445035
+    },
+    {
+      "path": "public/gramshakti/crops/castor/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "bc7d618809864cf9f160b40074facf5e144b968c",
+      "sha256": "b2b0af318f56656a2fb88eb125baeb2cabb2744f875be601ee7ea571683c8235",
+      "bytes": 612218
+    },
+    {
+      "path": "public/gramshakti/crops/cotton/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "9690b680cf614c4e48e78b84677d4cabc0adbce4",
+      "sha256": "9b05e65420903230ec005e984fb25a77da2597c9b9f0fa4dfd8c2c626a32a2a6",
+      "bytes": 640901
+    },
+    {
+      "path": "public/gramshakti/crops/cotton/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "219499db8e8d0beae3ecf32d8a2f41e02d5264a4",
+      "sha256": "27f00b1e2dc7dd3abbb2756f691e327779fb551581f243c195f654184501e276",
+      "bytes": 445966
+    },
+    {
+      "path": "public/gramshakti/crops/cotton/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "1bad8f2046908566c1f2dcef3a957abff0385027",
+      "sha256": "d05aae3a23bfe9bf33e2e89fdba54f36b90780bbb481acc7166a3750346d7333",
+      "bytes": 611937
+    },
+    {
+      "path": "public/gramshakti/crops/gram/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "b291300e084ffcf72b3df421e50a94fdc3629bb6",
+      "sha256": "67b346116aa144c0cba5feb4e4afb25717e5e8e4178d1118f90028bb4cc4b5a7",
+      "bytes": 641774
+    },
+    {
+      "path": "public/gramshakti/crops/gram/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "c93e364cf1e060b64f9a69d94e10122d6297279d",
+      "sha256": "bce93754c1c2b5c8dd39b4e4cd19ea080e689143f406656e4e6375b2ceb052d1",
+      "bytes": 444626
+    },
+    {
+      "path": "public/gramshakti/crops/gram/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "dee24bcdcfaa1ddd3dadb724b4da5d1cd6d57d3a",
+      "sha256": "2497e341f89705f1b225f64fa7ff9f745574a21196a5aa16bf1a93f6992bb99a",
+      "bytes": 612232
+    },
+    {
+      "path": "public/gramshakti/crops/groundnut/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "44b68fa71e50cd526721c644568463293f55f758",
+      "sha256": "d211b1b229edb78d95da2d48ee7d61fdb7b63bf451edd6a4a51c2694edcb5f38",
+      "bytes": 641963
+    },
+    {
+      "path": "public/gramshakti/crops/groundnut/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "000fb56e85e660ac1bb61bce4934b8d182d547a7",
+      "sha256": "c7c0e7070f2f9bef043473b76445b11d1912fde38c9e3169723fe92c748b79d3",
+      "bytes": 445670
+    },
+    {
+      "path": "public/gramshakti/crops/groundnut/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "b860121d86ca511e1996227da9dd5e6444c0d4fa",
+      "sha256": "07383b4f0d2448796093adbcccbf0b2ceff5a9da7be87421dc6cf11e538fdf1c",
+      "bytes": 612594
+    },
+    {
+      "path": "public/gramshakti/crops/guarseed/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "0e4b9e51319aa7c2ed63c91dd966663401c0dcb1",
+      "sha256": "61061a328715bc9c31a4d484d06eded53e2c9d11abea0a9424bc258fce755f94",
+      "bytes": 636887
+    },
+    {
+      "path": "public/gramshakti/crops/guarseed/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "6dc0cf5d3f66727227fdd0c449afe7effc345f3e",
+      "sha256": "717217f805d93040644a641c6877eb8390244f5927265d17c8607d49151a7f73",
+      "bytes": 445552
+    },
+    {
+      "path": "public/gramshakti/crops/guarseed/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "f46f62889cc30aa285eecdf9a2fc6d2d8738a937",
+      "sha256": "03360f201975a586945eebe334c7c0f044884a3c22784497cf7505df9d8a4578",
+      "bytes": 611973
+    },
+    {
+      "path": "public/gramshakti/crops/jowar/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "7dca24e4d5922b27e64031c7932a90a61db30ce6",
+      "sha256": "cb89c411f78d621ebfdcaaf64e43764134ae71f832bd451ca92ec12e68a97f6f",
+      "bytes": 641721
+    },
+    {
+      "path": "public/gramshakti/crops/jowar/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "876d236488d7d75963828df991e20bda8e3e7a0f",
+      "sha256": "6a96a3364a1740442d131cbab1109434a8ca1a35cb40712a904d3edf37f5e8fd",
+      "bytes": 445497
+    },
+    {
+      "path": "public/gramshakti/crops/jowar/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "f43f030aee730d6eb50b46544fed78b1e6ba93a1",
+      "sha256": "989e009b847ab114e4776fcad219c35b0d0742f77599ea909e16cb7fb0bbe323",
+      "bytes": 612360
+    },
+    {
+      "path": "public/gramshakti/crops/jute-mesta/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "096a87a6912bafb423bd16f4d302df1833f92367",
+      "sha256": "26417d64276226461e6e66912013fd3e623d44ea0634001ae04580e2bccca6d3",
+      "bytes": 636573
+    },
+    {
+      "path": "public/gramshakti/crops/jute-mesta/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "44a50ec97eb616181de23df0db5d1aba7e98ba05",
+      "sha256": "ece757e33dcb1f6d7e4e92592a6950afa692b31960cd6a3dda6d5b5560cbe912",
+      "bytes": 445588
+    },
+    {
+      "path": "public/gramshakti/crops/jute-mesta/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "cda2cd69a7c459ab7044c7b380ba90f84261eea9",
+      "sha256": "f2a7054b94b94f3229077593197c39ef8cbdfc3a116197f3985309fdf3ec8059",
+      "bytes": 612387
+    },
+    {
+      "path": "public/gramshakti/crops/lentil/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "e657ea7377ec8b04e4bbce95a81a4bbfdb7d38dc",
+      "sha256": "72e16c85f864cc1fef1e2806b2c55cb6b176c80ec310b145fcf96a6bcada68e1",
+      "bytes": 641769
+    },
+    {
+      "path": "public/gramshakti/crops/lentil/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "7fa744062371a88e6e124c1587d7f7af67bc828b",
+      "sha256": "cd9d7a5ce4c8ef8d9854c7e433cb4bb0180c0dbab8a18b18606437e25faf8867",
+      "bytes": 445324
+    },
+    {
+      "path": "public/gramshakti/crops/lentil/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "323f351ad438b0e1ccf2279393a162f41483c671",
+      "sha256": "6ca557c5853a1dc8fd9a06ae6c026667766a31b0896d1978ae07a04b31adb14b",
+      "bytes": 612413
+    },
+    {
+      "path": "public/gramshakti/crops/moong/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "4c11f9426c177935793b14df11bc82247ec98ce1",
+      "sha256": "b8b82765d9991ff0ae35147d57b7dff530fa9f46e89b7c6c4136739b1004d2b4",
+      "bytes": 641924
+    },
+    {
+      "path": "public/gramshakti/crops/moong/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "37d6ab6d97c9fa7739ae5abb7b733fdc6461c373",
+      "sha256": "ec3ca98dae86ee2c4e15a4ef9650a78c101a2463672d5c3c7690f69da4905fff",
+      "bytes": 445591
+    },
+    {
+      "path": "public/gramshakti/crops/moong/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "d4cd1e0fb86d5d90b41284ecfa5d34ff283f9b47",
+      "sha256": "3cd5120ad11f465ac5235c50b63bda5fba2477f3650093d63a0d986773499340",
+      "bytes": 611826
+    },
+    {
+      "path": "public/gramshakti/crops/niger-seeds/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "5bd2ba2fc2f79c153a11f9924614866a5d83e72d",
+      "sha256": "7eb8a28c4e9de4009f7c76003afda5b00000e1faa689c2b08c07f844331eb2fa",
+      "bytes": 640975
+    },
+    {
+      "path": "public/gramshakti/crops/niger-seeds/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "c44d331ad32ba5bab3b3bfd985f374c8156288b5",
+      "sha256": "0a1e25d02de3a68ff3578670a44b0ba3d1bfd76606693c6e9e10143f5cbabfb0",
+      "bytes": 445203
+    },
+    {
+      "path": "public/gramshakti/crops/niger-seeds/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "0f99e39068ec56c3b97e9a5807bdcc36d7e2c238",
+      "sha256": "687b5097a9b3021f228c4667b9c405bbe57a5288312ea7d0d814d2cd60851fcf",
+      "bytes": 612251
+    },
+    {
+      "path": "public/gramshakti/crops/pigeon-pea/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "eed70ca82edb9613ae08f2f3c7d45b02494a63f1",
+      "sha256": "7b56c10875f3d4b9a4d19526abf605a0e9f260a69a4f634fa81f3a18b03c789f",
+      "bytes": 641769
+    },
+    {
+      "path": "public/gramshakti/crops/pigeon-pea/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "fa3a682a1e433190b02bf0e6b8f2ab32606d9f3a",
+      "sha256": "4434dba7e6f692f8180a65bab0a6a004755293c12b861efaf207db90123d83c9",
+      "bytes": 445790
+    },
+    {
+      "path": "public/gramshakti/crops/pigeon-pea/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "4994f0739b979fb55399a167e62a7aee7b3605cf",
+      "sha256": "6db29e946aa97f7b6fe4168170118268d947bd978f150a2cc4714f68060f767d",
+      "bytes": 611984
+    },
+    {
+      "path": "public/gramshakti/crops/ragi/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "2cbb5c0863f8cf35953fe463330b9b0b1096b898",
+      "sha256": "7318931dd855e5ec11f4d1e6fba75bfffc2bbb57f4d52a5373a19576a7c3bca2",
+      "bytes": 640077
+    },
+    {
+      "path": "public/gramshakti/crops/ragi/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "75b186623f7cce7bf044e3be3d99e3e85dafb8bc",
+      "sha256": "6e8b6afdf78fd452755fa45fbb3e90a645e15807e09de425019de1a822111bcc",
+      "bytes": 443938
+    },
+    {
+      "path": "public/gramshakti/crops/ragi/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "9dd63d6ff0c0e17c0d6c7cc005addca200db0251",
+      "sha256": "1223f929089d0842967fd45de548e72be93251aeca685deb1502004f76b6107d",
+      "bytes": 611842
+    },
+    {
+      "path": "public/gramshakti/crops/rapeseed-mustard/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "f15fa30881f471118f6d296376973d0c0ff7aa2e",
+      "sha256": "1f84deafd34a0af69410fd9b11a00f7fcac7fd3ba517b1557744ee746290647f",
+      "bytes": 642099
+    },
+    {
+      "path": "public/gramshakti/crops/rapeseed-mustard/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "12455d5ca5742e92d8c2234c642838cc006f177b",
+      "sha256": "380538a46dfe679c9e659f5eb60c1c1d7f10edabd3ee2ef78eb2bd13f7c9e19a",
+      "bytes": 444500
+    },
+    {
+      "path": "public/gramshakti/crops/rapeseed-mustard/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "3091681f08ac9038f377eeac7e78b93e3a10ca6d",
+      "sha256": "40aff6cc8663bae13ea92f73c21d7047de7df7312d6e17e8f39793cbec3af2bd",
+      "bytes": 612590
+    },
+    {
+      "path": "public/gramshakti/crops/rice/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "079c3d869d4471f6e32cfa44376f67a2560a329c",
+      "sha256": "9a245a8c6e01b1cb7c7ce27c3b9c4b29fc3fefbc12072f27d80e368fb22df95f",
+      "bytes": 642649
+    },
+    {
+      "path": "public/gramshakti/crops/rice/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "f3eef9a75de463f675aa3098091f6502c77c3b35",
+      "sha256": "a1fc5272bdd3b281433dc3575ff1066f16011d230f592f77e5bf6a47924f07bb",
+      "bytes": 445778
+    },
+    {
+      "path": "public/gramshakti/crops/rice/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "3a2ea9e458789e69c7e733ee8377b0b4d5fe24f9",
+      "sha256": "c6130e8dc53f4e91d147d710c7c15a8d0618557460ba0ddd650b582b757ef88e",
+      "bytes": 613417
+    },
+    {
+      "path": "public/gramshakti/crops/safflower/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "c522eda8ad90029f8f0b91bd7ecb864e050f9b38",
+      "sha256": "9c4f7a19419febd39f5ced2d94ecece953cba58476d68a98b6c804c9076342f4",
+      "bytes": 635239
+    },
+    {
+      "path": "public/gramshakti/crops/safflower/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "5b6dfd889d4942242129deab22e07391c0435190",
+      "sha256": "0ba76b53de41716afe2dd8da1abec5af7cd85c45228f3c76d43a26b4a980722e",
+      "bytes": 444798
+    },
+    {
+      "path": "public/gramshakti/crops/safflower/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "b5c6227c33b4041afd7f8d8ad73c3a7ed3248866",
+      "sha256": "50901323c71f44515102abc6087730122a4e7f259a44d519418a00ad0619cd12",
+      "bytes": 610968
+    },
+    {
+      "path": "public/gramshakti/crops/sesamum/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "024f8ed5937626d35ecbc083ae6cf6798d11a149",
+      "sha256": "d26ae83239c2d6f38c1ad1893d84f537fe010c0c8dac574c90e4734a3077ee56",
+      "bytes": 641365
+    },
+    {
+      "path": "public/gramshakti/crops/sesamum/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "39eded581ccafa8d3120fc64da076fb216be4766",
+      "sha256": "e55c84942b1efc39d21129e870df3cdd5923387dc4083a6aeedcbc06b1c6bd88",
+      "bytes": 445105
+    },
+    {
+      "path": "public/gramshakti/crops/sesamum/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "921b6f2e054f1818fbf64663301a5dfa69d04240",
+      "sha256": "7cee4058b7fe5e036b286de27a39ad85c4c2ef46dd8bf2006a358df61bb50256",
+      "bytes": 613155
+    },
+    {
+      "path": "public/gramshakti/crops/small-millets/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "a51cce92b7851db633436d2c77151d169b5172a5",
+      "sha256": "15457ecb21575301b88642ca3af146c6ceb9299d0cab0d7b078908bb0fc071d9",
+      "bytes": 642923
+    },
+    {
+      "path": "public/gramshakti/crops/small-millets/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "1720f7ee0f9953e8adea019b880701843ba0ca21",
+      "sha256": "d82b0311cea89e6f82a960625ad3e419d4f8bcf16e6c4c7b4ab8074bebf676aa",
+      "bytes": 446041
+    },
+    {
+      "path": "public/gramshakti/crops/small-millets/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "0ae4f16157640f36a37e46f122a526e6267781ac",
+      "sha256": "5d748e5d6555345d3eb5bffd50c85a9e851d4aee18ac427955f0cda06dc00d4d",
+      "bytes": 613267
+    },
+    {
+      "path": "public/gramshakti/crops/soybean/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "f5bd56c8efa1b37885df60bad52b1fd697de8fe4",
+      "sha256": "bb123b53c1a0b3ef24b0e52ebf7e7ee901cb83023de732779f6c63d46de8d0cd",
+      "bytes": 641824
+    },
+    {
+      "path": "public/gramshakti/crops/soybean/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "78f4a0413de73eee5f3544f62f40320da45fd9a3",
+      "sha256": "f893a4ea7400a64499c6a62dc5d9a61a720649a29c9fc003e542a5f6c289533d",
+      "bytes": 445241
+    },
+    {
+      "path": "public/gramshakti/crops/soybean/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "57dd15d8ad941d208053fc4a9b1ce1715c61a951",
+      "sha256": "7e3e25bfd2ef843776f96c4ba25d3b276cdb68d2c862460a0f6afe46f30c1615",
+      "bytes": 612426
+    },
+    {
+      "path": "public/gramshakti/crops/sunflower/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "bc4c95936b6918cac4999566ef853efd921163d4",
+      "sha256": "26868f98f41e8c5daac05787a91865252dd8b9ab36abeb5de736a61ce1470533",
+      "bytes": 637105
+    },
+    {
+      "path": "public/gramshakti/crops/sunflower/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "7b2f7318ec9c1441586202fb3beb960aa492d71b",
+      "sha256": "e1fddb630adb83cc7862551a4167502177de81fd4d01cb5fa151e5cdaa3e80d1",
+      "bytes": 444763
+    },
+    {
+      "path": "public/gramshakti/crops/sunflower/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "97bba17644b61072ab1044a182f4331b06fb80c8",
+      "sha256": "1c42d08339d2d68b29000779c3f06b4fac64118d224451a3f1635a9226de4797",
+      "bytes": 612274
+    },
+    {
+      "path": "public/gramshakti/crops/tobacco/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "22cb241f3931ef7fc95047d48a151c8d111a2e0c",
+      "sha256": "e85aaf1cb25c20422bbbac6d80cb3dce1e10eceee4c6ede79ea367558c1ad66f",
+      "bytes": 641749
+    },
+    {
+      "path": "public/gramshakti/crops/tobacco/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "c1b5790c62e958a1b3dd798b79bea38a117bbd2c",
+      "sha256": "b6ccbb27170a024ea410c8f0f72022973928b2f66056c7fd70a992e28957012f",
+      "bytes": 446293
+    },
+    {
+      "path": "public/gramshakti/crops/tobacco/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "2d88d99d38f22dc3368e2b8f606913c69361390b",
+      "sha256": "0acc42feb58d3118372d0d93f09d6b9e0e2958eda3966cfb06df524867ee2b43",
+      "bytes": 611314
+    },
+    {
+      "path": "public/gramshakti/crops/wheat/002.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "70136f50dfe04e8f110381d1d12c837df19f7fc7",
+      "sha256": "8a34d456e54191fb977b83e935be876f0afc71dcb3c961a79b49519a50151e66",
+      "bytes": 641699
+    },
+    {
+      "path": "public/gramshakti/crops/wheat/003.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "71c56c1d6d14a9c3bf0559f0d49527c1bd540326",
+      "sha256": "907e1523c4342951e928f337654d1f877d9ad5460e78c1b9c5107a9e1977c00f",
+      "bytes": 445945
+    },
+    {
+      "path": "public/gramshakti/crops/wheat/006.svg",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "eebb5ce9c4740bfc883300edcd39a3747d351f86",
+      "sha256": "572852038d065c1d9ad5c53f2a7080ce98f71769efed4a747fa0ea7cf787746f",
+      "bytes": 613224
+    },
+    {
+      "path": "roadmap.md",
+      "status": "modified",
+      "base_git_blob_sha1": "3bf84916c5b9cc92d98f1f71a0f5c710e68e4935",
+      "git_blob_sha1": "36d1a0315987705b43082789a10ab9c04c848a5d",
+      "sha256": "9ee0132ddf8e7d9c9497fa9d035ddf6491678f56bc20be08bc607a3043133104",
+      "bytes": 2230
+    },
+    {
+      "path": "scripts/build_field_crops.py",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "3a1fd675558f4963409de56037ca2c5840fe45d1",
+      "sha256": "4a242b43b1eb05b1ed04a20b04a6dcbd46303ff0222a878665d7aadf92237042",
+      "bytes": 18492
+    },
+    {
+      "path": "scripts/build_procurement_data.py",
+      "status": "modified",
+      "base_git_blob_sha1": "23a5e015eab39e4197cc3d8339663593ca0ce49b",
+      "git_blob_sha1": "6946be75630e1a93fbe0e4653b5948b936924504",
+      "sha256": "807be41754054df10c927e69c639112d83affcf3b741c181a02f93c18ce29abb",
+      "bytes": 14702
+    },
+    {
+      "path": "scripts/prepare_field_artwork.py",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "198c4270c2064a9818b5a3df35d6b0f11e558f89",
+      "sha256": "03c7e6705ae5b7281072945a9688aec707ee54a4135ec37c65b9f8618f913b25",
+      "bytes": 20771
+    },
+    {
+      "path": "scripts/prepare_procurement_artwork.py",
+      "status": "modified",
+      "base_git_blob_sha1": "1c173701bd637622efc161f3eb06495f3165292a",
+      "git_blob_sha1": "1150037f6762f5b286c3ec8a6afd6e671972d150",
+      "sha256": "e6f3ff479af44a9b56bd38aa64d2a4f285f5abc80886f754040efaeef94ac40d",
+      "bytes": 26388
+    },
+    {
+      "path": "src/assets/gramshakti/bajra/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "2944be75db758cf6332682b52225b714111bc046",
+      "sha256": "718f4c9bf319aadc6aef0a42677ce5f8dc6848363e76c7f29a25b1e90760373f",
+      "bytes": 2182
+    },
+    {
+      "path": "src/assets/gramshakti/barley/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "5fa983f46b5d18f8e0688bd999e492fa3c0a4c1b",
+      "sha256": "3a8a6183887c5bf14cf21463caeca1d705caf22ec7e40247516000f6d21c1fa6",
+      "bytes": 2195
+    },
+    {
+      "path": "src/assets/gramshakti/black-gram/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "ecc38c67ab34f0e084edc2241892b5a0ccff41d6",
+      "sha256": "cb78b30022c7aa65185eac5421f2c58f49465fece92f51bd8d4a619050f26734",
+      "bytes": 2247
+    },
+    {
+      "path": "src/assets/gramshakti/castor/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "48da7f5e6e8e70c65d40243a3aafb2fa81c102f5",
+      "sha256": "f2cce6cc247f39cd75977c5e93e693c768379d1b4a6c7ca0c22e6c671530a8a0",
+      "bytes": 2195
+    },
+    {
+      "path": "src/assets/gramshakti/cotton/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "12de3d9ac5f06a828e1cb9da0110c608c6f891a8",
+      "sha256": "9fe242439250e3e6301fef238493de0df114285d83c4c8283578e6861714209e",
+      "bytes": 2236
+    },
+    {
+      "path": "src/assets/gramshakti/gram/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "daad0e57fd9af7546dcf1cba661995fc3782dd65",
+      "sha256": "7cd151746f68599245cb4abf434e055483cd10dc104a876340a91b04bb0339e3",
+      "bytes": 2169
+    },
+    {
+      "path": "src/assets/gramshakti/groundnut/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "9d7b67dd79d479f05b3f7acce6f678fd365a4734",
+      "sha256": "b9c11eb7be2af9e7d3d1242d2249b884b0c227bd3ba0618cf01dc9ca6bd80841",
+      "bytes": 2234
+    },
+    {
+      "path": "src/assets/gramshakti/guarseed/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "9b275c270f6dfdffaf6b24eaaf9c28435a63cf05",
+      "sha256": "c61326e723172c5a61bb11267a06435d2565b4e1903428a1641830656abe855a",
+      "bytes": 2221
+    },
+    {
+      "path": "src/assets/gramshakti/jowar/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "38345d1e8ee98b29326b51d9455a429798861b39",
+      "sha256": "4fb0485f5d60be0ca46335499d7d89df90c78b6e44b9f411d4b28d4b81345c27",
+      "bytes": 2182
+    },
+    {
+      "path": "src/assets/gramshakti/jute-mesta/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "603640ce05af0c31d3159634e1a2087aa24348b4",
+      "sha256": "340dd8e4c6750ec89a07f9b01a049b4a1ffa510dcbc050695c4a6e07be677e10",
+      "bytes": 2249
+    },
+    {
+      "path": "src/assets/gramshakti/lentil/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "36e2fa0d0075c43d62b9e7cdb11a58f0e41e1407",
+      "sha256": "31121752a2171036e3164bfd4c3ea975a2a1b2ddfe800626c11ea8b7a049a566",
+      "bytes": 2195
+    },
+    {
+      "path": "src/assets/gramshakti/moong/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "04f329d34cd1532ddc97a0b20fb4fe37d6c9fa3d",
+      "sha256": "5f517be9ff4f28925821bf283092c5042da19df59e7af6c078abeec5b9f6564f",
+      "bytes": 2182
+    },
+    {
+      "path": "src/assets/gramshakti/niger-seeds/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "57de516348690092f2b4f556cc965f1550800c2b",
+      "sha256": "9a76e575804931cb15f3330ed7ba06df5809bce77a19ae0386318264da5beef3",
+      "bytes": 2260
+    },
+    {
+      "path": "src/assets/gramshakti/pigeon-pea/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "09eb1de3433fca91848dd513cff97798ba76fe94",
+      "sha256": "9e7d619bad72c39f0f6c9d08485d7fe8fde6fcc9c363a8061db61d23de5fe983",
+      "bytes": 2247
+    },
+    {
+      "path": "src/assets/gramshakti/ragi/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "a6f9585e40fac6526d38d9415e096c841e809aad",
+      "sha256": "ce51f858a721665548cdddf495947be9dd7750ba519acc4df4f995ece39a8e28",
+      "bytes": 2169
+    },
+    {
+      "path": "src/assets/gramshakti/rapeseed-mustard/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "f929b24b461ac9ecffe5241b4727cd783ad43a6f",
+      "sha256": "d1211acbde1eb0b6b0502ffff2b97d93340d5b3a60e7d47c1d06a320fe639c5b",
+      "bytes": 2327
+    },
+    {
+      "path": "src/assets/gramshakti/rice/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "16abbbaf608a9636116e8bd70c6f2a77fbc77dda",
+      "sha256": "b1a4ab2c9a1558e54556ae3807601917d99050bc3311f5882ed9738f2144280d",
+      "bytes": 2169
+    },
+    {
+      "path": "src/assets/gramshakti/safflower/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "071117646750561e8ae508025d0d0a3a562e2e34",
+      "sha256": "263eb85cd3e3e6db28f1310e64dd7e9fccf37c503151a8cc1d2102e03ae41ac8",
+      "bytes": 2234
+    },
+    {
+      "path": "src/assets/gramshakti/sesamum/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "1d4f8673522f6d4847d727476471db0e98a0deee",
+      "sha256": "17e42230681a2de2323528431a98a8e04ac1ba2775c8ddcfee523ae86fcbbd5e",
+      "bytes": 2208
+    },
+    {
+      "path": "src/assets/gramshakti/small-millets/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "a7cbae1171783ce1785b5aef61ca2bc0b222a6cd",
+      "sha256": "f7aaf7d1ae530157a5eca5e4e7573761dc768dd07314e60c148b88bbf9751365",
+      "bytes": 2286
+    },
+    {
+      "path": "src/assets/gramshakti/soybean/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "b6f7b7edc1e7127be9cd4b687b6d71b6b2a3d848",
+      "sha256": "d878029e6e652e9226f98e1e130444310a2941f215bee5e2240a5233b8f136da",
+      "bytes": 2208
+    },
+    {
+      "path": "src/assets/gramshakti/sunflower/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "7aacf7242b640b48332a679aa4a766198606e44d",
+      "sha256": "fdd29953fdf67ce8aab4064b4f7084da0de5ae228701e13dc41ec1f1f6fed7df",
+      "bytes": 2234
+    },
+    {
+      "path": "src/assets/gramshakti/tobacco/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "1493f564486d3764268d24f54793dfabd170d9fc",
+      "sha256": "f8dea38e483dbcd47fbfdfc309da5ab2610e92f281eeb31937056bf712d75e2c",
+      "bytes": 2208
+    },
+    {
+      "path": "src/assets/gramshakti/wheat/manifest.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "1c0eba97dac25c4cb37bf2582938686cbb6591dd",
+      "sha256": "153df76492134f5822cb72eb147fbf637b9697088c698a30e3a87a3a04b02f24",
+      "bytes": 2182
+    },
+    {
+      "path": "src/components/gramshakti/asset-viewer.tsx",
+      "status": "modified",
+      "base_git_blob_sha1": "b435efc51fb1518b03812918d2f43f78fea2b6eb",
+      "git_blob_sha1": "0bd0b9f4785baaa996604c2e0474ffc065d87b81",
+      "sha256": "a469f17df0e7b50eeb7341b33e5cc0807a0d2c556769fc2ce9c06e2b471a6c50",
+      "bytes": 17188
+    },
+    {
+      "path": "src/components/gramshakti/procurement-details.tsx",
+      "status": "modified",
+      "base_git_blob_sha1": "4402c2e5cac56806f565d6fd0dc4914bc365aef8",
+      "git_blob_sha1": "d8054c1f0352febea89014803ffb08161a8d92ec",
+      "sha256": "13b77f1dc68f858876fe5b241d48b88320d30bdef0911d77cfc21b733429af28",
+      "bytes": 46884
+    },
+    {
+      "path": "src/components/gramshakti/shared.tsx",
+      "status": "modified",
+      "base_git_blob_sha1": "2fb429f67b731bee88c15ad8366054ae0a573991",
+      "git_blob_sha1": "f25f0711146dbcc4ebbe7bb74cee378a76e64eaa",
+      "sha256": "97e478cd45ffc2ffa5cdbd77121d2e59426738eac0fd086ef3efc18a5e49ce92",
+      "bytes": 8899
+    },
+    {
+      "path": "src/lib/gramshakti/artwork-audit.json",
+      "status": "modified",
+      "base_git_blob_sha1": "3fa91188f34ba84f846cb987c577251555efe4fa",
+      "git_blob_sha1": "7f2f30123b3275103ffeeee5709f1fc13656e25b",
+      "sha256": "2303b0e60e784c36067220cbfd13560cb8c750b62f342c849c62fa3225cb4850",
+      "bytes": 46813
+    },
+    {
+      "path": "src/lib/gramshakti/asset-manifest.json",
+      "status": "modified",
+      "base_git_blob_sha1": "798c0ed3aab8c325f7ddc5a745fe7c3e91e57a98",
+      "git_blob_sha1": "e511ce8bf0d0e28cc34f3ce014b3ed24dd4123cd",
+      "sha256": "de54fe8d4820820d7d7ec9d1ec23a9326ae1dd9daab3285629c0cfe57468e7cb",
+      "bytes": 229592
+    },
+    {
+      "path": "src/lib/gramshakti/assets.ts",
+      "status": "modified",
+      "base_git_blob_sha1": "7264d6795f4e5b3289b807079fecb9ac99f92e0b",
+      "git_blob_sha1": "5216aa7191f66869244ff571c8f207991c804ff6",
+      "sha256": "7468c5db338748c0520e04242dc3a74f96f38b60409af5518c74eda8e5c51670",
+      "bytes": 2228
+    },
+    {
+      "path": "src/lib/gramshakti/field-crop-audit.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "bd535354045387b42095ecf23a7ea99c0e9e58fc",
+      "sha256": "d28dcd51f159747db2e6db4187c866da4f1dba9b0ab3bf65f59fa63937768b8c",
+      "bytes": 41713
+    },
+    {
+      "path": "src/lib/gramshakti/field-crops.json",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "66892555a1be4f36892e7c2c4992f43d4d9206d8",
+      "sha256": "1eaf76b97c6cdbb92ba790c9d4b5ae7072ce51c1dd0af1aef00c6a85976c2e02",
+      "bytes": 329
+    },
+    {
+      "path": "src/lib/gramshakti/official-records.json",
+      "status": "modified",
+      "base_git_blob_sha1": "f1bff86a93a1c4ca10c52c8d149f4c48c65c3393",
+      "git_blob_sha1": "72e0842e1d695473edb5a1734f50d9b56100512d",
+      "sha256": "e5f9c702c288a9f5ba802379a66382befdd8c9fdc498cc33ed2ae9b8edfe0760",
+      "bytes": 2335093
+    },
+    {
+      "path": "src/lib/gramshakti/procurement-records.json",
+      "status": "modified",
+      "base_git_blob_sha1": "8341ec7ae52e3e6e92226db37b96aa66ad1092ed",
+      "git_blob_sha1": "4e4426b9faba42d02f5dde00c811bacecb5ee94d",
+      "sha256": "4e0998272c2cf325e2a8c2b307073ff4bdd48385f381dd2e5984a4518a425360",
+      "bytes": 2996198
+    },
+    {
+      "path": "src/lib/gramshakti/procurement.ts",
+      "status": "modified",
+      "base_git_blob_sha1": "5f3fd7dd37944f35331fcae75dab2b97b7834ac5",
+      "git_blob_sha1": "165e8368230fa3f69a73074a740ea8c17dfea5c4",
+      "sha256": "ba92bf46f17baa342954ce9124fa50b130eb423ad833bda17ccf62d7b837d798",
+      "bytes": 16035
+    },
+    {
+      "path": "src/lib/gramshakti/source-records.json",
+      "status": "modified",
+      "base_git_blob_sha1": "a69eb1bf46fd197485134d6e319eb4c28e771e66",
+      "git_blob_sha1": "168434951880a744b6a7670da91a5a4fccb85beb",
+      "sha256": "1f2985a1d23bc3164dfd59f41242f9f0b195f27c44e0cbadfb56e69102cbe216",
+      "bytes": 517232
+    },
+    {
+      "path": "src/test/field-crops.test.ts",
+      "status": "added",
+      "base_git_blob_sha1": null,
+      "git_blob_sha1": "67f9a2ed29b9324e0f879bfe3d342c972bee8d20",
+      "sha256": "c07e750a0881e642dfcaa9c2cfdb07b2927c951f0610950fe66833eae926907b",
+      "bytes": 6654
+    },
+    {
+      "path": "src/test/procurement-data.test.ts",
+      "status": "modified",
+      "base_git_blob_sha1": "1e8620b9745e6356d2fbe554298c310afeda09cf",
+      "git_blob_sha1": "7ea453f59804f80d06333b55a542fecadea1a910",
+      "sha256": "5e03295e4f2069ff25dc598abc40864d955de54fba2507a33918fbcbe25c926b",
+      "bytes": 5873
+    },
+    {
+      "path": "src/test/procurement-interactions.test.tsx",
+      "status": "modified",
+      "base_git_blob_sha1": "bc7a5e8ad4188893f5d7b2171af05c839f5e8559",
+      "git_blob_sha1": "2fcd68713e460e58915ac667238eaf082d09dc6b",
+      "sha256": "d58d520934dbd56111483d40ff57ebef64ea5d51c0667f70bc8f0157d4241e46",
+      "bytes": 9833
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "snapshot": "2026-10-17",
+  "crosswalkUrl": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+  "notesUrl": "https://docs.google.com/spreadsheets/d/1GZz93y1fusfbXxqElFZPahH8455yMYs_vtcLq1sdlLs/edit",
+  "crops": [
+    {
+      "crop": "Rice",
+      "slug": "rice",
+      "calendar": 17,
+      "belts": 6,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 22,
+      "editor_notes": [
+        "Need to remove the Text blocks- \n1.\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n2.\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Rice crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 60,
+      "district_rows": 38
+    },
+    {
+      "crop": "Wheat",
+      "slug": "wheat",
+      "calendar": 11,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 21,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\" \nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 56,
+      "district_rows": 0
+    },
+    {
+      "crop": "Jowar",
+      "slug": "jowar",
+      "calendar": 11,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 16,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 56,
+      "district_rows": 38
+    },
+    {
+      "crop": "Bajra",
+      "slug": "bajra",
+      "calendar": 11,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 18,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 54,
+      "district_rows": 38
+    },
+    {
+      "crop": "Barley",
+      "slug": "barley",
+      "calendar": 10,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 9,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 1,
+      "district_rows": 0
+    },
+    {
+      "crop": "Ragi",
+      "slug": "ragi",
+      "calendar": 10,
+      "belts": 5,
+      "processing": 3,
+      "protection": 2,
+      "estimate_passages": 16,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 1,
+      "district_rows": 38
+    },
+    {
+      "crop": "Small Millets",
+      "slug": "small-millets",
+      "calendar": 10,
+      "belts": 6,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 18,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 0,
+      "district_rows": 0
+    },
+    {
+      "crop": "Gram",
+      "slug": "gram",
+      "calendar": 10,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 17,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 60,
+      "district_rows": 38
+    },
+    {
+      "crop": "Pigeon Pea",
+      "slug": "pigeon-pea",
+      "calendar": 8,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 17,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 56,
+      "district_rows": 38
+    },
+    {
+      "crop": "Black Gram",
+      "slug": "black-gram",
+      "calendar": 10,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 13,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 1,
+      "district_rows": 38
+    },
+    {
+      "crop": "Moong",
+      "slug": "moong",
+      "calendar": 10,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 12,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 1,
+      "district_rows": 38
+    },
+    {
+      "crop": "Lentil",
+      "slug": "lentil",
+      "calendar": 10,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 27,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 50,
+      "district_rows": 0
+    },
+    {
+      "crop": "Cotton",
+      "slug": "cotton",
+      "calendar": 9,
+      "belts": 6,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 16,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 56,
+      "district_rows": 0
+    },
+    {
+      "crop": "Jute & Mesta",
+      "slug": "jute-mesta",
+      "calendar": 6,
+      "belts": 4,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 25,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 30,
+      "district_rows": 0
+    },
+    {
+      "crop": "Tobacco",
+      "slug": "tobacco",
+      "calendar": 7,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 13,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 52,
+      "district_rows": 0
+    },
+    {
+      "crop": "Guarseed",
+      "slug": "guarseed",
+      "calendar": 6,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 11,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 0,
+      "district_rows": 0
+    },
+    {
+      "crop": "Groundnut",
+      "slug": "groundnut",
+      "calendar": 10,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 14,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 54,
+      "district_rows": 0
+    },
+    {
+      "crop": "Rapeseed & Mustard",
+      "slug": "rapeseed-mustard",
+      "calendar": 10,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 15,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 56,
+      "district_rows": 0
+    },
+    {
+      "crop": "Soybean",
+      "slug": "soybean",
+      "calendar": 8,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 11,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 51,
+      "district_rows": 0
+    },
+    {
+      "crop": "Sunflower",
+      "slug": "sunflower",
+      "calendar": 6,
+      "belts": 3,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 8,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 45,
+      "district_rows": 0
+    },
+    {
+      "crop": "Sesamum",
+      "slug": "sesamum",
+      "calendar": 8,
+      "belts": 4,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 16,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 0,
+      "district_rows": 0
+    },
+    {
+      "crop": "Safflower",
+      "slug": "safflower",
+      "calendar": 6,
+      "belts": 3,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 6,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 0,
+      "district_rows": 0
+    },
+    {
+      "crop": "Castor",
+      "slug": "castor",
+      "calendar": 6,
+      "belts": 5,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 8,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 0,
+      "district_rows": 0
+    },
+    {
+      "crop": "Niger Seeds",
+      "slug": "niger-seeds",
+      "calendar": 7,
+      "belts": 4,
+      "processing": 3,
+      "protection": 6,
+      "estimate_passages": 11,
+      "editor_notes": [
+        "Need to remove the text blocks- \n\"Windows combine displayed crosswalk state rows; stored-lot releases and local timing require verification\"\n\"Peak = count of cited displayed windows\"\nEither one of two decisions needed - a)Need to rermove the entire pesticide pressure strip - replace with key pest names\nor b)create actual pesticide strip based on actual crosswalk data",
+        "Either one of two decisions needed -a)Need to Change all references to pesticides and create pest only page  , and transform page into zone wise key pests \n or b)create actual pesticide strip based on actual crosswalk data",
+        "Remove text- State production: Mixed latest periods best available • processing geographies: Wheat crosswalk\nIn GEOGRAPHY NODES, CATCHMENTS + KEY VARIETIES- Key varieties are not written"
+      ],
+      "official_rows": 0,
+      "district_rows": 0
+    }
+  ],
+  "node_jurisdictions": [
+    {
+      "crop": "rice",
+      "node": 0,
+      "name": "Northern Basmati Export Milling Corridor (Haryana & Punjab)",
+      "states": [
+        "HR",
+        "PB"
+      ],
+      "source_block": 2968
+    },
+    {
+      "crop": "rice",
+      "node": 1,
+      "name": "Eastern Parboiled Rice Milling Hub (Purba Bardhaman, West Bengal)",
+      "states": [
+        "WB"
+      ],
+      "source_block": 2973
+    },
+    {
+      "crop": "rice",
+      "node": 2,
+      "name": "Southern Parboiled & Deepwater Export Corridor (Telangana & Andhra Pradesh)",
+      "states": [
+        "AP",
+        "TS"
+      ],
+      "source_block": 2978
+    },
+    {
+      "crop": "wheat",
+      "node": 0,
+      "name": "Northern Grain Buffer & Bulk Storage Corridor (Punjab, Haryana & Western UP)",
+      "states": [
+        "HR",
+        "PB",
+        "UP",
+        "DL"
+      ],
+      "source_block": 3094
+    },
+    {
+      "crop": "wheat",
+      "node": 1,
+      "name": "Malwa–Central Value-Addition & Durum Processing Hub (Madhya Pradesh)",
+      "states": [
+        "MP"
+      ],
+      "source_block": 3098
+    },
+    {
+      "crop": "wheat",
+      "node": 2,
+      "name": "Peninsular Consumption & Port Milling Centers (Maharashtra, TN, Karnataka)",
+      "states": [
+        "KA",
+        "MH",
+        "TN"
+      ],
+      "source_block": 3102
+    },
+    {
+      "crop": "jowar",
+      "node": 0,
+      "name": "Deccan Rabi Food-Grain Basin (Southern Maharashtra & Northern Karnataka)",
+      "states": [
+        "KA",
+        "MH"
+      ],
+      "source_block": 3333
+    },
+    {
+      "crop": "jowar",
+      "node": 1,
+      "name": "Hyderabad Nutri-Cereal Innovation Corridor (Telangana)",
+      "states": [
+        "TS"
+      ],
+      "source_block": 3340
+    },
+    {
+      "crop": "jowar",
+      "node": 2,
+      "name": "Northern Rainfed Grain & Fodder Axis (Rajasthan & UP Bundelkhand)",
+      "states": [
+        "RJ",
+        "UP"
+      ],
+      "source_block": 3344
+    },
+    {
+      "crop": "bajra",
+      "node": 0,
+      "name": "Northwestern Commercial Food & Milling Corridor (Rajasthan, UP & Haryana)",
+      "states": [
+        "HR",
+        "RJ",
+        "UP"
+      ],
+      "source_block": 3455
+    },
+    {
+      "crop": "bajra",
+      "node": 1,
+      "name": "Gujarat Summer Processing & Export Hub (Central Gujarat & North Gujarat)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 3459
+    },
+    {
+      "crop": "bajra",
+      "node": 2,
+      "name": "Southern Poultry Feed & Industrial Hub (Tamil Nadu & Karnataka)",
+      "states": [
+        "KA",
+        "TN"
+      ],
+      "source_block": 3463
+    },
+    {
+      "crop": "barley",
+      "node": 0,
+      "name": "Rajasthan Commercial Malting & Brewing Axis (Jaipur, Alwar & Kotputli)",
+      "states": [
+        "RJ",
+        "DL"
+      ],
+      "source_block": 3587
+    },
+    {
+      "crop": "barley",
+      "node": 1,
+      "name": "Haryana–NCR Processing & Research Hub (Gurugram, Karnal & Rewari)",
+      "states": [
+        "HR"
+      ],
+      "source_block": 3592
+    },
+    {
+      "crop": "barley",
+      "node": 2,
+      "name": "Eastern Doab Sattu & Food Processing Cluster (Uttar Pradesh & Bihar)",
+      "states": [
+        "BR",
+        "UP"
+      ],
+      "source_block": 3596
+    },
+    {
+      "crop": "ragi",
+      "node": 0,
+      "name": "Old Mysore Commercial & Malting Corridor (Southern Karnataka)",
+      "states": [
+        "KA"
+      ],
+      "source_block": 3709
+    },
+    {
+      "crop": "ragi",
+      "node": 1,
+      "name": "Northwest Tamil Nadu Industrial & Extrusion Hub (Krishnagiri & Dharmapuri)",
+      "states": [
+        "TN"
+      ],
+      "source_block": 3713
+    },
+    {
+      "crop": "ragi",
+      "node": 2,
+      "name": "Koraput Eastern Ghats Millet Network (Odisha Millets Mission)",
+      "states": [
+        "OR"
+      ],
+      "source_block": 3717
+    },
+    {
+      "crop": "small-millets",
+      "node": 0,
+      "name": "Nashik Industrial Bhagar & Fasting-Food Super-Cluster (Maharashtra)",
+      "states": [
+        "MH"
+      ],
+      "source_block": 4090
+    },
+    {
+      "crop": "small-millets",
+      "node": 1,
+      "name": "Southern Minor Millet Processing Corridor (Tamil Nadu & Karnataka)",
+      "states": [
+        "KA",
+        "TN"
+      ],
+      "source_block": 4094
+    },
+    {
+      "crop": "small-millets",
+      "node": 2,
+      "name": "Central Tribal Decentralized Processing Basin (Madhya Pradesh & Odisha)",
+      "states": [
+        "MP",
+        "OR"
+      ],
+      "source_block": 4098
+    },
+    {
+      "crop": "gram",
+      "node": 0,
+      "name": "Latur–Marathwada Pulse Super-Cluster (Maharashtra)",
+      "states": [
+        "MH"
+      ],
+      "source_block": 4232
+    },
+    {
+      "crop": "gram",
+      "node": 1,
+      "name": "Indore–Malwa Processing & Kabuli Export Hub (Madhya Pradesh)",
+      "states": [
+        "MP"
+      ],
+      "source_block": 4236
+    },
+    {
+      "crop": "gram",
+      "node": 2,
+      "name": "Bikaner–Jaipur Snack Processing Axis (Rajasthan)",
+      "states": [
+        "RJ"
+      ],
+      "source_block": 4240
+    },
+    {
+      "crop": "pigeon-pea",
+      "node": 0,
+      "name": "Latur–Akola Dal Milling Super-Cluster (Maharashtra)",
+      "states": [
+        "MH"
+      ],
+      "source_block": 4351
+    },
+    {
+      "crop": "pigeon-pea",
+      "node": 1,
+      "name": "Kalaburagi Industrial Togari Basin (Northern Karnataka)",
+      "states": [
+        "KA"
+      ],
+      "source_block": 4355
+    },
+    {
+      "crop": "pigeon-pea",
+      "node": 2,
+      "name": "Vasad Processing & Oily Dal Export Cluster (Anand District, Gujarat)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 4359
+    },
+    {
+      "crop": "black-gram",
+      "node": 0,
+      "name": "Tenali–Guntur Processing Super-Cluster (Andhra Pradesh)",
+      "states": [
+        "AP"
+      ],
+      "source_block": 4468
+    },
+    {
+      "crop": "black-gram",
+      "node": 1,
+      "name": "Damoh–Kanpur Pulse Milling Corridor (Madhya Pradesh & Uttar Pradesh)",
+      "states": [
+        "MP",
+        "UP"
+      ],
+      "source_block": 4472
+    },
+    {
+      "crop": "black-gram",
+      "node": 2,
+      "name": "Bikaner–Latur Industrial Papad & Dal Axis (Rajasthan & Maharashtra)",
+      "states": [
+        "MH",
+        "RJ"
+      ],
+      "source_block": 4476
+    },
+    {
+      "crop": "moong",
+      "node": 0,
+      "name": "Merta–Jaipur Commercial Aggregation & Sizing Axis (Rajasthan)",
+      "states": [
+        "RJ"
+      ],
+      "source_block": 4584
+    },
+    {
+      "crop": "moong",
+      "node": 1,
+      "name": "Narmada Summer Valley Processing Mega-Cluster (Madhya Pradesh)",
+      "states": [
+        "MP"
+      ],
+      "source_block": 4588
+    },
+    {
+      "crop": "moong",
+      "node": 2,
+      "name": "Gadag–Latur Early Processing Corridor (Karnataka & Maharashtra)",
+      "states": [
+        "KA",
+        "MH"
+      ],
+      "source_block": 4592
+    },
+    {
+      "crop": "lentil",
+      "node": 0,
+      "name": "Bundelkhand–Kanpur Processing Corridor (Uttar Pradesh)",
+      "states": [
+        "UP"
+      ],
+      "source_block": 4704
+    },
+    {
+      "crop": "lentil",
+      "node": 1,
+      "name": "Katni–Sagar Central Madhya Pradesh Hub",
+      "states": [
+        "MP"
+      ],
+      "source_block": 4708
+    },
+    {
+      "crop": "lentil",
+      "node": 2,
+      "name": "Lower Gangetic & Port Processing Corridor (West Bengal & Bihar)",
+      "states": [
+        "BR",
+        "WB"
+      ],
+      "source_block": 4712
+    },
+    {
+      "crop": "cotton",
+      "node": 0,
+      "name": "Saurashtra–Kadi Ginning & Export Mega-Cluster (Gujarat)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 4834
+    },
+    {
+      "crop": "cotton",
+      "node": 1,
+      "name": "Vidarbha–Marathwada Black-Soil Aggregation Corridor (Maharashtra)",
+      "states": [
+        "MH"
+      ],
+      "source_block": 4838
+    },
+    {
+      "crop": "cotton",
+      "node": 2,
+      "name": "Coimbatore–Tiruppur Spindle & Textile Basin (Tamil Nadu)",
+      "states": [
+        "TN"
+      ],
+      "source_block": 4843
+    },
+    {
+      "crop": "jute-mesta",
+      "node": 0,
+      "name": "Hooghly River Industrial Corridor (West Bengal)",
+      "states": [
+        "WB"
+      ],
+      "source_block": 5025
+    },
+    {
+      "crop": "jute-mesta",
+      "node": 1,
+      "name": "Seemanchal & North Bengal Primary Processing Corridor (Bihar & WB)",
+      "states": [
+        "BR",
+        "WB"
+      ],
+      "source_block": 5030
+    },
+    {
+      "crop": "jute-mesta",
+      "node": 2,
+      "name": "North Coastal Andhra Mesta Processing Belt (Andhra Pradesh)",
+      "states": [
+        "AP"
+      ],
+      "source_block": 5034
+    },
+    {
+      "crop": "tobacco",
+      "node": 0,
+      "name": "Guntur–Chilakaluripet Leaf Processing Corridor (Andhra Pradesh)",
+      "states": [
+        "AP"
+      ],
+      "source_block": 5211
+    },
+    {
+      "crop": "tobacco",
+      "node": 1,
+      "name": "Anand–Petlad Bidi Industrial Cluster (Gujarat)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 5215
+    },
+    {
+      "crop": "tobacco",
+      "node": 2,
+      "name": "Hunsur–Mysuru Processing Axis (Karnataka)",
+      "states": [
+        "KA"
+      ],
+      "source_block": 5219
+    },
+    {
+      "crop": "guarseed",
+      "node": 0,
+      "name": "Jodhpur–Bikaner Industrial Super-Cluster (Rajasthan)",
+      "states": [
+        "RJ"
+      ],
+      "source_block": 5403
+    },
+    {
+      "crop": "guarseed",
+      "node": 1,
+      "name": "Haryana Split & Processing Corridor (Siwani, Bhiwani & Hisar)",
+      "states": [
+        "HR"
+      ],
+      "source_block": 5407
+    },
+    {
+      "crop": "guarseed",
+      "node": 2,
+      "name": "Gujarat Port-Linked Export Axis (Ahmedabad, Kadi & Mundra)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 5411
+    },
+    {
+      "crop": "groundnut",
+      "node": 0,
+      "name": "Saurashtra Processing & Decortication Super-Cluster (Gujarat)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 5605
+    },
+    {
+      "crop": "groundnut",
+      "node": 1,
+      "name": "Bikaner–Mundra HPS Export Corridor (Rajasthan & Gujarat)",
+      "states": [
+        "GJ",
+        "RJ"
+      ],
+      "source_block": 5609
+    },
+    {
+      "crop": "groundnut",
+      "node": 2,
+      "name": "Tindivanam–Kovilpatti Confectionery & Oil Axis (Tamil Nadu)",
+      "states": [
+        "TN"
+      ],
+      "source_block": 5613
+    },
+    {
+      "crop": "rapeseed-mustard",
+      "node": 0,
+      "name": "Alwar–Bharatpur Industrial Processing Heartland (Rajasthan)",
+      "states": [
+        "RJ"
+      ],
+      "source_block": 5823
+    },
+    {
+      "crop": "rapeseed-mustard",
+      "node": 1,
+      "name": "Agra–Kanpur Industrial Processing Corridor (Uttar Pradesh)",
+      "states": [
+        "UP"
+      ],
+      "source_block": 5827
+    },
+    {
+      "crop": "rapeseed-mustard",
+      "node": 2,
+      "name": "Kolkata–Howrah Consumption & Refining Basin (West Bengal)",
+      "states": [
+        "WB"
+      ],
+      "source_block": 5831
+    },
+    {
+      "crop": "soybean",
+      "node": 0,
+      "name": "Indore–Dewas Solvent Extraction Super-Cluster (Madhya Pradesh)",
+      "states": [
+        "MP"
+      ],
+      "source_block": 6021
+    },
+    {
+      "crop": "soybean",
+      "node": 1,
+      "name": "Latur–Nagpur Industrial Processing Corridor (Maharashtra)",
+      "states": [
+        "MH"
+      ],
+      "source_block": 6025
+    },
+    {
+      "crop": "soybean",
+      "node": 2,
+      "name": "Kandla–Mundra Port Logistics Gateway (Gujarat)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 6029
+    },
+    {
+      "crop": "sunflower",
+      "node": 0,
+      "name": "Hubballi–Vijayapura Processing Corridor (Karnataka)",
+      "states": [
+        "KA"
+      ],
+      "source_block": 6203
+    },
+    {
+      "crop": "sunflower",
+      "node": 1,
+      "name": "Kakinada–Chennai Port-Based Refining Mega-Hub (Andhra Pradesh & Tamil Nadu)",
+      "states": [
+        "AP",
+        "TN"
+      ],
+      "source_block": 6207
+    },
+    {
+      "crop": "sunflower",
+      "node": 2,
+      "name": "Ambala–Kurukshetra Processing Axis (Haryana)",
+      "states": [
+        "HR"
+      ],
+      "source_block": 6211
+    },
+    {
+      "crop": "sesamum",
+      "node": 0,
+      "name": "Gujarat Auto-Hulling & Export Processing Super-Cluster",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 6426
+    },
+    {
+      "crop": "sesamum",
+      "node": 1,
+      "name": "Unjha–Sumerpur Physical Commodity Trading Corridor (Gujarat & Rajasthan)",
+      "states": [
+        "GJ",
+        "RJ"
+      ],
+      "source_block": 6430
+    },
+    {
+      "crop": "sesamum",
+      "node": 2,
+      "name": "Tamil Nadu Industrial Gingelly Oil Hub (Virudhunagar & Erode)",
+      "states": [
+        "TN"
+      ],
+      "source_block": 6434
+    },
+    {
+      "crop": "safflower",
+      "node": 0,
+      "name": "Solapur–Barshi Processing Super-Cluster (Maharashtra)",
+      "states": [
+        "MH"
+      ],
+      "source_block": 6630
+    },
+    {
+      "crop": "safflower",
+      "node": 1,
+      "name": "Vijayapura–Hubballi Industrial Corridor (Karnataka)",
+      "states": [
+        "KA"
+      ],
+      "source_block": 6634
+    },
+    {
+      "crop": "safflower",
+      "node": 2,
+      "name": "Marathwada Regional Processing Network (Latur & Parbhani)",
+      "states": [
+        "MH"
+      ],
+      "source_block": 6638
+    },
+    {
+      "crop": "castor",
+      "node": 0,
+      "name": "Kandla–Mundra Port Refining & Maritime Hub (Kutch, Gujarat)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 6826
+    },
+    {
+      "crop": "castor",
+      "node": 1,
+      "name": "North Gujarat Expeller & Assembly Grid (Kadi, Mehsana & Palanpur)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 6830
+    },
+    {
+      "crop": "castor",
+      "node": 2,
+      "name": "Dahej–Ankleshwar Specialty Chemical Corridor (South Gujarat)",
+      "states": [
+        "GJ"
+      ],
+      "source_block": 6834
+    },
+    {
+      "crop": "niger-seeds",
+      "node": 0,
+      "name": "Navsari–Mumbai Export Processing Corridor (Gujarat & Maharashtra)",
+      "states": [
+        "GJ",
+        "MH"
+      ],
+      "source_block": 7033
+    },
+    {
+      "crop": "niger-seeds",
+      "node": 1,
+      "name": "Jabalpur–Mandla Tribal Aggregation Grid (Madhya Pradesh)",
+      "states": [
+        "MP"
+      ],
+      "source_block": 7037
+    },
+    {
+      "crop": "niger-seeds",
+      "node": 2,
+      "name": "Nashik–Pune Food Condiment Cluster (Maharashtra)",
+      "states": [
+        "MH"
+      ],
+      "source_block": 7041
+    }
+  ],
+  "blocked": [
+    {
+      "crop": "Maize",
+      "status": "BLOCKED_CONTENT_MISMATCH",
+      "reason": "Section identity failed: target mentions=0; strongest competing crop=Wheat (32)"
+    },
+    {
+      "crop": "Sugarcane",
+      "status": "MISSING_CROSSWALK",
+      "reason": "No dedicated canonical heading was found"
+    }
+  ]
+}

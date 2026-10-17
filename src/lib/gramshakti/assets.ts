@@ -2,11 +2,15 @@ import manifest from "./asset-manifest.json";
 import records from "./source-records.json";
 import stateCodes from "./state-codes.json";
 import canonical from "./canonical-crops.json";
+import fieldCrops from "./field-crops.json";
 import { type Evidence } from "./data";
 export type Screen = "002" | "003" | "006";
 export const cropAssets = manifest;
 export type CropSlug = keyof typeof manifest;
 export const canonicalCrops = canonical;
+export const fieldCropSlugs: readonly string[] = fieldCrops;
+export const isFieldCrop = (crop: string) => fieldCropSlugs.includes(crop);
+export const primaryPurposeLabel = (crop: string) => (isFieldCrop(crop) ? "Primary" : "Fresh");
 export const stateNames = stateCodes;
 export function isCropSlug(value: string): value is CropSlug {
   return Object.hasOwn(manifest, value);

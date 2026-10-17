@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Safflower",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "2ec5e961047f73fe7cb8393d7793b64fbe5633065d5cfef75f43fc85698ad2a9",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\safflower\\PR-002_Safflower_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 618933,
+      "sha256": "a0e095d4e2bde837a5b676a360459e41c86d65bd004ccb5b9b2e38b7044fc1c2"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\safflower\\PR-002_Safflower_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 300355,
+      "sha256": "72596a9e7ac19c1b9f8d7f03996ad8624dec30611ea833d971e4b206506862cc"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\safflower\\PR-003_Safflower_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449552,
+      "sha256": "f6d77d76d742ed93a1e55f131f83bcd7fd12f63e7bc0f3117536289544997707"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\safflower\\PR-003_Safflower_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 285195,
+      "sha256": "849285cddad917ac2f2403c4b441cfad63bcb2601ffc4ecc3a3f4343bdfb8505"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\safflower\\PR-006_Safflower_Processing_Geographies_FINAL.svg",
+      "bytes": 602301,
+      "sha256": "95d7d9e777745920ee03494b0903af2dfcab2fcc64dc8f47ef856fe4816fa5ab"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\safflower\\PR-006_Safflower_Processing_Geographies_FINAL.png",
+      "bytes": 267033,
+      "sha256": "3f3ad192b5c06fac95c57f6ef54ad7fad3268263e7b6e2811c1b20441e436a3f"
+    }
+  ]
+}

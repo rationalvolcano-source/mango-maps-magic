@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Barley",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "e279c4ca077cda4c26fdf79e164bae7bea32c3fac32e6d7e4a29f13fb7678314",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\barley\\PR-002_Barley_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621159,
+      "sha256": "52a854efdc76ca610025dab1b96c786ce4836d6ae0000160514548330f7138a3"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\barley\\PR-002_Barley_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 309790,
+      "sha256": "a6933b670d277f415443f844136372278ae4f3c5cb374c90244f8055ae9fa12f"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\barley\\PR-003_Barley_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449550,
+      "sha256": "555837cdbf83278377e42d47112a00c6a1462b0811c37c486e9728708e7cbec1"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\barley\\PR-003_Barley_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 282795,
+      "sha256": "db682916c1b389143541193ed777ca178112a0f0a30afd9b677f7af76a570eb8"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\barley\\PR-006_Barley_Processing_Geographies_FINAL.svg",
+      "bytes": 604784,
+      "sha256": "f54411ec815dc8eea1f5a27ae32f678f7101fc3c1c09e697bad54631d050b6c0"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\barley\\PR-006_Barley_Processing_Geographies_FINAL.png",
+      "bytes": 292867,
+      "sha256": "9e840cb6698d259bb8433e54822f5facb8d8fc0b9aa31fd6881fb0ab74cc0ee4"
+    }
+  ]
+}

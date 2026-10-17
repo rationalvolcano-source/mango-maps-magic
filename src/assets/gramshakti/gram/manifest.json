@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Gram",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "04ccd2959aac1b0901ed0331dc26ac49edde39532c11baf46eedeb765043d7b5",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\gram\\PR-002_Gram_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621288,
+      "sha256": "240959bd4ae68521c8e3411b548533a3a0ac48e47d5992242732db0fd0bee564"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\gram\\PR-002_Gram_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 314658,
+      "sha256": "d1407474c6c7ab661c354c89ecc2d75a876cedf0e170072463b0b24ef926507d"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\gram\\PR-003_Gram_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449485,
+      "sha256": "281f62bfc7a1b0cd5cde868f3c2b649594074484f9f6e8a3c8f6a96234c81b53"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\gram\\PR-003_Gram_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 281554,
+      "sha256": "6f15556a2561eb61625d81d3c9e0ab1d3332380548b77c016690ec16937bc25d"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\gram\\PR-006_Gram_Processing_Geographies_FINAL.svg",
+      "bytes": 604929,
+      "sha256": "cd512fe5eac0e1257363689f5486fea3e3a3041bc1f387d170ca3ba4a6391b5c"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\gram\\PR-006_Gram_Processing_Geographies_FINAL.png",
+      "bytes": 295545,
+      "sha256": "a1bdb838f71e1fac52cf72ffab50235fc2a806859a2d93b3e60204ded2bddc55"
+    }
+  ]
+}

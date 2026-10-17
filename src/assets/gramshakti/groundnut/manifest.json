@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "crop": "Groundnut",
+  "productionYear": "Mixed latest periods",
+  "dataHash": "4231f1a5570e5e0387389070237de3bb07112e09920e5d790e70c4232212c7ba",
+  "outputs": [
+    {
+      "screen": "pr002",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\groundnut\\PR-002_Groundnut_National_Sourcing_Landscape_FINAL.svg",
+      "bytes": 621309,
+      "sha256": "568080e340ebc0e79b09e97baf8ae2a6ff1fe167dd1367b05859a7fe4fc8dffd"
+    },
+    {
+      "screen": "pr002",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\groundnut\\PR-002_Groundnut_National_Sourcing_Landscape_FINAL.png",
+      "bytes": 315268,
+      "sha256": "6ee847f5d2b03e67422078d9c0ef1c1d9a5dd301e662aa93f3ec6b18da3baf78"
+    },
+    {
+      "screen": "pr003",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\groundnut\\PR-003_Groundnut_Pesticide_Pressure_Detail_FINAL.svg",
+      "bytes": 449622,
+      "sha256": "e028fa7da8b18267d2d83a42d5160717541df53634e15970f903a5ac773658e3"
+    },
+    {
+      "screen": "pr003",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\groundnut\\PR-003_Groundnut_Pesticide_Pressure_Detail_FINAL.png",
+      "bytes": 287902,
+      "sha256": "e4179825c50ac7d8ff40c0802996d06ed870ec4d5bba837e2bf6a0f7f2df0744"
+    },
+    {
+      "screen": "pr006",
+      "type": "svg",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\groundnut\\PR-006_Groundnut_Processing_Geographies_FINAL.svg",
+      "bytes": 604673,
+      "sha256": "7708a124a46a6ecb1afadd698188618dfac6449131a71fc3806d7d16d3c33794"
+    },
+    {
+      "screen": "pr006",
+      "type": "png",
+      "path": "C:\\Users\\praty\\Downloads\\GramShakti_Crop_Visual_Compiler_v3.0.0\\output\\catalog\\groundnut\\PR-006_Groundnut_Processing_Geographies_FINAL.png",
+      "bytes": 298955,
+      "sha256": "18d65432a3d1caeafaf17b35b70ea09d233e6981899b8e03f7fb0a63e8519381"
+    }
+  ]
+}
