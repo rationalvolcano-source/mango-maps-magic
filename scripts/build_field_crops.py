@@ -13,6 +13,7 @@ from pathlib import Path
 from zipfile import ZipFile
 from xml.etree import ElementTree as E
 from openpyxl import load_workbook
+from evidence_artwork import source_system_column
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = Path(sys.argv[1])
@@ -113,7 +114,8 @@ for slug, (name, start, stop) in SECTIONS.items():
     belt_table=candidates[0]
     pest_table = next(b for b in tables if any('Target Pest' in h for h in b['rows'][0]))
     calendars = []; previous = ''; headers=calendar_table['rows'][0]
-    state_col=col(headers,'^State'); variety_col=col(headers,'Cultivar|Variety|Selection',1); system_col=col(headers,'Season|Class|Primary Species|Ecosystem',2)
+    state_col=col(headers,'^State'); variety_col=col(headers,'Cultivar|Variety|Selection',1); system_col=source_system_column(headers)
+    if system_col is None:raise ValueError('Unresolved source system header: '+slug)
     window_cols=[i for i,h in enumerate(headers) if re.search('Window|Arrival|Harvest|Auction',h,re.I)]
     if not window_cols:raise ValueError('Source calendar has no named window: '+slug)
     for cells,loc in exact_rows(calendar_table):
