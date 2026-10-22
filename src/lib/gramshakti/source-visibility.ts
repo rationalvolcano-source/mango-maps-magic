@@ -14,7 +14,7 @@ export function isPublicSource(url: string | undefined): url is string {
 }
 
 const locatorLine =
-  /(body block \d+|^(Mandatory Crops Statewise Production|District APY Master) · row \d+$|\.(docx|xlsx|pdf)\b)/i;
+  /(body block \d+|^(Mandatory Crops Statewise Production|District APY Master) · row \d+$|\.(docx|xlsx|pdf|svg)\b|FINAL STATIC|compiler)/i;
 const tablePrefix = /^[^:\n]{0,60}— source table \d+, row \d+:\s*/;
 
 /** Removes automated document/table/row addresses so only readable source content is shown. */
