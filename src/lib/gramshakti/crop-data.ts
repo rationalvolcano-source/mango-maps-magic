@@ -43,3 +43,7 @@ export function cropData(crop: string): CropPayload {
   return data;
 }
 export const isCropDataLoaded = (crop: string) => cache.has(crop);
+/** Seeds the cache from route loader data so hydrated pages render without refetching. */
+export function primeCropData(crop: string, data: CropPayload | undefined) {
+  if (data && !cache.has(crop)) cache.set(crop, data);
+}

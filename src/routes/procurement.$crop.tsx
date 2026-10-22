@@ -1,8 +1,11 @@
 import { createFileRoute, Outlet } from "@tanstack/react-router";
-import { loadCropData } from "@/lib/gramshakti/crop-data";
+import { loadCropData, primeCropData } from "@/lib/gramshakti/crop-data";
 export const Route = createFileRoute("/procurement/$crop")({
-  loader: async ({ params }) => {
-    await loadCropData(params.crop);
-  },
-  component: Outlet,
+  loader: ({ params }) => loadCropData(params.crop),
+  component: CropLayout,
 });
+function CropLayout() {
+  const { crop } = Route.useParams();
+  primeCropData(crop, Route.useLoaderData());
+  return <Outlet />;
+}
