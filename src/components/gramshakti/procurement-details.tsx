@@ -1268,10 +1268,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
                 </p>
               );
             })}
-            <p className="brief-reference">{locatorText(row.locator)}</p>
-            <a href={row.locator.url} target="_blank" rel="noreferrer">
-              Original source document
-            </a>
+            <p className="brief-reference">Source: GramShakti internal research record</p>
             <Button
               className="no-print"
               variant="ghost"
@@ -1279,7 +1276,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
               onClick={() => source(calendarEvidence(crop, row))}
             >
               <BookOpen />
-              Read exact evidence
+              Read source evidence
             </Button>
           </section>
         ))}
@@ -1306,10 +1303,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
             {row.catchment.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
-            <p className="brief-reference">{locatorText(row.locator)}</p>
-            <a href={row.locator.url} target="_blank" rel="noreferrer">
-              Original processing source
-            </a>
+            <p className="brief-reference">Source: GramShakti internal research record</p>
             <Button
               className="no-print"
               size="sm"
@@ -1317,7 +1311,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
               onClick={() => source(processingEvidence(crop, row))}
             >
               <BookOpen />
-              Read exact node evidence
+              Read node evidence
             </Button>
           </section>
         ))}
