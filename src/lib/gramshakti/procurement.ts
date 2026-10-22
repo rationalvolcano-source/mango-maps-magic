@@ -1,5 +1,5 @@
-import snapshot from "./procurement-records.json";
-import official from "./official-records.json";
+import meta from "./procurement-meta.json";
+import { cropData } from "./crop-data";
 import stateCodes from "./state-codes.json";
 import lgd from "./lgd-states.json";
 import { cropAssets, sourceRecords, isFieldCrop, type CropSlug } from "./assets";
