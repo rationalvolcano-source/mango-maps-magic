@@ -92,11 +92,9 @@ describe("Procurement buyer interactions", () => {
     expect(within(row).getByText("Boro (Summer)")).toBeVisible();
     fireEvent.click(within(row).getByRole("button", { name: "Source" }));
     const dialog = await screen.findByRole("dialog");
-    expect(within(dialog).getByText(/Cross Walks-2.0.docx · body block 2901/)).toBeVisible();
-    expect(within(dialog).getByRole("link", { name: "Open source" })).toHaveAttribute(
-      "href",
-      expect.stringContaining("1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav"),
-    );
+    expect(within(dialog).queryByText(/body block/)).toBeNull();
+    expect(within(dialog).queryByRole("link")).toBeNull();
+    expect(within(dialog).getByText(/Internal source, summarised/)).toBeVisible();
   });
   it("shows a compact Rice district table and expands the actual supplied tranche", async () => {
     await open("/procurement/rice/state/TN?purpose=fresh&year=2024-25");
