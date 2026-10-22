@@ -10,6 +10,7 @@ import sys
 import textwrap
 from pathlib import Path
 from xml.etree import ElementTree as E
+from evidence_artwork import correct_belt_panel, correct_processing_pins
 
 ROOT=Path(__file__).resolve().parents[1];SOURCE=Path(sys.argv[1]);LIB=ROOT/'src/lib/gramshakti'
 SVG='http://www.w3.org/2000/svg';N={'s':SVG}
@@ -200,7 +201,7 @@ def processing_page(root,slug,state_paths):
             if allowed and not any(inside(ox,oy,p) for shape in allowed for p in polygons(shape.get('d',''))):
                 nx,ny=point(allowed[0])
                 for other in root.findall('.//s:circle',N):
-                    if position(other)==(ox,oy):other.set('cx',str(round(nx,2)));other.set('cy',str(round(ny,2)))
+                    if position(other)==(ox,oy) and (other.get('stroke','').lower()==color.lower() or other.get('fill','').lower()==color.lower()):other.set('cx',str(round(nx,2)));other.set('cy',str(round(ny,2)))
             bind(pin,action,row['name']+' · indicative state position');pin.set('data-pin',str(index))
         for label in root.findall('s:text',N):
             if label.get('fill','').lower()==color.lower() and 70<position(label)[0]<880 and 450<position(label)[1]<890:
@@ -259,6 +260,8 @@ for slug in cohort:
         for el in root.findall('s:text',N):
             if '…' in value(el):
                 action=el.get('data-action','source:register');el.text='Open complete source record →';bind(el,action,'Open complete source record')
+        if screen=='002':correct_belt_panel(root,slug,records)
+        elif screen=='006':correct_processing_pins(root,slug,records,assets[slug])
         if geometry!=[p.get('d') for p in root.findall('.//s:path',N)]:raise ValueError('Original map geometry changed '+slug+'/'+screen)
         target=ROOT/f'public/gramshakti/crops/{slug}/{screen}.svg';target.parent.mkdir(parents=True,exist_ok=True)
         data=E.tostring(root,encoding='utf-8');target.write_bytes(data)

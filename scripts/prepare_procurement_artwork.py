@@ -11,6 +11,7 @@ import textwrap
 import sys
 from pathlib import Path
 from xml.etree import ElementTree as E
+from evidence_artwork import correct_processing_pins
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = Path(sys.argv[1]) / "originals"
@@ -128,7 +129,8 @@ def relocate(root,needle,code,paths):
         nx,ny=point_for(paths[code]);dx,dy=nx-ox,ny-oy
         for other in root.findall('.//s:circle',N):
             x,y=position(other)
-            if abs(x-ox)<.02 and abs(y-oy)<.02:other.set('cx',str(round(nx,2)));other.set('cy',str(round(ny,2)))
+            color=circle.get('stroke','').lower()
+            if abs(x-ox)<.02 and abs(y-oy)<.02 and (other.get('stroke','').lower()==color or other.get('fill','').lower()==color):other.set('cx',str(round(nx,2)));other.set('cy',str(round(ny,2)))
         for label in root.findall('.//s:text',N):
             x,y=position(label)
             if abs(x-ox)<26 and abs(y-oy)<16 and float(label.get('font-size','12'))<10:
@@ -266,7 +268,7 @@ def processing_page(root,slug,paths):
                 nx,ny=point_for(allowed[0])
                 for other in root.findall('.//s:circle',N):
                     x,y=position(other)
-                    if abs(x-ox)<.02 and abs(y-oy)<.02:other.set('cx',str(round(nx,2)));other.set('cy',str(round(ny,2)))
+                    if abs(x-ox)<.02 and abs(y-oy)<.02 and (other.get('stroke','').lower()==color or other.get('fill','').lower()==color):other.set('cx',str(round(nx,2)));other.set('cy',str(round(ny,2)))
                 changes.append(slug+': '+row['name']+' marker constrained to source node jurisdiction; indicative state placement')
             bind(circle,'cluster:'+str(index),row['name']+' · indicative node placement');circle.set('data-pin',str(index))
         if pins:
@@ -369,6 +371,7 @@ for slug,asset in assets.items():
         corrections=[('pineapple','northbengal','WB'),('pineapple','bidhannagar','WB'),('pomegranate','solapur','MH'),('pomegranate','westernmaharashtra','MH'),('apple','kashipur','UK'),('sapota','centralgujarat','GJ'),('potato','agra','UP'),('potato','farrukhabad','UP'),('potato','hooghly','WB'),('tomato','annamayya','AP'),('tomato','southernpeninsular','AP')]
         for crop,needle,code in corrections:
             if crop==slug:relocate(root,needle,code,paths)
+        if screen=='006':correct_processing_pins(root,slug,records,assets[slug])
         if [p.get('d') for p in root.findall('.//s:path',N)]!=geometry:raise ValueError('Original map/path geometry changed')
         target=ROOT/f'public/gramshakti/crops/{slug}/{screen}.svg';target.parent.mkdir(parents=True,exist_ok=True);data=E.tostring(root,encoding='utf-8');target.write_bytes(data)
         meta['application']=f'/gramshakti/crops/{slug}/{screen}.svg'

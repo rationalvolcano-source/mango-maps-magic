@@ -43829,7 +43829,7 @@
             "WB"
           ],
           "variety": "Tossa Jute (JRO-524, JRO-204, JRO-8432)",
-          "system": "Tossa Jute (JRO-524, JRO-204, JRO-8432)",
+          "system": "Upland / Midland Alluvial",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -43870,7 +43870,7 @@
             "WB"
           ],
           "variety": "White Jute (JRC-321, JRC-212)",
-          "system": "White Jute (JRC-321, JRC-212)",
+          "system": "Low-Lying Floodplain",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -43911,7 +43911,7 @@
             "BR"
           ],
           "variety": "Tossa & White (JRO-524, Sonali)",
-          "system": "Tossa & White (JRO-524, Sonali)",
+          "system": "Seemanchal Floodplains",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -43952,7 +43952,7 @@
             "AS"
           ],
           "variety": "White Jute (Tarun, JRC-321) & Tossa",
-          "system": "White Jute (Tarun, JRC-321) & Tossa",
+          "system": "Charlands & Riparian Plains",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -43993,7 +43993,7 @@
             "OR"
           ],
           "variety": "Tossa Jute & Mesta (AMC-108)",
-          "system": "Tossa Jute & Mesta (AMC-108)",
+          "system": "Coastal Alluvial & Red Loam",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -44034,7 +44034,7 @@
             "AP"
           ],
           "variety": "Mesta (H. sabdariffa - AMV-5)",
-          "system": "Mesta (H. sabdariffa - AMV-5)",
+          "system": "Rainfed Upland Semi-Arid",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -45273,7 +45273,7 @@
             "KA"
           ],
           "variety": "FCV Tobacco: Kanchan, Sahyadri, Rathna",
-          "system": "FCV Tobacco: Kanchan, Sahyadri, Rathna",
+          "system": "Rainfed Kharif (KLS)",
           "windows": [
             {
               "label": "Peak Market Arrival / Auction Window",
@@ -45314,7 +45314,7 @@
             "AP"
           ],
           "variety": "FCV Tobacco: Siri, VT-1158, Kanchan",
-          "system": "FCV Tobacco: Siri, VT-1158, Kanchan",
+          "system": "Post-Monsoon Rabi (SLS/NLS)",
           "windows": [
             {
               "label": "Peak Market Arrival / Auction Window",
@@ -45355,7 +45355,7 @@
             "AP"
           ],
           "variety": "Natu & Burley Tobacco",
-          "system": "Natu & Burley Tobacco",
+          "system": "Rabi Rainfed / Irrigated",
           "windows": [
             {
               "label": "Peak Market Arrival / Auction Window",
@@ -45396,7 +45396,7 @@
             "GJ"
           ],
           "variety": "Bidi Tobacco: Anand-119, ABT-10, GT-7",
-          "system": "Bidi Tobacco: Anand-119, ABT-10, GT-7",
+          "system": "Late Kharif / Semi-Rabi",
           "windows": [
             {
               "label": "Peak Market Arrival / Auction Window",
@@ -45437,7 +45437,7 @@
             "UP"
           ],
           "variety": "Hookah & Chewing: Azad Kanchan, Rustica",
-          "system": "Hookah & Chewing: Azad Kanchan, Rustica",
+          "system": "Winter Rabi (Alluvial)",
           "windows": [
             {
               "label": "Peak Market Arrival / Auction Window",
@@ -45478,7 +45478,7 @@
             "BR"
           ],
           "variety": "Chewing Tobacco: Prabhat, Gandak Bahar",
-          "system": "Chewing Tobacco: Prabhat, Gandak Bahar",
+          "system": "Winter Rabi",
           "windows": [
             {
               "label": "Peak Market Arrival / Auction Window",
@@ -45519,7 +45519,7 @@
             "TN"
           ],
           "variety": "Chewing & Cigar: Meenampalayam, I-64",
-          "system": "Chewing & Cigar: Meenampalayam, I-64",
+          "system": "Winter / Spring",
           "windows": [
             {
               "label": "Peak Market Arrival / Auction Window",
@@ -51502,7 +51502,7 @@
             "KA"
           ],
           "variety": "KBSH-41, RSFH-1887, RSFH-130",
-          "system": "KBSH-41, RSFH-1887, RSFH-130",
+          "system": "Kharif & Rabi",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -51539,7 +51539,7 @@
             "OR"
           ],
           "variety": "KBSH-41, DRSH-1, PAC-36",
-          "system": "KBSH-41, DRSH-1, PAC-36",
+          "system": "Rabi / Rice Fallow",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -51577,7 +51577,7 @@
             "PB"
           ],
           "variety": "Pioneer 64A57, PSH-1962, Sunbred",
-          "system": "Pioneer 64A57, PSH-1962, Sunbred",
+          "system": "Spring (Irrigated)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -51614,7 +51614,7 @@
             "MH"
           ],
           "variety": "Phule Bhaskar, LSFH-171, DRSF-108",
-          "system": "Phule Bhaskar, LSFH-171, DRSF-108",
+          "system": "Kharif & Rabi",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -51652,7 +51652,7 @@
             "AP"
           ],
           "variety": "NDSH-1012, DRSH-1, KBSH-44",
-          "system": "NDSH-1012, DRSH-1, KBSH-44",
+          "system": "Rabi (Zero-Till)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -51689,7 +51689,7 @@
             "WB"
           ],
           "variety": "Subinoy, DRSH-1, Morden",
-          "system": "Subinoy, DRSH-1, Morden",
+          "system": "Rabi (Coastal)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -52534,7 +52534,7 @@
             "GJ"
           ],
           "variety": "Natural White & Black: GT-2, GT-3, GT-10",
-          "system": "Natural White & Black: GT-2, GT-3, GT-10",
+          "system": "Kharif (Saurashtra)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -52571,7 +52571,7 @@
             "GJ"
           ],
           "variety": "GT-4, GT-5 (High-yielding white)",
-          "system": "GT-4, GT-5 (High-yielding white)",
+          "system": "Summer (Irrigated)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -52608,7 +52608,7 @@
             "WB"
           ],
           "variety": "White & Light-Brown: Rama, Savitri",
-          "system": "White & Light-Brown: Rama, Savitri",
+          "system": "Summer / Pre-Kharif",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -52645,7 +52645,7 @@
             "MP"
           ],
           "variety": "Bold White: TKG-21, TKG-55; Black: TKG-22",
-          "system": "Bold White: TKG-21, TKG-55; Black: TKG-22",
+          "system": "Kharif (Bundelkhand)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -52682,7 +52682,7 @@
             "RJ"
           ],
           "variety": "White & Brown: RT-46, RT-351",
-          "system": "White & Brown: RT-46, RT-351",
+          "system": "Kharif (Arid Plain)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -52719,7 +52719,7 @@
             "UP"
           ],
           "variety": "Brown & Off-White: Pragati, Tarun",
-          "system": "Brown & Off-White: Pragati, Tarun",
+          "system": "Kharif",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -52756,7 +52756,7 @@
             "TN"
           ],
           "variety": "Black & Brown: TMV-3, TMV-7, VRI-3",
-          "system": "Black & Brown: TMV-3, TMV-7, VRI-3",
+          "system": "Rabi & Summer",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -52793,7 +52793,7 @@
             "AP"
           ],
           "variety": "White & Off-White: YLM-66, Chandana",
-          "system": "White & Off-White: YLM-66, Chandana",
+          "system": "Rabi / Rice-Fallow",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -53837,7 +53837,7 @@
             "MH"
           ],
           "variety": "Spiny: Bhima, PBNS-12, Phule Kusuma",
-          "system": "Spiny: Bhima, PBNS-12, Phule Kusuma",
+          "system": "Rainfed Rabi (Vertisols)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -53878,7 +53878,7 @@
             "MH"
           ],
           "variety": "Non-spiny: NARI-6, NARI-NH-1",
-          "system": "Non-spiny: NARI-6, NARI-NH-1",
+          "system": "Irrigated / Specialized",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -53919,7 +53919,7 @@
             "KA"
           ],
           "variety": "Spiny: Annigeri-1 (A-1), A-2, PBNS-40",
-          "system": "Spiny: Annigeri-1 (A-1), A-2, PBNS-40",
+          "system": "Rainfed Rabi (Krishna Basin)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -53960,7 +53960,7 @@
             "GJ"
           ],
           "variety": "Spiny: GS-1, Bhima",
-          "system": "Spiny: GS-1, Bhima",
+          "system": "Saline Bhal / Saurashtra",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -54002,7 +54002,7 @@
             "AP"
           ],
           "variety": "Spiny: Manjira, TSF-1",
-          "system": "Spiny: Manjira, TSF-1",
+          "system": "Residual Rice Fallow/Black",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -54043,7 +54043,7 @@
             "MP"
           ],
           "variety": "Spiny: JSF-1, JSF-7",
-          "system": "Spiny: JSF-1, JSF-7",
+          "system": "Malwa Plateau Rabi",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -55845,7 +55845,7 @@
             "MP"
           ],
           "variety": "JNC-6, JNC-9, JNS-28",
-          "system": "JNC-6, JNC-9, JNS-28",
+          "system": "Rainfed Kharif (Satpura)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -55882,7 +55882,7 @@
             "CG"
           ],
           "variety": "IGPN-2004-1, JNC-6",
-          "system": "IGPN-2004-1, JNC-6",
+          "system": "Tribal Kharif (Bastar)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -55919,7 +55919,7 @@
             "OR"
           ],
           "variety": "Deomali (ONS-4), GA-10",
-          "system": "Deomali (ONS-4), GA-10",
+          "system": "Rainfed Kharif Uplands",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -55956,7 +55956,7 @@
             "OR"
           ],
           "variety": "Utkal Niger-150",
-          "system": "Utkal Niger-150",
+          "system": "Rabi / Rice Fallow",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -55993,7 +55993,7 @@
             "MH"
           ],
           "variety": "Sahyadri, Phule Karale-1",
-          "system": "Sahyadri, Phule Karale-1",
+          "system": "Late Kharif (Ghatmatha)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -56030,7 +56030,7 @@
             "GJ"
           ],
           "variety": "GN-1, GN-2, GN-3",
-          "system": "GN-1, GN-2, GN-3",
+          "system": "Tribal Kharif (Dangs)",
           "windows": [
             {
               "label": "Peak Market Arrival Window",
@@ -56067,7 +56067,7 @@
             "KA"
           ],
           "variety": "KBN-1, RCR-18",
-          "system": "KBN-1, RCR-18",
+          "system": "Transitional Late Kharif",
           "windows": [
             {
               "label": "Peak Market Arrival Window",

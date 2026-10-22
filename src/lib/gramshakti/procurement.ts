@@ -312,7 +312,10 @@ export function calendarEvidence(crop: CropSlug, row: CalendarRow): Evidence {
 }
 export function beltEvidence(crop: CropSlug, row: BeltRow): Evidence {
   return sourceEvidence(
-    `${cropAssets[crop].name} · belt: ${row.origin.replace(/[•\n]+/g, " ").trim().slice(0, 80)}`,
+    `${cropAssets[crop].name} · belt: ${row.origin
+      .replace(/[•\n]+/g, " ")
+      .trim()
+      .slice(0, 80)}`,
     `${locatorText(row.locator)}\n${row.headers.map((h, i) => `${h}: ${row.cells[i] || "—"}`).join("\n")}`,
     row.locator.url,
   );

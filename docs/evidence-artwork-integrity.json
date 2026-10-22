@@ -1,0 +1,606 @@
+{
+  "baseCommit": "716faa018a5f97ab27277694a305ed3788874fa2",
+  "auditDate": "2026-10-23",
+  "assets": [
+    {
+      "path": "public/gramshakti/crops/apple/002.svg",
+      "baselineApplicationSha256": "02368f1b5a6463fc1c6ab9d41cc44fa85e88ad73cd7f0c56cb9272f857fefe40",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/apple/003.svg",
+      "baselineApplicationSha256": "95df5a0ed9a85ec9c018b316cf4e4d45e7e2f5bea27dfa4c9efdef08d932302f",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/apple/006.svg",
+      "baselineApplicationSha256": "6a394498745e1f21fcf3b7ca4456037e51abeabbd7170cfcd64ac86cfbed814c",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/bajra/002.svg",
+      "baselineApplicationSha256": "c88063b00e294bcbb98622c6d6efd6d03fc83430bd3a7269399cce809bddb14f",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/bajra/003.svg",
+      "baselineApplicationSha256": "269cecd0d53fa2e4e2d88831380c606d966019959ebdb990ee7ccafbe7252340",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/bajra/006.svg",
+      "baselineApplicationSha256": "115958355b2cb7f58e2200ced76395cb17a419ba9db9f882c185d8363d72d705",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/banana/002.svg",
+      "baselineApplicationSha256": "9ab0e2b6e296a10621698010a2b9e3e7f01d15f18e41b6d20883deaa2d6ba71a",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/banana/003.svg",
+      "baselineApplicationSha256": "b78b68f42bdb2fdeb868127dbd2b4d199d4707d7873e08ead4a8ba3975757cee",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/banana/006.svg",
+      "baselineApplicationSha256": "661213afb673dfc0f03b0593ef75b65e0a4cd608de98b02806701fc007bc92f1",
+      "pathGeometrySha256": "7d844af8744ba68805439c2b80149c709a3376830e604b4a8236e4213e249383"
+    },
+    {
+      "path": "public/gramshakti/crops/barley/002.svg",
+      "baselineApplicationSha256": "d0bd0c6575e46abfe8fd86236f7d969894b216b46bc978c79d65a3d133a407f1",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/barley/003.svg",
+      "baselineApplicationSha256": "72482942e90c7b7c3b03c278f5bb63a31570c29aea90781a7caed04115b97430",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/barley/006.svg",
+      "baselineApplicationSha256": "3add21ba7f7af0534476eebba6609c392b994237bbb655371044e83e9d0c1aec",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/black-gram/002.svg",
+      "baselineApplicationSha256": "0a19a91d33a718eb8dc75809e45c4519e57536ea61c4a373bc5efc51d777e039",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/black-gram/003.svg",
+      "baselineApplicationSha256": "5fc794651c5253c4693073bc3462c8cfa0a9fb52c6970b17e6ab8bab4a1501f9",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/black-gram/006.svg",
+      "baselineApplicationSha256": "02c701cb83a606d76dfa67b2a6218d5f58e8dc5baa5fea2f1f009d82049c7026",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/capsicum/002.svg",
+      "baselineApplicationSha256": "48df483b8e9f31258e798faf11da4c57b167f7a200d0b12c15620a6dedceb288",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/capsicum/003.svg",
+      "baselineApplicationSha256": "7a385446630b0719ce6ac6d56f1d744f7e884dae686fe2cb45fd6f52346b1dff",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/capsicum/006.svg",
+      "baselineApplicationSha256": "c1b423dfd1f57518909278ddfd03e19604ca9af52f8ca53c3dd1756ac46c791d",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/castor/002.svg",
+      "baselineApplicationSha256": "a131eac2faa56dd218659ddc0ab31ba426554d6586c547a200e298f8847c8655",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/castor/003.svg",
+      "baselineApplicationSha256": "3b52fc36096cb4c7dbdaaf82c54c14dd8ba5aeee2cb445658b20a8d50c6e3330",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/castor/006.svg",
+      "baselineApplicationSha256": "b2b0af318f56656a2fb88eb125baeb2cabb2744f875be601ee7ea571683c8235",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/cotton/002.svg",
+      "baselineApplicationSha256": "9b05e65420903230ec005e984fb25a77da2597c9b9f0fa4dfd8c2c626a32a2a6",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/cotton/003.svg",
+      "baselineApplicationSha256": "27f00b1e2dc7dd3abbb2756f691e327779fb551581f243c195f654184501e276",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/cotton/006.svg",
+      "baselineApplicationSha256": "d05aae3a23bfe9bf33e2e89fdba54f36b90780bbb481acc7166a3750346d7333",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/gram/002.svg",
+      "baselineApplicationSha256": "67b346116aa144c0cba5feb4e4afb25717e5e8e4178d1118f90028bb4cc4b5a7",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/gram/003.svg",
+      "baselineApplicationSha256": "bce93754c1c2b5c8dd39b4e4cd19ea080e689143f406656e4e6375b2ceb052d1",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/gram/006.svg",
+      "baselineApplicationSha256": "2497e341f89705f1b225f64fa7ff9f745574a21196a5aa16bf1a93f6992bb99a",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/grapes/002.svg",
+      "baselineApplicationSha256": "2e5eb5d076f08c85ed37045b450a3659b8753edd2b0da6fad7e74cf893795596",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/grapes/003.svg",
+      "baselineApplicationSha256": "3a0dcbd1818d8e13db524d67f6c0ee3dea3a9098eb58ae00ecc35b9be830384e",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/grapes/006.svg",
+      "baselineApplicationSha256": "dc21f7651a0e49053f4d2038e1805e606c0013aa6d6e5f1e9c18bf7ed3b6a7b8",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/groundnut/002.svg",
+      "baselineApplicationSha256": "d211b1b229edb78d95da2d48ee7d61fdb7b63bf451edd6a4a51c2694edcb5f38",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/groundnut/003.svg",
+      "baselineApplicationSha256": "c7c0e7070f2f9bef043473b76445b11d1912fde38c9e3169723fe92c748b79d3",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/groundnut/006.svg",
+      "baselineApplicationSha256": "07383b4f0d2448796093adbcccbf0b2ceff5a9da7be87421dc6cf11e538fdf1c",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/guarseed/002.svg",
+      "baselineApplicationSha256": "61061a328715bc9c31a4d484d06eded53e2c9d11abea0a9424bc258fce755f94",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/guarseed/003.svg",
+      "baselineApplicationSha256": "717217f805d93040644a641c6877eb8390244f5927265d17c8607d49151a7f73",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/guarseed/006.svg",
+      "baselineApplicationSha256": "03360f201975a586945eebe334c7c0f044884a3c22784497cf7505df9d8a4578",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/guava/002.svg",
+      "baselineApplicationSha256": "329ec635d8d2d2be153dadeaba4f81a607e3cba5a7610e6e5784f1145e2cb89e",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/guava/003.svg",
+      "baselineApplicationSha256": "ca6ef61f250651b0525db51530172777f48467468b1fb5b75bf715d007af27ce",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/guava/006.svg",
+      "baselineApplicationSha256": "b713bf7722e2c095991fb0f8f2eb7d75e822170f312da40ac4f6aba35b6bd81b",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/jackfruit/002.svg",
+      "baselineApplicationSha256": "b480f63dcf14e1db1c393a6da6c231f294e86ddc3272d32811a2f0d629f72061",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/jackfruit/003.svg",
+      "baselineApplicationSha256": "2908ba5e7823ffff5c9ab357008c75a028c2d8f5ffae16c77d31768319660272",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/jackfruit/006.svg",
+      "baselineApplicationSha256": "a7f2b55071f3ce7ec1c317d0ac66b0710ffcabe46f1abdb84dfb5c9ecc33a93f",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/jowar/002.svg",
+      "baselineApplicationSha256": "cb89c411f78d621ebfdcaaf64e43764134ae71f832bd451ca92ec12e68a97f6f",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/jowar/003.svg",
+      "baselineApplicationSha256": "6a96a3364a1740442d131cbab1109434a8ca1a35cb40712a904d3edf37f5e8fd",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/jowar/006.svg",
+      "baselineApplicationSha256": "989e009b847ab114e4776fcad219c35b0d0742f77599ea909e16cb7fb0bbe323",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/jute-mesta/002.svg",
+      "baselineApplicationSha256": "26417d64276226461e6e66912013fd3e623d44ea0634001ae04580e2bccca6d3",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/jute-mesta/003.svg",
+      "baselineApplicationSha256": "ece757e33dcb1f6d7e4e92592a6950afa692b31960cd6a3dda6d5b5560cbe912",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/jute-mesta/006.svg",
+      "baselineApplicationSha256": "f2a7054b94b94f3229077593197c39ef8cbdfc3a116197f3985309fdf3ec8059",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/lentil/002.svg",
+      "baselineApplicationSha256": "72e16c85f864cc1fef1e2806b2c55cb6b176c80ec310b145fcf96a6bcada68e1",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/lentil/003.svg",
+      "baselineApplicationSha256": "cd9d7a5ce4c8ef8d9854c7e433cb4bb0180c0dbab8a18b18606437e25faf8867",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/lentil/006.svg",
+      "baselineApplicationSha256": "6ca557c5853a1dc8fd9a06ae6c026667766a31b0896d1978ae07a04b31adb14b",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/litchi/002.svg",
+      "baselineApplicationSha256": "ffcce9192c6e01dd3f3c622f4431cb421c854d40b8d9346f17004ee35f4ae4a4",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/litchi/003.svg",
+      "baselineApplicationSha256": "fb3a6e9d2112cd57d6de813078f6615fbc9bf2857641ffec49564af632a52b91",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/litchi/006.svg",
+      "baselineApplicationSha256": "45ea89bbdb80524d518f6ecdf55638220df666e23934154ed51b143c1cc2955e",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/mango/002.svg",
+      "baselineApplicationSha256": "f7c6f20b8f6c358120fea804776d9f698eaa3fa6adbcabef2e94339b1dac39fe",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/mango/003.svg",
+      "baselineApplicationSha256": "fdb4f9dc2eebfbfa8cefc9de0ce802a59ae4d771928405c3c942556107c9b167",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/mango/006.svg",
+      "baselineApplicationSha256": "d09b5188528220b6c533e671c183489a59fd30fc8f0455eb7613c54d863b1094",
+      "pathGeometrySha256": "6403e8708fd87894249a3673b913442866ffcf2f62cd01baf06f5b6ef9821c4a"
+    },
+    {
+      "path": "public/gramshakti/crops/moong/002.svg",
+      "baselineApplicationSha256": "b8b82765d9991ff0ae35147d57b7dff530fa9f46e89b7c6c4136739b1004d2b4",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/moong/003.svg",
+      "baselineApplicationSha256": "ec3ca98dae86ee2c4e15a4ef9650a78c101a2463672d5c3c7690f69da4905fff",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/moong/006.svg",
+      "baselineApplicationSha256": "3cd5120ad11f465ac5235c50b63bda5fba2477f3650093d63a0d986773499340",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/niger-seeds/002.svg",
+      "baselineApplicationSha256": "7eb8a28c4e9de4009f7c76003afda5b00000e1faa689c2b08c07f844331eb2fa",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/niger-seeds/003.svg",
+      "baselineApplicationSha256": "0a1e25d02de3a68ff3578670a44b0ba3d1bfd76606693c6e9e10143f5cbabfb0",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/niger-seeds/006.svg",
+      "baselineApplicationSha256": "687b5097a9b3021f228c4667b9c405bbe57a5288312ea7d0d814d2cd60851fcf",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/onion/002.svg",
+      "baselineApplicationSha256": "ffff6affdf2420c995d0b245cd652861890f9fcc8789639bf09c8a2d2702a9e6",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/onion/003.svg",
+      "baselineApplicationSha256": "792ce17d5dd828423cd49dffc4447098f98f30f28a7cf9d33f94e8594952a68b",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/onion/006.svg",
+      "baselineApplicationSha256": "c32715a0d57d31f0cac2884f4dcbfeb0e3ebbd1330efd454ea56931edaa3a06a",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/orange/002.svg",
+      "baselineApplicationSha256": "f37daca58c6620061e43e1ced8961ec01d9bafb73628db51418782cea0c52233",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/orange/003.svg",
+      "baselineApplicationSha256": "51c2d7f8ec80667516304a185cd0280d6184bcad46bfb4f54c3f84ce5b8e8562",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/orange/006.svg",
+      "baselineApplicationSha256": "66dbb01e08d2141b24bb2cb7d9205e26f1cf71f7ebb594f59666cac4c6271593",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/papaya/002.svg",
+      "baselineApplicationSha256": "eed6d867dcbb1f51f4dd9855592dbcafc8403535e87b9278411a6057a01d2652",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/papaya/003.svg",
+      "baselineApplicationSha256": "87f60fc4ab8741328a4c34f0a867f6dc623cee2f5b6e0c317cf34c0ac7e8ef88",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/papaya/006.svg",
+      "baselineApplicationSha256": "572ab70262de5c1fce2ec179ecdb37baa6ecd34d5aa53effab15f0149beebd65",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/pigeon-pea/002.svg",
+      "baselineApplicationSha256": "7b56c10875f3d4b9a4d19526abf605a0e9f260a69a4f634fa81f3a18b03c789f",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/pigeon-pea/003.svg",
+      "baselineApplicationSha256": "4434dba7e6f692f8180a65bab0a6a004755293c12b861efaf207db90123d83c9",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/pigeon-pea/006.svg",
+      "baselineApplicationSha256": "6db29e946aa97f7b6fe4168170118268d947bd978f150a2cc4714f68060f767d",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/pineapple/002.svg",
+      "baselineApplicationSha256": "77b096ae0e34bf24a5175cae397c6478ee105667b47aa4a9453b776fd8b64192",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/pineapple/003.svg",
+      "baselineApplicationSha256": "e4887382d761eca29dbe4c0537bded9f9e83f6e3b8cbeaf1d4ebee192cbe7100",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/pineapple/006.svg",
+      "baselineApplicationSha256": "0d88b2bc6d6385038b17953ab4d37731ddc6d0e084f76918b44fbd615239a094",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/pomegranate/002.svg",
+      "baselineApplicationSha256": "af319e6eecb9955cfcb6294cca1ec3ea03b061e877dd40a2b205caf9c7ff7179",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/pomegranate/003.svg",
+      "baselineApplicationSha256": "d95fe6129b6fa4224b95eb5abb27d136147d9b1b4c77d9e1ac7e53e3f3aa55f8",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/pomegranate/006.svg",
+      "baselineApplicationSha256": "b02b2cb9161b51ea389e2fed0352095b12a023964df6e5be2206e6d1e314cdba",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/potato/002.svg",
+      "baselineApplicationSha256": "33731658ebb30bdb5d741d67f6d5ee6893b3f311e9d7aa9de0e75cd790e3dce2",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/potato/003.svg",
+      "baselineApplicationSha256": "805915e708b193ecaf2910eb45c50073de50035de0b5475b15237772df29af82",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/potato/006.svg",
+      "baselineApplicationSha256": "3c9342c9edb26cc20de24b22b03255a56a9b3e535184ab15a41ad248641d5265",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/ragi/002.svg",
+      "baselineApplicationSha256": "7318931dd855e5ec11f4d1e6fba75bfffc2bbb57f4d52a5373a19576a7c3bca2",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/ragi/003.svg",
+      "baselineApplicationSha256": "6e8b6afdf78fd452755fa45fbb3e90a645e15807e09de425019de1a822111bcc",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/ragi/006.svg",
+      "baselineApplicationSha256": "1223f929089d0842967fd45de548e72be93251aeca685deb1502004f76b6107d",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/rapeseed-mustard/002.svg",
+      "baselineApplicationSha256": "1f84deafd34a0af69410fd9b11a00f7fcac7fd3ba517b1557744ee746290647f",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/rapeseed-mustard/003.svg",
+      "baselineApplicationSha256": "380538a46dfe679c9e659f5eb60c1c1d7f10edabd3ee2ef78eb2bd13f7c9e19a",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/rapeseed-mustard/006.svg",
+      "baselineApplicationSha256": "40aff6cc8663bae13ea92f73c21d7047de7df7312d6e17e8f39793cbec3af2bd",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/rice/002.svg",
+      "baselineApplicationSha256": "9a245a8c6e01b1cb7c7ce27c3b9c4b29fc3fefbc12072f27d80e368fb22df95f",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/rice/003.svg",
+      "baselineApplicationSha256": "a1fc5272bdd3b281433dc3575ff1066f16011d230f592f77e5bf6a47924f07bb",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/rice/006.svg",
+      "baselineApplicationSha256": "c6130e8dc53f4e91d147d710c7c15a8d0618557460ba0ddd650b582b757ef88e",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/safflower/002.svg",
+      "baselineApplicationSha256": "9c4f7a19419febd39f5ced2d94ecece953cba58476d68a98b6c804c9076342f4",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/safflower/003.svg",
+      "baselineApplicationSha256": "0ba76b53de41716afe2dd8da1abec5af7cd85c45228f3c76d43a26b4a980722e",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/safflower/006.svg",
+      "baselineApplicationSha256": "50901323c71f44515102abc6087730122a4e7f259a44d519418a00ad0619cd12",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/sapota/002.svg",
+      "baselineApplicationSha256": "fc527074ce26ba1c172e7dff0052bcb6c0b0a57223d6c7991dc2f56b69d7a880",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/sapota/003.svg",
+      "baselineApplicationSha256": "e620696414831dd5c48113f5dbe29199bd3d3a15440b680e9d3a3648a7fd2311",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/sapota/006.svg",
+      "baselineApplicationSha256": "63251e262273f93b769918a25b03324c02d0c45425b31b4f433bdc2ee92e36d7",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/sesamum/002.svg",
+      "baselineApplicationSha256": "d26ae83239c2d6f38c1ad1893d84f537fe010c0c8dac574c90e4734a3077ee56",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/sesamum/003.svg",
+      "baselineApplicationSha256": "e55c84942b1efc39d21129e870df3cdd5923387dc4083a6aeedcbc06b1c6bd88",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/sesamum/006.svg",
+      "baselineApplicationSha256": "7cee4058b7fe5e036b286de27a39ad85c4c2ef46dd8bf2006a358df61bb50256",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/small-millets/002.svg",
+      "baselineApplicationSha256": "15457ecb21575301b88642ca3af146c6ceb9299d0cab0d7b078908bb0fc071d9",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/small-millets/003.svg",
+      "baselineApplicationSha256": "d82b0311cea89e6f82a960625ad3e419d4f8bcf16e6c4c7b4ab8074bebf676aa",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/small-millets/006.svg",
+      "baselineApplicationSha256": "5d748e5d6555345d3eb5bffd50c85a9e851d4aee18ac427955f0cda06dc00d4d",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/soybean/002.svg",
+      "baselineApplicationSha256": "bb123b53c1a0b3ef24b0e52ebf7e7ee901cb83023de732779f6c63d46de8d0cd",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/soybean/003.svg",
+      "baselineApplicationSha256": "f893a4ea7400a64499c6a62dc5d9a61a720649a29c9fc003e542a5f6c289533d",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/soybean/006.svg",
+      "baselineApplicationSha256": "7e3e25bfd2ef843776f96c4ba25d3b276cdb68d2c862460a0f6afe46f30c1615",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/sunflower/002.svg",
+      "baselineApplicationSha256": "26868f98f41e8c5daac05787a91865252dd8b9ab36abeb5de736a61ce1470533",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/sunflower/003.svg",
+      "baselineApplicationSha256": "e1fddb630adb83cc7862551a4167502177de81fd4d01cb5fa151e5cdaa3e80d1",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/sunflower/006.svg",
+      "baselineApplicationSha256": "1c42d08339d2d68b29000779c3f06b4fac64118d224451a3f1635a9226de4797",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/tobacco/002.svg",
+      "baselineApplicationSha256": "e85aaf1cb25c20422bbbac6d80cb3dce1e10eceee4c6ede79ea367558c1ad66f",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/tobacco/003.svg",
+      "baselineApplicationSha256": "b6ccbb27170a024ea410c8f0f72022973928b2f66056c7fd70a992e28957012f",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/tobacco/006.svg",
+      "baselineApplicationSha256": "0acc42feb58d3118372d0d93f09d6b9e0e2958eda3966cfb06df524867ee2b43",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/tomato/002.svg",
+      "baselineApplicationSha256": "f71f6979aae441d62514c67a694875571b0250da133da631b3739e66e40ae6e1",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/tomato/003.svg",
+      "baselineApplicationSha256": "d119758c75185355ae8b2370b0a18c7decfe7ff172b5cc58c0bf9cc022c9c649",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/tomato/006.svg",
+      "baselineApplicationSha256": "55517bfbea97fed0ec1330a047d066d760c855cf8b56fa57639e13c7d87989aa",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    },
+    {
+      "path": "public/gramshakti/crops/wheat/002.svg",
+      "baselineApplicationSha256": "8a34d456e54191fb977b83e935be876f0afc71dcb3c961a79b49519a50151e66",
+      "pathGeometrySha256": "018d925d70249af10cde8d6c3fdd79c7215f0fc95a66af5cf6b8ba2cc3f4ff0b"
+    },
+    {
+      "path": "public/gramshakti/crops/wheat/003.svg",
+      "baselineApplicationSha256": "907e1523c4342951e928f337654d1f877d9ad5460e78c1b9c5107a9e1977c00f",
+      "pathGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "public/gramshakti/crops/wheat/006.svg",
+      "baselineApplicationSha256": "572852038d065c1d9ad5c53f2a7080ce98f71769efed4a747fa0ea7cf787746f",
+      "pathGeometrySha256": "db6c188ed677465e3e9514102c10d6e563eb6efb9dae3a0567883d602a7ada70"
+    }
+  ]
+}

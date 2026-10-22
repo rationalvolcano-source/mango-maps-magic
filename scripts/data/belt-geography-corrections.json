@@ -1,0 +1,2188 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-10-23",
+  "baseCommit": "716faa018a5f97ab27277694a305ed3788874fa2",
+  "scope": "Exact source commercial geography; not a claim of verified growing acreage or facility coordinates",
+  "crops": {
+    "rice": {
+      "rice-belt-89-2": {
+        "geographyHeadline": "Amritsar & Gurdaspur (Punjab)",
+        "sourceGeographies": [
+          "Amritsar & Gurdaspur (Punjab)",
+          "Karnal & Taraori (Haryana)",
+          "Bareilly & Shahjahanpur (Western UP)"
+        ],
+        "sourceOriginQuote": "• Amritsar & Gurdaspur (Punjab)\n\n• Karnal & Taraori (Haryana)\n\n• Bareilly & Shahjahanpur (Western UP)",
+        "varietyOrTradeLabel": "Pusa Basmati 1121 & 1718 (Extra-Long Slender Basmati)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 2912,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 89,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rice-belt-89-3": {
+        "geographyHeadline": "Western UP (Aligarh, Bulandshahr)",
+        "sourceGeographies": [
+          "Western UP (Aligarh, Bulandshahr)",
+          "Haryana & Punjab"
+        ],
+        "sourceOriginQuote": "• Western UP (Aligarh, Bulandshahr)\n\n• Haryana & Punjab",
+        "varietyOrTradeLabel": "Pusa Basmati 1509 & 1847 (Early-Maturing Basmati)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 2912,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 89,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rice-belt-89-4": {
+        "geographyHeadline": "Purba Bardhaman & Nadia (WB)",
+        "sourceGeographies": [
+          "Purba Bardhaman & Nadia (WB)",
+          "Bargarh & Sambalpur (Odisha)",
+          "Nalgonda & Suryapet (Telangana)",
+          "Raipur & Bilaspur (CG)"
+        ],
+        "sourceOriginQuote": "• Purba Bardhaman & Nadia (WB)\n\n• Bargarh & Sambalpur (Odisha)\n\n• Nalgonda & Suryapet (Telangana)\n\n• Raipur & Bilaspur (CG)",
+        "varietyOrTradeLabel": "Non-Basmati Parboiled Rice (5% & 25% Brokens)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 2912,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 89,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rice-belt-89-5": {
+        "geographyHeadline": "Punjab & Haryana (Central Pool)",
+        "sourceGeographies": [
+          "Punjab & Haryana (Central Pool)",
+          "East Coast Basins"
+        ],
+        "sourceOriginQuote": "• Punjab & Haryana (Central Pool)\n\n• East Coast Basins",
+        "varietyOrTradeLabel": "PR-126 & Common Raw White (5% to 25% Brokens)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 2912,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 89,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rice-belt-89-6": {
+        "geographyHeadline": "Krishna & Guntur (AP)",
+        "sourceGeographies": [
+          "Krishna & Guntur (AP)",
+          "Nizamabad & Karimnagar (TS)",
+          "Bellary & Raichur (KA)"
+        ],
+        "sourceOriginQuote": "• Krishna & Guntur (AP)\n\n• Nizamabad & Karimnagar (TS)\n\n• Bellary & Raichur (KA)",
+        "varietyOrTradeLabel": "Samba Mahsuri (BPT 5204) & Telangana Sona (RNR 15048)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 2912,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 89,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rice-belt-89-7": {
+        "geographyHeadline": "Hooghly & Bardhaman (Gobindobhog GI, WB)",
+        "sourceGeographies": [
+          "Hooghly & Bardhaman (Gobindobhog GI, WB)",
+          "Salem & Thanjavur (Seeraga Samba, TN)"
+        ],
+        "sourceOriginQuote": "• Hooghly & Bardhaman (Gobindobhog GI, WB)\n\n• Salem & Thanjavur (Seeraga Samba, TN)",
+        "varietyOrTradeLabel": "Gobindobhog & Seeraga Samba (Indigenous Scented Short-Grains)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 2912,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 89,
+          "row": 7
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "wheat": {
+      "wheat-belt-92-2": {
+        "geographyHeadline": "Sehore, Vidisha & Raisen (MP)",
+        "sourceGeographies": [
+          "Sehore, Vidisha & Raisen (MP)",
+          "Hoshangabad (Narmadapuram) (MP)",
+          "Ujjain & Dewas (MP)"
+        ],
+        "sourceOriginQuote": "• Sehore, Vidisha & Raisen (MP)\n\n• Hoshangabad (Narmadapuram) (MP)\n\n• Ujjain & Dewas (MP)",
+        "varietyOrTradeLabel": "MP Sharbati (\"The Golden Grain\") (C-306, HI-1544 ecotypes)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3041,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 92,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "wheat-belt-92-3": {
+        "geographyHeadline": "Malwa Plateau (Ujjain, Dhar, Indore, MP)",
+        "sourceGeographies": [
+          "Malwa Plateau (Ujjain, Dhar, Indore, MP)",
+          "Hadoti & Kota (Rajasthan)",
+          "Saurashtra (Rajkot, Gujarat)"
+        ],
+        "sourceOriginQuote": "• Malwa Plateau (Ujjain, Dhar, Indore, MP)\n\n• Hadoti & Kota (Rajasthan)\n\n• Saurashtra (Rajkot, Gujarat)",
+        "varietyOrTradeLabel": "Malwa Durum / Kathia (HI-8663, Malavshree, HI-8498)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3041,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 92,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "wheat-belt-92-4": {
+        "geographyHeadline": "Central Plains (Sangrur, Patiala, Ludhiana, PB)",
+        "sourceGeographies": [
+          "Central Plains (Sangrur, Patiala, Ludhiana, PB)",
+          "GT Road Belt (Karnal, Kaithal, HR)",
+          "Upper Doab (Meerut, Aligarh, Bulandshahr, UP)"
+        ],
+        "sourceOriginQuote": "• Central Plains (Sangrur, Patiala, Ludhiana, PB)\n\n• GT Road Belt (Karnal, Kaithal, HR)\n\n• Upper Doab (Meerut, Aligarh, Bulandshahr, UP)",
+        "varietyOrTradeLabel": "NW Plains Milling Grade (DBW-187, DBW-303, PBW-826, HD-3086)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3041,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 92,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "wheat-belt-92-5": {
+        "geographyHeadline": "Gujarat Plains (Ahmedabad, Kheda, Rajkot)",
+        "sourceGeographies": [
+          "Gujarat Plains (Ahmedabad, Kheda, Rajkot)",
+          "Western MP & Northern Maharashtra"
+        ],
+        "sourceOriginQuote": "• Gujarat Plains (Ahmedabad, Kheda, Rajkot)\n\n• Western MP & Northern Maharashtra",
+        "varietyOrTradeLabel": "Central Lokwan / Desi Bold (GW-322, Lokwan)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3041,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 92,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "wheat-belt-92-6": {
+        "geographyHeadline": "Purvanchal (Gorakhpur, Azamgarh, UP)",
+        "sourceGeographies": [
+          "Purvanchal (Gorakhpur, Azamgarh, UP)",
+          "Bihar Gangetic Basin (Patna, Begusarai)"
+        ],
+        "sourceOriginQuote": "• Purvanchal (Gorakhpur, Azamgarh, UP)\n\n• Bihar Gangetic Basin (Patna, Begusarai)",
+        "varietyOrTradeLabel": "Eastern Silt Table Grain (HD-2967, Sabour Nirbhay)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3041,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 92,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "jowar": {
+      "jowar-belt-98-2": {
+        "geographyHeadline": "Solapur & Ahilyanagar (MH)",
+        "sourceGeographies": [
+          "Solapur & Ahilyanagar (MH)",
+          "Vijayapura & Bagalkote (KA)",
+          "Dharashiv & Beed (MH)"
+        ],
+        "sourceOriginQuote": "• Solapur & Ahilyanagar (MH)\n\n• Vijayapura & Bagalkote (KA)\n\n• Dharashiv & Beed (MH)",
+        "varietyOrTradeLabel": "M-35-1 (Maldandi / Bili Jola) (Super-Premium Table Food Grade)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3292,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 98,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "jowar-belt-98-3": {
+        "geographyHeadline": "Western Maharashtra Plateau",
+        "sourceGeographies": [
+          "Western Maharashtra Plateau",
+          "Northern Karnataka Plains"
+        ],
+        "sourceOriginQuote": "• Western Maharashtra Plateau\n\n• Northern Karnataka Plains",
+        "varietyOrTradeLabel": "Phule Revati & Phule Suchitra (Modern High-Yielding Rabi Lines)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3292,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 98,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "jowar-belt-98-4": {
+        "geographyHeadline": "Ajmer & Tonk (Rajasthan)",
+        "sourceGeographies": [
+          "Ajmer & Tonk (Rajasthan)",
+          "Bundelkhand (Banda, Hamirpur, UP)",
+          "Vidarbha & Marathwada (MH)"
+        ],
+        "sourceOriginQuote": "• Ajmer & Tonk (Rajasthan)\n\n• Bundelkhand (Banda, Hamirpur, UP)\n\n• Vidarbha & Marathwada (MH)",
+        "varietyOrTradeLabel": "CSH-16 & CSV-15 Commercial (Kharif Hybrid Standard)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3292,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 98,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "jowar-belt-98-5": {
+        "geographyHeadline": "Guntur, Palnadu & Bapatla (AP)",
+        "sourceGeographies": [
+          "Guntur, Palnadu & Bapatla (AP)",
+          "Krishna Basin (AP)"
+        ],
+        "sourceOriginQuote": "• Guntur, Palnadu & Bapatla (AP)\n\n• Krishna Basin (AP)",
+        "varietyOrTradeLabel": "NTJ-2 & NTJ-4 (Zero-Till Rice Fallow) (High-Productivity Irrigated)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3292,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 98,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "jowar-belt-98-6": {
+        "geographyHeadline": "Southern Rajasthan, MP & Northern Maharashtra",
+        "sourceGeographies": [
+          "Southern Rajasthan, MP & Northern Maharashtra"
+        ],
+        "sourceOriginQuote": "• Southern Rajasthan, MP & Northern Maharashtra",
+        "varietyOrTradeLabel": "Kharif Rain-Damaged / Molded Feed Grade",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3292,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 98,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "bajra": {
+      "bajra-belt-101-2": {
+        "geographyHeadline": "Central Gujarat Charotar (Anand, Kheda, GJ)",
+        "sourceGeographies": [
+          "Central Gujarat Charotar (Anand, Kheda, GJ)",
+          "Banaskantha Plains (Deesa, Tharad, GJ)",
+          "Saurashtra Coast (Bhavnagar, GJ)"
+        ],
+        "sourceOriginQuote": "• Central Gujarat Charotar (Anand, Kheda, GJ)\n\n• Banaskantha Plains (Deesa, Tharad, GJ)\n\n• Saurashtra Coast (Bhavnagar, GJ)",
+        "varietyOrTradeLabel": "Gujarat Summer Bold / Glassy Grade (GHB-538, GHB-558, Pioneer 86M89)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3416,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 101,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "bajra-belt-101-3": {
+        "geographyHeadline": "Eastern Rajasthan (Alwar, Bharatpur, Jaipur)",
+        "sourceGeographies": [
+          "Eastern Rajasthan (Alwar, Bharatpur, Jaipur)",
+          "Western UP (Agra, Mathura, Aligarh)",
+          "Chambal Belt (Morena, Bhind, MP)"
+        ],
+        "sourceOriginQuote": "• Eastern Rajasthan (Alwar, Bharatpur, Jaipur)\n\n• Western UP (Agra, Mathura, Aligarh)\n\n• Chambal Belt (Morena, Bhind, MP)",
+        "varietyOrTradeLabel": "Eastern Plain Kharif Commercial (Pioneer 86M84, Proagro 9444, Kaveri)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3416,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 101,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "bajra-belt-101-4": {
+        "geographyHeadline": "Western Thar Desert (Barmer, Jodhpur, Nagaur, RJ)",
+        "sourceGeographies": [
+          "Western Thar Desert (Barmer, Jodhpur, Nagaur, RJ)",
+          "South-West Haryana (Bhiwani, Mahendragarh)"
+        ],
+        "sourceOriginQuote": "• Western Thar Desert (Barmer, Jodhpur, Nagaur, RJ)\n\n• South-West Haryana (Bhiwani, Mahendragarh)",
+        "varietyOrTradeLabel": "HHB-67 Improved (Arid Drought-Hardy) (Ultra-Short-Duration Class)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3416,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 101,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "bajra-belt-101-5": {
+        "geographyHeadline": "Western Maharashtra (Ahmednagar, Pune, Nashik)",
+        "sourceGeographies": [
+          "Western Maharashtra (Ahmednagar, Pune, Nashik)",
+          "North Karnataka (Vijayapura, Bagalkote)"
+        ],
+        "sourceOriginQuote": "• Western Maharashtra (Ahmednagar, Pune, Nashik)\n\n• North Karnataka (Vijayapura, Bagalkote)",
+        "varietyOrTradeLabel": "Dhanshakti & High-Fe Biofortified (ICRISAT / ICAR High-Iron Standard)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3416,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 101,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "bajra-belt-101-6": {
+        "geographyHeadline": "Central Rajasthan, Bundelkhand & North MP",
+        "sourceGeographies": [
+          "Central Rajasthan, Bundelkhand & North MP"
+        ],
+        "sourceOriginQuote": "• Central Rajasthan, Bundelkhand & North MP",
+        "varietyOrTradeLabel": "Industrial / Distillation Feed Grade (Rain-Damaged Kharif Lots)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3416,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 101,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "barley": {
+      "barley-belt-104-2": {
+        "geographyHeadline": "Jaipur & Dausa (Chomu, Kotputli, RJ)",
+        "sourceGeographies": [
+          "Jaipur & Dausa (Chomu, Kotputli, RJ)",
+          "Bathinda & Mansa (Punjab)",
+          "Sirsa & Hisar (Haryana)"
+        ],
+        "sourceOriginQuote": "• Jaipur & Dausa (Chomu, Kotputli, RJ)\n\n• Bathinda & Mansa (Punjab)\n\n• Sirsa & Hisar (Haryana)",
+        "varietyOrTradeLabel": "Two-Row Malt Industrial Standard (DWRB 92, DWRB 137, DWRUB 52)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3534,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 104,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "barley-belt-104-3": {
+        "geographyHeadline": "Sikar & Alwar (Rajasthan)",
+        "sourceGeographies": [
+          "Sikar & Alwar (Rajasthan)",
+          "Mahendragarh & Bhiwani (Haryana)",
+          "Agra & Mathura (UP)"
+        ],
+        "sourceOriginQuote": "• Sikar & Alwar (Rajasthan)\n\n• Mahendragarh & Bhiwani (Haryana)\n\n• Agra & Mathura (UP)",
+        "varietyOrTradeLabel": "Six-Row Malt & Food Extract Grade (RD 2899, BH 902, Harit DWRB 101)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3534,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 104,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "barley-belt-104-4": {
+        "geographyHeadline": "Ajmer, Nagaur & Tonk (RJ)",
+        "sourceGeographies": [
+          "Ajmer, Nagaur & Tonk (RJ)",
+          "Kanpur Doab & Fatehpur (UP)",
+          "Western MP Border Tracts"
+        ],
+        "sourceOriginQuote": "• Ajmer, Nagaur & Tonk (RJ)\n\n• Kanpur Doab & Fatehpur (UP)\n\n• Western MP Border Tracts",
+        "varietyOrTradeLabel": "Saline-Tolerant Commercial Feed (RD 2552, K 560, Jyoti)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3534,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 104,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "barley-belt-104-5": {
+        "geographyHeadline": "Varanasi, Jaunpur & Ghazipur (UP)",
+        "sourceGeographies": [
+          "Varanasi, Jaunpur & Ghazipur (UP)",
+          "Patna & Begusarai (Bihar)",
+          "Central Rajasthan"
+        ],
+        "sourceOriginQuote": "• Varanasi, Jaunpur & Ghazipur (UP)\n\n• Patna & Begusarai (Bihar)\n\n• Central Rajasthan",
+        "varietyOrTradeLabel": "Functional Food / Sattu Grade (Azad - K 125, Sabour Jau 1, RD 2715)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3534,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 104,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "barley-belt-104-6": {
+        "geographyHeadline": "Ladakh (Leh, Kargil)",
+        "sourceGeographies": [
+          "Ladakh (Leh, Kargil)",
+          "Lahaul-Spiti & Kinnaur (HP)"
+        ],
+        "sourceOriginQuote": "• Ladakh (Leh, Kargil)\n\n• Lahaul-Spiti & Kinnaur (HP)",
+        "varietyOrTradeLabel": "Himalayan Naked Barley (Grim / Ua) (BHS 400, Local Ladakhi landraces)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3534,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 104,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "ragi": {
+      "ragi-belt-108-2": {
+        "geographyHeadline": "Tumakuru & Mandya (Karnataka)",
+        "sourceGeographies": [
+          "Tumakuru & Mandya (Karnataka)",
+          "Ramanagara & Hassan (Karnataka)",
+          "Dharmapuri & Krishnagiri (TN)"
+        ],
+        "sourceOriginQuote": "• Tumakuru & Mandya (Karnataka)\n\n• Ramanagara & Hassan (Karnataka)\n\n• Dharmapuri & Krishnagiri (TN)",
+        "varietyOrTradeLabel": "Southern Bold Red Table Grade (ML-365, GPU-28, KMR-301)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3670,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 108,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "ragi-belt-108-3": {
+        "geographyHeadline": "Tumakuru & Hassan (Karnataka)",
+        "sourceGeographies": [
+          "Tumakuru & Hassan (Karnataka)",
+          "Nashik & Pune Tribal Crests (MH)",
+          "Salem & Erode (Tamil Nadu)"
+        ],
+        "sourceOriginQuote": "• Tumakuru & Hassan (Karnataka)\n\n• Nashik & Pune Tribal Crests (MH)\n\n• Salem & Erode (Tamil Nadu)",
+        "varietyOrTradeLabel": "Industrial Malting / Weaning Grade (Indaf-8, GPU-48, Phule Nachani)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3670,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 108,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "ragi-belt-108-4": {
+        "geographyHeadline": "Almora & Pauri Garhwal (Uttarakhand)",
+        "sourceGeographies": [
+          "Almora & Pauri Garhwal (Uttarakhand)",
+          "Tehri Garhwal & Rudraprayag (UK)",
+          "Chamoli & Pithoragarh (UK)"
+        ],
+        "sourceOriginQuote": "• Almora & Pauri Garhwal (Uttarakhand)\n\n• Tehri Garhwal & Rudraprayag (UK)\n\n• Chamoli & Pithoragarh (UK)",
+        "varietyOrTradeLabel": "Himalayan Organic Mandua (GI Candidate) (VL Mandua-324, VL-352, PRM-1)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3670,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 108,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "ragi-belt-108-5": {
+        "geographyHeadline": "Koraput, Rayagada & Malkangiri (Odisha)",
+        "sourceGeographies": [
+          "Koraput, Rayagada & Malkangiri (Odisha)",
+          "Chota Nagpur Plateau (Jharkhand)"
+        ],
+        "sourceOriginQuote": "• Koraput, Rayagada & Malkangiri (Odisha)\n\n• Chota Nagpur Plateau (Jharkhand)",
+        "varietyOrTradeLabel": "Odisha Tribal Nutrition Grade (Bhairabi, Arjun, Chilika, GPU-45)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3670,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 108,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "ragi-belt-108-6": {
+        "geographyHeadline": "Research & Contract Plots (Karnataka, Odisha, Tamil Nadu)",
+        "sourceGeographies": [
+          "Research & Contract Plots (Karnataka, Odisha, Tamil Nadu)"
+        ],
+        "sourceOriginQuote": "• Research & Contract Plots (Karnataka, Odisha, Tamil Nadu)",
+        "varietyOrTradeLabel": "White-Seeded Ragi Lines (OUAT-2, Experimental selections)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 3670,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 108,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "small-millets": {
+      "small-millets-belt-117-2": {
+        "geographyHeadline": "Tehri & Pauri Garhwal (Uttarakhand)",
+        "sourceGeographies": [
+          "Tehri & Pauri Garhwal (Uttarakhand)",
+          "Almora & Bageshwar (Uttarakhand)",
+          "Nashik Tribal Belt (Igatpuri, MH)"
+        ],
+        "sourceOriginQuote": "• Tehri & Pauri Garhwal (Uttarakhand)\n\n• Almora & Bageshwar (Uttarakhand)\n\n• Nashik Tribal Belt (Igatpuri, MH)",
+        "varietyOrTradeLabel": "Barnyard Millet (Jhangora / Sanwa / Vari) [Fasting Grade / Bhagar]",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4036,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 117,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "small-millets-belt-117-3": {
+        "geographyHeadline": "Tumakuru & Chitradurga (Sira, Challakere, KA)",
+        "sourceGeographies": [
+          "Tumakuru & Chitradurga (Sira, Challakere, KA)",
+          "Kolar & Ballari (KA)",
+          "Anantapur Fringe (AP)"
+        ],
+        "sourceOriginQuote": "• Tumakuru & Chitradurga (Sira, Challakere, KA)\n\n• Kolar & Ballari (KA)\n\n• Anantapur Fringe (AP)",
+        "varietyOrTradeLabel": "Browntop Millet (Korale / Murat) (Ultra-High Fiber Therapeutic)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4036,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 117,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "small-millets-belt-117-4": {
+        "geographyHeadline": "Kurnool & Nandyal (AP)",
+        "sourceGeographies": [
+          "Kurnool & Nandyal (AP)",
+          "Ballari & Koppal (KA)",
+          "Dharmapuri (TN)",
+          "Western Ghats Crests (MH)"
+        ],
+        "sourceOriginQuote": "• Kurnool & Nandyal (AP)\n\n• Ballari & Koppal (KA)\n\n• Dharmapuri (TN)\n\n• Western Ghats Crests (MH)",
+        "varietyOrTradeLabel": "Foxtail Millet (Kangni / Tenai / Navane / Korra) (High-Protein Staple)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4036,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 117,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "small-millets-belt-117-5": {
+        "geographyHeadline": "Dindori & Mandla (MP)",
+        "sourceGeographies": [
+          "Dindori & Mandla (MP)",
+          "Bastar Plateau (Chhattisgarh)",
+          "Vellore & Tiruvannamalai (TN)"
+        ],
+        "sourceOriginQuote": "• Dindori & Mandla (MP)\n\n• Bastar Plateau (Chhattisgarh)\n\n• Vellore & Tiruvannamalai (TN)",
+        "varietyOrTradeLabel": "Kodo Millet (Kodon / Varagu / Kodra) (Antioxidant-Rich Upland Grain) [Dindori GI]",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4036,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 117,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "small-millets-belt-117-6": {
+        "geographyHeadline": "Koraput & Rayagada (Odisha)",
+        "sourceGeographies": [
+          "Koraput & Rayagada (Odisha)",
+          "Dindori & Anuppur (MP)",
+          "Dharmapuri & Krishnagiri (TN)"
+        ],
+        "sourceOriginQuote": "• Koraput & Rayagada (Odisha)\n\n• Dindori & Anuppur (MP)\n\n• Dharmapuri & Krishnagiri (TN)",
+        "varietyOrTradeLabel": "Little Millet (Kutki / Samai / Suan) (Quick-Cooking Small Grain)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4036,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 117,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "small-millets-belt-117-7": {
+        "geographyHeadline": "Kurnool & Kadapa (AP)",
+        "sourceGeographies": [
+          "Kurnool & Kadapa (AP)",
+          "North Bihar Diara Basin (Patna, Begusarai)",
+          "Nashik Crestline (MH)"
+        ],
+        "sourceOriginQuote": "• Kurnool & Kadapa (AP)\n\n• North Bihar Diara Basin (Patna, Begusarai)\n\n• Nashik Crestline (MH)",
+        "varietyOrTradeLabel": "Proso Millet (Cheena / Variga / Barri) (Fast-Maturing Rescue Grain)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4036,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 117,
+          "row": 7
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "gram": {
+      "gram-belt-121-2": {
+        "geographyHeadline": "Malwa Plateau (Indore, Ujjain, Dewas, Dhar, MP)",
+        "sourceGeographies": [
+          "Malwa Plateau (Indore, Ujjain, Dewas, Dhar, MP)",
+          "Saurashtra (Rajkot, Junagadh, Jamnagar, GJ)"
+        ],
+        "sourceOriginQuote": "• Malwa Plateau (Indore, Ujjain, Dewas, Dhar, MP)\n\n• Saurashtra (Rajkot, Junagadh, Jamnagar, GJ)",
+        "varietyOrTradeLabel": "Jumbo Dollar Kabuli (40/42 & 42/44 Count) (Export Premium Class)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4180,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 121,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "gram-belt-121-3": {
+        "geographyHeadline": "North Karnataka (MNK-1, Kalaburagi)",
+        "sourceGeographies": [
+          "North Karnataka (MNK-1, Kalaburagi)",
+          "Rayalaseema (Kurnool, AP)",
+          "Central MP"
+        ],
+        "sourceOriginQuote": "• North Karnataka (MNK-1, Kalaburagi)\n\n• Rayalaseema (Kurnool, AP)\n\n• Central MP",
+        "varietyOrTradeLabel": "Medium / Standard Kabuli (58/60 & 75/80 Count)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4180,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 121,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "gram-belt-121-4": {
+        "geographyHeadline": "Marathwada & Vidarbha (Latur, Akola, MH)",
+        "sourceGeographies": [
+          "Marathwada & Vidarbha (Latur, Akola, MH)",
+          "Central Narmada Basin (Vidisha, Raisen, MP)",
+          "Saurashtra (Gondal, GJ)"
+        ],
+        "sourceOriginQuote": "• Marathwada & Vidarbha (Latur, Akola, MH)\n\n• Central Narmada Basin (Vidisha, Raisen, MP)\n\n• Saurashtra (Gondal, GJ)",
+        "varietyOrTradeLabel": "High-Milling Desi Chana (Mill Quality) (JG-11, Digvijay, GNG-1581)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4180,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 121,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "gram-belt-121-5": {
+        "geographyHeadline": "Northern Rajasthan (Bikaner, Churu, Hanumangarh)",
+        "sourceGeographies": [
+          "Northern Rajasthan (Bikaner, Churu, Hanumangarh)",
+          "Shekhawati Belt (Sikar, Jhunjhunu)"
+        ],
+        "sourceOriginQuote": "• Northern Rajasthan (Bikaner, Churu, Hanumangarh)\n\n• Shekhawati Belt (Sikar, Jhunjhunu)",
+        "varietyOrTradeLabel": "Bikaner Machine-Clean Desi Grade (GNG-1581, GNG-2144)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4180,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 121,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "gram-belt-121-6": {
+        "geographyHeadline": "Bundelkhand (Hamirpur, Banda, Jalaun, UP)",
+        "sourceGeographies": [
+          "Bundelkhand (Hamirpur, Banda, Jalaun, UP)",
+          "Kanpur Dehat & Fatehpur (UP)"
+        ],
+        "sourceOriginQuote": "• Bundelkhand (Hamirpur, Banda, Jalaun, UP)\n\n• Kanpur Dehat & Fatehpur (UP)",
+        "varietyOrTradeLabel": "Bundelkhand Roasting Desi Chana (Radhey, KWR-108, Desi Locals)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4180,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 121,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "pigeon-pea": {
+      "pigeon-pea-belt-124-2": {
+        "geographyHeadline": "Kalaburagi (Gulbarga) (Sedam, Aland, KA)",
+        "sourceGeographies": [
+          "Kalaburagi (Gulbarga) (Sedam, Aland, KA)",
+          "Yadgir & Bidar (Karnataka)"
+        ],
+        "sourceOriginQuote": "• Kalaburagi (Gulbarga) (Sedam, Aland, KA)\n\n• Yadgir & Bidar (Karnataka)",
+        "varietyOrTradeLabel": "Kalaburagi Red Gram (GI Tagged) (Maruti, TS-3R, GRG-811)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4314,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 124,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "pigeon-pea-belt-124-3": {
+        "geographyHeadline": "Vasad, Anand & Bharuch (Gujarat)",
+        "sourceGeographies": [
+          "Vasad, Anand & Bharuch (Gujarat)",
+          "Surat & Vadodara (Gujarat)"
+        ],
+        "sourceOriginQuote": "• Vasad, Anand & Bharuch (Gujarat)\n\n• Surat & Vadodara (Gujarat)",
+        "varietyOrTradeLabel": "Vasad Telia (Oily) Toor Dal (GJT-104, BDN-2, Burma Lemon inputs)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4314,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 124,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "pigeon-pea-belt-124-4": {
+        "geographyHeadline": "Narsinghpur (Gadarwara, Kareli, MP)",
+        "sourceGeographies": [
+          "Narsinghpur (Gadarwara, Kareli, MP)",
+          "Raisen & Sehore (Central MP)"
+        ],
+        "sourceOriginQuote": "• Narsinghpur (Gadarwara, Kareli, MP)\n\n• Raisen & Sehore (Central MP)",
+        "varietyOrTradeLabel": "Gadarwara Bold Desi Dal (TJT-501, Asha, JA-4)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4314,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 124,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "pigeon-pea-belt-124-5": {
+        "geographyHeadline": "Varanasi & Mirzapur (Eastern UP)",
+        "sourceGeographies": [
+          "Varanasi & Mirzapur (Eastern UP)",
+          "Ghazipur, Azamgarh, Jaunpur (UP)",
+          "North Bihar Alluvial Plains"
+        ],
+        "sourceOriginQuote": "• Varanasi & Mirzapur (Eastern UP)\n\n• Ghazipur, Azamgarh, Jaunpur (UP)\n\n• North Bihar Alluvial Plains",
+        "varietyOrTradeLabel": "Eastern Gangetic Late \"Bahar\" (Bahar, Narendra Arhar-1)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4314,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 124,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "pigeon-pea-belt-124-6": {
+        "geographyHeadline": "Yangon Export Terminals (Myanmar)",
+        "sourceGeographies": [
+          "Yangon Export Terminals (Myanmar)"
+        ],
+        "sourceOriginQuote": "• Yangon Export Terminals (Myanmar)",
+        "varietyOrTradeLabel": "Burma Lemon Tur (Import Benchmark)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4314,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 124,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "black-gram": {
+      "black-gram-belt-127-2": {
+        "geographyHeadline": "Krishna-Godavari Delta (Tenali, Vijayawada, AP)",
+        "sourceGeographies": [
+          "Krishna-Godavari Delta (Tenali, Vijayawada, AP)",
+          "Cauvery Delta (Thanjavur, Kumbakonam, TN)",
+          "Central Narmada Basin (MP)"
+        ],
+        "sourceOriginQuote": "• Krishna-Godavari Delta (Tenali, Vijayawada, AP)\n\n• Cauvery Delta (Thanjavur, Kumbakonam, TN)\n\n• Central Narmada Basin (MP)",
+        "varietyOrTradeLabel": "Urad Gota / Mogar (Whole De-husked) (LBG-752, TBG-104, VBN-8)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4429,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 127,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "black-gram-belt-127-3": {
+        "geographyHeadline": "Bundelkhand (Damoh, Tikamgarh, Lalitpur, MP/UP)",
+        "sourceGeographies": [
+          "Bundelkhand (Damoh, Tikamgarh, Lalitpur, MP/UP)",
+          "Marathwada (Latur, Jalna, MH)",
+          "Hadoti Fringe (Kota, RJ)"
+        ],
+        "sourceOriginQuote": "• Bundelkhand (Damoh, Tikamgarh, Lalitpur, MP/UP)\n\n• Marathwada (Latur, Jalna, MH)\n\n• Hadoti Fringe (Kota, RJ)",
+        "varietyOrTradeLabel": "Split Black Urad (Urad Chilka) (JU-3, Shekhar-3, Pant U-31)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4429,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 127,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "black-gram-belt-127-4": {
+        "geographyHeadline": "Vidarbha Belt (Akola, Amravati, Yavatmal, MH)",
+        "sourceGeographies": [
+          "Vidarbha Belt (Akola, Amravati, Yavatmal, MH)",
+          "Bikaner & Jodhpur Fringe (Rajasthan)",
+          "Saurashtra (Gujarat)"
+        ],
+        "sourceOriginQuote": "• Vidarbha Belt (Akola, Amravati, Yavatmal, MH)\n\n• Bikaner & Jodhpur Fringe (Rajasthan)\n\n• Saurashtra (Gujarat)",
+        "varietyOrTradeLabel": "Papad-Grade Whole Black Urad (TAU-1, TPU-4, AKU-15)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4429,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 127,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "black-gram-belt-127-5": {
+        "geographyHeadline": "Yangon Port Logistics (Myanmar)",
+        "sourceGeographies": [
+          "Yangon Port Logistics (Myanmar)"
+        ],
+        "sourceOriginQuote": "• Yangon Port Logistics (Myanmar)",
+        "varietyOrTradeLabel": "Myanmar Black Matpe (Special FAQ)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4429,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 127,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "black-gram-belt-127-6": {
+        "geographyHeadline": "Western UP (Bareilly, Rampur, Moradabad)",
+        "sourceGeographies": [
+          "Western UP (Bareilly, Rampur, Moradabad)",
+          "Narmada Valley (Hoshangabad, Narsinghpur, MP)"
+        ],
+        "sourceOriginQuote": "• Western UP (Bareilly, Rampur, Moradabad)\n\n• Narmada Valley (Hoshangabad, Narsinghpur, MP)",
+        "varietyOrTradeLabel": "Whole Sabut Urad (Dal Makhani Grade) (Pant U-31, Zaid Summer Lots)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4429,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 127,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "moong": {
+      "moong-belt-130-2": {
+        "geographyHeadline": "Central Narmada Valley (Hoshangabad, Harda, MP)",
+        "sourceGeographies": [
+          "Central Narmada Valley (Hoshangabad, Harda, MP)",
+          "Upper Narmada Basin (Jabalpur, Narsinghpur, MP)"
+        ],
+        "sourceOriginQuote": "• Central Narmada Valley (Hoshangabad, Harda, MP)\n\n• Upper Narmada Basin (Jabalpur, Narsinghpur, MP)",
+        "varietyOrTradeLabel": "Narmada Summer Bold (Namkeen Grade) (Virat - IPM 205-7, Shikha)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4545,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 130,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "moong-belt-130-3": {
+        "geographyHeadline": "Nagaur & Jodhpur Belt (Merta City, Bilara, RJ)",
+        "sourceGeographies": [
+          "Nagaur & Jodhpur Belt (Merta City, Bilara, RJ)",
+          "Pali & Jalore (RJ)",
+          "Bikaner Sandy Plains (RJ)"
+        ],
+        "sourceOriginQuote": "• Nagaur & Jodhpur Belt (Merta City, Bilara, RJ)\n\n• Pali & Jalore (RJ)\n\n• Bikaner Sandy Plains (RJ)",
+        "varietyOrTradeLabel": "Western Rajasthan Whole Bold (Sprouting Grade) (SML-668, GM-4, RMG-975)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4545,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 130,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "moong-belt-130-4": {
+        "geographyHeadline": "Northern Karnataka (Gadag, Dharwad, KA)",
+        "sourceGeographies": [
+          "Northern Karnataka (Gadag, Dharwad, KA)",
+          "Marathwada (Latur, Jalna, MH)",
+          "Bundelkhand (Jalaun, Hamirpur, UP)"
+        ],
+        "sourceOriginQuote": "• Northern Karnataka (Gadag, Dharwad, KA)\n\n• Marathwada (Latur, Jalna, MH)\n\n• Bundelkhand (Jalaun, Hamirpur, UP)",
+        "varietyOrTradeLabel": "High-Recovery Milling Desi (Dal Grade) (DGGV-2, BM-2003-2, Pant Mung-4)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4545,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 130,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "moong-belt-130-5": {
+        "geographyHeadline": "Mahanadi Delta (Cuttack, Puri, Jagatsinghpur, OD)",
+        "sourceGeographies": [
+          "Mahanadi Delta (Cuttack, Puri, Jagatsinghpur, OD)",
+          "Krishna-Godavari Delta (AP)",
+          "Cauvery Delta (Thanjavur, TN)"
+        ],
+        "sourceOriginQuote": "• Mahanadi Delta (Cuttack, Puri, Jagatsinghpur, OD)\n\n• Krishna-Godavari Delta (AP)\n\n• Cauvery Delta (Thanjavur, TN)",
+        "varietyOrTradeLabel": "Coastal Rice-Fallow Green Gram (Kamdev, Sujata, LGG-460, VBN-4)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4545,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 130,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "moong-belt-130-6": {
+        "geographyHeadline": "Central Gujarat (Anand, Kheda)",
+        "sourceGeographies": [
+          "Central Gujarat (Anand, Kheda)",
+          "Western UP & Punjab"
+        ],
+        "sourceOriginQuote": "• Central Gujarat (Anand, Kheda)\n\n• Western UP & Punjab",
+        "varietyOrTradeLabel": "Machine-Cleaned Sortex Export Grade (IPM 02-3, GAM-5, SML-832)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4545,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 130,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "lentil": {
+      "lentil-belt-133-2": {
+        "geographyHeadline": "Sagar, Damoh & Bina (MP)",
+        "sourceGeographies": [
+          "Sagar, Damoh & Bina (MP)",
+          "Lalitpur, Jhansi, Orai (UP)",
+          "Vidisha & Raisen (MP)"
+        ],
+        "sourceOriginQuote": "• Sagar, Damoh & Bina (MP)\n\n• Lalitpur, Jhansi, Orai (UP)\n\n• Vidisha & Raisen (MP)",
+        "varietyOrTradeLabel": "Bundelkhand Desi Small-Seed (Malki Grade) (JL-3, IPL-81, DPL-62)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4663,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 133,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "lentil-belt-133-3": {
+        "geographyHeadline": "Nadia & Murshidabad (WB)",
+        "sourceGeographies": [
+          "Nadia & Murshidabad (WB)",
+          "North 24 Parganas (WB)",
+          "Hooghly & Malda (WB)"
+        ],
+        "sourceOriginQuote": "• Nadia & Murshidabad (WB)\n\n• North 24 Parganas (WB)\n\n• Hooghly & Malda (WB)",
+        "varietyOrTradeLabel": "Bengal Rice-Fallow \"Moitree\" Grade (Moitree - WBL-108, Subrata)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4663,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 133,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "lentil-belt-133-4": {
+        "geographyHeadline": "Mokama, Barh, Bakhtiarpur (Bihar)",
+        "sourceGeographies": [
+          "Mokama, Barh, Bakhtiarpur (Bihar)",
+          "Samastipur & Begusarai (Bihar)"
+        ],
+        "sourceOriginQuote": "• Mokama, Barh, Bakhtiarpur (Bihar)\n\n• Samastipur & Begusarai (Bihar)",
+        "varietyOrTradeLabel": "Mokama Tal Natural Silt Grade (Arun - PL-77-12, HUL-57)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4663,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 133,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "lentil-belt-133-5": {
+        "geographyHeadline": "Kota, Baran, Jhalawar (Hadoti, RJ)",
+        "sourceGeographies": [
+          "Kota, Baran, Jhalawar (Hadoti, RJ)",
+          "Sehore, Narsinghpur, Jabalpur (MP)"
+        ],
+        "sourceOriginQuote": "• Kota, Baran, Jhalawar (Hadoti, RJ)\n\n• Sehore, Narsinghpur, Jabalpur (MP)",
+        "varietyOrTradeLabel": "Central Bold Macrosperma (Mallika Type) (K-75, Pratap Masoor-1)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4663,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 133,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "lentil-belt-133-6": {
+        "geographyHeadline": "Saskatchewan (Canada)",
+        "sourceGeographies": [
+          "Saskatchewan (Canada)",
+          "South Australia & Victoria (Aus)"
+        ],
+        "sourceOriginQuote": "• Saskatchewan (Canada)\n\n• South Australia & Victoria (Aus)",
+        "varietyOrTradeLabel": "Canadian & Australian Bulk Red Imports (Crimson, Nipper, Nugget)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4663,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 133,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "cotton": {
+      "cotton-belt-137-2": {
+        "geographyHeadline": "Saurashtra Peninsula (Rajkot, Gondal, Botad, Amreli, GJ)",
+        "sourceGeographies": [
+          "Saurashtra Peninsula (Rajkot, Gondal, Botad, Amreli, GJ)",
+          "North Gujarat (Kadi, Mehsana, Patan, GJ)"
+        ],
+        "sourceOriginQuote": "• Saurashtra Peninsula (Rajkot, Gondal, Botad, Amreli, GJ)\n\n• North Gujarat (Kadi, Mehsana, Patan, GJ)",
+        "varietyOrTradeLabel": "Shankar-6 (S-6) (The Global Indian Benchmark)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4783,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 137,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "cotton-belt-137-3": {
+        "geographyHeadline": "Warangal & Adilabad (Telangana)",
+        "sourceGeographies": [
+          "Warangal & Adilabad (Telangana)",
+          "Khammam & Nalgonda (Telangana)",
+          "Guntur & Kurnool (AP)"
+        ],
+        "sourceOriginQuote": "• Warangal & Adilabad (Telangana)\n\n• Khammam & Nalgonda (Telangana)\n\n• Guntur & Kurnool (AP)",
+        "varietyOrTradeLabel": "Telangana Long Staple (Jadoo / Bunny Class)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4783,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 137,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "cotton-belt-137-4": {
+        "geographyHeadline": "Yavatmal, Akola, Wardha (Vidarbha, MH)",
+        "sourceGeographies": [
+          "Yavatmal, Akola, Wardha (Vidarbha, MH)",
+          "Jalna & Nanded (Marathwada, MH)"
+        ],
+        "sourceOriginQuote": "• Yavatmal, Akola, Wardha (Vidarbha, MH)\n\n• Jalna & Nanded (Marathwada, MH)",
+        "varietyOrTradeLabel": "Vidarbha / Marathwada Black Soil Desi Hybrid",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4783,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 137,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "cotton-belt-137-5": {
+        "geographyHeadline": "Sirsa & Hisar (Haryana)",
+        "sourceGeographies": [
+          "Sirsa & Hisar (Haryana)",
+          "Ganganagar & Hanumangarh (Rajasthan)",
+          "Bathinda & Fazilka (Punjab)"
+        ],
+        "sourceOriginQuote": "• Sirsa & Hisar (Haryana)\n\n• Ganganagar & Hanumangarh (Rajasthan)\n\n• Bathinda & Fazilka (Punjab)",
+        "varietyOrTradeLabel": "Northern Irrigated Medium-Long (J-34 / RCH Class)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4783,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 137,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "cotton-belt-137-6": {
+        "geographyHeadline": "Coimbatore & Theni (Tamil Nadu)",
+        "sourceGeographies": [
+          "Coimbatore & Theni (Tamil Nadu)",
+          "Nimar Belt (Khargone, Khandwa, MP)",
+          "Dharwad & Belagavi (Karnataka)"
+        ],
+        "sourceOriginQuote": "• Coimbatore & Theni (Tamil Nadu)\n\n• Nimar Belt (Khargone, Khandwa, MP)\n\n• Dharwad & Belagavi (Karnataka)",
+        "varietyOrTradeLabel": "Suvin / DCH-32 (Extra-Long Staple - ELS)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4783,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 137,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "cotton-belt-137-7": {
+        "geographyHeadline": "North Rajasthan & Haryana",
+        "sourceGeographies": [
+          "North Rajasthan & Haryana",
+          "Khandesh & Saurashtra (V-797, Waghad)"
+        ],
+        "sourceOriginQuote": "• North Rajasthan & Haryana\n\n• Khandesh & Saurashtra (V-797, Waghad)",
+        "varietyOrTradeLabel": "Desi Bengal Raw / Surgical Grade (G. arboreum / G. herbaceum)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4783,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 137,
+          "row": 7
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "jute-mesta": {
+      "jute-mesta-belt-142-2": {
+        "geographyHeadline": "Nadia & Murshidabad (Tehatta, Ranaghat, WB)",
+        "sourceGeographies": [
+          "Nadia & Murshidabad (Tehatta, Ranaghat, WB)",
+          "North 24 Parganas (Bongaon, WB)"
+        ],
+        "sourceOriginQuote": "• Nadia & Murshidabad (Tehatta, Ranaghat, WB)\n\n• North 24 Parganas (Bongaon, WB)",
+        "varietyOrTradeLabel": "TD-1 / TD-2 (Golden Tossa Special) (JRO-204, JBO-2003H)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4974,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 142,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "jute-mesta-belt-142-3": {
+        "geographyHeadline": "Hooghly & Purba Bardhaman (WB)",
+        "sourceGeographies": [
+          "Hooghly & Purba Bardhaman (WB)",
+          "Purnia & Katihar (Bihar)",
+          "Nagaon & Darrang (Assam)"
+        ],
+        "sourceOriginQuote": "• Hooghly & Purba Bardhaman (WB)\n\n• Purnia & Katihar (Bihar)\n\n• Nagaon & Darrang (Assam)",
+        "varietyOrTradeLabel": "TD-3 / TD-4 (Standard Spinning Grade) (JRO-524 / Navin standard)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4974,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 142,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "jute-mesta-belt-142-4": {
+        "geographyHeadline": "Murshidabad & Malda (WB)",
+        "sourceGeographies": [
+          "Murshidabad & Malda (WB)",
+          "Dhubri & Goalpara (Assam)",
+          "Kishanganj & Araria (Bihar)"
+        ],
+        "sourceOriginQuote": "• Murshidabad & Malda (WB)\n\n• Dhubri & Goalpara (Assam)\n\n• Kishanganj & Araria (Bihar)",
+        "varietyOrTradeLabel": "TD-5 / TD-6 (Sacking Warp & Weft Grade) (Commercial Tossa & White)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4974,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 142,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "jute-mesta-belt-142-5": {
+        "geographyHeadline": "Srikakulam & Vizianagaram (AP)",
+        "sourceGeographies": [
+          "Srikakulam & Vizianagaram (AP)",
+          "Southern Tribal Highlands (Odisha)",
+          "Central Plateau Pockets"
+        ],
+        "sourceOriginQuote": "• Srikakulam & Vizianagaram (AP)\n\n• Southern Tribal Highlands (Odisha)\n\n• Central Plateau Pockets",
+        "varietyOrTradeLabel": "Mesta / Kenaf Commercial Grade (AMV-5, AMC-108, AS-73)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 4974,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 142,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "tobacco": {
+      "tobacco-belt-147-2": {
+        "geographyHeadline": "West & East Godavari (Jangareddigudem, Koyyalagudem, AP)",
+        "sourceGeographies": [
+          "West & East Godavari (Jangareddigudem, Koyyalagudem, AP)"
+        ],
+        "sourceOriginQuote": "• West & East Godavari (Jangareddigudem, Koyyalagudem, AP)",
+        "varietyOrTradeLabel": "Northern Light Soils (NLS) Bright FCV (Siri, Kanchan, VT-1158)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5158,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 147,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "tobacco-belt-147-3": {
+        "geographyHeadline": "Prakasam & Nellore (Tangutur, Kandukur, Ongole, AP)",
+        "sourceGeographies": [
+          "Prakasam & Nellore (Tangutur, Kandukur, Ongole, AP)"
+        ],
+        "sourceOriginQuote": "• Prakasam & Nellore (Tangutur, Kandukur, Ongole, AP)",
+        "varietyOrTradeLabel": "Southern Light Soils (SLS) Full-Bodied FCV (Hemadri, Siri)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5158,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 147,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "tobacco-belt-147-4": {
+        "geographyHeadline": "Mysuru & Hassan (Hunsur, Periyapatna, Piriyapatna, KA)",
+        "sourceGeographies": [
+          "Mysuru & Hassan (Hunsur, Periyapatna, Piriyapatna, KA)"
+        ],
+        "sourceOriginQuote": "• Mysuru & Hassan (Hunsur, Periyapatna, Piriyapatna, KA)",
+        "varietyOrTradeLabel": "Karnataka Light Soils (KLS) Neutral Filler (Kanchan, Sahyadri, Rathna)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5158,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 147,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "tobacco-belt-147-5": {
+        "geographyHeadline": "Anand, Kheda & Vadodara (Petlad, Borsad, Nadiad, GJ)",
+        "sourceGeographies": [
+          "Anand, Kheda & Vadodara (Petlad, Borsad, Nadiad, GJ)"
+        ],
+        "sourceOriginQuote": "• Anand, Kheda & Vadodara (Petlad, Borsad, Nadiad, GJ)",
+        "varietyOrTradeLabel": "Charotar Bidi Flakes (Bhuka) (Anand-119, ABT-10, GT-7)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5158,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 147,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "tobacco-belt-147-6": {
+        "geographyHeadline": "Farrukhabad & Kannauj (UP)",
+        "sourceGeographies": [
+          "Farrukhabad & Kannauj (UP)",
+          "Samastipur (Bihar)",
+          "Cooch Behar (WB)"
+        ],
+        "sourceOriginQuote": "• Farrukhabad & Kannauj (UP)\n\n• Samastipur (Bihar)\n\n• Cooch Behar (WB)",
+        "varietyOrTradeLabel": "Rustica Chewing & Hookah Tobacco (Vilayati / Calcutti)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5158,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 147,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "guarseed": {
+      "guarseed-belt-152-2": {
+        "geographyHeadline": "Jodhpur & Bikaner Industrial Areas (RJ)",
+        "sourceGeographies": [
+          "Jodhpur & Bikaner Industrial Areas (RJ)",
+          "Ahmedabad & Sanand (GJ)",
+          "Bhiwani & Hisar (HR)"
+        ],
+        "sourceOriginQuote": "• Jodhpur & Bikaner Industrial Areas (RJ)\n\n• Ahmedabad & Sanand (GJ)\n\n• Bhiwani & Hisar (HR)",
+        "varietyOrTradeLabel": "Fast-Hydrating Industrial Gum (FHG - Oilfield) (RGC-936, HG-365 derivatives)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5350,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 152,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "guarseed-belt-152-3": {
+        "geographyHeadline": "Jodhpur Export Processing Units (RJ)",
+        "sourceGeographies": [
+          "Jodhpur Export Processing Units (RJ)",
+          "Mundra Port Special Economic Zone (GJ)"
+        ],
+        "sourceOriginQuote": "• Jodhpur Export Processing Units (RJ)\n\n• Mundra Port Special Economic Zone (GJ)",
+        "varietyOrTradeLabel": "Food-Grade Refined Guar Gum (E412) (Certified Low-Microbial / Ultra-Pure)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5350,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 152,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "guarseed-belt-152-4": {
+        "geographyHeadline": "Bikaner, Jodhpur & Nokha (RJ)",
+        "sourceGeographies": [
+          "Bikaner, Jodhpur & Nokha (RJ)",
+          "Siwani & Hisar (Haryana)",
+          "Deesa & Kadi (Gujarat)"
+        ],
+        "sourceOriginQuote": "• Bikaner, Jodhpur & Nokha (RJ)\n\n• Siwani & Hisar (Haryana)\n\n• Deesa & Kadi (Gujarat)",
+        "varietyOrTradeLabel": "Refined Guar Splits (Double/Triple Refined) (Primary Intermediate Export)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5350,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 152,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "guarseed-belt-152-5": {
+        "geographyHeadline": "All Central Processing Plants (Rajasthan, Haryana, Gujarat)",
+        "sourceGeographies": [
+          "All Central Processing Plants (Rajasthan, Haryana, Gujarat)"
+        ],
+        "sourceOriginQuote": "• All Central Processing Plants (Rajasthan, Haryana, Gujarat)",
+        "varietyOrTradeLabel": "Guar Korma (High-Protein Feed Fraction)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5350,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 152,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "guarseed-belt-152-6": {
+        "geographyHeadline": "All Central Processing Plants (Rajasthan, Haryana, Gujarat)",
+        "sourceGeographies": [
+          "All Central Processing Plants (Rajasthan, Haryana, Gujarat)"
+        ],
+        "sourceOriginQuote": "• All Central Processing Plants (Rajasthan, Haryana, Gujarat)",
+        "varietyOrTradeLabel": "Guar Churi (Medium-Protein Feed Fraction)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5350,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 152,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "groundnut": {
+      "groundnut-belt-157-2": {
+        "geographyHeadline": "Bikaner & Lunkaransar (Rajasthan)",
+        "sourceGeographies": [
+          "Bikaner & Lunkaransar (Rajasthan)",
+          "Rajkot & Gondal (Gujarat)",
+          "Nimar Plains (Madhya Pradesh)"
+        ],
+        "sourceOriginQuote": "• Bikaner & Lunkaransar (Rajasthan)\n\n• Rajkot & Gondal (Gujarat)\n\n• Nimar Plains (Madhya Pradesh)",
+        "varietyOrTradeLabel": "Bold Export Peanuts (40/50 & 50/60 Count) (HNG-10, GG-20, Mallika)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5553,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 157,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "groundnut-belt-157-3": {
+        "geographyHeadline": "Junagadh & Amreli (Saurashtra, GJ)",
+        "sourceGeographies": [
+          "Junagadh & Amreli (Saurashtra, GJ)",
+          "Villupuram & Tindivanam (TN)",
+          "Khandesh Belt (Maharashtra)"
+        ],
+        "sourceOriginQuote": "• Junagadh & Amreli (Saurashtra, GJ)\n\n• Villupuram & Tindivanam (TN)\n\n• Khandesh Belt (Maharashtra)",
+        "varietyOrTradeLabel": "Java Export Peanuts (60/70 & 70/80 Count) (GJG-9, TAG-24, VRI-8)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5553,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 157,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "groundnut-belt-157-4": {
+        "geographyHeadline": "Anantapur & Kurnool (Rayalaseema, AP)",
+        "sourceGeographies": [
+          "Anantapur & Kurnool (Rayalaseema, AP)",
+          "Tiruvannamalai & Polur (TN)",
+          "Northern Karnataka Plains"
+        ],
+        "sourceOriginQuote": "• Anantapur & Kurnool (Rayalaseema, AP)\n\n• Tiruvannamalai & Polur (TN)\n\n• Northern Karnataka Plains",
+        "varietyOrTradeLabel": "TJ (Java Small) Confectionery (80/90 Count) (Kadiri-6, TMV-2, JL-24)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5553,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 157,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "groundnut-belt-157-5": {
+        "geographyHeadline": "Contract-Farming Belts (Saurashtra, GJ; Bikaner, RJ)",
+        "sourceGeographies": [
+          "Contract-Farming Belts (Saurashtra, GJ; Bikaner, RJ)"
+        ],
+        "sourceOriginQuote": "• Contract-Farming Belts (Saurashtra, GJ; Bikaner, RJ)",
+        "varietyOrTradeLabel": "High-Oleic Specialized Kernels (>78% Oleic) (Girnar-4, Girnar-5)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5553,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 157,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "groundnut-belt-157-6": {
+        "geographyHeadline": "Lunkaransar & Bikaner (Rajasthan)",
+        "sourceGeographies": [
+          "Lunkaransar & Bikaner (Rajasthan)",
+          "Mahanadi Riverbeds (Odisha)"
+        ],
+        "sourceOriginQuote": "• Lunkaransar & Bikaner (Rajasthan)\n\n• Mahanadi Riverbeds (Odisha)",
+        "varietyOrTradeLabel": "Bikaner Bleached In-Shell Roasting Pods (HNG-123, TG-37A)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5553,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 157,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "rapeseed-mustard": {
+      "rapeseed-mustard-belt-161-2": {
+        "geographyHeadline": "Eastern Rajasthan (Alwar, Bharatpur, RJ)",
+        "sourceGeographies": [
+          "Eastern Rajasthan (Alwar, Bharatpur, RJ)",
+          "Northern Haryana (Hisar, Bhiwani, HR)",
+          "Chambal Belt (Morena, Bhind, MP)"
+        ],
+        "sourceOriginQuote": "• Eastern Rajasthan (Alwar, Bharatpur, RJ)\n\n• Northern Haryana (Hisar, Bhiwani, HR)\n\n• Chambal Belt (Morena, Bhind, MP)",
+        "varietyOrTradeLabel": "Bold Brown Mustard (Rai Grade) (Giriraj, Pioneer 45S46, RH-749, Varuna)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5773,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 161,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rapeseed-mustard-belt-161-3": {
+        "geographyHeadline": "Nadia & Murshidabad (Lower Gangetic, WB)",
+        "sourceGeographies": [
+          "Nadia & Murshidabad (Lower Gangetic, WB)",
+          "Central Doab (Fatehpur, Kanpur, UP)",
+          "Bihar Alluvial Plains (Samastipur, BR)"
+        ],
+        "sourceOriginQuote": "• Nadia & Murshidabad (Lower Gangetic, WB)\n\n• Central Doab (Fatehpur, Kanpur, UP)\n\n• Bihar Alluvial Plains (Samastipur, BR)",
+        "varietyOrTradeLabel": "Yellow Sarson (Peeli Sarson) (Pitambari, Subinoy - B-9, YSH-401)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5773,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 161,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rapeseed-mustard-belt-161-4": {
+        "geographyHeadline": "Brahmaputra Valley (Darrang, Nagaon, AS)",
+        "sourceGeographies": [
+          "Brahmaputra Valley (Darrang, Nagaon, AS)",
+          "Tarai Belt (Bahraich, Lakhimpur, UP)",
+          "North Bengal (Malda, Dinajpur)"
+        ],
+        "sourceOriginQuote": "• Brahmaputra Valley (Darrang, Nagaon, AS)\n\n• Tarai Belt (Bahraich, Lakhimpur, UP)\n\n• North Bengal (Malda, Dinajpur)",
+        "varietyOrTradeLabel": "Toria (Early Rapeseed) (TS-36, TS-38, M-27, Panchali)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5773,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 161,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rapeseed-mustard-belt-161-5": {
+        "geographyHeadline": "Bathinda & Ludhiana (Punjab)",
+        "sourceGeographies": [
+          "Bathinda & Ludhiana (Punjab)",
+          "Western Haryana (Sirsa)",
+          "Contract Zones (Sri Ganganagar, RJ)"
+        ],
+        "sourceOriginQuote": "• Bathinda & Ludhiana (Punjab)\n\n• Western Haryana (Sirsa)\n\n• Contract Zones (Sri Ganganagar, RJ)",
+        "varietyOrTradeLabel": "Canola-Equivalent Double Zero (\"00\") (PDZ-31, Pusa Mustard 30, GSC-7)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5773,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 161,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "rapeseed-mustard-belt-161-6": {
+        "geographyHeadline": "Arid Thar Desert (Bikaner, Nagaur, Barmer, RJ)",
+        "sourceGeographies": [
+          "Arid Thar Desert (Bikaner, Nagaur, Barmer, RJ)"
+        ],
+        "sourceOriginQuote": "• Arid Thar Desert (Bikaner, Nagaur, Barmer, RJ)",
+        "varietyOrTradeLabel": "Taramira / Rocket Seed (RTM-314, Local selections)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5773,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 161,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "soybean": {
+      "soybean-belt-165-2": {
+        "geographyHeadline": "Marathwada & Vidarbha (Latur, Akola, MH)",
+        "sourceGeographies": [
+          "Marathwada & Vidarbha (Latur, Akola, MH)",
+          "Malwa Plateau (Ujjain, Dewas, Indore, MP)",
+          "Hadoti Basin (Baran, Kota, RJ)"
+        ],
+        "sourceOriginQuote": "• Marathwada & Vidarbha (Latur, Akola, MH)\n\n• Malwa Plateau (Ujjain, Dewas, Indore, MP)\n\n• Hadoti Basin (Baran, Kota, RJ)",
+        "varietyOrTradeLabel": "Standard Industrial Yellow Soybean (JS-335, JS-20-34, KDS-726)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5968,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 165,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "soybean-belt-165-3": {
+        "geographyHeadline": "Indore, Pithampur & Dewas (MP)",
+        "sourceGeographies": [
+          "Indore, Pithampur & Dewas (MP)",
+          "Nagpur & Wardha (MH)",
+          "Kandla & Mundra Port Plants (GJ)"
+        ],
+        "sourceOriginQuote": "• Indore, Pithampur & Dewas (MP)\n\n• Nagpur & Wardha (MH)\n\n• Kandla & Mundra Port Plants (GJ)",
+        "varietyOrTradeLabel": "Non-GMO De-Oiled Cake (DOC / Soymeal) (Toasted, Solvent-Extracted)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5968,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 165,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "soybean-belt-165-4": {
+        "geographyHeadline": "Central Malwa Tract (Indore, Dhar, MP)",
+        "sourceGeographies": [
+          "Central Malwa Tract (Indore, Dhar, MP)",
+          "Western Maharashtra (Kolhapur, Sangli)"
+        ],
+        "sourceOriginQuote": "• Central Malwa Tract (Indore, Dhar, MP)\n\n• Western Maharashtra (Kolhapur, Sangli)",
+        "varietyOrTradeLabel": "Food-Grade Clear-Hilum Table Beans (NRC-142, NRC-138, KDS-753)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5968,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 165,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "soybean-belt-165-5": {
+        "geographyHeadline": "Indore & Pithampur SEZ (MP)",
+        "sourceGeographies": [
+          "Indore & Pithampur SEZ (MP)",
+          "Latur Extraction Grid (MH)"
+        ],
+        "sourceOriginQuote": "• Indore & Pithampur SEZ (MP)\n\n• Latur Extraction Grid (MH)",
+        "varietyOrTradeLabel": "Soybean Lecithin (Liquid & De-Oiled) (Food-Grade Emulsifier)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5968,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 165,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "soybean-belt-165-6": {
+        "geographyHeadline": "Tribal Belt of MP (Chhindwara, Betul, Mandla)",
+        "sourceGeographies": [
+          "Tribal Belt of MP (Chhindwara, Betul, Mandla)",
+          "Southern Rajasthan (Pratapgarh, Banswara)"
+        ],
+        "sourceOriginQuote": "• Tribal Belt of MP (Chhindwara, Betul, Mandla)\n\n• Southern Rajasthan (Pratapgarh, Banswara)",
+        "varietyOrTradeLabel": "Certified Organic Non-GMO Soybeans (NPOP / NOP Certified)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 5968,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 165,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "sunflower": {
+      "sunflower-belt-169-2": {
+        "geographyHeadline": "Northern Karnataka (Vijayapura, Bagalkote)",
+        "sourceGeographies": [
+          "Northern Karnataka (Vijayapura, Bagalkote)",
+          "Ambala & Kurukshetra (Haryana)",
+          "Mahanadi Basin (Odisha)"
+        ],
+        "sourceOriginQuote": "• Northern Karnataka (Vijayapura, Bagalkote)\n\n• Ambala & Kurukshetra (Haryana)\n\n• Mahanadi Basin (Odisha)",
+        "varietyOrTradeLabel": "Black-Hulled Oilseed Commercial Standard (KBSH-41, RSFH-1887, Pioneer 64A57)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6166,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 169,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "sunflower-belt-169-3": {
+        "geographyHeadline": "Irrigated Northern Pockets (Punjab, Haryana)",
+        "sourceGeographies": [
+          "Irrigated Northern Pockets (Punjab, Haryana)",
+          "Contract Zones (Central Karnataka)"
+        ],
+        "sourceOriginQuote": "• Irrigated Northern Pockets (Punjab, Haryana)\n\n• Contract Zones (Central Karnataka)",
+        "varietyOrTradeLabel": "Striped Confectionery / Bakery Grade (Specialty Hybrid Selections)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6166,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 169,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "sunflower-belt-169-4": {
+        "geographyHeadline": "Deepwater Terminals (Kandla, Mundra, Kakinada, Chennai ports)",
+        "sourceGeographies": [
+          "Deepwater Terminals (Kandla, Mundra, Kakinada, Chennai ports)"
+        ],
+        "sourceOriginQuote": "• Deepwater Terminals (Kandla, Mundra, Kakinada, Chennai ports)",
+        "varietyOrTradeLabel": "Imported Crude Degummed Sunflower Oil (Russian / Ukrainian / Argentine origin)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6166,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 169,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "sesamum": {
+      "sesamum-belt-173-2": {
+        "geographyHeadline": "Gujarat Export Industrial Corridor (Ahmedabad, Rajkot, Unjha, Kadi, GJ)",
+        "sourceGeographies": [
+          "Gujarat Export Industrial Corridor (Ahmedabad, Rajkot, Unjha, Kadi, GJ)",
+          "Mundra Port SEZ"
+        ],
+        "sourceOriginQuote": "• Gujarat Export Industrial Corridor (Ahmedabad, Rajkot, Unjha, Kadi, GJ)\n\n• Mundra Port SEZ",
+        "varietyOrTradeLabel": "Mechanically Hulled White Sesame (Auto-Hulled) (99.95% & 99.99% Sortex)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6373,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 173,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "sesamum-belt-173-3": {
+        "geographyHeadline": "Saurashtra Coast (Amreli, Bhavnagar, GJ)",
+        "sourceGeographies": [
+          "Saurashtra Coast (Amreli, Bhavnagar, GJ)",
+          "Lower Gangetic Basin (Nadia, Bardhaman, WB)",
+          "Bundelkhand (Tikamgarh, MP)"
+        ],
+        "sourceOriginQuote": "• Saurashtra Coast (Amreli, Bhavnagar, GJ)\n\n• Lower Gangetic Basin (Nadia, Bardhaman, WB)\n\n• Bundelkhand (Tikamgarh, MP)",
+        "varietyOrTradeLabel": "Natural White Sesame (Premium Food Grade) (GT-1, GT-5, Rama, TKG-21)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6373,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 173,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "sesamum-belt-173-4": {
+        "geographyHeadline": "Central MP (Jabalpur, Chhatarpur, MP)",
+        "sourceGeographies": [
+          "Central MP (Jabalpur, Chhatarpur, MP)",
+          "Eastern Rajasthan (Kota, Baran)",
+          "Kutch & Saurashtra (Gujarat)"
+        ],
+        "sourceOriginQuote": "• Central MP (Jabalpur, Chhatarpur, MP)\n\n• Eastern Rajasthan (Kota, Baran)\n\n• Kutch & Saurashtra (Gujarat)",
+        "varietyOrTradeLabel": "Natural Jet-Black Sesame Seed (Kala Til) (TKG-22, PKDS-11, Gujarat Til-10)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6373,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 173,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "sesamum-belt-173-5": {
+        "geographyHeadline": "Tamil Nadu Coastal Tracts (Villupuram, Erode)",
+        "sourceGeographies": [
+          "Tamil Nadu Coastal Tracts (Villupuram, Erode)",
+          "Western Rajasthan (Pali, Sumerpur)",
+          "Telangana & AP Rice Fallows"
+        ],
+        "sourceOriginQuote": "• Tamil Nadu Coastal Tracts (Villupuram, Erode)\n\n• Western Rajasthan (Pali, Sumerpur)\n\n• Telangana & AP Rice Fallows",
+        "varietyOrTradeLabel": "Brown / Mixed Crushing Grade (Gingelly) (TMV-7, VRI-3, Savitri, RT-46)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6373,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 173,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "safflower": {
+      "safflower-belt-177-2": {
+        "geographyHeadline": "Solapur & Dharashiv (Barshi, Solapur, MH)",
+        "sourceGeographies": [
+          "Solapur & Dharashiv (Barshi, Solapur, MH)",
+          "Vijayapura & Bagalkote (Karnataka)",
+          "Marathwada Central (Latur, Beed, MH)"
+        ],
+        "sourceOriginQuote": "• Solapur & Dharashiv (Barshi, Solapur, MH)\n\n• Vijayapura & Bagalkote (Karnataka)\n\n• Marathwada Central (Latur, Beed, MH)",
+        "varietyOrTradeLabel": "Commercial Milling Spiny Seed (Bhima, Annigeri-1, PBNS-12, Phule Kusuma)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6580,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 177,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "safflower-belt-177-3": {
+        "geographyHeadline": "Vijayapura & Bagalkote (KA)",
+        "sourceGeographies": [
+          "Vijayapura & Bagalkote (KA)",
+          "Solapur & Ahmednagar (MH)"
+        ],
+        "sourceOriginQuote": "• Vijayapura & Bagalkote (KA)\n\n• Solapur & Ahmednagar (MH)",
+        "varietyOrTradeLabel": "Bird Feed Export Grade (White Safflower) (Cleaned, Polished Achenes)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6580,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 177,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "safflower-belt-177-4": {
+        "geographyHeadline": "Western Maharashtra (Phaltan, Solapur)",
+        "sourceGeographies": [
+          "Western Maharashtra (Phaltan, Solapur)",
+          "Northern Karnataka (Dharwad, Gadag)"
+        ],
+        "sourceOriginQuote": "• Western Maharashtra (Phaltan, Solapur)\n\n• Northern Karnataka (Dharwad, Gadag)",
+        "varietyOrTradeLabel": "Natural Dried Florets (Safflower Petals) (Carthamin Dye Grade)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6580,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 177,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "castor": {
+      "castor-belt-181-2": {
+        "geographyHeadline": "North Gujarat Corridor (Deesa, Kadi, Mehsana, GJ)",
+        "sourceGeographies": [
+          "North Gujarat Corridor (Deesa, Kadi, Mehsana, GJ)",
+          "Port-Based Extraction Plants (Kandla, Gandhidham, Mundra)"
+        ],
+        "sourceOriginQuote": "• North Gujarat Corridor (Deesa, Kadi, Mehsana, GJ)\n\n• Port-Based Extraction Plants (Kandla, Gandhidham, Mundra)",
+        "varietyOrTradeLabel": "First Special Grade (FSG) Castor Oil (Export Workhorse Standard)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6775,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 181,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "castor-belt-181-3": {
+        "geographyHeadline": "Deesa, Patan, Palanpur (GJ)",
+        "sourceGeographies": [
+          "Deesa, Patan, Palanpur (GJ)",
+          "Sanchore & Bhinmal (Rajasthan)",
+          "NCDEX Delivery Centers (Bhabhar, Kadi)"
+        ],
+        "sourceOriginQuote": "• Deesa, Patan, Palanpur (GJ)\n\n• Sanchore & Bhinmal (Rajasthan)\n\n• NCDEX Delivery Centers (Bhabhar, Kadi)",
+        "varietyOrTradeLabel": "Commercial Castor Seed (Fair Average Quality - FAQ)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6775,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 181,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "castor-belt-181-4": {
+        "geographyHeadline": "Specialized Refining Units (Ahmedabad, Kadi, Vadodara)",
+        "sourceGeographies": [
+          "Specialized Refining Units (Ahmedabad, Kadi, Vadodara)"
+        ],
+        "sourceOriginQuote": "• Specialized Refining Units (Ahmedabad, Kadi, Vadodara)",
+        "varietyOrTradeLabel": "Pale Pressed Grade (PPG / Pharma Quality) (Cold-First Expressed)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6775,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 181,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "castor-belt-181-5": {
+        "geographyHeadline": "Dedicated Chemical Processing Plants (Panoli, Dahej, Jhagadia SEZ, Gujarat)",
+        "sourceGeographies": [
+          "Dedicated Chemical Processing Plants (Panoli, Dahej, Jhagadia SEZ, Gujarat)"
+        ],
+        "sourceOriginQuote": "• Dedicated Chemical Processing Plants (Panoli, Dahej, Jhagadia SEZ, Gujarat)",
+        "varietyOrTradeLabel": "Sebacic Acid & Bio-Polymer Derivatives (Value-Added Chemical Grade)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6775,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 181,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "castor-belt-181-6": {
+        "geographyHeadline": "All Central Crushing & Solvent Plants (Gujarat, Rajasthan)",
+        "sourceGeographies": [
+          "All Central Crushing & Solvent Plants (Gujarat, Rajasthan)"
+        ],
+        "sourceOriginQuote": "• All Central Crushing & Solvent Plants (Gujarat, Rajasthan)",
+        "varietyOrTradeLabel": "De-Oiled Castor Cake (Castor Meal / Pomace) (Organic Fertilizer Grade)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6775,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 181,
+          "row": 6
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    },
+    "niger-seeds": {
+      "niger-seeds-belt-185-2": {
+        "geographyHeadline": "Export Processing Facilities (Navsari, Surat, Mumbai, Gandhidham)",
+        "sourceGeographies": [
+          "Export Processing Facilities (Navsari, Surat, Mumbai, Gandhidham)",
+          "Koraput & Mandla Sourcing"
+        ],
+        "sourceOriginQuote": "• Export Processing Facilities (Navsari, Surat, Mumbai, Gandhidham)\n\n• Koraput & Mandla Sourcing",
+        "varietyOrTradeLabel": "USDA Heat-Treated \"Nyjer®\" (Finch Feed) (Export Benchmark)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6983,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 185,
+          "row": 2
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "niger-seeds-belt-185-3": {
+        "geographyHeadline": "Navsari & Mumbai Port Terminals",
+        "sourceGeographies": [
+          "Navsari & Mumbai Port Terminals",
+          "Jabalpur Aggregation Bourse"
+        ],
+        "sourceOriginQuote": "• Navsari & Mumbai Port Terminals\n\n• Jabalpur Aggregation Bourse",
+        "varietyOrTradeLabel": "European / UK Wild Bird Feed Standard (Non-Heat Treated FAQ)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6983,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 185,
+          "row": 3
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "niger-seeds-belt-185-4": {
+        "geographyHeadline": "Nashik & Ghoti (Maharashtra)",
+        "sourceGeographies": [
+          "Nashik & Ghoti (Maharashtra)",
+          "Dindori & Mandla (Madhya Pradesh)",
+          "Belagavi (Karnataka)"
+        ],
+        "sourceOriginQuote": "• Nashik & Ghoti (Maharashtra)\n\n• Dindori & Mandla (Madhya Pradesh)\n\n• Belagavi (Karnataka)",
+        "varietyOrTradeLabel": "Domestic Table Condiment & Chutney Grade (Sahyadri, Phule Karale-1, JNC-6)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6983,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 185,
+          "row": 4
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      },
+      "niger-seeds-belt-185-5": {
+        "geographyHeadline": "Bastar & Jagdalpur (Chhattisgarh)",
+        "sourceGeographies": [
+          "Bastar & Jagdalpur (Chhattisgarh)",
+          "Koraput & Rayagada (Odisha)"
+        ],
+        "sourceOriginQuote": "• Bastar & Jagdalpur (Chhattisgarh)\n\n• Koraput & Rayagada (Odisha)",
+        "varietyOrTradeLabel": "Domestic Crushing Grade (Ramtil Oil) (Tribal Farmgate Assembly Lots)",
+        "sourceLocator": {
+          "url": "https://docs.google.com/document/d/1J3ZQGbI51KarrX-dpLAqXTtFyjptqtav/edit?usp=drivesdk&ouid=111951905071183633266&rtpof=true&sd=true",
+          "document": "Cross Walks-2.0.docx",
+          "block": 6983,
+          "sha256": "c69e2e39e36b467bf305ce29678556656f21713338c7aa4988cc221276527ea3",
+          "table": 185,
+          "row": 5
+        },
+        "reviewNote": "The literal label can combine cultivar, product, grade or market class. Do not promote all labels into botanical varieties."
+      }
+    }
+  }
+}
