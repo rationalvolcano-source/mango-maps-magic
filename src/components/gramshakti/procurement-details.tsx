@@ -584,12 +584,17 @@ export function DetailedProcurement({
             <CalendarTable crop={crop} rows={rows} ids={ids} onToggle={toggle} />
           </section>
           <section className="workspace-section">
-            <h2>Commercial varieties, belts and destinations</h2>
+            <h2>Commercial belts, varieties and destinations</h2>
             <div className="commercial-record-grid">
               {records.belts.map((row) => (
                 <article className="commercial-record" key={row.id}>
-                  <h3>{row.variety}</h3>
-                  <p className="record-geography">{row.origin}</p>
+                  <span className="eyebrow">COMMERCIAL BELT</span>
+                  <h3 className="record-geography">
+                    {beltName(row.origin) || "Belt not identified in source"}
+                  </h3>
+                  <p>
+                    <strong>Variety / trade grade:</strong> {row.variety || "Not stated in source"}
+                  </p>
                   <details>
                     <summary>Quality profile and destinations</summary>
                     <p>{row.traits}</p>
@@ -599,7 +604,7 @@ export function DetailedProcurement({
                   </details>
                   <Button size="sm" variant="ghost" onClick={() => source(beltEvidence(crop, row))}>
                     <BookOpen />
-                    Exact belt source
+                    Belt source
                   </Button>
                 </article>
               ))}
@@ -1268,10 +1273,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
                 </p>
               );
             })}
-            <p className="brief-reference">{locatorText(row.locator)}</p>
-            <a href={row.locator.url} target="_blank" rel="noreferrer">
-              Original source document
-            </a>
+            <p className="brief-reference">Source: GramShakti internal research record</p>
             <Button
               className="no-print"
               variant="ghost"
@@ -1279,7 +1281,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
               onClick={() => source(calendarEvidence(crop, row))}
             >
               <BookOpen />
-              Read exact evidence
+              Read source evidence
             </Button>
           </section>
         ))}
@@ -1306,10 +1308,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
             {row.catchment.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
-            <p className="brief-reference">{locatorText(row.locator)}</p>
-            <a href={row.locator.url} target="_blank" rel="noreferrer">
-              Original processing source
-            </a>
+            <p className="brief-reference">Source: GramShakti internal research record</p>
             <Button
               className="no-print"
               size="sm"
@@ -1317,7 +1316,7 @@ function BriefPage({ crop }: { crop: CropSlug }) {
               onClick={() => source(processingEvidence(crop, row))}
             >
               <BookOpen />
-              Read exact node evidence
+              Read node evidence
             </Button>
           </section>
         ))}
@@ -1351,4 +1350,13 @@ function BriefPage({ crop }: { crop: CropSlug }) {
       </main>
     </>
   );
+}
+
+/** Source belt cells list districts as bullet lines; keep them as a readable geography list. */
+function beltName(origin: string): string {
+  return origin
+    .split("\n")
+    .map((line) => line.replace(/^[•\-\s]+/, "").trim())
+    .filter(Boolean)
+    .join(" · ");
 }

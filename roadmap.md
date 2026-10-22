@@ -32,3 +32,12 @@ Source constraints: Potato Kashipur–Rudrapur remains withheld without an exact
 - [x] Verify Rice, Niger Seeds, Mango and Capsicum state/source/processing/protection/brief journeys in the live preview.
 - [x] Run all 28 supplied tests and quiet lint; confirm automatic preview build reports build OK.
 - [ ] Confirm the applied changes reach GitHub; the latest observable repository commit still precedes extraction.
+
+## Evidence clean-up & speed (Oct 22)
+- [x] Internal sources never linked; readable passages only; brief links removed
+- [x] Clickable highlight styles
+- [x] Belt cards lead with belt geography, variety shown as separate field
+- [x] Per-crop data loading (was ~5.8 MB of records on every page)
+- [ ] Edit variety-named belt text inside original artwork (Cotton, Niger Seeds, Wheat…)
+- [ ] 40-crop completeness table on delivery page
+- [ ] Compress logo/entry images; build-time artwork cleaning

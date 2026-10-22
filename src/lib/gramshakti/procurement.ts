@@ -1,5 +1,5 @@
-import snapshot from "./procurement-records.json";
-import official from "./official-records.json";
+import meta from "./procurement-meta.json";
+import { cropData } from "./crop-data";
 import stateCodes from "./state-codes.json";
 import lgd from "./lgd-states.json";
 import { cropAssets, sourceRecords, isFieldCrop, type CropSlug } from "./assets";
@@ -104,18 +104,10 @@ export type DistrictRow = {
   sourceTitle: string;
   sourceUrl: string;
 };
-type Snapshot = {
-  snapshot: string;
-  crosswalkUrl: string;
-  productionContextUrl: string;
-  districtUrl: string;
-  crops: Record<CropSlug, CropRecords>;
-  district: Record<CropSlug, DistrictRow[]>;
-};
-export const procurement = snapshot as unknown as Snapshot;
-export const cropRecords = (crop: CropSlug): CropRecords => procurement.crops[crop];
-export const productionRecords = (crop: CropSlug): ProductionRow[] => official[crop].production;
-export const districtRecords = (crop: CropSlug): DistrictRow[] => procurement.district[crop];
+export const procurement = meta;
+export const cropRecords = (crop: CropSlug): CropRecords => cropData(crop).records;
+export const productionRecords = (crop: CropSlug): ProductionRow[] => cropData(crop).production;
+export const districtRecords = (crop: CropSlug): DistrictRow[] => cropData(crop).district;
 export const crosswalkForCrop = (crop: CropSlug) =>
   cropRecords(crop).crosswalkUrl ?? procurement.crosswalkUrl;
 export function defaultYearForCrop(crop: CropSlug): string {
@@ -320,7 +312,7 @@ export function calendarEvidence(crop: CropSlug, row: CalendarRow): Evidence {
 }
 export function beltEvidence(crop: CropSlug, row: BeltRow): Evidence {
   return sourceEvidence(
-    `${cropAssets[crop].name} · ${row.variety}`,
+    `${cropAssets[crop].name} · belt: ${row.origin.replace(/[•\n]+/g, " ").trim().slice(0, 80)}`,
     `${locatorText(row.locator)}\n${row.headers.map((h, i) => `${h}: ${row.cells[i] || "—"}`).join("\n")}`,
     row.locator.url,
   );
