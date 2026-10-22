@@ -18,3 +18,6 @@ Object.defineProperty(window, "matchMedia", {
     dispatchEvent: () => {},
   }),
 });
+
+import { loadAllCropData } from "@/lib/gramshakti/crop-data";
+await loadAllCropData();

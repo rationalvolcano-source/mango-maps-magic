@@ -1,2 +1,8 @@
 import { createFileRoute, Outlet } from "@tanstack/react-router";
-export const Route = createFileRoute("/procurement/mango")({ component: Outlet });
+import { loadCropData } from "@/lib/gramshakti/crop-data";
+export const Route = createFileRoute("/procurement/mango")({
+  loader: async () => {
+    await loadCropData("mango");
+  },
+  component: Outlet,
+});
