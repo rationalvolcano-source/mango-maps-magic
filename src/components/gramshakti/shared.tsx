@@ -20,6 +20,7 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { months, evidence, type Evidence } from "@/lib/gramshakti/data";
+import { isPublicSource, readablePassage } from "@/lib/gramshakti/source-visibility";
 import logo from "@/assets/gramshakti/logo.png.asset.json";
 const SourceContext = createContext<(record: Evidence) => void>(() => {});
 export const useSource = () => useContext(SourceContext);
