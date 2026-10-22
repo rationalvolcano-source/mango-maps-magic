@@ -18,7 +18,7 @@ export function isCropSlug(value: string): value is CropSlug {
 export function cropSlug(name: string) {
   return Object.keys(manifest).find((k) => manifest[k as CropSlug].name === name);
 }
-export const sourceRecords = new Proxy({} as Record<string, CropPayload["sources"]>, {
+export const sourceRecords = new Proxy({} as Record<CropSlug, CropPayload["sources"]>, {
   get: (_, crop: string) => cropData(crop).sources,
 });
 export const crosswalkUrl =
