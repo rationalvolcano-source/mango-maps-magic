@@ -202,6 +202,14 @@ function ArtworkJourney({ crop, screen }: { crop: CropSlug; screen: Screen }) {
   useEffect(() => {
     setSelected(undefined);
   }, [crop, screen]);
+  useEffect(() => {
+    // Warm the cache for this crop's other screens once the current one has had time to load.
+    const timer = window.setTimeout(() => {
+      for (const key of ["002", "003", "006"] as Screen[])
+        if (key !== screen) void loadArtwork(asset.screens[key].application).catch(() => {});
+    }, 1200);
+    return () => window.clearTimeout(timer);
+  }, [asset, screen]);
   function selectCluster(index: number) {
     if (!records.processing[index]) return;
     setSelected(index);
