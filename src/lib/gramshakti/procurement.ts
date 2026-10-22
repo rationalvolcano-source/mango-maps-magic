@@ -104,18 +104,10 @@ export type DistrictRow = {
   sourceTitle: string;
   sourceUrl: string;
 };
-type Snapshot = {
-  snapshot: string;
-  crosswalkUrl: string;
-  productionContextUrl: string;
-  districtUrl: string;
-  crops: Record<CropSlug, CropRecords>;
-  district: Record<CropSlug, DistrictRow[]>;
-};
-export const procurement = snapshot as unknown as Snapshot;
-export const cropRecords = (crop: CropSlug): CropRecords => procurement.crops[crop];
-export const productionRecords = (crop: CropSlug): ProductionRow[] => official[crop].production;
-export const districtRecords = (crop: CropSlug): DistrictRow[] => procurement.district[crop];
+export const procurement = meta;
+export const cropRecords = (crop: CropSlug): CropRecords => cropData(crop).records;
+export const productionRecords = (crop: CropSlug): ProductionRow[] => cropData(crop).production;
+export const districtRecords = (crop: CropSlug): DistrictRow[] => cropData(crop).district;
 export const crosswalkForCrop = (crop: CropSlug) =>
   cropRecords(crop).crosswalkUrl ?? procurement.crosswalkUrl;
 export function defaultYearForCrop(crop: CropSlug): string {

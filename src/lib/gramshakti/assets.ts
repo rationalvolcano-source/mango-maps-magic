@@ -1,5 +1,5 @@
 import manifest from "./asset-manifest.json";
-import records from "./source-records.json";
+import { cropData, type CropPayload } from "./crop-data";
 import stateCodes from "./state-codes.json";
 import canonical from "./canonical-crops.json";
 import fieldCrops from "./field-crops.json";
@@ -18,7 +18,9 @@ export function isCropSlug(value: string): value is CropSlug {
 export function cropSlug(name: string) {
   return Object.keys(manifest).find((k) => manifest[k as CropSlug].name === name);
 }
-export const sourceRecords = records;
+export const sourceRecords = new Proxy({} as Record<string, CropPayload["sources"]>, {
+  get: (_, crop: string) => cropData(crop).sources,
+});
 export const crosswalkUrl =
   "https://docs.google.com/document/d/1_OP2pkz8uEIJ0ptXEiSfv_l8OezL-l3-/edit";
 export function sourceRecord(
