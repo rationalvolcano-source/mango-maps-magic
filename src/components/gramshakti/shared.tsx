@@ -6,6 +6,7 @@ import {
   BookOpen,
   ChevronRight,
   Leaf,
+  Lock,
   Search,
   SlidersHorizontal,
   Sprout,
@@ -42,7 +43,7 @@ export function EvidenceProvider({ children }: { children: ReactNode }) {
           {record && (
             <div className="mt-8 space-y-6">
               {[
-                ["Exact passage / tab / row", record.passage],
+                ["Source content", readablePassage(record.passage)],
                 ["Reporting period", record.period],
                 ["Native unit", record.nativeUnit],
                 ["Display unit", record.displayUnit],
@@ -60,21 +61,19 @@ export function EvidenceProvider({ children }: { children: ReactNode }) {
                 <h3 className="font-semibold">Caveat</h3>
                 <p className="mt-2 text-sm">{record.caveat}</p>
               </div>
-              {record.url ? (
-                <Button asChild>
-                  <a href={record.url} target="_blank" rel="noreferrer">
-                    Open source <ArrowUpRight />
-                  </a>
-                </Button>
+              {[record.url, record.upstreamUrl].some(isPublicSource) ? (
+                [record.url, record.upstreamUrl].filter(isPublicSource).map((url) => (
+                  <Button asChild key={url} variant="outline">
+                    <a href={url} target="_blank" rel="noreferrer noopener">
+                      Public publication <ArrowUpRight />
+                    </a>
+                  </Button>
+                ))
               ) : (
-                <p className="text-sm text-muted-foreground">Source link not supplied.</p>
-              )}
-              {record.upstreamUrl && (
-                <Button asChild variant="outline">
-                  <a href={record.upstreamUrl} target="_blank" rel="noreferrer">
-                    Upstream publication <ArrowUpRight />
-                  </a>
-                </Button>
+                <p className="internal-source-note">
+                  <Lock className="size-4 shrink-0" />
+                  Internal source, summarised in this evidence record.
+                </p>
               )}
             </div>
           )}
