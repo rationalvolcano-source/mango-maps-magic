@@ -47,6 +47,10 @@ export function ChoosePage() {
           src={entry.url}
           alt="GramShakti agricultural India objective selection"
         />
+        <div className="source-entry-copy">
+          <h1>What would you like to do?</h1>
+          <p>Choose how you want to explore India&rsquo;s agricultural landscape.</p>
+        </div>
         <div className="source-objectives">
           <Button asChild variant="ghost" className="source-objective">
             <Link to="/procurement" search={(p) => p}>

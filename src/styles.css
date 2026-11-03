@@ -225,4 +225,12 @@ table button:hover,.month-ribbon button:hover{background:color-mix(in srgb,var(-
 .source-objective .development-chip{margin-top:auto;align-self:flex-start}
 .source-objective-soon{cursor:default;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--saffron) 34%,var(--border))}
 .source-objective-soon:hover{transform:none;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--saffron) 34%,var(--border))}
-@media(max-width:767px){.source-objectives{grid-template-columns:1fr;gap:0;background:var(--card)}.source-objective{padding:22px 20px 26px}.source-objective img,.source-objective .source-objective-icon{height:80px;width:80px;max-height:none}.source-objective-version{margin-top:0;grid-column:2}.source-objective h2{min-height:0}.source-objective-arrow{margin-top:10px}}
+.source-entry-copy{display:none}
+@media(max-width:767px){.source-objectives{grid-template-columns:1fr;gap:0;background:var(--card)}.source-objective{padding:22px 20px 26px}.source-objective img,.source-objective .source-objective-icon{height:80px;width:80px;max-height:none}.source-objective-version{margin-top:0;grid-column:2}.source-objective h2{min-height:0}.source-objective-arrow{margin-top:10px;justify-self:end}
+.source-entry:has(.source-objectives){padding:0 0 40px;min-height:100svh;background:var(--background)}
+.source-entry:has(.source-objectives) .source-entry-image{filter:blur(16px) saturate(.85);transform:scale(1.1);opacity:.45}
+.source-entry-copy{display:block;position:relative;z-index:1;padding:38px 22px 6px;text-align:center}
+.source-entry-copy h1{font-size:29px;line-height:1.25}
+.source-entry-copy p{font-size:14px;line-height:1.6;color:var(--muted-foreground);margin-top:8px}
+.source-objectives{position:relative;z-index:1;margin:22px 18px 0;width:auto;background:var(--card);border:1px solid var(--border);backdrop-filter:none}}
+
