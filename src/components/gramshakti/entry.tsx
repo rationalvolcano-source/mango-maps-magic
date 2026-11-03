@@ -31,26 +31,13 @@ export function WelcomePage() {
     </main>
   );
 }
-const objectives = [
-  {
-    title: "Procurement",
-    copy: "Explore sourcing geographies, seasons and processing context.",
-    path: "/procurement" as const,
-    viewBox: "425 454 142 142",
-  },
-  {
-    title: "Opportunity / FPO Discovery",
-    copy: "Crop clusters and FPO intelligence.",
-    path: "/opportunity" as const,
-    viewBox: "878 454 142 142",
-  },
-  {
-    title: "CLIM — Climate Analysis",
-    copy: "Crop-stage climate and soil intelligence.",
-    path: "/clim" as const,
-    viewBox: undefined,
-  },
-];
+function OriginalIcon({ viewBox }: { viewBox: string }) {
+  return (
+    <svg className="source-objective-icon" viewBox={viewBox} aria-hidden="true">
+      <image href={entry.url} width="1672" height="941" />
+    </svg>
+  );
+}
 export function ChoosePage() {
   return (
     <main className="source-entry-scroll">
@@ -61,27 +48,26 @@ export function ChoosePage() {
           alt="GramShakti agricultural India objective selection"
         />
         <div className="source-objectives">
-          {objectives.map((o, i) => (
-            <Button asChild variant="ghost" className="source-objective" key={o.path}>
-              <Link to={o.path} search={(p) => p}>
-                {o.viewBox ? (
-                  <svg className="source-objective-icon" viewBox={o.viewBox} aria-hidden="true">
-                    <image href={entry.url} width="1672" height="941" />
-                  </svg>
-                ) : (
-                  <span className="source-climate-icon">
-                    <CloudSun />
-                  </span>
-                )}
-                <h2>{o.title}</h2>
-                <p>{o.copy}</p>
-                {i > 0 && <span className="development-chip">In development</span>}
-                <span className="source-objective-arrow">
-                  <ArrowRight />
-                </span>
-              </Link>
-            </Button>
-          ))}
+          <Button asChild variant="ghost" className="source-objective">
+            <Link to="/procurement" search={(p) => p}>
+              <OriginalIcon viewBox="425 454 142 142" />
+              <span className="source-objective-version">Version 1.0</span>
+              <h2>Procurement Intelligence Dashboard</h2>
+              <p>
+                Explore crop production, sourcing belts, seasonality and processing context.
+              </p>
+              <span className="source-objective-arrow">
+                <ArrowRight />
+              </span>
+            </Link>
+          </Button>
+          <div className="source-objective source-objective-soon" aria-disabled="true">
+            <OriginalIcon viewBox="878 454 142 142" />
+            <span className="source-objective-version">Version 2.0</span>
+            <h2>GramShakti AI — Procurement Decision Report</h2>
+            <p>A guided procurement reporting and FPO qualification experience.</p>
+            <span className="development-chip">Under construction</span>
+          </div>
         </div>
       </div>
     </main>
