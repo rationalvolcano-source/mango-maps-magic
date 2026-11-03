@@ -215,7 +215,7 @@ table button:hover,.month-ribbon button:hover{background:color-mix(in srgb,var(-
 @media(prefers-reduced-motion:reduce){:where(.source-objective,.objective-card):hover{transform:none}}
 /* Selection screen: two-card layout (V1 dashboard + forthcoming V2 report) */
 .source-objectives{grid-template-columns:repeat(2,minmax(0,1fr))}
-.source-objective{padding:14px 16px 14px}
+.source-objective{gap:0;padding:14px 16px}
 .source-objective img,.source-objective .source-objective-icon{height:66px;width:74px;max-height:66px}
 .source-objective-version{font-size:10px;font-weight:600;letter-spacing:.7px;color:var(--muted-foreground);margin-top:10px}
 .source-objective h2{font-size:17px;margin-top:5px;min-height:42px}
@@ -225,4 +225,4 @@ table button:hover,.month-ribbon button:hover{background:color-mix(in srgb,var(-
 .source-objective .development-chip{margin-top:auto;align-self:flex-start}
 .source-objective-soon{cursor:default;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--saffron) 34%,var(--border))}
 .source-objective-soon:hover{transform:none;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--saffron) 34%,var(--border))}
-@media(max-width:767px){.source-objectives{grid-template-columns:1fr;gap:0;background:var(--card)}.source-objective-soon{border-bottom:0}.source-objective-version{margin-top:0;grid-column:2}.source-objective h2{min-height:0}.source-objective-arrow{margin-top:10px}}
+@media(max-width:767px){.source-objectives{grid-template-columns:1fr;gap:0;background:var(--card)}.source-objective{padding:22px 20px 26px}.source-objective img,.source-objective .source-objective-icon{height:80px;width:80px;max-height:none}.source-objective-version{margin-top:0;grid-column:2}.source-objective h2{min-height:0}.source-objective-arrow{margin-top:10px}}
