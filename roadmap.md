@@ -41,3 +41,9 @@ Source constraints: Potato Kashipur–Rudrapur remains withheld without an exact
 - [ ] Edit variety-named belt text inside original artwork (Cotton, Niger Seeds, Wheat…)
 - [ ] 40-crop completeness table on delivery page
 - [ ] Compress logo/entry images; build-time artwork cleaning
+
+## Objective selection screen (Oct 23)
+- [x] Show two cards: Procurement Intelligence Dashboard (V1.0) and GramShakti AI — Procurement Decision Report (V2.0, under construction).
+- [x] Keep V1 linked to the existing procurement view; V2 non-interactive with no arrow or launch action.
+- [x] Side-by-side on desktop, stacked on mobile, aligned text, no artwork bleed behind cards.
+- [x] Opportunity/FPO Discovery and CLIM removed from this screen only; their routes and pages preserved.
