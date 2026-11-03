@@ -4,6 +4,9 @@ import { pageHead, selectionSearch } from "@/lib/gramshakti/data";
 export const Route = createFileRoute("/choose")({
   validateSearch: selectionSearch,
   head: () =>
-    pageHead("Choose your objective", "Explore procurement, opportunity and climate intelligence."),
+    pageHead(
+      "Choose your objective",
+      "Open the Procurement Intelligence Dashboard, or see what is coming in GramShakti AI.",
+    ),
   component: ChoosePage,
 });
